@@ -1,0 +1,38 @@
+﻿<Window x:Class="GameObjectEditor.CollectionEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="CollectionEditor" Height="443" Width="631">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="214*"></ColumnDefinition>
+            <ColumnDefinition Width="395*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="1" Grid.Row="1"  Margin="8,14,12,21">
+            <WrapPanel  Name="spnlControls" Orientation="Vertical" Width="Auto"  Height="Auto" HorizontalAlignment="Left"></WrapPanel>
+        </ScrollViewer>
+        <Button Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" Margin="0,7,1,2" Name="Save" Width="75" Click="Save_Click">Save</Button>
+        <Button Grid.Row="2" Grid.Column="1" Margin="0,7,81,1" Name="Canel" HorizontalAlignment="Right" Width="69" Click="Canel_Click">Cancel</Button>
+        <ListBox x:Name="lbxEnteties" HorizontalAlignment="Left" Grid.Column="0" Grid.Row="1" Margin="12,12,0,12" Width="183" SelectionChanged="lbxEnteties_SelectionChanged" />
+        <DockPanel LastChildFill="False" Background="#FFF2F2F2" Height="38" Grid.Row="0" VerticalAlignment="Top">
+
+            <ToolBar x:Name="tbToolBar" DockPanel.Dock="Left"
+               Background="{x:Null}"  Width="184" Height="30">
+
+                <Menu x:Name="MainMenu" MenuItem.Click="Menu_Click">
+                    <MenuItem Header="Edit" >
+                        <MenuItem Header="Copy"  />
+                        <Separator />
+                        <MenuItem Header="New" x:Name="mnuNewItem" />
+                    </MenuItem>
+
+                </Menu>
+            </ToolBar>
+
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="63645d84-c43a-4fdf-82e6-c603d6f26fc8" name="Jan@PUTO 2012-09-18 14:57:41" runUser="PuTo\Jan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="39198a4b-6277-4aef-87ed-d59e010881d7">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="Jan_PUTO 2012-09-18 14_57_41">
+      <DeploymentItem filename="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWData.dll" />
+      <DeploymentItem filename="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Debug\NWComms.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-09-18T14:57:41.0024734+02:00" queuing="2012-09-18T14:57:43.4036108+02:00" start="2012-09-18T14:57:43.5366184+02:00" finish="2012-09-18T14:57:46.0417617+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestUnitDatabaseIntegrity" storage="c:\users\jan\documents\visual studio 2010\projects\navalwar-backend\nwmanager\nwmanagertest\bin\debug\nwmanagertest.dll" id="649afae5-61f2-43de-0299-25b2e246aba7">
+      <Execution id="db7da143-fc15-4f2d-a34c-a48487b89310" />
+      <TestMethod codeBase="C:/Users/Jan/Documents/Visual Studio 2010/Projects/navalwar-backend/NWmanager/NWManagerTest/bin/Debug/NWManagerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NWManagerTest.ScenarioTest, NWManagerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUnitDatabaseIntegrity" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="649afae5-61f2-43de-0299-25b2e246aba7" executionId="db7da143-fc15-4f2d-a34c-a48487b89310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="db7da143-fc15-4f2d-a34c-a48487b89310" testId="649afae5-61f2-43de-0299-25b2e246aba7" testName="TestUnitDatabaseIntegrity" computerName="PUTO" duration="00:00:01.9349632" startTime="2012-09-18T14:57:43.5656201+02:00" endTime="2012-09-18T14:57:45.9507565+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db7da143-fc15-4f2d-a34c-a48487b89310">
+    </UnitTestResult>
+  </Results>
+</TestRun>

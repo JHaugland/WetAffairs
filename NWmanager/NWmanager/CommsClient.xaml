@@ -1,0 +1,43 @@
+﻿<Window x:Class="NWmanager.CommsClient"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="CommsClient" Height="660" Width="902">
+    <Grid>
+        <TextBox Margin="12,41,262,73" Name="txtInfo" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" />
+        <TextBox Height="23" Margin="37,12,0,0" Name="txtIpAddress" VerticalAlignment="Top" HorizontalAlignment="Left" Width="68">127.0.0.1</TextBox>
+        <Label Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="lblIpAddress" VerticalAlignment="Top" Width="33">IP:</Label>
+        <Label Height="28" Margin="130,12,0,0" Name="lblPort" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41">Port:</Label>
+        <TextBox Height="23" Margin="168,12,0,0" Name="txtPort" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50">2055</TextBox>
+        <Button Height="23" Margin="232,12,0,0" Name="btnConnect" VerticalAlignment="Top" Click="btnConnect_Click" HorizontalAlignment="Left" Width="75">Connect</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,44" Name="btnReqGameInfo" VerticalAlignment="Bottom" Width="65" Click="btnReqGameInfo_Click">GameInfo</Button>
+        <Button Height="23" Margin="12,0,0,10" Name="btnEndGame" VerticalAlignment="Bottom" Click="btnEndGame_Click" HorizontalAlignment="Left" Width="65">Terminate</Button>
+        <ListBox Margin="0,67,12,318" Name="lstUnits" SelectionChanged="lstUnits_SelectionChanged" HorizontalAlignment="Right" Width="244" />
+        <Label Height="31" Margin="0,40,121,0" Name="lblUnits" VerticalAlignment="Top" HorizontalAlignment="Right" Width="135.645">Units</Label>
+        <ListBox Margin="0,0,10,73" Name="lstDetections" SelectionChanged="lstDetections_SelectionChanged" Mouse.MouseDown="lstDetections_MouseDown" HorizontalAlignment="Right" Width="246" Height="217" VerticalAlignment="Bottom" />
+        <Label Margin="0,0,121,283" Name="lblDetections" HorizontalAlignment="Right" Width="135.343" Height="29" VerticalAlignment="Bottom">Detections</Label>
+        <Label Height="28" Margin="0,0,338,39" Name="lblPosInfo" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="74.781">Lat/Long</Label>
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,0,304,39" Name="txtLat" VerticalAlignment="Bottom" Width="38" Text="68"></TextBox>
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,0,259,39" Name="txtLon" VerticalAlignment="Bottom" Width="38" Text="-9"></TextBox>
+        <TextBox Height="47" HorizontalAlignment="Right" Margin="0,0,10,12" Name="txtUnitInfo" VerticalAlignment="Bottom" Width="243" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,0,257,10" Name="btnMove" VerticalAlignment="Bottom" Width="85" Click="btnMove_Click">Move</Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,38,12,0" Name="btnResetLists" VerticalAlignment="Top" Width="24" Click="btnResetLists_Click">X</Button>
+        <Button Height="23" Margin="380,0,419,10" Name="btnEngage" VerticalAlignment="Bottom" Click="btnEngage_Click">Engage</Button>
+        <Label Height="23" HorizontalAlignment="Right" Margin="0,11,10,0" Name="lblInfoPanel" VerticalAlignment="Top" Width="257">Connect to server...</Label>
+        <Button Height="23" HorizontalAlignment="Left" Margin="214,0,0,43" Name="btnLaunchAircraft" VerticalAlignment="Bottom" Width="55" Click="btnLaunchAircraft_Click">Launch...</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="83,555,0,0" Name="btnScenario" VerticalAlignment="Top" Width="61" Click="btnScenario_Click">Load Sc</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="83,0,0,10" Name="btnStartGame" VerticalAlignment="Bottom" Width="61" Click="btnStartGame_Click">START!</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="150,0,0,44" Name="btnInfo" VerticalAlignment="Bottom" Width="58" Click="btnInfo_Click">Info</Button>
+        <CheckBox Height="20" HorizontalAlignment="Right" Margin="0,0,362,13" Name="chkClearWaypoints" VerticalAlignment="Bottom" Width="42" IsChecked="True" ToolTip="Clear old waypoints" FlowDirection="RightToLeft">Clr</CheckBox>
+        <Button Height="23" HorizontalAlignment="Left" Margin="214,0,0,10" Name="btnDesignateHostile" VerticalAlignment="Bottom" Width="55" Click="btnDesignateHostile_Click">Foe</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="150,0,0,10" Name="btnRadar" VerticalAlignment="Bottom" Width="58" Click="btnRadar_Click">Radar</Button>
+        <Button Height="23" Margin="380,0,419,44" Name="btnCloseAndEngage" VerticalAlignment="Bottom" Click="btnCloseAndEngage_Click">CloseEngage</Button>
+        <TextBox Height="23" Margin="348,12,0,0" Name="txtScenario" VerticalAlignment="Top" HorizontalAlignment="Left" Width="70" Text="gamescom2011small"></TextBox>
+        <Label Height="28" Margin="322,12,0,0" Name="lblScenario" VerticalAlignment="Top" HorizontalAlignment="Left" Width="30">Sc:</Label>
+        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,12,273,0" Name="cmbPlayers" VerticalAlignment="Top" Width="120" />
+        <Label Height="28" Margin="424,12,399,0" Name="lblScenarioPlayer" VerticalAlignment="Top">Pl:</Label>
+        <Button Height="23" Margin="275,0,0,43" Name="btnRtb" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="46" Click="btnRtb_Click">RTB</Button>
+        <Button Height="23" HorizontalAlignment="Left" Margin="275,0,0,10" Name="btnCheat" VerticalAlignment="Bottom" Width="46" Click="btnCheat_Click">Cheat</Button>
+        <Button Content="Start Server" Height="23" HorizontalAlignment="Left" Margin="768,11,0,0" Name="btnStartServer" VerticalAlignment="Top" Width="75" Click="btnStartServer_Click" />
+        <Button Content="Max" Height="23" HorizontalAlignment="Left" Margin="328,0,0,43" Name="btnMaxSpeed" VerticalAlignment="Bottom" Width="46" Click="btnMaxSpeed_Click" />
+    </Grid>
+</Window>

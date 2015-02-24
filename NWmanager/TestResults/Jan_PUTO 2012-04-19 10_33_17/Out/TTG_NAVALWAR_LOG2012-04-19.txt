@@ -1,0 +1,12 @@
+Debug - 10:33:26.201 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 10:33:26.217 ** **************************************************************************
+Debug - 10:33:26.218 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 10:33:26.219 ** **************************************************************************
+Debug - 10:33:26.222 ** Game() object ALQ instantiated!
+Debug - 10:33:26.247 ** Group ALP adds unit [ALR]  (Arleigh Burke). Count=1
+Debug - 10:33:26.276 ** Group ANH adds unit [ANI]  (Arleigh Burke). Count=1
+Debug - 10:34:49.229 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 10:35:11.296 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection MediumSurface BMB  [Undetermined]
+Position: 060° 00' 22"N, 003° 00' 45"E Fixed.Sensors: (1)
+Sensor [ALS] Visual on unit DDG Valiant [Arleigh Burke]: Distance 997,16m at 44,95deg. Strength: 2,50. Size: 8996,04 ArcSec
+ 

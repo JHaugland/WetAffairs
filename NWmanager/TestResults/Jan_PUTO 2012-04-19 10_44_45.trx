@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="85f0f550-962f-43d3-aff4-b8106add1c42" name="Jan@PUTO 2012-04-19 10:44:45" runUser="PuTo\Jan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="39198a4b-6277-4aef-87ed-d59e010881d7">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Jan_PUTO 2012-04-19 10_44_45">
+      <DeploymentItem filename="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWData.dll" />
+      <DeploymentItem filename="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Debug\NWComms.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T10:44:45.7678453+02:00" queuing="2012-04-19T10:44:48.4219971+02:00" start="2012-04-19T10:44:48.5840063+02:00" finish="2012-04-19T10:53:03.2012968+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PUTO" outcome="Error" timestamp="2012-04-19T10:53:03.2002968+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VisualDetection" storage="c:\users\jan\documents\visual studio 2010\projects\navalwar-backend\nwmanager\nwmanagertest\bin\debug\nwmanagertest.dll" id="8dbfad4e-029c-a83b-72d4-030aeb61f96a">
+      <Execution id="d59992b2-38e8-4dab-bb3f-2479faf8e43a" />
+      <TestMethod codeBase="C:/Users/Jan/Documents/Visual Studio 2010/Projects/navalwar-backend/NWmanager/NWManagerTest/bin/Debug/NWManagerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NWManagerTest.DetectionTest, NWManagerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VisualDetection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8dbfad4e-029c-a83b-72d4-030aeb61f96a" executionId="d59992b2-38e8-4dab-bb3f-2479faf8e43a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d59992b2-38e8-4dab-bb3f-2479faf8e43a" testId="8dbfad4e-029c-a83b-72d4-030aeb61f96a" testName="VisualDetection" computerName="PUTO" duration="00:08:14.4712821" startTime="2012-04-19T10:44:48.7300147+02:00" endTime="2012-04-19T10:53:03.2012968+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d59992b2-38e8-4dab-bb3f-2479faf8e43a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

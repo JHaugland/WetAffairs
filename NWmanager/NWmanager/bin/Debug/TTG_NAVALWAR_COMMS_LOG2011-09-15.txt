@@ -1,0 +1,1070 @@
+Debug - 09:48:22.148 ** ////////////////////////////////////////////////////////
+Debug - 09:48:22.148 ** ////////////////////////////////////////////////////////
+Debug - 09:48:22.149 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 09:48:22.149 ** ////////////////////////////////////////////////////////
+Debug - 09:48:22.149 ** ////////////////////////////////////////////////////////
+Debug - 09:48:22.150 ** Gameclient connecting...
+Debug - 09:48:22.184 ** Gameclient connected
+Debug - 09:48:22.184 ** Connectionstatus is : NotConnected
+Debug - 09:48:22.186 ** Attempting to change connectionstatus...
+Debug - 09:48:22.186 ** Current status: NotConnected status to change to: Connected
+Debug - 09:48:22.188 ** ShowInfo: Connection status changed: Connected
+Debug - 09:48:22.235 ** Gameclient status is now Connected
+Debug - 09:48:22.825 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 09:48:23.953 ** ShowInfo: *** Sending select scenario ***
+Debug - 09:48:24.392 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 09:48:24.394 ** ShowInfo: GameWorldTimeSec=0
+Debug - 09:48:24.395 ** ShowInfo: GameEngineTimeMs=0
+Debug - 09:48:24.397 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:48:24.398 ** ShowInfo: *** Credits: 0
+
+Debug - 09:48:24.910 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 09:48:24.910 ** ShowInfo: GameWorldTimeSec=0
+Debug - 09:48:24.911 ** ShowInfo: GameEngineTimeMs=0
+Debug - 09:48:24.912 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:48:24.912 ** ShowInfo: *** Credits: 0
+
+Debug - 09:48:25.119 ** ShowInfo: *** Sending start game ***
+Debug - 09:48:25.120 ** ShowInfo: *** Player selects user Jan
+Debug - 09:48:25.121 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 09:48:26.454 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:00:00
+Debug - 09:48:26.455 ** ShowInfo: GameWorldTimeSec=0
+Debug - 09:48:26.455 ** ShowInfo: GameEngineTimeMs=0
+Debug - 09:48:26.456 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:48:26.456 ** ShowInfo: *** Credits: 200
+
+Debug - 09:48:26.984 ** ShowInfo: Received BaseUnitInfo: [BQV] RAF Lossiemouth (ukairportlarge)
+Debug - 09:48:27.517 ** ShowInfo: Received BaseUnitInfo: [BXM] Keflavik Airport (ukairportlarge)
+Debug - 09:48:27.518 ** ShowInfo: Received BaseUnitInfo: [CAI] E3 Sentry (e3sentry)
+Debug - 09:48:28.34 ** ShowInfo: Received BaseUnitInfo: [CAN] Winston S. Churchill (arleighburke) *
+Debug - 09:48:28.547 ** ShowInfo: Received BaseUnitInfo: [CBR] Fridtjof Nansen (fridtjofnansen)
+Debug - 09:48:28.549 ** ShowInfo: Received BaseUnitInfo: [CCO] USS Virginia (virginia)
+Debug - 09:48:29.67 ** ShowInfo: Received BaseUnitInfo: [CCX] USS Texas (virginia)
+Debug - 09:48:37.487 ** ShowInfo: ***GroupInfo received.
+CAM Surface Task Force (2 units)
+Surface combattant:  2
+Mission: Patrol(Undefined)
+
+Debug - 09:48:37.492 ** ShowInfo: No user found for id=[Jan].
+Debug - 09:48:37.496 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 09:48:37.503 ** ShowInfo: From: CDF
+gl hf!
+Debug - 09:48:38.519 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id CBA
+Debug - 09:48:39.544 ** ShowInfo: Received BaseUnitInfo: [CBA] SH-60B Seahawk CBA (sh60b)
+Debug - 09:49:02.585 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:06:02
+Debug - 09:49:02.586 ** ShowInfo: GameWorldTimeSec=362,360153999998
+Debug - 09:49:02.587 ** ShowInfo: GameEngineTimeMs=36236,0725999998
+Debug - 09:49:02.587 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:49:02.588 ** ShowInfo: *** Credits: 200
+
+Debug - 09:49:04.527 ** ShowInfo: UnitOrder to unit BXM : Launch 1 aircraft.
+Debug - 09:49:05.673 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BZW
+Debug - 09:49:06.189 ** ShowInfo: Received BaseUnitInfo: [BZW] F-22 BZW (f22)
+Debug - 09:49:22.287 ** ShowInfo: *** Movement order sent to unit F-22 BZW
+Debug - 09:49:32.539 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:11:02
+Debug - 09:49:32.540 ** ShowInfo: GameWorldTimeSec=662,377313999996
+Debug - 09:49:32.540 ** ShowInfo: GameEngineTimeMs=66237,7885999995
+Debug - 09:49:32.541 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:49:32.542 ** ShowInfo: *** Credits: 200
+
+Debug - 09:49:32.579 ** ShowInfo: UnitOrder to unit BXM : Launch 1 aircraft.
+Debug - 09:49:33.552 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BZL
+Debug - 09:49:34.51 ** ShowInfo: Received BaseUnitInfo: [BZL] F-22 BZL (f22)
+Debug - 09:49:36.604 ** ShowInfo: *** Movement order sent to unit F-22 BZL
+Debug - 09:49:48.958 ** ShowInfo: *** Movement order sent to unit E3 Sentry
+Debug - 09:50:02.773 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:16:03
+Debug - 09:50:02.773 ** ShowInfo: GameWorldTimeSec=963,844556999994
+Debug - 09:50:02.775 ** ShowInfo: GameEngineTimeMs=96384,5128999994
+Debug - 09:50:03.274 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:50:03.275 ** ShowInfo: *** Credits: 200
+
+Debug - 09:50:23.274 ** ShowInfo: Designate [DEV] Helicopter [FoF Undetermined]  @ 068° 19' 19"N, 009° 13' 06"W as hostile.
+Debug - 09:50:23.646 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Helicopter [Foe]  @ 068° 19' 19"N, 009° 13' 06"W
+Debug - 09:50:24.173 ** ShowInfo: Contact Helicopter DEV  [Foe] is now designated as HOSTILE.
+Debug - 09:50:28.985 ** ShowInfo: *** Unit F-22 BZW to close and engage target [DEV] Helicopter [Foe]  @ 068° 18' 03"N, 009° 15' 27"W
+Debug - 09:50:30.336 ** ShowInfo: Sir, [BZW] F-22 BZW (F-22) is closing 568,41km to engage Helicopter DEV  [Foe].
+Debug - 09:50:31.365 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Helicopter [Foe]  @ 068° 17' 18"N, 009° 16' 52"W
+Debug - 09:50:32.884 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:21:03
+Debug - 09:50:32.884 ** ShowInfo: GameWorldTimeSec=1263,86171699999
+Debug - 09:50:32.885 ** ShowInfo: GameEngineTimeMs=126386,228899999
+Debug - 09:50:33.392 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:50:33.393 ** ShowInfo: *** Credits: 200
+
+Debug - 09:50:49.839 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] MediumSurface group (2 units)
+Debug - 09:50:51.969 ** ShowInfo: Designate [DFU] MediumSurface [FoF Undetermined]  @ 068° 43' 55"N, 008° 33' 01"W as hostile.
+Debug - 09:50:52.945 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] MediumSurface group (3 units)
+Debug - 09:50:53.441 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] MediumSurface [Foe]  @ 068° 43' 54"N, 008° 33' 05"W
+Debug - 09:50:53.955 ** ShowInfo: Contact MediumSurface DFU  [Foe] is now designated as HOSTILE.
+Debug - 09:50:55.658 ** ShowInfo: Designate [DFY] MediumSurface [FoF Undetermined]  @ 068° 43' 42"N, 008° 32' 04"W as hostile.
+Debug - 09:50:57.28 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] MediumSurface [Foe]  @ 068° 43' 41"N, 008° 32' 11"W
+Debug - 09:50:57.30 ** ShowInfo: Contact MediumSurface DFY  [Foe] is now designated as HOSTILE.
+Debug - 09:50:58.46 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] MediumSurface [Foe]  @ 068° 43' 47"N, 008° 33' 30"W
+Debug - 09:50:58.48 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] MediumSurface [Foe]  @ 068° 43' 39"N, 008° 32' 18"W
+Debug - 09:50:59.689 ** ShowInfo: Designate [DGC] MediumSurface [FoF Undetermined]  @ 068° 44' 26"N, 008° 36' 06"W as hostile.
+Debug - 09:51:00.587 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] MediumSurface [Foe]  @ 068° 44' 23"N, 008° 36' 15"W
+Debug - 09:51:01.83 ** ShowInfo: Contact MediumSurface DGC  [Foe] is now designated as HOSTILE.
+Debug - 09:51:04.752 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:26:15
+Debug - 09:51:04.753 ** ShowInfo: GameWorldTimeSec=1575,56954599999
+Debug - 09:51:04.753 ** ShowInfo: GameEngineTimeMs=157590,013699999
+Debug - 09:51:04.754 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:51:04.754 ** ShowInfo: *** Credits: 200
+
+Debug - 09:51:09.689 ** ShowInfo: *** Unit USS Virginia to engage target [DFU] MediumSurface [Foe]  @ 068° 43' 28"N, 008° 34' 42"W
+Debug - 09:51:10.839 ** ShowInfo: Received new UnitClass mark48torpedo Mark 48 ADCAP Heavyweight Torpedo
+Debug - 09:51:10.840 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DGP
+Debug - 09:51:10.840 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DGT
+Debug - 09:51:11.863 ** ShowInfo: Received BaseUnitInfo: [DGP] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:51:12.363 ** ShowInfo: Received BaseUnitInfo: [DGT] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:51:12.368 ** ShowInfo: ***GroupInfo received.
+DGO  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:51:28.636 ** ShowInfo: *** Unit USS Virginia to engage target [DFY] MediumSurface [Foe]  @ 068° 42' 50"N, 008° 35' 16"W
+Debug - 09:51:29.758 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DHH
+Debug - 09:51:29.759 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DHL
+Debug - 09:51:30.272 ** ShowInfo: Received BaseUnitInfo: [DHH] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:51:30.775 ** ShowInfo: Received BaseUnitInfo: [DHL] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:51:30.778 ** ShowInfo: ***GroupInfo received.
+DHG  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:51:32.337 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Helicopter [Foe]  @ 068° 02' 26"N, 009° 44' 04"W
+Debug - 09:51:32.341 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] MediumSurface [Foe]  @ 068° 42' 52"N, 008° 36' 51"W
+Debug - 09:51:32.851 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] MediumSurface [Foe]  @ 068° 42' 44"N, 008° 35' 38"W
+Debug - 09:51:41.643 ** ShowInfo: *** Unit USS Virginia to engage target [DGC] MediumSurface [Foe]  @ 068° 43' 18"N, 008° 40' 12"W
+Debug - 09:51:42.553 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DHX
+Debug - 09:51:42.553 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DIB
+Debug - 09:51:43.63 ** ShowInfo: Received BaseUnitInfo: [DHX] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:51:43.657 ** ShowInfo: Received BaseUnitInfo: [DIB] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:51:43.660 ** ShowInfo: ***GroupInfo received.
+DHW  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:51:47.527 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:33:23
+Debug - 09:51:47.527 ** ShowInfo: GameWorldTimeSec=1985,98359199999
+Debug - 09:51:47.528 ** ShowInfo: GameEngineTimeMs=200384,461399999
+Debug - 09:51:47.529 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:51:47.529 ** ShowInfo: *** Credits: 200
+
+Debug - 09:51:50.216 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DIJ
+Debug - 09:51:51.274 ** ShowInfo: Received BaseUnitInfo: [DIJ] DICASS AN/SSQ-62 Sonobuoy DIJ (dicass)
+Debug - 09:51:51.784 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 09:52:02.5 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DIR
+Debug - 09:52:02.563 ** ShowInfo: Received BaseUnitInfo: [DIR] DICASS AN/SSQ-62 Sonobuoy DIR (dicass)
+Debug - 09:52:03.84 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 09:52:07.136 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DIZ
+Debug - 09:52:08.152 ** ShowInfo: Received BaseUnitInfo: [DIZ] DICASS AN/SSQ-62 Sonobuoy DIZ (dicass)
+Debug - 09:52:08.650 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 09:52:13.219 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 52' 41"N, 010° 01' 31"W
+Debug - 09:52:33.578 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 47' 13"N, 010° 11' 09"W
+Debug - 09:52:34.91 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] MediumSurface [Foe]  @ 068° 41' 12"N, 008° 42' 58"W
+Debug - 09:52:34.93 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] MediumSurface [Foe]  @ 068° 41' 04"N, 008° 41' 45"W
+Debug - 09:52:40.678 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:42:15
+Debug - 09:52:40.679 ** ShowInfo: GameWorldTimeSec=2505,03270799999
+Debug - 09:52:40.679 ** ShowInfo: GameEngineTimeMs=253558,502799999
+Debug - 09:52:40.680 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:52:40.680 ** ShowInfo: *** Credits: 200
+
+Debug - 09:52:48.802 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] MediumSurface [Foe]  @ 068° 41' 29"N, 008° 46' 50"W
+Debug - 09:52:52.345 ** ShowInfo: Unit [CAI] E3 Sentry (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 09:53:02.950 ** ShowInfo: *** Movement order sent to unit E3 Sentry
+Debug - 09:53:09.629 ** ShowInfo: Unit [CAI] E3 Sentry (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 09:53:12.188 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 36' 58"N, 010° 29' 01"W
+Debug - 09:53:27.462 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:50:08
+Debug - 09:53:27.463 ** ShowInfo: GameWorldTimeSec=2988,17091399999
+Debug - 09:53:27.464 ** ShowInfo: GameEngineTimeMs=300847,207499999
+Debug - 09:53:27.464 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:53:27.465 ** ShowInfo: *** Credits: 200
+
+Debug - 09:53:29.488 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 32' 40"N, 010° 36' 25"W
+Debug - 09:53:35.59 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 31' 22"N, 010° 38' 39"W
+Debug - 09:53:35.63 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] MediumSurface [Foe]  @ 068° 39' 28"N, 008° 49' 17"W
+Debug - 09:53:35.64 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] MediumSurface [Foe]  @ 068° 39' 19"N, 008° 48' 04"W
+Debug - 09:53:41.691 ** ShowInfo: Received new UnitClass aim120amraam AIM-120 AMRAAM Missile
+Debug - 09:53:41.692 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DKU
+Debug - 09:53:43.214 ** ShowInfo: Received BaseUnitInfo: [DKU] AMRAAM from F-22 BZW (aim120amraam)
+Debug - 09:53:43.216 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 25"N, 010° 41' 59"W
+Debug - 09:53:43.724 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DLL
+Debug - 09:53:44.760 ** ShowInfo: Received BaseUnitInfo: [DLL] AMRAAM from F-22 BZW (aim120amraam)
+Debug - 09:53:44.764 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 09"N, 010° 42' 25"W
+Debug - 09:53:46.296 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DMD
+Debug - 09:53:47.309 ** ShowInfo: Received BaseUnitInfo: [DMD] AMRAAM from F-22 BZW (aim120amraam)
+Debug - 09:53:47.310 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 12"N, 010° 41' 23"W
+Debug - 09:53:47.819 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DMT
+Debug - 09:53:48.836 ** ShowInfo: Received BaseUnitInfo: [DMT] AMRAAM from F-22 BZW (aim120amraam)
+Debug - 09:53:48.837 ** ShowInfo: DetectedUnitInfo received: Id=DEV  [DEV] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 16"N, 010° 40' 21"W
+Debug - 09:53:50.366 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27
+Debug - 09:53:50.367 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DKU
+Debug - 09:53:52.392 ** ShowInfo: +++We shot down an enemy Kamov Ka-27 using a AIM-120 AMRAAM Missile
+Debug - 09:53:52.393 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DLL
+Debug - 09:53:52.394 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DEV
+Debug - 09:53:54.919 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DMD
+Debug - 09:53:54.920 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DMT
+Debug - 09:54:02.60 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] MediumSurface [Foe]  @ 068° 38' 49"N, 008° 51' 37"W
+Debug - 09:54:06.619 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] MediumSurface [Foe]  @ 068° 39' 22"N, 008° 48' 47"W
+Debug - 09:54:16.763 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 39' 50"N, 008° 51' 46"W
+Debug - 09:54:17.270 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (3 units)
+Debug - 09:54:18.783 ** ShowInfo: DetectedUnitInfo received: Id=DNO  [DNO] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 39' 41"N, 008° 52' 09"W
+Debug - 09:54:19.300 ** ShowInfo: DetectedUnitInfo received: Id=DNO  [DNO] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 39' 25"N, 008° 52' 28"W
+Debug - 09:54:20.314 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:58:57
+Debug - 09:54:20.315 ** ShowInfo: GameWorldTimeSec=3506,63056799999
+Debug - 09:54:20.316 ** ShowInfo: GameEngineTimeMs=353712,231199999
+Debug - 09:54:20.316 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:54:20.317 ** ShowInfo: *** Credits: 200
+
+Debug - 09:54:22.413 ** ShowInfo: *** Unit F-22 BZW to close and engage target [DNO] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 38' 42"N, 008° 53' 18"W
+Debug - 09:54:24.884 ** ShowInfo: Sir, [BZW] F-22 BZW (F-22) is closing 130,20km to engage  Kamov Ka-27 COI (Kamov Ka-27)  [Foe].
+Debug - 09:54:25.385 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 40' 19"N, 008° 51' 49"W
+Debug - 09:54:25.898 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 40' 02"N, 008° 52' 49"W
+Debug - 09:54:25.899 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 40' 45"N, 008° 51' 53"W
+Debug - 09:54:25.900 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (3 units)
+Debug - 09:54:26.196 ** ShowInfo: Designate [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 40' 45"N, 008° 51' 53"W as hostile.
+Debug - 09:54:32.994 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 41' 50"N, 008° 50' 59"W
+Debug - 09:54:38.147 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 41' 01"N, 008° 51' 57"W
+Debug - 09:54:38.149 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 40' 43"N, 008° 52' 56"W
+Debug - 09:54:38.149 ** ShowInfo: DetectedUnitInfo received: Id=DNO  [DNO] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 34' 37"N, 008° 58' 04"W
+Debug - 09:54:38.641 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 42' 33"N, 008° 50' 10"W
+Debug - 09:54:40.845 ** ShowInfo: *** Unit F-22 BZL to close and engage target [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 42' 50"N, 008° 49' 51"W
+Debug - 09:54:43.307 ** ShowInfo: Sir, [BZL] F-22 BZL (F-22) is closing 91,13km to engage  Kamov Ka-27 COO (Kamov Ka-27)  [Foe].
+Debug - 09:55:00.376 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 42' 18"N, 008° 52' 40"W
+Debug - 09:55:00.378 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 41' 56"N, 008° 53' 24"W
+Debug - 09:55:00.379 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DSO
+Debug - 09:55:01.439 ** ShowInfo: Received BaseUnitInfo: [DSO] AMRAAM from F-22 BZW (aim120amraam)
+Debug - 09:55:01.442 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 42' 21"N, 008° 52' 43"W
+Debug - 09:55:01.948 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 41' 59"N, 008° 53' 27"W
+Debug - 09:55:01.950 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] MediumSurface [Foe]  @ 068° 42' 57"N, 008° 50' 09"W
+Debug - 09:55:01.950 ** ShowInfo: DetectedUnitInfo received: Id=DNO  [DNO] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 27' 59"N, 009° 05' 44"W
+Debug - 09:55:02.463 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 45' 53"N, 008° 46' 22"W
+Debug - 09:55:03.1 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 01"N, 008° 50' 12"W
+Debug - 09:55:03.2 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 46' 01"N, 008° 46' 12"W
+Debug - 09:55:03.497 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (3 units)
+Debug - 09:55:03.499 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DTQ
+Debug - 09:55:04.512 ** ShowInfo: Received BaseUnitInfo: [DTQ] AMRAAM from F-22 BZW (aim120amraam)
+Debug - 09:55:04.515 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 42' 27"N, 008° 52' 48"W
+Debug - 09:55:05.44 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 42' 04"N, 008° 53' 32"W
+Debug - 09:55:05.46 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 01"N, 008° 50' 12"W
+Debug - 09:55:05.47 ** ShowInfo: DetectedUnitInfo received: Id=DNO  [DNO] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 27' 50"N, 009° 05' 05"W
+Debug - 09:55:05.554 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 46' 15"N, 008° 45' 28"W
+Debug - 09:55:08.107 ** ShowInfo: +++We shot down an enemy Kamov Ka-27 using a AIM-120 AMRAAM Missile
+Debug - 09:55:08.108 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DSO
+Debug - 09:55:08.109 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DNO
+Debug - 09:55:11.185 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27 (out of fuel)
+Debug - 09:55:11.186 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27 (out of fuel)
+Debug - 09:55:11.684 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DTQ
+Debug - 09:55:15.791 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:07:56
+Debug - 09:55:15.792 ** ShowInfo: GameWorldTimeSec=4024,80906199999
+Debug - 09:55:15.793 ** ShowInfo: GameEngineTimeMs=407657,316699999
+Debug - 09:55:15.793 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:55:15.794 ** ShowInfo: *** Credits: 200
+
+Debug - 09:55:22.54 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 43' 21"N, 008° 53' 40"W
+Debug - 09:55:22.59 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 42' 59"N, 008° 54' 24"W
+Debug - 09:55:22.573 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DVA
+Debug - 09:55:23.593 ** ShowInfo: Received BaseUnitInfo: [DVA] AMRAAM from F-22 BZL (aim120amraam)
+Debug - 09:55:24.117 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 43' 25"N, 008° 53' 43"W
+Debug - 09:55:24.119 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 02"N, 008° 54' 27"W
+Debug - 09:55:24.119 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 01"N, 008° 51' 10"W
+Debug - 09:55:24.635 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 50' 35"N, 008° 29' 43"W
+Debug - 09:55:24.645 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DVW
+Debug - 09:55:25.661 ** ShowInfo: Received BaseUnitInfo: [DVW] AMRAAM from F-22 BZL (aim120amraam)
+Debug - 09:55:26.165 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 43' 28"N, 008° 53' 46"W
+Debug - 09:55:26.167 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 06"N, 008° 54' 31"W
+Debug - 09:55:26.168 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 05"N, 008° 51' 13"W
+Debug - 09:55:26.682 ** ShowInfo: DetectedUnitInfo received: Id=DNX  [DNX] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 50' 48"N, 008° 28' 46"W
+Debug - 09:55:28.712 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27
+Debug - 09:55:29.234 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DVA
+Debug - 09:55:32.292 ** ShowInfo: +++We shot down an enemy Kamov Ka-27 using a AIM-120 AMRAAM Missile
+Debug - 09:55:32.293 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DVW
+Debug - 09:55:32.295 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DNX
+Debug - 09:55:40.481 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 44' 06"N, 008° 54' 22"W
+Debug - 09:55:40.486 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 42"N, 008° 55' 05"W
+Debug - 09:55:41.542 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 46"N, 008° 51' 52"W
+Debug - 09:55:42.58 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 44' 11"N, 008° 54' 27"W
+Debug - 09:55:42.572 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 48"N, 008° 55' 11"W
+Debug - 09:55:42.574 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 47"N, 008° 51' 53"W
+Debug - 09:55:44.632 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 44' 17"N, 008° 54' 33"W
+Debug - 09:55:44.635 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 55"N, 008° 55' 17"W
+Debug - 09:55:45.661 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 44' 21"N, 008° 54' 36"W
+Debug - 09:55:46.175 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 58"N, 008° 55' 21"W
+Debug - 09:55:46.178 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 57"N, 008° 52' 03"W
+Debug - 09:55:46.178 ** ShowInfo: DetectedUnitInfo received: Id=ECJ  [ECJ] Kamov Ka-27 CQM (ka27) [Foe]  @ 068° 45' 08"N, 008° 52' 13"W
+Debug - 09:55:46.673 ** ShowInfo: [BZW] F-22 BZW (F-22) is being detected by ACTIVE MR-800 Voskhod 'Top Pair' 3D Radar from  Petr Velikiy (Kirov)  [Foe].
+Debug - 09:56:00.517 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 45' 12"N, 008° 55' 26"W
+Debug - 09:56:00.522 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 44' 50"N, 008° 56' 10"W
+Debug - 09:56:00.522 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 45' 49"N, 008° 52' 52"W
+Debug - 09:56:00.523 ** ShowInfo: Unit [BZL] F-22 BZL (F-22) has no movement orders and continues on same course.
+Debug - 09:56:01.542 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 45' 16"N, 008° 55' 29"W
+Debug - 09:56:01.554 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 44' 53"N, 008° 56' 13"W
+Debug - 09:56:02.72 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 45' 52"N, 008° 52' 55"W
+Debug - 09:56:04.179 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 45' 24"N, 008° 55' 36"W
+Debug - 09:56:04.180 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 45' 01"N, 008° 56' 20"W
+Debug - 09:56:07.284 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 34"N, 008° 56' 55"W
+Debug - 09:56:09.600 ** ShowInfo: *** Movement order sent to unit F-22 BZW
+Debug - 09:56:11.374 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 44' 23"N, 008° 56' 18"W
+Debug - 09:56:13.929 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:17:37
+Debug - 09:56:13.929 ** ShowInfo: GameWorldTimeSec=4583,84103699999
+Debug - 09:56:13.930 ** ShowInfo: GameEngineTimeMs=465782,641299999
+Debug - 09:56:13.931 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:56:13.931 ** ShowInfo: *** Credits: 200
+
+Debug - 09:56:16.486 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 45' 10"N, 008° 54' 17"W
+Debug - 09:56:18.47 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Petr Velikiy (a Kirov class) (out of fuel)
+Debug - 09:56:18.48 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Petr Velikiy (a Kirov class) (out of fuel)
+Debug - 09:56:18.49 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Petr Velikiy (a Kirov class) (out of fuel)
+Debug - 09:56:18.50 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Petr Velikiy (a Kirov class) (out of fuel)
+Debug - 09:56:18.547 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DGP
+Debug - 09:56:18.548 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DGT
+Debug - 09:56:18.550 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EES
+Debug - 09:56:18.550 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EEW
+Debug - 09:56:19.566 ** ShowInfo: Received BaseUnitInfo: [EES] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:56:19.570 ** ShowInfo: Received BaseUnitInfo: [EEW] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:56:20.91 ** ShowInfo: ***GroupInfo received.
+EER  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:56:20.607 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 45' 01"N, 008° 53' 47"W
+Debug - 09:56:20.608 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 45' 29"N, 008° 53' 41"W
+Debug - 09:56:25.242 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 45' 01"N, 008° 52' 27"W
+Debug - 09:56:33.495 ** ShowInfo: DetectedUnitInfo received: Id=ECJ  [ECJ] Kamov Ka-27 CQM (ka27) [Foe]  @ 068° 56' 03"N, 008° 19' 07"W
+Debug - 09:56:35.34 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Chabanenko (a Udaloy II class) (out of fuel)
+Debug - 09:56:35.35 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Chabanenko (a Udaloy II class) (out of fuel)
+Debug - 09:56:35.36 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Chabanenko (a Udaloy II class) (out of fuel)
+Debug - 09:56:35.550 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Chabanenko (a Udaloy II class) (out of fuel)
+Debug - 09:56:35.552 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DHH
+Debug - 09:56:35.553 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DHL
+Debug - 09:56:35.553 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 44' 08"N, 008° 53' 27"W
+Debug - 09:56:35.555 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 44' 24"N, 008° 52' 25"W
+Debug - 09:56:36.67 ** ShowInfo: Unit [BZW] F-22 BZW (F-22) has no movement orders and continues on same course.
+Debug - 09:56:36.70 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EFK
+Debug - 09:56:36.71 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EFO
+Debug - 09:56:37.141 ** ShowInfo: Received BaseUnitInfo: [EFK] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:56:37.145 ** ShowInfo: Received BaseUnitInfo: [EFO] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:56:37.661 ** ShowInfo: DetectedUnitInfo received: Id=DGC  [DGC] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 46"N, 008° 56' 23"W
+Debug - 09:56:37.662 ** ShowInfo: ***GroupInfo received.
+EFJ  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:56:41.292 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 43' 47"N, 008° 53' 26"W
+Debug - 09:56:45.943 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 43' 30"N, 008° 53' 25"W
+Debug - 09:56:46.443 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 46"N, 008° 52' 23"W
+Debug - 09:56:46.446 ** ShowInfo: DetectedUnitInfo received: Id=ECJ  [ECJ] Kamov Ka-27 CQM (ka27) [Foe]  @ 068° 58' 31"N, 008° 11' 31"W
+Debug - 09:56:47.456 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 09:56:47.457 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 09:56:47.458 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 09:56:47.458 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 09:56:47.460 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DHX
+Debug - 09:56:47.461 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIB
+Debug - 09:56:47.973 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGA
+Debug - 09:56:47.978 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGE
+Debug - 09:56:49.48 ** ShowInfo: Received BaseUnitInfo: [EGA] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:56:49.53 ** ShowInfo: Received BaseUnitInfo: [EGE] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:56:49.560 ** ShowInfo: DetectedUnitInfo received: Id=ECJ  [ECJ] Kamov Ka-27 CQM (ka27) [Foe]  @ 068° 58' 55"N, 008° 10' 15"W
+Debug - 09:56:49.560 ** ShowInfo: ***GroupInfo received.
+EFZ  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:56:51.135 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 32"N, 008° 52' 23"W
+Debug - 09:56:53.627 ** ShowInfo: UnitOrder to unit BXM : Launch 4 aircraft.
+Debug - 09:56:54.210 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BXV
+Debug - 09:56:54.210 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYA
+Debug - 09:56:54.709 ** ShowInfo: Received BaseUnitInfo: [BXV] Boeing P-8A Poseidon BXV (p8poseidon) *
+Debug - 09:56:55.224 ** ShowInfo: Received BaseUnitInfo: [BYA] Boeing P-8A Poseidon BYA (p8poseidon)
+Debug - 09:56:56.240 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (2 units)
+Strike:  2
+Mission: Patrol(Undefined)
+
+Debug - 09:56:56.753 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 42' 55"N, 008° 53' 23"W
+Debug - 09:56:56.757 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 43' 11"N, 008° 52' 21"W
+Debug - 09:57:00.893 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYK
+Debug - 09:57:00.907 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYF
+Debug - 09:57:01.419 ** ShowInfo: Received BaseUnitInfo: [BYF] Boeing P-8A Poseidon BYF (p8poseidon)
+Debug - 09:57:01.930 ** ShowInfo: Received BaseUnitInfo: [BYK] Boeing P-8A Poseidon BYK (p8poseidon)
+Debug - 09:57:02.950 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Patrol(Undefined)
+
+Debug - 09:57:09.577 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:26:54
+Debug - 09:57:09.577 ** ShowInfo: GameWorldTimeSec=5147,59328199999
+Debug - 09:57:09.578 ** ShowInfo: GameEngineTimeMs=521443,824899999
+Debug - 09:57:09.579 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:57:09.579 ** ShowInfo: *** Credits: 200
+
+Debug - 09:57:10.233 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 42' 14"N, 008° 53' 20"W
+Debug - 09:57:12.665 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Attack(Surface)
+
+Debug - 09:57:12.666 ** ShowInfo: Sir, [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) is closing 474,31km to engage  Petr Velikiy (Kirov)  [Foe].
+Debug - 09:57:17.317 ** ShowInfo: DetectedUnitInfo received: Id=ECJ  [ECJ] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 04' 32"N, 007° 52' 48"W
+Debug - 09:57:39.110 ** ShowInfo: *** Unit USS Virginia to engage target [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 41' 39"N, 008° 53' 00"W
+Debug - 09:57:40.715 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EHW
+Debug - 09:57:40.720 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EIA
+Debug - 09:57:41.235 ** ShowInfo: Received BaseUnitInfo: [EHW] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 09:57:41.236 ** ShowInfo: Received BaseUnitInfo: [EIA] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 09:57:41.742 ** ShowInfo: ***GroupInfo received.
+EHV  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 09:57:57.692 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIJ
+Debug - 09:58:07.856 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIR
+Debug - 09:58:08.371 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:35:36
+Debug - 09:58:08.372 ** ShowInfo: GameWorldTimeSec=5718,93252899999
+Debug - 09:58:08.372 ** ShowInfo: GameEngineTimeMs=573630,809899999
+Debug - 09:58:08.373 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:58:08.374 ** ShowInfo: *** Credits: 200
+
+Debug - 09:58:14.487 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIZ
+Debug - 09:58:17.752 ** ShowInfo: *** Unit F-22 BZL to close and engage target [ECJ] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 16' 20"N, 007° 15' 16"W
+Debug - 09:58:19.621 ** ShowInfo: Sir, [BZL] F-22 BZL (F-22) is closing 299,49km to engage  Kamov Ka-27 CQM (Kamov Ka-27)  [Foe].
+Debug - 09:58:20.649 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DGC
+Debug - 09:58:21.163 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (2 units)
+Debug - 09:58:22.681 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGA
+Debug - 09:58:22.682 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGE
+Debug - 09:58:24.225 ** ShowInfo: Received new UnitClass kh555 Raduga Kh-555 'Kent-C' Missile
+Debug - 09:58:25.255 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ECJ
+Debug - 09:58:25.256 ** ShowInfo: DetectedUnitInfo received: Id=DFU  [DFU] Petr Velikiy (kirov) [Foe]  @ 068° 43' 58"N, 008° 52' 20"W
+Debug - 09:58:25.256 ** ShowInfo: DetectedUnitInfo received: Id=DFY  [DFY] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 44' 16"N, 008° 51' 22"W
+Debug - 09:58:31.898 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DFU
+Debug - 09:58:32.214 ** ShowInfo: UnitOrder to unit BQV : Launch 1 aircraft.
+Debug - 09:58:32.397 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (1 units)
+Debug - 09:58:34.426 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EES
+Debug - 09:58:34.427 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EEW
+Debug - 09:58:34.427 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EHW
+Debug - 09:58:34.428 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EIA
+Debug - 09:58:34.936 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Patrol(Surface)
+
+Debug - 09:58:34.937 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BRB
+Debug - 09:58:36.453 ** ShowInfo: Received BaseUnitInfo: [BRB] F-22 BRB (f22)
+Debug - 09:58:38.706 ** ShowInfo: *** Movement order sent to unit F-22 BRB
+Debug - 09:58:39.25 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (2 units)
+Debug - 09:58:40.71 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DFY
+Debug - 09:58:40.72 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (1 units)
+Debug - 09:58:42.846 ** ShowInfo: Designate [EQX] MediumSurface [FoF Undetermined]  @ 068° 42' 30"N, 008° 54' 39"W as hostile.
+Debug - 09:58:44.642 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] MediumSurface [Foe]  @ 068° 42' 19"N, 008° 54' 32"W
+Debug - 09:58:44.644 ** ShowInfo: Contact MediumSurface EQX  [Foe] is now designated as HOSTILE.
+Debug - 09:58:48.793 ** ShowInfo: *** Movement order sent to unit E3 Sentry
+Debug - 09:58:57.868 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (2 units)
+Debug - 09:58:58.884 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Petr Velikiy group (3 units)
+Debug - 09:59:01.458 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:44:52
+Debug - 09:59:01.459 ** ShowInfo: GameWorldTimeSec=6290,92524499999
+Debug - 09:59:01.460 ** ShowInfo: GameEngineTimeMs=629227,989799999
+Debug - 09:59:01.460 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:59:01.461 ** ShowInfo: *** Credits: 200
+
+Debug - 09:59:08.395 ** ShowInfo: Designate [ERN] MediumSurface [FoF Undetermined]  @ 068° 41' 40"N, 008° 54' 29"W as hostile.
+Debug - 09:59:09.635 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] MediumSurface [Foe]  @ 068° 41' 36"N, 008° 54' 41"W
+Debug - 09:59:09.637 ** ShowInfo: Contact MediumSurface ERN  [Foe] is now designated as HOSTILE.
+Debug - 09:59:12.341 ** ShowInfo: Designate [ERT] MediumSurface [FoF Undetermined]  @ 068° 41' 23"N, 008° 53' 47"W as hostile.
+Debug - 09:59:14.259 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] MediumSurface [Foe]  @ 068° 41' 19"N, 008° 54' 03"W
+Debug - 09:59:14.260 ** ShowInfo: Contact MediumSurface ERT  [Foe] is now designated as HOSTILE.
+Debug - 09:59:32.750 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] MediumSurface [Foe]  @ 068° 40' 42"N, 008° 57' 52"W
+Debug - 09:59:32.752 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] MediumSurface [Foe]  @ 068° 40' 34"N, 008° 56' 39"W
+Debug - 09:59:35.294 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 40' 37"N, 008° 58' 08"W
+Debug - 09:59:35.297 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 40' 30"N, 008° 56' 55"W
+Debug - 09:59:35.298 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] MediumSurface group (3 units)
+Debug - 09:59:50.262 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:53:23
+Debug - 09:59:50.263 ** ShowInfo: GameWorldTimeSec=6798,62657199999
+Debug - 09:59:50.264 ** ShowInfo: GameEngineTimeMs=680384,915799999
+Debug - 09:59:50.265 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 09:59:50.265 ** ShowInfo: *** Credits: 200
+
+Debug - 10:00:00.551 ** ShowInfo: DetectedUnitInfo received: Id=ETI  [ETI] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 13' 46"N, 006° 02' 07"W
+Debug - 10:00:03.397 ** ShowInfo: *** Unit F-22 BZL to close and engage target [ETI] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 13' 22"N, 006° 04' 14"W
+Debug - 10:00:05.268 ** ShowInfo: Sir, [BZL] F-22 BZL (F-22) is closing 54,06km to engage  Kamov Ka-27 CQM (Kamov Ka-27)  [Foe].
+Debug - 10:00:11.407 ** ShowInfo: DetectedUnitInfo received: Id=ETI  [ETI] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 12' 05"N, 006° 11' 07"W
+Debug - 10:00:22.97 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EXU
+Debug - 10:00:23.124 ** ShowInfo: Received BaseUnitInfo: [EXU] AMRAAM from F-22 BZL (aim120amraam)
+Debug - 10:00:23.639 ** ShowInfo: DetectedUnitInfo received: Id=ETI  [ETI] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 13' 13"N, 005° 58' 30"W
+Debug - 10:00:27.242 ** ShowInfo: +++We shot down an enemy Kamov Ka-27 using a AIM-120 AMRAAM Missile
+Debug - 10:00:27.250 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EXU
+Debug - 10:00:27.253 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ETI
+Debug - 10:00:37.544 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 41' 23"N, 009° 02' 08"W
+Debug - 10:00:37.545 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 40' 59"N, 009° 01' 29"W
+Debug - 10:00:39.584 ** ShowInfo: *** Movement order sent to unit F-22 BZL
+Debug - 10:00:41.99 ** ShowInfo: Unit [BZL] F-22 BZL (F-22) has no movement orders and continues on same course.
+Debug - 10:00:42.112 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 17:02:04
+Debug - 10:00:42.116 ** ShowInfo: GameWorldTimeSec=7323,80718199999
+Debug - 10:00:42.119 ** ShowInfo: GameEngineTimeMs=732465,894699999
+Debug - 10:00:42.626 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:00:42.627 ** ShowInfo: *** Credits: 200
+
+Debug - 10:00:57.455 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 41' 09"N, 009° 05' 23"W
+Debug - 10:00:58.23 ** ShowInfo: Received new UnitClass agm84harpoon AGM-84 Harpoon
+Debug - 10:00:58.24 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EYR
+Debug - 10:00:58.25 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EYU
+Debug - 10:00:58.25 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EYX
+Debug - 10:00:58.537 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EZA
+Debug - 10:00:59.52 ** ShowInfo: Received BaseUnitInfo: [EYR] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon) *
+Debug - 10:00:59.566 ** ShowInfo: Received BaseUnitInfo: [EYU] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:00:59.569 ** ShowInfo: Received BaseUnitInfo: [EYX] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:01:00.79 ** ShowInfo: Received BaseUnitInfo: [EZA] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:01:00.89 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 41' 06"N, 009° 05' 36"W
+Debug - 10:01:00.97 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 40' 56"N, 009° 04' 25"W
+Debug - 10:01:00.100 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:00.611 ** ShowInfo: ***GroupInfo received.
+EYQ  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:00.613 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EZL
+Debug - 10:01:00.614 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EZO
+Debug - 10:01:00.621 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EZR
+Debug - 10:01:00.624 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EZU
+Debug - 10:01:01.641 ** ShowInfo: Received BaseUnitInfo: [EZL] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon) *
+Debug - 10:01:02.156 ** ShowInfo: Received BaseUnitInfo: [EZO] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:01:02.159 ** ShowInfo: Received BaseUnitInfo: [EZR] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:01:02.653 ** ShowInfo: Received BaseUnitInfo: [EZU] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:01:03.169 ** ShowInfo: ***GroupInfo received.
+EZK  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:03.172 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EZY
+Debug - 10:01:03.173 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FAB
+Debug - 10:01:03.173 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FAE
+Debug - 10:01:05.715 ** ShowInfo: Received BaseUnitInfo: [EZY] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon) *
+Debug - 10:01:06.214 ** ShowInfo: Received BaseUnitInfo: [FAB] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:06.217 ** ShowInfo: Received BaseUnitInfo: [FAE] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:06.731 ** ShowInfo: ***GroupInfo received.
+EZX  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 10:01:24.107 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FBU
+Debug - 10:01:24.108 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FBX
+Debug - 10:01:24.109 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCA
+Debug - 10:01:24.293 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 40' 22"N, 009° 06' 32"W
+Debug - 10:01:26.151 ** ShowInfo: Received BaseUnitInfo: [FBU] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon) *
+Debug - 10:01:26.648 ** ShowInfo: Received BaseUnitInfo: [FBX] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:26.650 ** ShowInfo: Received BaseUnitInfo: [FCA] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:27.165 ** ShowInfo: ***GroupInfo received.
+FBT  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 10:01:27.167 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCF
+Debug - 10:01:27.168 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCI
+Debug - 10:01:27.169 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCL
+Debug - 10:01:27.169 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCO
+Debug - 10:01:28.680 ** ShowInfo: Received BaseUnitInfo: [FCF] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon) *
+Debug - 10:01:28.683 ** ShowInfo: Received BaseUnitInfo: [FCI] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:29.191 ** ShowInfo: Received BaseUnitInfo: [FCL] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:29.193 ** ShowInfo: Received BaseUnitInfo: [FCO] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:01:29.690 ** ShowInfo: ***GroupInfo received.
+FCE  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:29.692 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCS
+Debug - 10:01:29.698 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCV
+Debug - 10:01:29.702 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FCY
+Debug - 10:01:29.705 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FDB
+Debug - 10:01:31.765 ** ShowInfo: Received BaseUnitInfo: [FCS] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon) *
+Debug - 10:01:31.766 ** ShowInfo: Received BaseUnitInfo: [FCV] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:01:32.264 ** ShowInfo: Received BaseUnitInfo: [FCY] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:01:32.266 ** ShowInfo: Received BaseUnitInfo: [FDB] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:01:32.778 ** ShowInfo: ***GroupInfo received.
+FCR  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:39.621 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 40' 01"N, 009° 06' 16"W
+Debug - 10:01:40.989 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FHF
+Debug - 10:01:40.995 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FHI
+Debug - 10:01:40.999 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FHL
+Debug - 10:01:41.2 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FHO
+Debug - 10:01:43.75 ** ShowInfo: Received BaseUnitInfo: [FHF] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon) *
+Debug - 10:01:43.78 ** ShowInfo: Received BaseUnitInfo: [FHI] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:01:43.589 ** ShowInfo: Received BaseUnitInfo: [FHL] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:01:44.126 ** ShowInfo: Received BaseUnitInfo: [FHO] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:01:44.130 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] MediumSurface [Foe]  @ 068° 38' 54"N, 009° 06' 54"W
+Debug - 10:01:44.132 ** ShowInfo: ***GroupInfo received.
+FHE  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:44.139 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FIF
+Debug - 10:01:44.142 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FII
+Debug - 10:01:44.145 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FIL
+Debug - 10:01:44.635 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FIO
+Debug - 10:01:46.169 ** ShowInfo: Received BaseUnitInfo: [FIF] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon) *
+Debug - 10:01:46.663 ** ShowInfo: Received BaseUnitInfo: [FII] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:01:47.178 ** ShowInfo: Received BaseUnitInfo: [FIL] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:01:47.181 ** ShowInfo: Received BaseUnitInfo: [FIO] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:01:47.678 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 38' 52"N, 009° 06' 45"W
+Debug - 10:01:47.680 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Admiral Sergey Gorshkov group (3 units)
+Debug - 10:01:47.680 ** ShowInfo: ***GroupInfo received.
+FIE  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:01:54.899 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has reached BINGO FUEL and must return to base immediately.
+Debug - 10:01:55.666 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 39' 50"N, 009° 05' 25"W
+Debug - 10:01:58.444 ** ShowInfo: Sir, [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) is closing 0,26km to engage  Petr Velikiy (Kirov)  [Foe].
+Debug - 10:02:01.18 ** ShowInfo: Unit [CAI] E3 Sentry (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:02:05.73 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:02:05.74 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:02:05.75 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:02:05.586 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:02:05.588 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EFK
+Debug - 10:02:05.589 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EFO
+Debug - 10:02:06.85 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FKA
+Debug - 10:02:06.86 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FKE
+Debug - 10:02:07.619 ** ShowInfo: Received BaseUnitInfo: [FKA] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 10:02:08.130 ** ShowInfo: Received BaseUnitInfo: [FKE] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 10:02:08.132 ** ShowInfo: ***GroupInfo received.
+FJZ  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 10:02:09.887 ** ShowInfo: *** Movement order sent to unit E3 Sentry
+Debug - 10:02:16.276 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 17:17:56
+Debug - 10:02:16.277 ** ShowInfo: GameWorldTimeSec=7871,69966399999
+Debug - 10:02:16.277 ** ShowInfo: GameEngineTimeMs=827639,338299999
+Debug - 10:02:16.278 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:02:16.284 ** ShowInfo: *** Credits: 200
+
+Debug - 10:02:21.468 ** ShowInfo: Unit [CAI] E3 Sentry (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:02:22.793 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 39' 55"N, 009° 03' 50"W
+Debug - 10:02:39.535 ** ShowInfo: [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 39' 38"N, 009° 02' 35"W
+Debug - 10:02:45.72 ** ShowInfo: Unit [BZL] F-22 BZL (F-22) has no movement orders and continues on same course.
+Debug - 10:02:47.99 ** ShowInfo: Received new UnitClass vympelr77 Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 10:02:55.290 ** ShowInfo: [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA CEC (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 10:02:55.290 ** ShowInfo: [BYA] Boeing P-8A Poseidon BYA (Boeing P-8A Poseidon) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA CEC (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 10:02:55.291 ** ShowInfo: [BYF] Boeing P-8A Poseidon BYF (Boeing P-8A Poseidon) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA CEC (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 10:02:55.291 ** ShowInfo: [BYK] Boeing P-8A Poseidon BYK (Boeing P-8A Poseidon) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA CEC (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 10:02:57.520 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 38' 54"N, 009° 01' 14"W
+Debug - 10:02:57.861 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 46' 19"N, 006° 33' 26"W
+Debug - 10:02:58.369 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FQK
+Debug - 10:02:58.370 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FQN
+Debug - 10:02:58.371 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FQQ
+Debug - 10:02:58.371 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FQT
+Debug - 10:03:00.395 ** ShowInfo: Received BaseUnitInfo: [FQK] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon) *
+Debug - 10:03:00.919 ** ShowInfo: Received BaseUnitInfo: [FQN] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:03:00.925 ** ShowInfo: Received BaseUnitInfo: [FQQ] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:03:01.436 ** ShowInfo: Received BaseUnitInfo: [FQT] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:03:01.949 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 46' 31"N, 006° 45' 16"W
+Debug - 10:03:01.951 ** ShowInfo: ***GroupInfo received.
+FQJ  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 10:03:04.493 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FSH
+Debug - 10:03:04.493 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FSK
+Debug - 10:03:04.494 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FSN
+Debug - 10:03:07.66 ** ShowInfo: Received BaseUnitInfo: [FSH] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon) *
+Debug - 10:03:07.69 ** ShowInfo: Received BaseUnitInfo: [FSK] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:03:07.567 ** ShowInfo: Received BaseUnitInfo: [FSN] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 10:03:08.79 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 46' 44"N, 007° 08' 56"W
+Debug - 10:03:08.82 ** ShowInfo: DetectedUnitInfo received: Id=FNX  [FNX] Vympel 77 from Sukhoi PAK FA CEH (vympelr77) [Foe]  @ 067° 46' 38"N, 007° 07' 49"W
+Debug - 10:03:08.595 ** ShowInfo: ***GroupInfo received.
+FSG  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 10:03:10.660 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FTV
+Debug - 10:03:13.698 ** ShowInfo: Received BaseUnitInfo: [FTV] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 10:03:13.701 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 46' 38"N, 007° 32' 37"W
+Debug - 10:03:17.341 ** ShowInfo: Select own unit
+Debug - 10:03:19.861 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Ferry(Undefined)
+
+Debug - 10:03:19.863 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FUZ
+Debug - 10:03:19.863 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FVC
+Debug - 10:03:19.864 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FVF
+Debug - 10:03:22.402 ** ShowInfo: Received BaseUnitInfo: [FUZ] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon) *
+Debug - 10:03:22.932 ** ShowInfo: Received BaseUnitInfo: [FVC] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:03:23.448 ** ShowInfo: Received BaseUnitInfo: [FVF] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 10:03:23.961 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 45' 47"N, 008° 08' 04"W
+Debug - 10:03:23.962 ** ShowInfo: DetectedUnitInfo received: Id=FNX  [FNX] Vympel 77 from Sukhoi PAK FA CEH (vympelr77) [Foe]  @ 067° 45' 45"N, 008° 06' 57"W
+Debug - 10:03:24.462 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Attack(Surface)
+
+Debug - 10:03:24.463 ** ShowInfo: ***GroupInfo received.
+FUY  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 10:03:24.465 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FWN
+Debug - 10:03:24.466 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FWQ
+Debug - 10:03:24.466 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FWT
+Debug - 10:03:27.551 ** ShowInfo: Received BaseUnitInfo: [FWN] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon) *
+Debug - 10:03:27.554 ** ShowInfo: Received BaseUnitInfo: [FWQ] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:03:28.48 ** ShowInfo: Received BaseUnitInfo: [FWT] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 10:03:28.563 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 45' 16"N, 008° 19' 49"W
+Debug - 10:03:28.565 ** ShowInfo: ***GroupInfo received.
+FWM  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 10:03:31.604 ** ShowInfo: DetectedUnitInfo received: Id=FNX  [FNX] Vympel 77 from Sukhoi PAK FA CEH (vympelr77) [Foe]  @ 067° 44' 36"N, 008° 30' 25"W
+Debug - 10:03:31.607 ** ShowInfo: EGU Keflavik Airport aircraft group does not have a weapon with which to engage target  Admiral Chabanenko (Udaloy II)  [Foe]. Out of ammunition
+Debug - 10:03:35.149 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [FYS] FixedWingAircraft group (2 units)
+Debug - 10:03:37.690 ** ShowInfo: DetectedUnitInfo received: Id=FNV  [FNV] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 42' 41"N, 008° 54' 36"W
+Debug - 10:03:38.192 ** ShowInfo: DetectedUnitInfo received: Id=FNX  [FNX] Vympel 77 from Sukhoi PAK FA CEH (vympelr77) [Foe]  @ 067° 42' 44"N, 008° 53' 31"W
+Debug - 10:03:38.725 ** ShowInfo: DetectedUnitInfo received: Id=FYO  [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 33' 31"N, 007° 24' 33"W
+Debug - 10:03:38.726 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 33' 33"N, 007° 24' 34"W
+Debug - 10:03:39.747 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [FYS] Sukhoi PAK FA CDS group (2 units)
+Debug - 10:03:39.748 ** ShowInfo: [BZL] F-22 BZL (F-22) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA CEC (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 10:03:42.292 ** ShowInfo: DetectedUnitInfo received: Id=FNX  [FNX] Vympel 77 from Sukhoi PAK FA CEH (vympelr77) [Foe]  @ 067° 41' 23"N, 009° 04' 46"W
+Debug - 10:03:44.834 ** ShowInfo: ---An enemy Vympel R-77 'AA-12 Adder' AA Missile missed one of our E-3 Sentry
+Debug - 10:03:44.836 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id FNV
+Debug - 10:03:44.837 ** ShowInfo: DetectedUnitInfo received: Id=FNX  [FNX] Vympel 77 from Sukhoi PAK FA CEH (vympelr77) [Foe]  @ 067° 39' 27"N, 009° 15' 24"W
+Debug - 10:03:53.25 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id FNX
+Debug - 10:03:56.67 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 38' 21"N, 008° 58' 47"W
+Debug - 10:03:56.71 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 38' 49"N, 008° 58' 52"W
+Debug - 10:03:58.597 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 16"N, 008° 59' 37"W
+Debug - 10:03:59.108 ** ShowInfo: DetectedUnitInfo received: Id=GHB  [GHB] Vympel 77 from Sukhoi PAK FA CDS (vympelr77) [Foe]  @ 067° 36' 42"N, 009° 12' 01"W
+Debug - 10:03:59.605 ** ShowInfo: DetectedUnitInfo received: Id=GHD  [GHD] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 36' 43"N, 009° 11' 41"W
+Debug - 10:04:02.654 ** ShowInfo: ---An enemy Vympel R-77 'AA-12 Adder' AA Missile missed one of our E-3 Sentry
+Debug - 10:04:02.655 ** ShowInfo: ---A E-3 Sentry was SHOT DOWN by a Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 10:04:02.655 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CAI
+Debug - 10:04:02.657 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id GHB
+Debug - 10:04:02.658 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id GHD
+Debug - 10:04:03.166 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 31' 33"N, 006° 58' 31"W
+Debug - 10:04:08.735 ** ShowInfo: Received new UnitClass s400trimuf S-400 Triumf 'SA-21 Growler' SAM
+Debug - 10:04:09.805 ** ShowInfo: *** Unit F-22 BZW to close and engage target [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 31' 08"N, 006° 53' 43"W
+Debug - 10:04:11.278 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 38' 14"N, 008° 58' 14"W
+Debug - 10:04:14.350 ** ShowInfo: Sir, [BZW] F-22 BZW (F-22) is closing 377,20km to engage  Sukhoi PAK FA CDS (Sukhoi PAK FA)  [Foe].
+Debug - 10:04:16.273 ** ShowInfo: *** Unit F-22 BRB to close and engage target [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 30' 38"N, 006° 47' 13"W
+Debug - 10:04:20.484 ** ShowInfo: Sir, [BRB] F-22 BRB (F-22) is closing 513,36km to engage  Sukhoi PAK FA CDS (Sukhoi PAK FA)  [Foe].
+Debug - 10:04:25.600 ** ShowInfo: DetectedUnitInfo received: Id=GRP  [GRP] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 42' 42"N, 006° 40' 13"W
+Debug - 10:04:36.867 ** ShowInfo: DetectedUnitInfo received: Id=GYO  [GYO] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 068° 16' 27"N, 010° 24' 42"W
+Debug - 10:04:39.952 ** ShowInfo: ---A AGM-84 Harpoon was SHOT DOWN by a S-400 Triumf 'SA-21 Growler' SAM
+Debug - 10:04:39.953 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EYR
+Debug - 10:04:39.954 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id GYO
+Debug - 10:04:40.450 ** ShowInfo: ***GroupInfo received.
+EYQ  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 10:04:46.81 ** ShowInfo: DetectedUnitInfo received: Id=GVT  [GVT] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 37' 18"N, 009° 06' 55"W
+Debug - 10:04:54.815 ** ShowInfo: *** Unit USS Virginia to engage target [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 37' 49"N, 008° 56' 24"W
+Debug - 10:04:56.298 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id GZO
+Debug - 10:04:56.299 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id GZS
+Debug - 10:04:58.358 ** ShowInfo: Received BaseUnitInfo: [GZO] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 10:04:58.359 ** ShowInfo: Received BaseUnitInfo: [GZS] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 10:04:58.874 ** ShowInfo: ***GroupInfo received.
+GZN  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 10:05:01.918 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 40"N, 008° 56' 55"W
+Debug - 10:05:01.920 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 37' 43"N, 008° 56' 00"W
+Debug - 10:05:01.921 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 38' 11"N, 008° 56' 05"W
+Debug - 10:05:02.431 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 17:36:31
+Debug - 10:05:02.436 ** ShowInfo: GameWorldTimeSec=8466,39338299999
+Debug - 10:05:02.439 ** ShowInfo: GameEngineTimeMs=939141,715899999
+Debug - 10:05:02.442 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:05:02.445 ** ShowInfo: *** Credits: 200
+
+Debug - 10:05:05.38 ** ShowInfo: DetectedUnitInfo received: Id=GRP  [GRP] Vympel 77 from Sukhoi PAK FA CEC (vympelr77) [Foe]  @ 067° 35' 43"N, 009° 11' 57"W
+Debug - 10:05:16.941 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id GRP
+Debug - 10:05:19.979 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id GVT
+Debug - 10:05:33.786 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 19"N, 008° 55' 22"W
+Debug - 10:05:34.283 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 37' 23"N, 008° 54' 28"W
+Debug - 10:05:34.287 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 37' 51"N, 008° 54' 33"W
+Debug - 10:05:34.830 ** ShowInfo: DetectedUnitInfo received: Id=FYO  [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 36' 33"N, 008° 05' 03"W
+Debug - 10:05:34.832 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 27' 22"N, 005° 34' 50"W
+Debug - 10:05:46.578 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 27' 16"N, 005° 24' 15"W
+Debug - 10:05:52.714 ** ShowInfo: DetectedUnitInfo received: Id=HDH  [HDH] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 25' 54"N, 009° 26' 02"W
+Debug - 10:05:55.784 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 07"N, 008° 54' 28"W
+Debug - 10:05:58.326 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 05"N, 008° 54' 20"W
+Debug - 10:05:58.842 ** ShowInfo: DetectedUnitInfo received: Id=ERN  [ERN] Petr Velikiy (kirov) [Foe]  @ 068° 37' 09"N, 008° 53' 25"W
+Debug - 10:05:58.844 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 37' 36"N, 008° 53' 30"W
+Debug - 10:05:59.352 ** ShowInfo: DetectedUnitInfo received: Id=FYO  [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 38' 17"N, 008° 31' 20"W
+Debug - 10:06:02.944 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 37' 35"N, 008° 53' 22"W
+Debug - 10:06:03.456 ** ShowInfo: DetectedUnitInfo received: Id=HDH  [HDH] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 22' 56"N, 009° 48' 00"W
+Debug - 10:06:06.556 ** ShowInfo: DetectedUnitInfo received: Id=HJN  [HJN] Vympel 77 from Sukhoi PAK FA CDS (vympelr77) [Foe]  @ 067° 30' 28"N, 009° 13' 15"W
+Debug - 10:06:06.637 ** ShowInfo: *** Unit F-22 BRB to close and engage target [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 38' 42"N, 008° 37' 55"W
+Debug - 10:06:09.121 ** ShowInfo: DetectedUnitInfo received: Id=FYO  [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 38' 54"N, 008° 41' 12"W
+Debug - 10:06:12.677 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id HDH
+Debug - 10:06:13.177 ** ShowInfo: DetectedUnitInfo received: Id=HJN  [HJN] Vympel 77 from Sukhoi PAK FA CDS (vympelr77) [Foe]  @ 067° 25' 28"N, 009° 32' 38"W
+Debug - 10:06:13.690 ** ShowInfo: Sir, [BRB] F-22 BRB (F-22) is closing 343,95km to engage  Sukhoi PAK FA CDS (Sukhoi PAK FA)  [Foe].
+Debug - 10:06:16.217 ** ShowInfo: DetectedUnitInfo received: Id=FYO  [FYO] Sukhoi PAK FA CDS (sukhoipakfa) [Foe]  @ 067° 39' 19"N, 008° 47' 47"W
+Debug - 10:06:16.731 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 39' 17"N, 008° 47' 46"W
+Debug - 10:06:19.274 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 17:36:31
+Debug - 10:06:19.275 ** ShowInfo: GameWorldTimeSec=8716,39338299999
+Debug - 10:06:19.276 ** ShowInfo: GameEngineTimeMs=939141,715899999
+Debug - 10:06:19.277 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:06:19.277 ** ShowInfo: *** Credits: 200
+
+Debug - 10:06:21.321 ** ShowInfo: +++We DAMAGED an enemy Petr Velikiy, a Kirov class, using a AGM-84 Harpoon (29% dmg total)
+Debug - 10:06:21.322 ** ShowInfo: +++We DAMAGED an enemy Petr Velikiy, a Kirov class, using a AGM-84 Harpoon (50% dmg total)
+Debug - 10:06:21.833 ** ShowInfo: +++We DAMAGED an enemy Petr Velikiy, a Kirov class, using a AGM-84 Harpoon (68% dmg total)
+Debug - 10:06:21.834 ** ShowInfo: +++We DAMAGED an enemy Petr Velikiy, a Kirov class, using a AGM-84 Harpoon (98% dmg total)
+Debug - 10:06:21.835 ** ShowInfo: +++We SUNK an enemy Petr Velikiy, a Kirov class, using a AGM-84 Harpoon
+Debug - 10:06:21.837 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EYU
+Debug - 10:06:21.838 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EYX
+Debug - 10:06:21.838 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EZA
+Debug - 10:06:22.353 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EZY
+Debug - 10:06:22.357 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FAB
+Debug - 10:06:22.360 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FAE
+Debug - 10:06:22.365 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ERN
+Debug - 10:06:22.368 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 37' 25"N, 008° 52' 40"W
+Debug - 10:06:22.894 ** ShowInfo: DetectedUnitInfo received: Id=HOP  [HOP] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 24' 19"N, 009° 36' 29"W
+Debug - 10:06:23.431 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Admiral Sergey Gorshkov group (2 units)
+Debug - 10:06:23.938 ** ShowInfo: From: CDF
+gg wp
+Debug - 10:06:23.939 ** ShowInfo: Congratulations. You have won!
+Debug - 10:06:27.498 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EZL
+Debug - 10:06:27.501 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EZO
+Debug - 10:06:28.10 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EZR
+Debug - 10:06:28.11 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EZU
+Debug - 10:06:28.11 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id GZO
+Debug - 10:06:28.18 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id GZS
+Debug - 10:06:30.587 ** ShowInfo: DetectedUnitInfo received: Id=HSU  [HSU] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 23' 12"N, 009° 39' 55"W
+Debug - 10:06:35.690 ** ShowInfo: DetectedUnitInfo received: Id=HWZ  [HWZ] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 22' 07"N, 009° 42' 57"W
+Debug - 10:07:02.863 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id HJN
+Debug - 10:07:05.441 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 07"N, 008° 53' 54"W
+Debug - 10:07:05.949 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 37' 00"N, 008° 52' 14"W
+Debug - 10:07:07.994 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id HOP
+Debug - 10:07:08.496 ** ShowInfo: DetectedUnitInfo received: Id=IDG  [IDG] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 16' 20"N, 009° 52' 26"W
+Debug - 10:07:13.102 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id HSU
+Debug - 10:07:16.199 ** ShowInfo: DetectedUnitInfo received: Id=IHB  [IHB] Vympel 77 from Sukhoi PAK FA CDX (vympelr77) [Foe]  @ 067° 13' 03"N, 009° 56' 56"W
+Debug - 10:07:16.202 ** ShowInfo: Received new UnitClass aim9sidewinder AIM-9 Sidewinder Missile
+Debug - 10:07:16.202 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id IJG
+Debug - 10:07:18.790 ** ShowInfo: Received BaseUnitInfo: [IJG] Sidewinder from F-22 BZW (aim9sidewinder)
+Debug - 10:07:18.794 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id HWZ
+Debug - 10:07:19.304 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 14"N, 008° 54' 32"W
+Debug - 10:07:19.753 ** ShowInfo: *** Unit F-22 BRB to close and engage target [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 24' 12"N, 009° 31' 12"W
+Debug - 10:07:19.830 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id IKJ
+Debug - 10:07:21.847 ** ShowInfo: Received BaseUnitInfo: [IKJ] Sidewinder from F-22 BZW (aim9sidewinder)
+Debug - 10:07:22.345 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a AIM-9 Sidewinder Missile
+Debug - 10:07:22.347 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id IJG
+Debug - 10:07:22.349 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id FYO
+Debug - 10:07:22.349 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 50"N, 008° 52' 06"W
+Debug - 10:07:22.860 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [FYS] Sukhoi PAK FA CDS group (1 units)
+Debug - 10:07:25.903 ** ShowInfo: Sir, [BRB] F-22 BRB (F-22) is closing 197,69km to engage  Sukhoi PAK FA CDX (Sukhoi PAK FA)  [Foe].
+Debug - 10:07:26.245 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 10:07:27.934 ** ShowInfo: +++Our AIM-9 Sidewinder Missile missed an enemy Sukhoi PAK FA (out of fuel)
+Debug - 10:07:28.430 ** ShowInfo: +++Our AIM-9 Sidewinder Missile missed an enemy Sukhoi PAK FA (out of fuel)
+Debug - 10:07:28.437 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id IKJ
+Debug - 10:07:35.141 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 27' 23"N, 009° 51' 22"W
+Debug - 10:07:40.243 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FBU
+Debug - 10:07:40.244 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FBX
+Debug - 10:07:40.759 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCA
+Debug - 10:07:40.759 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCF
+Debug - 10:07:40.760 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCI
+Debug - 10:07:40.761 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCL
+Debug - 10:07:40.762 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCO
+Debug - 10:07:40.762 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCS
+Debug - 10:07:40.763 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCV
+Debug - 10:07:40.764 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FCY
+Debug - 10:07:40.765 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FDB
+Debug - 10:07:41.268 ** ShowInfo: Unit [BZW] F-22 BZW (F-22) has no movement orders and continues on same course.
+Debug - 10:07:45.934 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 53"N, 008° 53' 29"W
+Debug - 10:07:46.469 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 50"N, 008° 52' 49"W
+Debug - 10:07:46.475 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 30' 15"N, 010° 02' 19"W
+Debug - 10:07:46.995 ** ShowInfo: Aircraft has landed : CBA
+Debug - 10:07:46.996 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id CBA
+Debug - 10:07:49.71 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 50"N, 008° 53' 29"W
+Debug - 10:07:49.74 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 50"N, 008° 52' 54"W
+Debug - 10:07:49.568 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 30' 58"N, 010° 05' 03"W
+Debug - 10:07:51.134 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 50"N, 008° 52' 58"W
+Debug - 10:07:53.174 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 43"N, 008° 53' 29"W
+Debug - 10:07:54.732 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 50"N, 008° 53' 07"W
+Debug - 10:07:55.269 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 17:36:31
+Debug - 10:07:55.270 ** ShowInfo: GameWorldTimeSec=9066,39338299999
+Debug - 10:07:55.270 ** ShowInfo: GameEngineTimeMs=939141,715899999
+Debug - 10:07:55.276 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:07:55.280 ** ShowInfo: *** Credits: 200
+
+Debug - 10:07:57.342 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id IDG
+Debug - 10:07:57.343 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 37"N, 008° 53' 29"W
+Debug - 10:08:02.409 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id IHB
+Debug - 10:08:02.505 ** ShowInfo: *** Unit F-22 BRB to close and engage target [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 27' 11"N, 009° 58' 33"W
+Debug - 10:08:04.952 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FHF
+Debug - 10:08:04.957 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FHI
+Debug - 10:08:04.961 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FHL
+Debug - 10:08:04.964 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FHO
+Debug - 10:08:06.526 ** ShowInfo: Sir, [BRB] F-22 BRB (F-22) is closing 104,33km to engage  Sukhoi PAK FA CDX (Sukhoi PAK FA)  [Foe].
+Debug - 10:08:08.574 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FIF
+Debug - 10:08:08.575 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FII
+Debug - 10:08:08.576 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FIL
+Debug - 10:08:08.576 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FIO
+Debug - 10:08:12.673 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 09"N, 008° 53' 29"W
+Debug - 10:08:12.676 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 51"N, 008° 53' 50"W
+Debug - 10:08:22.393 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FQK
+Debug - 10:08:22.395 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FQN
+Debug - 10:08:22.395 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FQQ
+Debug - 10:08:22.401 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FQT
+Debug - 10:08:22.405 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FSH
+Debug - 10:08:22.408 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FSK
+Debug - 10:08:22.411 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FSN
+Debug - 10:08:22.414 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FTV
+Debug - 10:08:22.417 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 50"N, 008° 53' 29"W
+Debug - 10:08:22.937 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 51"N, 008° 54' 15"W
+Debug - 10:08:24.980 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 44"N, 008° 53' 29"W
+Debug - 10:08:24.982 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 51"N, 008° 54' 24"W
+Debug - 10:08:29.603 ** ShowInfo: +++We DAMAGED an enemy Admiral Chabanenko, a Udaloy II class, using a AGM-84 Harpoon (19% dmg total)
+Debug - 10:08:29.604 ** ShowInfo: +++We DAMAGED an enemy Admiral Chabanenko, a Udaloy II class, using a AGM-84 Harpoon (40% dmg total)
+Debug - 10:08:30.151 ** ShowInfo: +++We DAMAGED an enemy Admiral Chabanenko, a Udaloy II class, using a AGM-84 Harpoon (71% dmg total)
+Debug - 10:08:30.153 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FUZ
+Debug - 10:08:30.154 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FVC
+Debug - 10:08:30.160 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FVF
+Debug - 10:08:30.164 ** ShowInfo: DetectedUnitInfo received: Id=ERT  [ERT] Admiral Chabanenko (udaloy2) [Foe]  @ 068° 36' 51"N, 008° 54' 41"W dmg: 71,00%
+Debug - 10:08:32.735 ** ShowInfo: +++We SUNK an enemy Admiral Chabanenko, a Udaloy II class, using a AGM-84 Harpoon
+Debug - 10:08:33.248 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FWN
+Debug - 10:08:33.249 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FWQ
+Debug - 10:08:33.250 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FWT
+Debug - 10:08:33.251 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ERT
+Debug - 10:08:33.252 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 27"N, 008° 53' 29"W
+Debug - 10:08:33.763 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 04' 22"N, 009° 48' 59"W
+Debug - 10:08:33.765 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DGA] Admiral Sergey Gorshkov group (1 units)
+Debug - 10:08:35.356 ** ShowInfo: DetectedUnitInfo received: Id=FYQ  [FYQ] Sukhoi PAK FA CDX (sukhoipakfa) [Foe]  @ 067° 03' 09"N, 009° 50' 01"W
+Debug - 10:08:35.357 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Patrol(Surface)
+
+Debug - 10:08:36.898 ** ShowInfo: [BRB] F-22 BRB (F-22) is being detected by ACTIVE EGSP-27 Irbis-E 3D Radar from  Sukhoi PAK FA CDX (Sukhoi PAK FA)  [Foe].
+Debug - 10:08:36.899 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ISD
+Debug - 10:08:36.900 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ISH
+Debug - 10:08:37.947 ** ShowInfo: Received BaseUnitInfo: [ISD] AMRAAM from F-22 BRB (aim120amraam)
+Debug - 10:08:37.949 ** ShowInfo: Received BaseUnitInfo: [ISH] Sidewinder from F-22 BRB (aim9sidewinder)
+Debug - 10:08:38.462 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a AIM-120 AMRAAM Missile
+Debug - 10:08:38.464 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ISD
+Debug - 10:08:38.465 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ISH
+Debug - 10:08:38.466 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id FYQ
+Debug - 10:08:38.467 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id FYS
+Debug - 10:08:38.468 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 26"N, 008° 54' 14"W
+Debug - 10:08:40.487 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 27"N, 008° 54' 39"W
+Debug - 10:08:45.90 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 30"N, 008° 55' 46"W
+Debug - 10:08:46.109 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 31"N, 008° 56' 10"W
+Debug - 10:08:49.690 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [IST] FixedWingAircraft group (2 units)
+Debug - 10:08:52.101 ** ShowInfo: Designate [ISO] FixedWingAircraft [FoF Undetermined]  @ 067° 06' 46"N, 009° 47' 11"W as hostile.
+Debug - 10:08:52.811 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 36"N, 008° 58' 00"W
+Debug - 10:08:53.830 ** ShowInfo: DetectedUnitInfo received: Id=ISO  [ISO] FixedWingAircraft [Foe]  @ 067° 03' 09"N, 009° 50' 15"W
+Debug - 10:08:53.831 ** ShowInfo: Contact FixedWingAircraft ISO  [Foe] is now designated as HOSTILE.
+Debug - 10:08:56.704 ** ShowInfo: Designate [ISR] FixedWingAircraft [FoF Undetermined]  @ 066° 59' 32"N, 009° 53' 13"W as hostile.
+Debug - 10:08:57.382 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 39"N, 008° 59' 13"W
+Debug - 10:08:58.945 ** ShowInfo: DetectedUnitInfo received: Id=ISR  [ISR] FixedWingAircraft [Foe]  @ 066° 55' 54"N, 009° 56' 16"W
+Debug - 10:08:58.953 ** ShowInfo: Contact FixedWingAircraft ISR  [Foe] is now designated as HOSTILE.
+Debug - 10:08:59.987 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 40"N, 008° 59' 37"W
+Debug - 10:09:01.32 ** ShowInfo: Unit [BRB] F-22 BRB (F-22) has reached BINGO FUEL and must return to base immediately.
+Debug - 10:09:02.642 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 36' 43"N, 009° 00' 26"W
+Debug - 10:09:03.657 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 18:22:39
+Debug - 10:09:03.658 ** ShowInfo: GameWorldTimeSec=9661,41715899999
+Debug - 10:09:03.658 ** ShowInfo: GameEngineTimeMs=1215954,5487
+Debug - 10:09:03.659 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:09:03.660 ** ShowInfo: *** Credits: 200
+
+Debug - 10:09:04.16 ** ShowInfo: *** Unit F-22 BRB to close and engage target [ISO] FixedWingAircraft [Foe]  @ 066° 48' 40"N, 010° 02' 22"W
+Debug - 10:09:06.195 ** ShowInfo: Sir, [BRB] F-22 BRB (F-22) is closing 31,98km to engage FixedWingAircraft ISO  [Foe].
+Debug - 10:09:15.435 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ISO
+Debug - 10:09:15.436 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ISR
+Debug - 10:09:15.437 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id IST
+Debug - 10:09:40.152 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 18:22:39
+Debug - 10:09:40.158 ** ShowInfo: GameWorldTimeSec=10261,417159
+Debug - 10:09:40.161 ** ShowInfo: GameEngineTimeMs=1215954,5487
+Debug - 10:09:40.164 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:09:40.167 ** ShowInfo: *** Credits: 200
+
+Debug - 10:09:54.58 ** ShowInfo: DetectedUnitInfo received: Id=EQX  [EQX] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 37' 45"N, 009° 16' 59"W
+Debug - 10:09:58.146 ** ShowInfo: Aircraft has landed : BYA
+Debug - 10:09:58.147 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BYA
+Debug - 10:09:58.148 ** ShowInfo: Aircraft has landed : BYF
+Debug - 10:09:58.149 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BYF
+Debug - 10:09:58.661 ** ShowInfo: Aircraft has landed : BYK
+Debug - 10:09:58.662 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BYK
+Debug - 10:09:59.174 ** ShowInfo: Aircraft has landed : BXV
+Debug - 10:09:59.175 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BXV
+Debug - 10:09:59.674 ** ShowInfo: ***GroupInfo received.
+EGU Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Patrol(Undefined)
+
+Debug - 10:10:11.499 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:10:11.504 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:10:11.507 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:10:11.510 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Admiral Sergey Gorshkov (a Admiral Gorshkov class) (out of fuel)
+Debug - 10:10:11.514 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FKA
+Debug - 10:10:11.517 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FKE
+Debug - 10:10:12.49 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ITR
+Debug - 10:10:12.49 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ITV
+Debug - 10:10:13.58 ** ShowInfo: Received BaseUnitInfo: [ITR] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 10:10:13.562 ** ShowInfo: Received BaseUnitInfo: [ITV] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 10:10:13.564 ** ShowInfo: ***GroupInfo received.
+ITQ  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 10:10:14.574 ** ShowInfo: [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) is ready on [CAN] Winston S. Churchill (Arleigh Burke)
+Debug - 10:10:15.92 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 18:22:39
+Debug - 10:10:15.97 ** ShowInfo: GameWorldTimeSec=10861,417159
+Debug - 10:10:15.101 ** ShowInfo: GameEngineTimeMs=1215954,5487
+Debug - 10:10:15.632 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:10:15.633 ** ShowInfo: *** Credits: 200
+
+Debug - 10:10:40.637 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 18:22:39
+Debug - 10:10:40.639 ** ShowInfo: GameWorldTimeSec=11461,417159
+Debug - 10:10:40.639 ** ShowInfo: GameEngineTimeMs=1215954,5487
+Debug - 10:10:40.640 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:10:40.641 ** ShowInfo: *** Credits: 200
+
+Debug - 10:10:50.937 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id EQX
+Debug - 10:10:50.938 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id DGA
+Debug - 10:10:51.949 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ITR
+Debug - 10:10:51.950 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ITV
+Debug - 10:11:01.591 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 18:22:39
+Debug - 10:11:01.592 ** ShowInfo: GameWorldTimeSec=12061,417159
+Debug - 10:11:01.593 ** ShowInfo: GameEngineTimeMs=1215954,5487
+Debug - 10:11:02.90 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:11:02.90 ** ShowInfo: *** Credits: 200
+
+Debug - 10:11:02.604 ** ShowInfo: Aircraft has landed : BZW
+Debug - 10:11:02.605 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BZW
+Debug - 10:11:10.716 ** ShowInfo: [BYA] Boeing P-8A Poseidon BYA (Boeing P-8A Poseidon) is ready on [BXM] Keflavik Airport (UK Airport)
+Debug - 10:11:10.717 ** ShowInfo: [BYF] Boeing P-8A Poseidon BYF (Boeing P-8A Poseidon) is ready on [BXM] Keflavik Airport (UK Airport)
+Debug - 10:11:10.718 ** ShowInfo: [BYK] Boeing P-8A Poseidon BYK (Boeing P-8A Poseidon) is ready on [BXM] Keflavik Airport (UK Airport)
+Debug - 10:11:11.216 ** ShowInfo: [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) is ready on [BXM] Keflavik Airport (UK Airport)

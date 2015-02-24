@@ -1,0 +1,337 @@
+Debug - 14:17:35.519 ** ////////////////////////////////////////////////////////
+Debug - 14:17:35.520 ** ////////////////////////////////////////////////////////
+Debug - 14:17:35.520 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 14:17:35.521 ** ////////////////////////////////////////////////////////
+Debug - 14:17:35.521 ** ////////////////////////////////////////////////////////
+Debug - 14:17:35.522 ** Gameclient connecting...
+Debug - 14:17:35.558 ** Gameclient connected
+Debug - 14:17:35.559 ** Connectionstatus is : NotConnected
+Debug - 14:17:35.562 ** Attempting to change connectionstatus...
+Debug - 14:17:35.562 ** Current status: NotConnected status to change to: Connected
+Debug - 14:17:35.563 ** ShowInfo: Connection status changed: Connected
+Debug - 14:17:35.565 ** Gameclient status is now Connected
+Debug - 14:17:36.134 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 14:17:37.167 ** ShowInfo: *** Sending select scenario ***
+Debug - 14:17:37.737 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:17:37.738 ** ShowInfo: GameWorldTimeSec=0
+Debug - 14:17:37.739 ** ShowInfo: GameEngineTimeMs=0
+Debug - 14:17:37.742 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:17:37.743 ** ShowInfo: *** Credits: 0
+
+Debug - 14:17:37.801 ** ShowInfo: *** Sending start game ***
+Debug - 14:17:37.803 ** ShowInfo: *** Player selects user Jan
+Debug - 14:17:37.803 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 14:17:38.259 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:17:38.259 ** ShowInfo: GameWorldTimeSec=0
+Debug - 14:17:38.263 ** ShowInfo: GameEngineTimeMs=0
+Debug - 14:17:38.279 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:17:38.282 ** ShowInfo: *** Credits: 0
+
+Debug - 14:17:38.777 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:17:38.777 ** ShowInfo: GameWorldTimeSec=0
+Debug - 14:17:38.778 ** ShowInfo: GameEngineTimeMs=0
+Debug - 14:17:39.289 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:17:39.290 ** ShowInfo:    UserId =Jan
+Debug - 14:17:39.291 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:17:39.291 ** ShowInfo: *** Credits: 0
+
+Debug - 14:17:40.304 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 14:17:40.305 ** ShowInfo: GameWorldTimeSec=0
+Debug - 14:17:40.305 ** ShowInfo: GameEngineTimeMs=0
+Debug - 14:17:40.803 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:17:40.804 ** ShowInfo:    UserId =Jan
+Debug - 14:17:40.805 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:17:40.806 ** ShowInfo: *** Credits: 0
+
+Debug - 14:17:41.336 ** ShowInfo: Received BaseUnitInfo: [BJC] Bergen Airport (ukairportlarge)
+Debug - 14:17:41.848 ** ShowInfo: Received BaseUnitInfo: [BOZ] E-3 Sentry BOZ (e3sentry)
+Debug - 14:17:41.850 ** ShowInfo: Received BaseUnitInfo: [BPE] USS Virginia (virginia)
+Debug - 14:17:42.386 ** ShowInfo: Received BaseUnitInfo: [BPL] Winston S. Churchill (arleighburke) *
+Debug - 14:17:42.923 ** ShowInfo: Received BaseUnitInfo: [BQP] San Jacinto (ticonderoga)
+Debug - 14:17:42.931 ** ShowInfo: ***GroupInfo received.
+BPK Escort (2 units)
+Surface combattant:  2
+Mission: Patrol(Undefined)
+
+Debug - 14:17:42.934 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 14:17:42.942 ** ShowInfo: From: BRV
+gl hf!
+Debug - 14:17:42.947 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BPY
+Debug - 14:17:43.972 ** ShowInfo: Received BaseUnitInfo: [BPY] SH-60B Seahawk BPY (sh60b)
+Debug - 14:18:11.117 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:03
+Debug - 14:18:11.118 ** ShowInfo: GameWorldTimeSec=303,316776999997
+Debug - 14:18:11.119 ** ShowInfo: GameEngineTimeMs=30331,7348999997
+Debug - 14:18:11.629 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:18:11.629 ** ShowInfo:    UserId =Jan
+Debug - 14:18:11.630 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:18:11.631 ** ShowInfo: *** Credits: 0
+
+Debug - 14:18:13.658 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BVE
+Debug - 14:18:14.160 ** ShowInfo: Received BaseUnitInfo: [BVE] DICASS AN/SSQ-62 Sonobuoy BVE (dicass)
+Debug - 14:18:14.675 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:18:15.170 ** ShowInfo: [BPL] Winston S. Churchill (Arleigh Burke) is being detected by ACTIVE MGK-540 Bow-Mounted Sonar from Submarine BVH  [Undetermined].
+Debug - 14:18:15.171 ** ShowInfo: [BQP] San Jacinto (CG Ticonderoga) is being detected by ACTIVE MGK-540 Bow-Mounted Sonar from Submarine BVH  [Undetermined].
+Debug - 14:18:18.491 ** ShowInfo: Designate [BVH] Submarine [FoF Undetermined]  @ 060° 59' 26"N, 003° 00' 00"E as hostile.
+Debug - 14:18:18.742 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 59' 26"N, 003° 00' 00"E
+Debug - 14:18:19.257 ** ShowInfo: Contact Submarine BVH  [Foe] is now designated as HOSTILE.
+Debug - 14:18:19.773 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BWH
+Debug - 14:18:20.323 ** ShowInfo: Received BaseUnitInfo: [BWH] DICASS AN/SSQ-62 Sonobuoy BWH (dicass)
+Debug - 14:18:20.328 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 59' 24"N, 003° 00' 00"E
+Debug - 14:18:20.839 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [FoF Undetermined]  @ 060° 59' 21"N, 003° 59' 52"E
+Debug - 14:18:20.842 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:18:21.38 ** ShowInfo: Designate [BVJ] Submarine [FoF Undetermined]  @ 060° 59' 21"N, 003° 59' 52"E as hostile.
+Debug - 14:18:21.848 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 59' 20"N, 003° 59' 52"E
+Debug - 14:18:21.850 ** ShowInfo: Contact Submarine BVJ  [Foe] is now designated as HOSTILE.
+Debug - 14:18:26.907 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [BVH] Submarine [Foe]  @ 060° 59' 19"N, 003° 00' 00"E
+Debug - 14:18:28.0 ** ShowInfo: Received new UnitClass mark54torpedo Mark 54 Lightweight Hybrid Torpedo
+Debug - 14:18:28.0 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id BWX
+Debug - 14:18:28.507 ** ShowInfo: Received BaseUnitInfo: [BWX] Mark 54 from SH-60B Seahawk BPY (mark54torpedo)
+Debug - 14:18:37.198 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BXL
+Debug - 14:18:37.720 ** ShowInfo: Received BaseUnitInfo: [BXL] DICASS AN/SSQ-62 Sonobuoy BXL (dicass)
+Debug - 14:18:37.721 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 59' 10"N, 003° 00' 00"E
+Debug - 14:18:38.231 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:18:41.316 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:10:06
+Debug - 14:18:41.316 ** ShowInfo: GameWorldTimeSec=605,984088999995
+Debug - 14:18:41.317 ** ShowInfo: GameEngineTimeMs=60598,4660999995
+Debug - 14:18:41.823 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:18:41.824 ** ShowInfo:    UserId =Jan
+Debug - 14:18:41.824 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:18:41.825 ** ShowInfo: *** Credits: 0
+
+Debug - 14:18:42.832 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BXV
+Debug - 14:18:43.343 ** ShowInfo: Received BaseUnitInfo: [BXV] DICASS AN/SSQ-62 Sonobuoy BXV (dicass)
+Debug - 14:18:43.346 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 59' 04"N, 003° 00' 00"E
+Debug - 14:18:43.347 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:18:44.356 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 59' 03"N, 003° 00' 00"E
+Debug - 14:18:44.360 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 59' 00"N, 003° 59' 48"E
+Debug - 14:18:50.949 ** ShowInfo: +++We DAMAGED an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo (62% dmg total)
+Debug - 14:18:51.456 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BWX
+Debug - 14:18:51.457 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 57"N, 003° 00' 00"E
+Debug - 14:19:00.161 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BYR
+Debug - 14:19:00.660 ** ShowInfo: Received BaseUnitInfo: [BYR] DICASS AN/SSQ-62 Sonobuoy BYR (dicass)
+Debug - 14:19:01.173 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 50"N, 003° 00' 00"E
+Debug - 14:19:01.174 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:19:04.217 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BYZ
+Debug - 14:19:04.716 ** ShowInfo: Received BaseUnitInfo: [BYZ] DICASS AN/SSQ-62 Sonobuoy BYZ (dicass)
+Debug - 14:19:04.717 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 45"N, 003° 00' 00"E
+Debug - 14:19:05.231 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:19:11.862 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:15:10
+Debug - 14:19:11.862 ** ShowInfo: GameWorldTimeSec=910,551508999993
+Debug - 14:19:11.863 ** ShowInfo: GameEngineTimeMs=91055,2080999993
+Debug - 14:19:12.360 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:19:12.361 ** ShowInfo:    UserId =Jan
+Debug - 14:19:12.361 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:19:12.362 ** ShowInfo: *** Credits: 0
+
+Debug - 14:19:18.447 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [BVJ] Submarine [Foe]  @ 060° 58' 29"N, 003° 59' 42"E
+Debug - 14:19:21.565 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id BZU
+Debug - 14:19:22.78 ** ShowInfo: Received BaseUnitInfo: [BZU] DICASS AN/SSQ-62 Sonobuoy BZU (dicass)
+Debug - 14:19:22.592 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 31"N, 003° 00' 00"E
+Debug - 14:19:22.593 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:19:30.739 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CAK
+Debug - 14:19:30.740 ** ShowInfo: Received BaseUnitInfo: [CAK] DICASS AN/SSQ-62 Sonobuoy CAK (dicass)
+Debug - 14:19:31.251 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 23"N, 003° 00' 00"E
+Debug - 14:19:31.252 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:19:36.198 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [BVJ] Submarine [Foe]  @ 060° 58' 14"N, 003° 59' 39"E
+Debug - 14:19:42.593 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:20:14
+Debug - 14:19:42.594 ** ShowInfo: GameWorldTimeSec=1214,72890699999
+Debug - 14:19:42.595 ** ShowInfo: GameEngineTimeMs=121472,947899999
+Debug - 14:19:43.109 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:19:43.114 ** ShowInfo:    UserId =Jan
+Debug - 14:19:43.117 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:19:43.120 ** ShowInfo: *** Credits: 0
+
+Debug - 14:19:44.683 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 11"N, 003° 00' 00"E
+Debug - 14:19:44.692 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 58' 06"N, 003° 59' 37"E
+Debug - 14:19:47.276 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CAY
+Debug - 14:19:47.277 ** ShowInfo: Received BaseUnitInfo: [CAY] DICASS AN/SSQ-62 Sonobuoy CAY (dicass)
+Debug - 14:19:47.787 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 58' 07"N, 003° 00' 00"E
+Debug - 14:19:47.789 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 14:19:58.455 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [BVH] Submarine [Foe]  @ 060° 57' 58"N, 003° 00' 00"E
+Debug - 14:19:58.989 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CBN
+Debug - 14:19:59.488 ** ShowInfo: Received BaseUnitInfo: [CBN] Mark 54 from SH-60B Seahawk BPY (mark54torpedo)
+Debug - 14:20:12.799 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:25:26
+Debug - 14:20:12.800 ** ShowInfo: GameWorldTimeSec=1516,63674699999
+Debug - 14:20:12.801 ** ShowInfo: GameEngineTimeMs=152663,731899999
+Debug - 14:20:13.293 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:20:13.294 ** ShowInfo:    UserId =Jan
+Debug - 14:20:13.294 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:20:13.295 ** ShowInfo: *** Credits: 0
+
+Debug - 14:20:37.183 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 57' 19"N, 003° 59' 28"E
+Debug - 14:20:43.776 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:30:26
+Debug - 14:20:43.777 ** ShowInfo: GameWorldTimeSec=1816,85391799999
+Debug - 14:20:43.778 ** ShowInfo: GameEngineTimeMs=182685,448999998
+Debug - 14:20:44.806 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:20:44.806 ** ShowInfo:    UserId =Jan
+Debug - 14:20:44.807 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:20:44.808 ** ShowInfo: *** Credits: 0
+
+Debug - 14:20:46.366 ** ShowInfo: DetectedUnitInfo received: Id=BVH  [BVH] Submarine [Foe]  @ 060° 57' 16"N, 003° 00' 00"E
+Debug - 14:20:46.368 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 57' 12"N, 003° 59' 26"E
+Debug - 14:20:46.370 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 57' 11"N, 003° 59' 26"E
+Debug - 14:21:06.241 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:34:12
+Debug - 14:21:06.241 ** ShowInfo: GameWorldTimeSec=2052,41681999998
+Debug - 14:21:06.242 ** ShowInfo: GameEngineTimeMs=205241,739199998
+Debug - 14:21:07.256 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:21:07.256 ** ShowInfo:    UserId =Jan
+Debug - 14:21:07.257 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:21:07.257 ** ShowInfo: *** Credits: 0
+
+Debug - 14:21:07.755 ** ShowInfo: +++We SUNK an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo
+Debug - 14:21:07.755 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CBN
+Debug - 14:21:07.757 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id BVH
+Debug - 14:21:07.757 ** ShowInfo: From: BRV
+gg wp
+Debug - 14:21:07.758 ** ShowInfo: Congratulations. You have won!
+Debug - 14:21:08.270 ** ShowInfo: Sir, [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) is closing 38,98km to engage Submarine BVJ  [Foe].
+Debug - 14:21:14.628 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [BVJ] Submarine [Foe]  @ 060° 56' 45"N, 003° 59' 21"E
+Debug - 14:21:14.871 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:35:41
+Debug - 14:21:14.872 ** ShowInfo: GameWorldTimeSec=2141,43191099998
+Debug - 14:21:14.873 ** ShowInfo: GameEngineTimeMs=214143,248299998
+Debug - 14:21:15.383 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:21:15.384 ** ShowInfo:    UserId =Jan
+Debug - 14:21:15.384 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:21:15.385 ** ShowInfo: *** Credits: 0
+
+Debug - 14:21:15.898 ** ShowInfo: Sir, [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) is closing 31,68km to engage Submarine BVJ  [Foe].
+Debug - 14:21:45.212 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:40:42
+Debug - 14:21:45.212 ** ShowInfo: GameWorldTimeSec=2442,58913599998
+Debug - 14:21:45.213 ** ShowInfo: GameEngineTimeMs=244258,970799997
+Debug - 14:21:46.224 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:21:46.225 ** ShowInfo:    UserId =Jan
+Debug - 14:21:46.226 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:21:46.226 ** ShowInfo: *** Credits: 0
+
+Debug - 14:21:47.238 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 56' 17"N, 003° 59' 16"E
+Debug - 14:21:55.745 ** ShowInfo: *** Unit USS Virginia to close and engage target [BVJ] Submarine [Foe]  @ 060° 56' 08"N, 003° 59' 14"E
+Debug - 14:21:56.614 ** ShowInfo: Sir, [BPE] USS Virginia (Virginia) is closing 84,34km to engage Submarine BVJ  [Foe].
+Debug - 14:21:58.674 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CFG
+Debug - 14:21:59.192 ** ShowInfo: Received BaseUnitInfo: [CFG] Mark 54 from SH-60B Seahawk BPY (mark54torpedo)
+Debug - 14:22:16.24 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:45:51
+Debug - 14:22:16.25 ** ShowInfo: GameWorldTimeSec=2751,00677699998
+Debug - 14:22:16.26 ** ShowInfo: GameEngineTimeMs=275100,734899997
+Debug - 14:22:17.34 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:22:17.35 ** ShowInfo:    UserId =Jan
+Debug - 14:22:17.36 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:22:17.36 ** ShowInfo: *** Credits: 0
+
+Debug - 14:22:46.878 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:50:59
+Debug - 14:22:46.879 ** ShowInfo: GameWorldTimeSec=3059,11439899998
+Debug - 14:22:46.886 ** ShowInfo: GameEngineTimeMs=305911,497099996
+Debug - 14:22:47.922 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:22:47.923 ** ShowInfo:    UserId =Jan
+Debug - 14:22:47.924 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:22:47.924 ** ShowInfo: *** Credits: 0
+
+Debug - 14:22:49.498 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 55' 22"N, 003° 59' 05"E
+Debug - 14:22:58.213 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Sankt Peterburg (a Lada class)
+Debug - 14:22:58.717 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CFG
+Debug - 14:23:04.396 ** ShowInfo: DetectedUnitInfo received: Id=BVJ  [BVJ] Submarine [Foe]  @ 060° 55' 07"N, 003° 59' 02"E
+Debug - 14:23:17.816 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:56:08
+Debug - 14:23:17.817 ** ShowInfo: GameWorldTimeSec=3368,61210199998
+Debug - 14:23:17.817 ** ShowInfo: GameEngineTimeMs=336861,267399996
+Debug - 14:23:18.327 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:23:18.328 ** ShowInfo:    UserId =Jan
+Debug - 14:23:18.328 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:23:18.329 ** ShowInfo: *** Credits: 0
+
+Debug - 14:23:22.187 ** ShowInfo: UnitOrder to unit BPL : Launch 1 aircraft.
+Debug - 14:23:22.446 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BQG
+Debug - 14:23:22.962 ** ShowInfo: Received BaseUnitInfo: [BQG] SH-60B Seahawk BQG (sh60b)
+Debug - 14:23:29.92 ** ShowInfo: *** Unit SH-60B Seahawk BQG to close and engage target [BVJ] Submarine [Foe]  @ 060° 54' 45"N, 003° 58' 58"E
+Debug - 14:23:30.58 ** ShowInfo: Sir, [BQG] SH-60B Seahawk BQG (SH-60B Seahawk) is closing 11,33km to engage Submarine BVJ  [Foe].
+Debug - 14:23:37.811 ** ShowInfo: [BVJ] Submarine [Foe]  @ 060° 54' 37"N, 003° 58' 56"E
+Debug - 14:23:40.304 ** ShowInfo: *** Unit Winston S. Churchill to engage target [BVJ] Submarine [Foe]  @ 060° 54' 35"N, 003° 58' 56"E
+Debug - 14:23:41.310 ** ShowInfo: ***GroupInfo received.
+BPK Escort (2 units)
+Surface combattant:  2
+Mission: Attack(Sub)
+
+Debug - 14:23:41.311 ** ShowInfo: Sir, BPK Escort is out of range to engage Submarine BVJ  [Foe]. Must close 11,08km.
+Debug - 14:23:43.370 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CHM
+Debug - 14:23:43.881 ** ShowInfo: Received BaseUnitInfo: [CHM] Mark 54 from SH-60B Seahawk BQG (mark54torpedo)
+Debug - 14:23:47.974 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:01:12
+Debug - 14:23:47.975 ** ShowInfo: GameWorldTimeSec=3672,02945599997
+Debug - 14:23:47.975 ** ShowInfo: GameEngineTimeMs=367203,002799995
+Debug - 14:23:48.981 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:23:48.982 ** ShowInfo:    UserId =Jan
+Debug - 14:23:48.982 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:23:48.988 ** ShowInfo: *** Credits: 0
+
+Debug - 14:23:58.233 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id BVJ
+Debug - 14:23:58.734 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CHM
+Debug - 14:24:13.661 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BVE
+Debug - 14:24:18.828 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:06:18
+Debug - 14:24:18.828 ** ShowInfo: GameWorldTimeSec=3978,57698999997
+Debug - 14:24:18.830 ** ShowInfo: GameEngineTimeMs=397857,756199995
+Debug - 14:24:19.392 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:24:19.393 ** ShowInfo:    UserId =Jan
+Debug - 14:24:19.394 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:24:19.394 ** ShowInfo: *** Credits: 0
+
+Debug - 14:24:20.930 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BWH
+Debug - 14:24:37.325 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BXL
+Debug - 14:24:42.993 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BXV
+Debug - 14:24:49.172 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:11:22
+Debug - 14:24:49.178 ** ShowInfo: GameWorldTimeSec=4282,62437999997
+Debug - 14:24:49.181 ** ShowInfo: GameEngineTimeMs=428262,495199994
+Debug - 14:24:49.683 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:24:49.684 ** ShowInfo:    UserId =Jan
+Debug - 14:24:49.685 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:24:49.685 ** ShowInfo: *** Credits: 0
+
+Debug - 14:25:00.554 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BYR
+Debug - 14:25:05.204 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BYZ
+Debug - 14:25:19.684 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:16:25
+Debug - 14:25:19.685 ** ShowInfo: GameWorldTimeSec=4585,59170899997
+Debug - 14:25:19.685 ** ShowInfo: GameEngineTimeMs=458559,228099993
+Debug - 14:25:20.204 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:25:20.205 ** ShowInfo:    UserId =Jan
+Debug - 14:25:20.205 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:25:20.206 ** ShowInfo: *** Credits: 0
+
+Debug - 14:25:21.794 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BZU
+Debug - 14:25:30.692 ** ShowInfo: Select own unit
+Debug - 14:25:30.958 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CAK
+Debug - 14:25:47.885 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CAY
+Debug - 14:25:49.914 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:21:30
+Debug - 14:25:49.915 ** ShowInfo: GameWorldTimeSec=4890,79916599996
+Debug - 14:25:49.921 ** ShowInfo: GameEngineTimeMs=489079,973799993
+Debug - 14:25:50.428 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:25:50.429 ** ShowInfo:    UserId =Jan
+Debug - 14:25:50.430 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:25:50.430 ** ShowInfo: *** Credits: 0
+
+Debug - 14:26:20.180 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:26:33
+Debug - 14:26:20.181 ** ShowInfo: GameWorldTimeSec=5193,04645299996
+Debug - 14:26:20.182 ** ShowInfo: GameEngineTimeMs=519304,702499992
+Debug - 14:26:20.691 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:26:20.692 ** ShowInfo:    UserId =Jan
+Debug - 14:26:20.693 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 14:26:20.693 ** ShowInfo: *** Credits: 0
+
+Debug - 14:26:29.963 ** ShowInfo: Aircraft has landed : BPY
+Debug - 14:26:29.964 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BPY

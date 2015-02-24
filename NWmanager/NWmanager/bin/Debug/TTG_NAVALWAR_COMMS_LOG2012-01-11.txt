@@ -1,0 +1,734 @@
+Debug - 10:45:08.471 ** ////////////////////////////////////////////////////////
+Debug - 10:45:08.473 ** ////////////////////////////////////////////////////////
+Debug - 10:45:08.473 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 10:45:08.474 ** ////////////////////////////////////////////////////////
+Debug - 10:45:08.475 ** ////////////////////////////////////////////////////////
+Debug - 10:45:08.476 ** Game client connecting...
+Debug - 10:45:08.482 ** Game client connected
+Debug - 10:45:08.484 ** Connection status is : NotConnected
+Debug - 10:45:08.487 ** Attempting to change connection status...
+Debug - 10:45:08.488 ** Current status: NotConnected status to change to: Connected
+Debug - 10:45:08.490 ** ShowInfo: Connection status changed: Connected
+Debug - 10:45:08.492 ** Game client status is now Connected
+Debug - 10:45:09.23 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:45:09.26 ** ShowInfo: *** Credits: 0
+
+Debug - 10:45:09.28 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 10:45:13.252 ** ShowInfo: *** Sending select scenario ***
+Debug - 10:45:13.642 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:45:13.648 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:45:13.652 ** ShowInfo: *** Credits: 0
+
+Debug - 10:45:13.658 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:45:13.663 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:45:13.667 ** ShowInfo: *** Credits: 0
+
+Debug - 10:45:15.383 ** ShowInfo: *** Sending start game ***
+Debug - 10:45:15.386 ** ShowInfo: *** Player selects user Jan
+Debug - 10:45:15.388 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 10:46:03.387 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:00
+Debug - 10:46:03.389 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:46:03.390 ** ShowInfo: *** Credits: 0
+
+Debug - 10:46:03.394 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:46:03.395 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:46:03.398 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:00
+Debug - 10:46:03.399 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:46:03.400 ** ShowInfo: *** Credits: 0
+
+Debug - 10:46:03.402 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:46:03.403 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:46:03.928 ** ShowInfo: Received BaseUnitInfo: [FMS] Hamina (hamina)
+Debug - 10:46:03.933 ** ShowInfo: Received BaseUnitInfo: [FNF] Iver Huitfeldt (iverhuitfeldt)
+Debug - 10:46:03.935 ** ShowInfo: Received BaseUnitInfo: [FOD] Sachsen (sachsen)
+Debug - 10:46:03.938 ** ShowInfo: From: FPE
+gg wp
+Debug - 10:46:53.321 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 10:46:53.326 ** ShowInfo: From: FPE
+gl hf
+Debug - 10:46:59.993 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:56
+Debug - 10:46:59.995 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:46:59.997 ** ShowInfo: *** Credits: 0
+
+Debug - 10:46:59.998 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:47:00.0 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:47:29.918 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:31:26
+Debug - 10:47:29.920 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:47:29.922 ** ShowInfo: *** Credits: 0
+
+Debug - 10:47:29.924 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:47:29.925 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:47:42.260 ** ShowInfo: UnitOrder to unit FOD : Launch 1 aircraft.
+Debug - 10:47:42.852 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id FOS
+Debug - 10:47:42.855 ** ShowInfo: Received BaseUnitInfo: [FOS] NH90 NFH FOS (nh90nhf)
+Debug - 10:48:00.24 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:31:57
+Debug - 10:48:00.26 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:48:00.28 ** ShowInfo: *** Credits: 0
+
+Debug - 10:48:00.29 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:48:00.31 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:48:03.983 ** ShowInfo: *** Movement order sent to unit NH90 NFH FOS
+Debug - 10:48:30.709 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:32:27
+Debug - 10:48:30.711 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:48:30.712 ** ShowInfo: *** Credits: 0
+
+Debug - 10:48:30.714 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:48:30.715 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:49:00.676 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:32:57
+Debug - 10:49:00.678 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:49:00.680 ** ShowInfo: *** Credits: 0
+
+Debug - 10:49:00.682 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:49:00.683 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:49:23.640 ** ShowInfo: *** Movement order sent to unit NH90 NFH FOS
+Debug - 10:49:26.753 ** ShowInfo: *** Movement order sent to unit NH90 NFH FOS
+Debug - 10:49:31.82 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:33:27
+Debug - 10:49:31.84 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:49:31.86 ** ShowInfo: *** Credits: 0
+
+Debug - 10:49:31.87 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:49:31.89 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:50:01.1 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:33:58
+Debug - 10:50:01.3 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:50:01.5 ** ShowInfo: *** Credits: 0
+
+Debug - 10:50:01.7 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:50:01.8 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:50:31.426 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:34:28
+Debug - 10:50:31.429 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:50:31.430 ** ShowInfo: *** Credits: 0
+
+Debug - 10:50:31.432 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:50:31.433 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:51:01.389 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:34:58
+Debug - 10:51:01.391 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:51:01.393 ** ShowInfo: *** Credits: 0
+
+Debug - 10:51:01.394 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:51:01.396 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:51:31.998 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:35:28
+Debug - 10:51:32.0 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:51:32.2 ** ShowInfo: *** Credits: 0
+
+Debug - 10:51:32.4 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:51:32.5 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:51:39.989 ** Game client disconnecting...
+Debug - 10:51:39.997 ** Attempting to change connection status...
+Debug - 10:51:39.999 ** Current status: Connected status to change to: Disconnected
+Debug - 10:51:40.0 ** ShowInfo: Connection status changed: Disconnected
+Debug - 10:51:40.2 ** Game client disconnected.
+Debug - 10:54:51.333 ** ////////////////////////////////////////////////////////
+Debug - 10:54:51.335 ** ////////////////////////////////////////////////////////
+Debug - 10:54:51.336 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 10:54:51.338 ** ////////////////////////////////////////////////////////
+Debug - 10:54:51.339 ** ////////////////////////////////////////////////////////
+Debug - 10:54:51.341 ** Game client connecting...
+Debug - 10:54:51.347 ** Game client connected
+Debug - 10:54:51.349 ** Connection status is : NotConnected
+Debug - 10:54:51.351 ** Attempting to change connection status...
+Debug - 10:54:51.353 ** Current status: NotConnected status to change to: Connected
+Debug - 10:54:51.355 ** ShowInfo: Connection status changed: Connected
+Debug - 10:54:51.357 ** Game client status is now Connected
+Debug - 10:54:51.876 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:54:51.878 ** ShowInfo: *** Credits: 0
+
+Debug - 10:54:51.881 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 10:54:53.763 ** ShowInfo: *** Sending select scenario ***
+Debug - 10:54:53.948 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:54:53.950 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:54:53.952 ** ShowInfo: *** Credits: 0
+
+Debug - 10:54:53.957 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:54:53.959 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:54:53.960 ** ShowInfo: *** Credits: 0
+
+Debug - 10:54:56.947 ** ShowInfo: *** Sending start game ***
+Debug - 10:54:56.950 ** ShowInfo: *** Player selects user Jan
+Debug - 10:54:56.952 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 10:55:17.490 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:00
+Debug - 10:55:17.496 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:55:17.501 ** ShowInfo: *** Credits: 0
+
+Debug - 10:55:17.508 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:55:17.513 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:55:17.519 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:00
+Debug - 10:55:17.523 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:55:17.527 ** ShowInfo: *** Credits: 0
+
+Debug - 10:55:17.531 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:55:17.535 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:55:18.45 ** ShowInfo: Received BaseUnitInfo: [FMS] Hamina (hamina)
+Debug - 10:55:18.50 ** ShowInfo: Received BaseUnitInfo: [FNF] Iver Huitfeldt (iverhuitfeldt)
+Debug - 10:55:18.62 ** ShowInfo: Received BaseUnitInfo: [FOD] Sachsen (sachsen)
+Debug - 10:55:18.65 ** ShowInfo: From: FPE
+gg wp
+Debug - 10:55:56.998 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 10:55:57.7 ** ShowInfo: From: FPE
+gl hf
+Debug - 10:56:08.292 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:50
+Debug - 10:56:08.294 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:56:08.295 ** ShowInfo: *** Credits: 0
+
+Debug - 10:56:08.297 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:56:08.299 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:56:38.544 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:31:20
+Debug - 10:56:38.546 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:56:38.548 ** ShowInfo: *** Credits: 0
+
+Debug - 10:56:38.549 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:56:38.551 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:57:08.259 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:31:51
+Debug - 10:57:08.261 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:57:08.263 ** ShowInfo: *** Credits: 0
+
+Debug - 10:57:08.265 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:57:08.266 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:57:38.413 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:32:21
+Debug - 10:57:38.416 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:57:38.417 ** ShowInfo: *** Credits: 0
+
+Debug - 10:57:38.424 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 10:57:38.429 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 11:02:01.154 ** ////////////////////////////////////////////////////////
+Debug - 11:02:01.156 ** ////////////////////////////////////////////////////////
+Debug - 11:02:01.158 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 11:02:01.159 ** ////////////////////////////////////////////////////////
+Debug - 11:02:01.161 ** ////////////////////////////////////////////////////////
+Debug - 11:02:01.162 ** Game client connecting...
+Debug - 11:02:01.169 ** Game client connected
+Debug - 11:02:01.171 ** Connection status is : NotConnected
+Debug - 11:02:01.173 ** Attempting to change connection status...
+Debug - 11:02:01.175 ** Current status: NotConnected status to change to: Connected
+Debug - 11:02:01.177 ** ShowInfo: Connection status changed: Connected
+Debug - 11:02:01.179 ** Game client status is now Connected
+Debug - 11:02:01.721 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:02:01.723 ** ShowInfo: *** Credits: 0
+
+Debug - 11:02:01.725 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 11:02:04.50 ** ShowInfo: *** Sending select scenario ***
+Debug - 11:02:04.308 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:02:04.314 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:02:04.319 ** ShowInfo: *** Credits: 0
+
+Debug - 11:02:04.326 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:02:04.331 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:02:04.335 ** ShowInfo: *** Credits: 0
+
+Debug - 11:02:05.455 ** ShowInfo: *** Sending start game ***
+Debug - 11:02:05.458 ** ShowInfo: *** Player selects user Jan
+Debug - 11:02:05.460 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 11:02:18.731 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 24.12.2030 12:30:00  Current Time: 24.12.2030 12:30:00
+Debug - 11:02:18.733 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:02:18.735 ** ShowInfo: *** Credits: 0
+
+Debug - 11:02:18.740 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P1_VICCON_PLAYER  Role:IsSurfaceCombattant Victory Condition
+Debug - 11:02:18.742 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountEnemyUnitRoleEqualsOrLower SCE_BETAPVP3_P2_VICCON_ENEMY  Role:IsSurfaceCombattant Victory Condition
+Debug - 11:02:19.263 ** ShowInfo: Received BaseUnitInfo: [FMS] Hamina (hamina)
+Debug - 11:02:19.266 ** ShowInfo: Received BaseUnitInfo: [FNF] Iver Huitfeldt (iverhuitfeldt)
+Debug - 11:02:19.269 ** ShowInfo: Received BaseUnitInfo: [FOD] Sachsen (sachsen)
+Debug - 11:02:26.257 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 11:02:26.267 ** ShowInfo: From: FPE
+gl hf
+Debug - 11:13:13.29 ** ////////////////////////////////////////////////////////
+Debug - 11:13:13.31 ** ////////////////////////////////////////////////////////
+Debug - 11:13:13.32 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 11:13:13.33 ** ////////////////////////////////////////////////////////
+Debug - 11:13:13.35 ** ////////////////////////////////////////////////////////
+Debug - 11:13:13.36 ** Game client connecting...
+Debug - 11:13:13.42 ** Game client connected
+Debug - 11:13:13.45 ** Connection status is : NotConnected
+Debug - 11:13:13.47 ** Attempting to change connection status...
+Debug - 11:13:13.48 ** Current status: NotConnected status to change to: Connected
+Debug - 11:13:13.51 ** ShowInfo: Connection status changed: Connected
+Debug - 11:13:13.53 ** Game client status is now Connected
+Debug - 11:13:13.584 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:13:13.586 ** ShowInfo: *** Credits: 0
+
+Debug - 11:13:13.588 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 11:13:14.760 ** ShowInfo: *** Sending select scenario ***
+Debug - 11:13:15.175 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:13:15.182 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:13:15.186 ** ShowInfo: *** Credits: 0
+
+Debug - 11:13:15.192 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:13:15.197 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:13:15.201 ** ShowInfo: *** Credits: 0
+
+Debug - 11:13:17.530 ** ShowInfo: *** Sending start game ***
+Debug - 11:13:17.533 ** ShowInfo: *** Player selects user Jan
+Debug - 11:13:17.535 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 11:13:22.859 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 11:13:22.861 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:13:22.863 ** ShowInfo: *** Credits: 0
+
+Debug - 11:13:22.866 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:13:22.868 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:13:23.944 ** ShowInfo: Received BaseUnitInfo: [BJA] Bergen Airport (ukairportlarge)
+Debug - 11:13:23.951 ** ShowInfo: Received BaseUnitInfo: [BSG] E-3 Sentry BSG (e3sentry)
+Debug - 11:13:23.956 ** ShowInfo: Received BaseUnitInfo: [BSL] USS Virginia (virginia)
+Debug - 11:13:23.961 ** ShowInfo: Received BaseUnitInfo: [BSU] USS Texas (virginia)
+Debug - 11:13:23.966 ** ShowInfo: Received BaseUnitInfo: [BTD] San Jacinto (ticonderoga) *
+Debug - 11:13:23.972 ** ShowInfo: Received BaseUnitInfo: [BUM] Winston S. Churchill (arleighburke)
+Debug - 11:13:23.979 ** ShowInfo: ***GroupInfo received.
+BTC Task Force 1 (2 units)
+Mission: Patrol(Undefined)
+
+Debug - 11:44:54.493 ** ////////////////////////////////////////////////////////
+Debug - 11:44:54.495 ** ////////////////////////////////////////////////////////
+Debug - 11:44:54.496 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 11:44:54.498 ** ////////////////////////////////////////////////////////
+Debug - 11:44:54.499 ** ////////////////////////////////////////////////////////
+Debug - 11:44:54.500 ** Game client connecting...
+Debug - 11:44:54.507 ** Game client connected
+Debug - 11:44:54.509 ** Connection status is : NotConnected
+Debug - 11:44:54.511 ** Attempting to change connection status...
+Debug - 11:44:54.512 ** Current status: NotConnected status to change to: Connected
+Debug - 11:44:54.514 ** ShowInfo: Connection status changed: Connected
+Debug - 11:44:54.516 ** Game client status is now Connected
+Debug - 11:44:55.66 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:44:55.69 ** ShowInfo: *** Credits: 0
+
+Debug - 11:44:55.71 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 11:44:55.735 ** ShowInfo: *** Sending select scenario ***
+Debug - 11:44:56.92 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:44:56.94 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:44:56.96 ** ShowInfo: *** Credits: 0
+
+Debug - 11:44:56.118 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:44:56.125 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:44:56.130 ** ShowInfo: *** Credits: 0
+
+Debug - 11:44:56.798 ** ShowInfo: *** Sending start game ***
+Debug - 11:44:56.801 ** ShowInfo: *** Player selects user Jan
+Debug - 11:44:56.803 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 11:45:02.296 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 11:45:02.302 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:45:02.307 ** ShowInfo: *** Credits: 0
+
+Debug - 11:45:02.313 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:45:02.318 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:45:02.842 ** ShowInfo: Received BaseUnitInfo: [BJA] Bergen Airport (ukairportlarge)
+Debug - 11:45:02.846 ** ShowInfo: Received BaseUnitInfo: [BSG] E-3 Sentry BSG (e3sentry)
+Debug - 11:45:02.849 ** ShowInfo: Received BaseUnitInfo: [BSL] USS Virginia (virginia)
+Debug - 11:45:02.851 ** ShowInfo: Received BaseUnitInfo: [BSU] USS Texas (virginia)
+Debug - 11:45:02.854 ** ShowInfo: Received BaseUnitInfo: [BTD] San Jacinto (ticonderoga) *
+Debug - 11:45:02.856 ** ShowInfo: Received BaseUnitInfo: [BUM] Winston S. Churchill (arleighburke)
+Debug - 11:45:03.384 ** ShowInfo: ***GroupInfo received.
+BTC Task Force 1 (2 units)
+Mission: Patrol(Undefined)
+
+Debug - 11:45:03.389 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 11:45:03.405 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [BXK] LargeSurface group (2 units)
+Debug - 11:45:03.411 ** ShowInfo: From: BVV
+gl hf
+Debug - 11:45:08.473 ** ShowInfo: Designate [BXG] LargeSurface [FoF Undetermined]  @ 060° 00' 02"N, 004° 01' 39"E as hostile.
+Debug - 11:45:09.628 ** ShowInfo: DetectedUnitInfo received: Id=BXG  [BXG] LargeSurface [Foe]  @ 060° 00' 02"N, 004° 01' 39"E
+Debug - 11:45:09.660 ** ShowInfo: DetectedUnitInfo received: Id=BXI  [BXI] LargeSurface [Foe]  @ 060° 00' 14"N, 004° 01' 27"E
+Debug - 11:45:09.670 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [BXK] LargeSurface group (2 units)
+Debug - 11:45:12.719 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BVB
+Debug - 11:45:13.731 ** ShowInfo: Received BaseUnitInfo: [BVB] SH-60B Seahawk BVB (sh60b)
+Debug - 11:45:33.185 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:31
+Debug - 11:45:33.187 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:45:33.189 ** ShowInfo: *** Credits: 0
+
+Debug - 11:45:33.192 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:45:33.194 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:46:02.455 ** ShowInfo: Received new UnitClass type6576torpedo Type 65-76 Heavyweight Torpedo
+Debug - 11:46:03.967 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:02
+Debug - 11:46:03.969 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:46:03.970 ** ShowInfo: *** Credits: 0
+
+Debug - 11:46:03.972 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:46:03.974 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:46:34.944 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:32
+Debug - 11:46:34.946 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:46:34.948 ** ShowInfo: *** Credits: 0
+
+Debug - 11:46:34.949 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:46:34.951 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:47:05.410 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:03
+Debug - 11:47:05.412 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:47:05.414 ** ShowInfo: *** Credits: 0
+
+Debug - 11:47:05.416 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:47:05.417 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:47:35.877 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:34
+Debug - 11:47:35.879 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:47:35.881 ** ShowInfo: *** Credits: 0
+
+Debug - 11:47:35.882 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:47:35.884 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:48:06.380 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:03:04
+Debug - 11:48:06.382 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:48:06.386 ** ShowInfo: *** Credits: 0
+
+Debug - 11:48:06.392 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:48:06.397 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:48:36.844 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:03:35
+Debug - 11:48:36.846 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:48:36.848 ** ShowInfo: *** Credits: 0
+
+Debug - 11:48:36.849 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:48:36.851 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:49:07.357 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:04:05
+Debug - 11:49:07.359 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:49:07.360 ** ShowInfo: *** Credits: 0
+
+Debug - 11:49:07.362 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:49:07.364 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:49:37.782 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:04:35
+Debug - 11:49:37.784 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:49:37.786 ** ShowInfo: *** Credits: 0
+
+Debug - 11:49:37.788 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:49:37.789 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:49:45.937 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEE
+Debug - 11:49:46.450 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsEvadingEnemyFire for Id BTD
+Debug - 11:49:46.452 ** ShowInfo: Received BaseUnitInfo: [CEE] DICASS AN/SSQ-62 Sonobuoy CEE (dicass)
+Debug - 11:49:47.464 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsEvadingEnemyFire for Id BTD
+Debug - 11:49:47.467 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 34"N, 003° 00' 00"E
+Debug - 11:49:47.469 ** ShowInfo: DetectedUnitInfo received: Id=CEI  [CEI] Type 65-76 Heavyweight Torpedo (type6576torpedo) [Foe]  @ 060° 59' 44"N, 003° 05' 59"E
+Debug - 11:49:54.32 ** ShowInfo: *** Unit SH-60B Seahawk BVB to close and engage target [CEG] Vepr (akula) [Foe]  @ 060° 59' 33"N, 003° 00' 00"E
+Debug - 11:49:55.109 ** ShowInfo: Received new UnitClass mark54torpedo Mark 54 Lightweight Hybrid Torpedo
+Debug - 11:49:55.111 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CER
+Debug - 11:49:55.608 ** ShowInfo: Received BaseUnitInfo: [CER] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 11:50:09.419 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:07
+Debug - 11:50:09.421 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:50:09.423 ** ShowInfo: *** Credits: 0
+
+Debug - 11:50:09.425 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:50:09.428 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:50:09.945 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFB
+Debug - 11:50:09.949 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsEvadingEnemyFire for Id BTD
+Debug - 11:50:09.951 ** ShowInfo: Received BaseUnitInfo: [CFB] DICASS AN/SSQ-62 Sonobuoy CFB (dicass)
+Debug - 11:50:09.953 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 32"N, 003° 00' 00"E
+Debug - 11:50:09.956 ** ShowInfo: DetectedUnitInfo received: Id=CEI  [CEI] Type 65-76 Heavyweight Torpedo (type6576torpedo) [Foe]  @ 060° 59' 44"N, 003° 06' 39"E
+Debug - 11:50:22.289 ** ShowInfo: *** Unit SH-60B Seahawk BVB to close and engage target [CEG] Vepr (akula) [Foe]  @ 060° 59' 31"N, 003° 00' 00"E
+Debug - 11:50:22.832 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CFL
+Debug - 11:50:22.836 ** ShowInfo: Received BaseUnitInfo: [CFL] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 11:50:34.190 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFS
+Debug - 11:50:34.197 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsEvadingEnemyFire for Id BTD
+Debug - 11:50:34.201 ** ShowInfo: Received BaseUnitInfo: [CFS] DICASS AN/SSQ-62 Sonobuoy CFS (dicass)
+Debug - 11:50:34.206 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 30"N, 003° 00' 00"E
+Debug - 11:50:34.211 ** ShowInfo: DetectedUnitInfo received: Id=CEI  [CEI] Type 65-76 Heavyweight Torpedo (type6576torpedo) [Foe]  @ 060° 59' 44"N, 003° 07' 20"E
+Debug - 11:50:40.444 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:38
+Debug - 11:50:40.446 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:50:40.448 ** ShowInfo: *** Credits: 0
+
+Debug - 11:50:40.450 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:50:40.451 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:51:04.213 ** ShowInfo: *** Movement order sent to unit SH-60B Seahawk BVB
+Debug - 11:51:11.409 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:06:09
+Debug - 11:51:11.411 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:51:11.413 ** ShowInfo: *** Credits: 0
+
+Debug - 11:51:11.415 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:51:11.416 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:51:34.233 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 24"N, 003° 00' 00"E
+Debug - 11:51:42.421 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:06:40
+Debug - 11:51:42.423 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:51:42.425 ** ShowInfo: *** Credits: 0
+
+Debug - 11:51:42.427 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:51:42.429 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:51:54.670 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitHasNoOrders for Id BVB
+Debug - 11:52:07.740 ** ShowInfo: *** Movement order sent to unit SH-60B Seahawk BVB
+Debug - 11:52:13.513 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:07:11
+Debug - 11:52:13.515 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:52:13.517 ** ShowInfo: *** Credits: 0
+
+Debug - 11:52:13.518 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:52:13.520 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:52:16.589 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitHasNoOrders for Id BVB
+Debug - 11:52:17.104 ** ShowInfo: +++We DAMAGED an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo (60% dmg total)
+Debug - 11:52:17.109 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CER
+Debug - 11:52:17.111 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 21"N, 003° 00' 00"E dmg: 60,00%
+Debug - 11:52:21.707 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 20"N, 003° 00' 00"E dmg: 60,00%
+Debug - 11:52:25.436 ** ShowInfo: *** Unit SH-60B Seahawk BVB to close and engage target [CEG] Vepr (akula) [Foe]  @ 060° 59' 20"N, 003° 00' 00"E dmg: 60,00%
+Debug - 11:52:25.807 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CGH
+Debug - 11:52:25.810 ** ShowInfo: Received BaseUnitInfo: [CGH] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 11:52:25.813 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 20"N, 003° 00' 00"E dmg: 60,00%
+Debug - 11:52:41.364 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitDetectedByActiveSensor for Id BTD
+Debug - 11:52:41.366 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitDetectedByActiveSensor for Id BUM
+Debug - 11:52:44.406 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:07:42
+Debug - 11:52:44.408 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:52:44.410 ** ShowInfo: *** Credits: 0
+
+Debug - 11:52:44.412 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:52:44.413 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:53:01.422 ** ShowInfo: DetectedUnitInfo received: Id=CEG  [CEG] Vepr (akula) [Foe]  @ 060° 59' 18"N, 003° 00' 00"E dmg: 60,00%
+Debug - 11:53:01.938 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Vepr (a Shchuka-B class)
+Debug - 11:53:01.941 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CFL
+Debug - 11:53:15.227 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:08:13
+Debug - 11:53:15.229 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:53:15.231 ** ShowInfo: *** Credits: 0
+
+Debug - 11:53:15.233 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:53:15.234 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:53:15.732 ** ShowInfo: +++We SUNK an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo
+Debug - 11:53:15.734 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CGH
+Debug - 11:53:15.737 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CEG
+Debug - 11:53:46.240 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:08:43
+Debug - 11:53:46.242 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:53:46.244 ** ShowInfo: *** Credits: 0
+
+Debug - 11:53:46.246 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:53:46.247 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:54:06.682 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsEvadingEnemyFire for Id BTD
+Debug - 11:54:16.942 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:09:14
+Debug - 11:54:16.948 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:54:16.950 ** ShowInfo: *** Credits: 0
+
+Debug - 11:54:16.951 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:54:16.953 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:54:47.720 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:09:45
+Debug - 11:54:47.722 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:54:47.724 ** ShowInfo: *** Credits: 0
+
+Debug - 11:54:47.725 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 11:54:47.727 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 11:55:07.228 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsEvadingEnemyFire for Id BTD
+Debug - 11:55:08.860 ** Game client disconnecting...
+Debug - 11:55:08.862 ** Attempting to change connection status...
+Debug - 11:55:08.863 ** Current status: Connected status to change to: Disconnected
+Debug - 11:55:08.865 ** ShowInfo: Connection status changed: Disconnected
+Debug - 11:55:08.868 ** Game client disconnected.
+Debug - 12:06:42.144 ** ////////////////////////////////////////////////////////
+Debug - 12:06:42.146 ** ////////////////////////////////////////////////////////
+Debug - 12:06:42.148 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 12:06:42.149 ** ////////////////////////////////////////////////////////
+Debug - 12:06:42.150 ** ////////////////////////////////////////////////////////
+Debug - 12:06:42.152 ** Game client connecting...
+Debug - 12:06:42.158 ** Game client connected
+Debug - 12:06:42.160 ** Connection status is : NotConnected
+Debug - 12:06:42.162 ** Attempting to change connection status...
+Debug - 12:06:42.163 ** Current status: NotConnected status to change to: Connected
+Debug - 12:06:42.165 ** ShowInfo: Connection status changed: Connected
+Debug - 12:06:42.167 ** Game client status is now Connected
+Debug - 12:06:42.697 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:06:42.699 ** ShowInfo: *** Credits: 0
+
+Debug - 12:06:42.702 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 12:06:43.597 ** ShowInfo: *** Sending select scenario ***
+Debug - 12:06:43.739 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:06:43.742 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:06:43.744 ** ShowInfo: *** Credits: 0
+
+Debug - 12:06:43.768 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:06:43.773 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:06:43.778 ** ShowInfo: *** Credits: 0
+
+Debug - 12:06:44.483 ** ShowInfo: *** Sending start game ***
+Debug - 12:06:44.485 ** ShowInfo: *** Player selects user Jan
+Debug - 12:06:44.487 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 12:06:49.911 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 12:06:49.913 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:06:49.915 ** ShowInfo: *** Credits: 0
+
+Debug - 12:06:49.918 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:06:49.920 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:06:50.413 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 12:06:50.415 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:06:50.417 ** ShowInfo: *** Credits: 0
+
+Debug - 12:06:50.419 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:06:50.422 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:06:50.957 ** ShowInfo: Received BaseUnitInfo: [BJA] Bergen Airport (ukairportlarge)
+Debug - 12:06:50.960 ** ShowInfo: Received BaseUnitInfo: [BSG] E-3 Sentry BSG (e3sentry)
+Debug - 12:06:50.963 ** ShowInfo: Received BaseUnitInfo: [BSL] USS Virginia (virginia)
+Debug - 12:06:50.966 ** ShowInfo: Received BaseUnitInfo: [BSU] USS Texas (virginia)
+Debug - 12:06:50.968 ** ShowInfo: Received BaseUnitInfo: [BTD] San Jacinto (ticonderoga) *
+Debug - 12:06:50.971 ** ShowInfo: Received BaseUnitInfo: [BUM] Winston S. Churchill (arleighburke)
+Debug - 12:07:05.529 ** ShowInfo: ***GroupInfo received.
+BTC Task Force 1 (2 units)
+Mission: Patrol(Undefined)
+
+Debug - 12:07:56.870 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 12:07:56.885 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [BXK] LargeSurface group (2 units)
+Debug - 12:07:56.888 ** ShowInfo: From: BVV
+gl hf
+Debug - 12:07:57.405 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BVB
+Debug - 12:07:57.416 ** ShowInfo: Received BaseUnitInfo: [BVB] SH-60B Seahawk BVB (sh60b)
+Debug - 12:08:04.762 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CDQ
+Debug - 12:08:04.769 ** ShowInfo: Received BaseUnitInfo: [CDQ] DICASS AN/SSQ-62 Sonobuoy CDQ (dicass)
+Debug - 12:08:05.790 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 59' 28"N, 003° 00' 00"E
+Debug - 12:08:09.400 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:11:10
+Debug - 12:08:09.406 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:08:09.410 ** ShowInfo: *** Credits: 0
+
+Debug - 12:08:09.414 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:08:09.418 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:08:10.842 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 12:08:11.515 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CDX
+Debug - 12:08:11.518 ** ShowInfo: Received BaseUnitInfo: [CDX] DICASS AN/SSQ-62 Sonobuoy CDX (dicass)
+Debug - 12:08:11.520 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 57"N, 003° 00' 00"E
+Debug - 12:08:12.29 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEE
+Debug - 12:08:12.33 ** ShowInfo: Received BaseUnitInfo: [CEE] DICASS AN/SSQ-62 Sonobuoy CEE (dicass)
+Debug - 12:08:12.35 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 56"N, 003° 00' 00"E
+Debug - 12:08:14.563 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEM
+Debug - 12:08:14.565 ** ShowInfo: Received BaseUnitInfo: [CEM] DICASS AN/SSQ-62 Sonobuoy CEM (dicass)
+Debug - 12:08:14.568 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 50"N, 003° 00' 00"E
+Debug - 12:08:16.149 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CET
+Debug - 12:08:16.154 ** ShowInfo: Received BaseUnitInfo: [CET] DICASS AN/SSQ-62 Sonobuoy CET (dicass)
+Debug - 12:08:16.157 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 47"N, 003° 00' 00"E
+Debug - 12:08:16.768 ** ShowInfo: *** Unit DICASS AN/SSQ-62 Sonobuoy CDX to close and engage target [CDS] Vepr (akula) [Foe]  @ 060° 58' 44"N, 003° 00' 00"E
+Debug - 12:08:18.192 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitHasNoWeaponToEngageTarget for Id CDX
+Debug - 12:08:20.251 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEY
+Debug - 12:08:20.254 ** ShowInfo: Received BaseUnitInfo: [CEY] DICASS AN/SSQ-62 Sonobuoy CEY (dicass)
+Debug - 12:08:20.257 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 39"N, 003° 00' 00"E
+Debug - 12:08:20.781 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFC
+Debug - 12:08:20.784 ** ShowInfo: Received BaseUnitInfo: [CFC] DICASS AN/SSQ-62 Sonobuoy CFC (dicass)
+Debug - 12:08:20.788 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 39"N, 003° 00' 00"E
+Debug - 12:08:24.79 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFG
+Debug - 12:08:24.82 ** ShowInfo: Received BaseUnitInfo: [CFG] DICASS AN/SSQ-62 Sonobuoy CFG (dicass)
+Debug - 12:08:24.86 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 36"N, 003° 00' 00"E
+Debug - 12:08:24.651 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFN
+Debug - 12:08:24.654 ** ShowInfo: Received BaseUnitInfo: [CFN] DICASS AN/SSQ-62 Sonobuoy CFN (dicass)
+Debug - 12:08:24.657 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 35"N, 003° 00' 00"E
+Debug - 12:08:31.482 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 12:08:31.814 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFU
+Debug - 12:08:31.821 ** ShowInfo: Received BaseUnitInfo: [CFU] DICASS AN/SSQ-62 Sonobuoy CFU (dicass)
+Debug - 12:08:31.825 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 29"N, 003° 00' 00"E
+Debug - 12:08:31.834 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGB
+Debug - 12:08:31.840 ** ShowInfo: Received BaseUnitInfo: [CGB] DICASS AN/SSQ-62 Sonobuoy CGB (dicass)
+Debug - 12:08:31.844 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 28"N, 003° 00' 00"E
+Debug - 12:08:33.372 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:17:13
+Debug - 12:08:33.374 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:08:33.376 ** ShowInfo: *** Credits: 0
+
+Debug - 12:08:33.377 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:08:33.379 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:08:35.430 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGI
+Debug - 12:08:35.433 ** ShowInfo: Received BaseUnitInfo: [CGI] DICASS AN/SSQ-62 Sonobuoy CGI (dicass)
+Debug - 12:08:35.436 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 25"N, 003° 00' 00"E
+Debug - 12:08:35.945 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGP
+Debug - 12:08:35.949 ** ShowInfo: Received BaseUnitInfo: [CGP] DICASS AN/SSQ-62 Sonobuoy CGP (dicass)
+Debug - 12:08:35.952 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 25"N, 003° 00' 00"E
+Debug - 12:08:42.688 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGW
+Debug - 12:08:42.692 ** ShowInfo: Received BaseUnitInfo: [CGW] DICASS AN/SSQ-62 Sonobuoy CGW (dicass)
+Debug - 12:08:42.694 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 18"N, 003° 00' 00"E
+Debug - 12:08:44.324 ** ShowInfo: *** Unit SH-60B Seahawk BVB to close and engage target [CDS] Vepr (akula) [Foe]  @ 060° 58' 17"N, 003° 00' 00"E
+Debug - 12:08:45.266 ** ShowInfo: Received new UnitClass mark54torpedo Mark 54 Lightweight Hybrid Torpedo
+Debug - 12:08:45.267 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CHF
+Debug - 12:08:45.772 ** ShowInfo: Received BaseUnitInfo: [CHF] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 12:08:48.816 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 13"N, 003° 00' 00"E
+Debug - 12:08:57.475 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 58' 07"N, 003° 01' 44"E
+Debug - 12:08:58.388 ** ShowInfo: *** Unit SH-60B Seahawk BVB to close and engage target [CDS] Vepr (akula) [Foe]  @ 060° 58' 07"N, 003° 01' 44"E
+Debug - 12:08:58.490 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CHQ
+Debug - 12:08:58.494 ** ShowInfo: Received BaseUnitInfo: [CHQ] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 12:09:03.643 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:22:20
+Debug - 12:09:03.648 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:03.650 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:03.652 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:09:03.653 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:09:22.229 ** ShowInfo: Designate [BXG] LargeSurface [FoF Undetermined]  @ 059° 57' 43"N, 004° 01' 20"E as hostile.
+Debug - 12:09:23.187 ** ShowInfo: DetectedUnitInfo received: Id=BXG  [BXG] LargeSurface [Foe]  @ 059° 57' 42"N, 004° 01' 20"E
+Debug - 12:09:23.200 ** ShowInfo: DetectedUnitInfo received: Id=BXI  [BXI] LargeSurface [Foe]  @ 059° 58' 01"N, 004° 02' 21"E
+Debug - 12:09:23.206 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [BXK] LargeSurface group (2 units)
+Debug - 12:09:34.976 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:27:29
+Debug - 12:09:34.984 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:34.989 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:34.993 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:09:34.997 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:09:38.598 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 59"N, 003° 09' 45"E
+Debug - 12:09:44.760 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 59"N, 003° 10' 59"E
+Debug - 12:09:45.824 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 59"N, 003° 11' 11"E
+Debug - 12:09:49.986 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 59"N, 003° 12' 01"E
+Debug - 12:09:53.65 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Vepr (a Shchuka-B class) (out of fuel)
+Debug - 12:09:53.67 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Vepr (a Shchuka-B class) (out of fuel)
+Debug - 12:09:53.69 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CHF
+Debug - 12:10:01.932 ** ShowInfo: *** Unit SH-60B Seahawk BVB to close and engage target [CDS] Vepr (akula) [Foe]  @ 060° 57' 58"N, 003° 14' 29"E
+Debug - 12:10:05.354 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CIE
+Debug - 12:10:11.480 ** ShowInfo: Received BaseUnitInfo: [CIE] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 12:10:11.983 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:32:38
+Debug - 12:10:11.990 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:10:11.994 ** ShowInfo: *** Credits: 0
+
+Debug - 12:10:11.998 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:10:12.3 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition
+Debug - 12:10:12.559 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 57"N, 003° 15' 19"E
+Debug - 12:10:13.42 ** ShowInfo: UnitOrder to unit BTD : Launch 1 aircraft.
+Debug - 12:10:13.73 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Vepr (a Shchuka-B class) (out of fuel)
+Debug - 12:10:13.76 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Vepr (a Shchuka-B class) (out of fuel)
+Debug - 12:10:13.81 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CHQ
+Debug - 12:10:13.89 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 57"N, 003° 15' 31"E
+Debug - 12:10:13.619 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BUC
+Debug - 12:10:13.622 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 56"N, 003° 15' 43"E
+Debug - 12:10:14.150 ** ShowInfo: Received BaseUnitInfo: [BUC] SH-60B Seahawk BUC (sh60b)
+Debug - 12:10:17.802 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 55"N, 003° 17' 32"E
+Debug - 12:10:18.204 ** ShowInfo: *** Unit SH-60B Seahawk BUC to close and engage target [CDS] Vepr (akula) [Foe]  @ 060° 57' 55"N, 003° 17' 44"E
+Debug - 12:10:19.863 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 55"N, 003° 17' 57"E
+Debug - 12:10:21.890 ** ShowInfo: DetectedUnitInfo received: Id=CDS  [CDS] Vepr (akula) [Foe]  @ 060° 57' 54"N, 003° 18' 21"E
+Debug - 12:10:23.448 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DFT
+Debug - 12:10:23.455 ** ShowInfo: Received BaseUnitInfo: [DFT] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 12:10:29.142 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CDS
+Debug - 12:10:29.657 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CIE
+Debug - 12:10:29.662 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DFT
+Debug - 12:10:41.403 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:38:35
+Debug - 12:10:41.410 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:10:41.414 ** ShowInfo: *** Credits: 0
+
+Debug - 12:10:41.418 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed TUT_TURKEYSHOOT_P1_VICCON_PLAYER  Tag:akula Victory Condition
+Debug - 12:10:41.422 ** ShowInfo: Trigger: PlayerObjective EventTrigger EnemyUnitTagIsDestroyed   Tag:burke Victory Condition

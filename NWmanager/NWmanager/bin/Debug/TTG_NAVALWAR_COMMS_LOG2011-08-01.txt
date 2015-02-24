@@ -1,0 +1,469 @@
+Debug - 10:30:49.791 ** ////////////////////////////////////////////////////////
+Debug - 10:30:49.791 ** ////////////////////////////////////////////////////////
+Debug - 10:30:49.792 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 10:30:49.792 ** ////////////////////////////////////////////////////////
+Debug - 10:30:49.793 ** ////////////////////////////////////////////////////////
+Debug - 10:30:49.794 ** Gameclient connecting...
+Debug - 10:30:49.841 ** Gameclient connected
+Debug - 10:30:49.842 ** Connectionstatus is : NotConnected
+Debug - 10:30:49.843 ** Attempting to change connectionstatus...
+Debug - 10:30:49.844 ** Current status: NotConnected status to change to: Connected
+Debug - 10:30:49.845 ** ShowInfo: Connection status changed: Connected
+Debug - 10:30:49.846 ** Gameclient status is now Connected
+Debug - 10:30:50.472 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 10:30:51.182 ** ShowInfo: *** Sending select scenario ***
+Debug - 10:30:51.487 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:30:51.488 ** ShowInfo: GameWorldTimeSec=0
+Debug - 10:30:51.489 ** ShowInfo: GameEngineTimeMs=0
+Debug - 10:30:51.492 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:30:51.493 ** ShowInfo: *** Credits: 0
+
+Debug - 10:30:51.921 ** ShowInfo: *** Sending start game ***
+Debug - 10:30:52.23 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:30:52.28 ** ShowInfo: GameWorldTimeSec=0
+Debug - 10:30:52.45 ** ShowInfo: GameEngineTimeMs=0
+Debug - 10:30:52.49 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:30:52.52 ** ShowInfo: *** Credits: 0
+
+Debug - 10:30:54.600 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 10:30:54.601 ** ShowInfo: GameWorldTimeSec=0
+Debug - 10:30:54.601 ** ShowInfo: GameEngineTimeMs=0
+Debug - 10:30:54.602 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:30:54.602 ** ShowInfo: *** Credits: 0
+
+Debug - 10:30:55.135 ** ShowInfo: Received BaseUnitInfo: [BJC] Bergen Airport (ukairportlarge)
+Debug - 10:30:55.642 ** ShowInfo: Received BaseUnitInfo: [BOZ] E-3 Sentry BOZ (e3sentry)
+Debug - 10:30:55.643 ** ShowInfo: Received BaseUnitInfo: [BPE] USS Virginia (virginia)
+Debug - 10:30:56.174 ** ShowInfo: Received BaseUnitInfo: [BPL] Winston S. Churchill (arleighburke)
+Debug - 10:30:56.704 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 10:30:56.709 ** ShowInfo: From: BQP
+gl hf!
+Debug - 10:30:56.713 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BPY
+Debug - 10:30:57.217 ** ShowInfo: Received BaseUnitInfo: [BPY] SH-60B Seahawk BPY (sh60b)
+Debug - 10:31:25.530 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:08
+Debug - 10:31:25.531 ** ShowInfo: GameWorldTimeSec=298,257058999997
+Debug - 10:31:25.532 ** ShowInfo: GameEngineTimeMs=30825,7630999997
+Debug - 10:31:25.532 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:31:25.533 ** ShowInfo: *** Credits: 0
+
+Debug - 10:31:36.265 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CBP
+Debug - 10:31:36.765 ** ShowInfo: Received BaseUnitInfo: [CBP] DICASS AN/SSQ-62 Sonobuoy CBP (dicass)
+Debug - 10:31:37.294 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:31:37.296 ** ShowInfo: [BPL] Winston S. Churchill (Arleigh Burke) is being detected by ACTIVE MGK-540 Bow-Mounted Sonar from Submarine CBS  [Undetermined].
+Debug - 10:31:40.71 ** ShowInfo: Designate [CBS] Submarine [FoF Undetermined]  @ 060° 59' 19"N, 003° 00' 00"E as hostile.
+Debug - 10:31:40.386 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 59' 19"N, 003° 00' 00"E
+Debug - 10:31:40.390 ** ShowInfo: Contact Submarine CBS  [Foe] is now designated as HOSTILE.
+Debug - 10:31:46.521 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CCM
+Debug - 10:31:46.526 ** ShowInfo: Received BaseUnitInfo: [CCM] DICASS AN/SSQ-62 Sonobuoy CCM (dicass)
+Debug - 10:31:47.31 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 59' 13"N, 003° 00' 00"E
+Debug - 10:31:47.542 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:31:49.408 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [CBS] Submarine [Foe]  @ 060° 59' 11"N, 003° 00' 00"E
+Debug - 10:31:50.623 ** ShowInfo: Received new UnitClass mark54torpedo Mark 54 Lightweight Hybrid Torpedo
+Debug - 10:31:50.628 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CCX
+Debug - 10:31:51.147 ** ShowInfo: Received BaseUnitInfo: [CCX] Mark 54 from SH-60B Seahawk BPY (mark54torpedo)
+Debug - 10:31:55.218 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:10:08
+Debug - 10:31:55.219 ** ShowInfo: GameWorldTimeSec=598,274219999995
+Debug - 10:31:55.220 ** ShowInfo: GameEngineTimeMs=60827,4791999994
+Debug - 10:31:55.220 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:31:55.221 ** ShowInfo: *** Credits: 0
+
+Debug - 10:31:57.278 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 59' 04"N, 003° 00' 00"E
+Debug - 10:32:03.412 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEF
+Debug - 10:32:03.930 ** ShowInfo: Received BaseUnitInfo: [CEF] DICASS AN/SSQ-62 Sonobuoy CEF (dicass)
+Debug - 10:32:03.931 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 59"N, 003° 00' 00"E
+Debug - 10:32:04.422 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:32:09.494 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEN
+Debug - 10:32:10.6 ** ShowInfo: Received BaseUnitInfo: [CEN] DICASS AN/SSQ-62 Sonobuoy CEN (dicass)
+Debug - 10:32:10.10 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 52"N, 003° 00' 00"E
+Debug - 10:32:10.527 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:32:25.530 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:15:08
+Debug - 10:32:25.531 ** ShowInfo: GameWorldTimeSec=898,291379999993
+Debug - 10:32:25.532 ** ShowInfo: GameEngineTimeMs=90829,1951999992
+Debug - 10:32:25.532 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:32:25.533 ** ShowInfo: *** Credits: 0
+
+Debug - 10:32:27.611 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CES
+Debug - 10:32:28.106 ** ShowInfo: Received BaseUnitInfo: [CES] DICASS AN/SSQ-62 Sonobuoy CES (dicass)
+Debug - 10:32:28.107 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 37"N, 003° 00' 00"E
+Debug - 10:32:28.618 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:32:35.801 ** ShowInfo: +++We DAMAGED an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo (60% dmg total)
+Debug - 10:32:36.309 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CCX
+Debug - 10:32:36.310 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 30"N, 003° 00' 00"E
+Debug - 10:32:36.311 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEX
+Debug - 10:32:36.823 ** ShowInfo: Received BaseUnitInfo: [CEX] DICASS AN/SSQ-62 Sonobuoy CEX (dicass)
+Debug - 10:32:36.827 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 29"N, 003° 00' 00"E
+Debug - 10:32:37.339 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:32:42.43 ** ShowInfo: *** Unit SH-60B Seahawk BPY to close and engage target [CBS] Submarine [Foe]  @ 060° 58' 25"N, 003° 00' 00"E
+Debug - 10:32:42.972 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CFR
+Debug - 10:32:43.475 ** ShowInfo: Received BaseUnitInfo: [CFR] Mark 54 from SH-60B Seahawk BPY (mark54torpedo)
+Debug - 10:32:53.235 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGE
+Debug - 10:32:54.270 ** ShowInfo: Received BaseUnitInfo: [CGE] DICASS AN/SSQ-62 Sonobuoy CGE (dicass)
+Debug - 10:32:54.272 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 15"N, 003° 00' 00"E
+Debug - 10:32:54.273 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:32:56.309 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:20:19
+Debug - 10:32:56.309 ** ShowInfo: GameWorldTimeSec=1209,05915499999
+Debug - 10:32:56.310 ** ShowInfo: GameEngineTimeMs=121905,972699999
+Debug - 10:32:56.311 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:32:56.311 ** ShowInfo: *** Credits: 0
+
+Debug - 10:32:57.836 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 11"N, 003° 00' 00"E
+Debug - 10:32:59.350 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGJ
+Debug - 10:32:59.863 ** ShowInfo: Received BaseUnitInfo: [CGJ] DICASS AN/SSQ-62 Sonobuoy CGJ (dicass)
+Debug - 10:32:59.865 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 58' 09"N, 003° 00' 00"E
+Debug - 10:32:59.867 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:33:16.762 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGR
+Debug - 10:33:17.290 ** ShowInfo: Received BaseUnitInfo: [CGR] DICASS AN/SSQ-62 Sonobuoy CGR (dicass)
+Debug - 10:33:17.291 ** ShowInfo: DetectedUnitInfo received: Id=CBS  [CBS] Submarine [Foe]  @ 060° 57' 54"N, 003° 00' 00"E
+Debug - 10:33:17.805 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 10:33:19.335 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:24:09
+Debug - 10:33:19.336 ** ShowInfo: GameWorldTimeSec=1449,28232299999
+Debug - 10:33:19.342 ** ShowInfo: GameEngineTimeMs=144928,289499999
+Debug - 10:33:19.346 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:33:19.349 ** ShowInfo: *** Credits: 0
+
+Debug - 10:33:19.902 ** ShowInfo: +++We SUNK an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo
+Debug - 10:33:19.902 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CFR
+Debug - 10:33:19.904 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CBS
+Debug - 10:33:19.904 ** ShowInfo: From: BQP
+gg wp
+Debug - 10:33:19.905 ** ShowInfo: Congratulations. You have won!
+Debug - 10:33:26.543 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:25:19
+Debug - 10:33:26.544 ** ShowInfo: GameWorldTimeSec=1509,28632699999
+Debug - 10:33:26.545 ** ShowInfo: GameEngineTimeMs=151928,689899999
+Debug - 10:33:26.545 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:33:26.546 ** ShowInfo: *** Credits: 0
+
+Debug - 10:33:56.354 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:30:19
+Debug - 10:33:56.354 ** ShowInfo: GameWorldTimeSec=1809,30348699999
+Debug - 10:33:56.355 ** ShowInfo: GameEngineTimeMs=181930,405899998
+Debug - 10:33:56.356 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:33:56.356 ** ShowInfo: *** Credits: 0
+
+Debug - 10:34:26.332 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:35:19
+Debug - 10:34:26.333 ** ShowInfo: GameWorldTimeSec=2109,32064699998
+Debug - 10:34:26.334 ** ShowInfo: GameEngineTimeMs=211932,121899998
+Debug - 10:34:26.335 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:34:26.335 ** ShowInfo: *** Credits: 0
+
+Debug - 10:34:27.944 ** ShowInfo: UnitOrder to unit BJC : Launch 1 aircraft.
+Debug - 10:34:28.395 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BJI
+Debug - 10:34:29.427 ** ShowInfo: Received BaseUnitInfo: [BJI] F-22 BJI (f22)
+Debug - 10:34:52.901 ** ShowInfo: *** Movement order sent to unit F-22 BJI
+Debug - 10:34:56.631 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:40:19
+Debug - 10:34:56.632 ** ShowInfo: GameWorldTimeSec=2409,33780699998
+Debug - 10:34:56.640 ** ShowInfo: GameEngineTimeMs=241933,837899997
+Debug - 10:34:56.645 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:34:56.649 ** ShowInfo: *** Credits: 0
+
+Debug - 10:35:26.400 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:45:19
+Debug - 10:35:26.401 ** ShowInfo: GameWorldTimeSec=2709,35496699998
+Debug - 10:35:26.401 ** ShowInfo: GameEngineTimeMs=271935,553899996
+Debug - 10:35:26.402 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:35:26.402 ** ShowInfo: *** Credits: 0
+
+Debug - 10:35:53.907 ** ShowInfo: *** Movement order sent to unit E-3 Sentry BOZ
+Debug - 10:35:56.348 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:50:19
+Debug - 10:35:56.351 ** ShowInfo: GameWorldTimeSec=3009,37212699998
+Debug - 10:35:56.355 ** ShowInfo: GameEngineTimeMs=301937,269899996
+Debug - 10:35:56.358 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:35:56.361 ** ShowInfo: *** Credits: 0
+
+Debug - 10:35:57.395 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] FixedWingAircraftLarge [FoF Undetermined]  @ 063° 32' 23"N, 008° 47' 01"W
+Debug - 10:36:01.305 ** ShowInfo: Designate [CHJ] FixedWingAircraftLarge [FoF Undetermined]  @ 063° 31' 28"N, 008° 36' 14"W as hostile.
+Debug - 10:36:02.512 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] FixedWingAircraftLarge [Foe]  @ 063° 31' 14"N, 008° 33' 32"W
+Debug - 10:36:02.517 ** ShowInfo: Contact FixedWingAircraftLarge CHJ  [Foe] is now designated as HOSTILE.
+Debug - 10:36:06.213 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CHJ] FixedWingAircraftLarge [Foe]  @ 063° 30' 17"N, 008° 22' 45"W
+Debug - 10:36:07.113 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 601,84km to engage FixedWingAircraftLarge CHJ  [Foe].
+Debug - 10:36:26.612 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:55:19
+Debug - 10:36:26.617 ** ShowInfo: GameWorldTimeSec=3309,38928699997
+Debug - 10:36:26.621 ** ShowInfo: GameEngineTimeMs=331938,985899995
+Debug - 10:36:26.624 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:36:26.627 ** ShowInfo: *** Credits: 0
+
+Debug - 10:36:56.818 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:00:19
+Debug - 10:36:56.819 ** ShowInfo: GameWorldTimeSec=3609,40644699997
+Debug - 10:36:56.820 ** ShowInfo: GameEngineTimeMs=361940,701899995
+Debug - 10:36:56.820 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:36:56.821 ** ShowInfo: *** Credits: 0
+
+Debug - 10:36:57.829 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] FixedWingAircraftLarge [Foe]  @ 063° 17' 07"N, 006° 06' 26"W
+Debug - 10:37:01.994 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 063° 15' 42"N, 005° 53' 11"W
+Debug - 10:37:06.340 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 063° 14' 34"N, 005° 42' 36"W
+Debug - 10:37:07.611 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 327,03km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 10:37:26.614 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:05:19
+Debug - 10:37:26.615 ** ShowInfo: GameWorldTimeSec=3909,42360699997
+Debug - 10:37:26.616 ** ShowInfo: GameEngineTimeMs=391942,417899994
+Debug - 10:37:26.616 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:37:26.617 ** ShowInfo: *** Credits: 0
+
+Debug - 10:37:35.350 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CBP
+Debug - 10:37:46.711 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CCM
+Debug - 10:37:56.522 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:10:19
+Debug - 10:37:56.523 ** ShowInfo: GameWorldTimeSec=4209,44076699997
+Debug - 10:37:56.524 ** ShowInfo: GameEngineTimeMs=421944,133899994
+Debug - 10:37:56.524 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:37:56.525 ** ShowInfo: *** Credits: 0
+
+Debug - 10:37:57.561 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 58' 53"N, 003° 28' 55"W
+Debug - 10:38:02.743 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CEF
+Debug - 10:38:05.845 ** ShowInfo: Unit [BOZ] E-3 Sentry BOZ (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:38:09.517 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CEN
+Debug - 10:38:16.914 ** ShowInfo: *** Movement order sent to unit E-3 Sentry BOZ
+Debug - 10:38:24.327 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 49' 44"N, 002° 19' 09"W
+Debug - 10:38:25.554 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 0,74km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 10:38:26.576 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:15:19
+Debug - 10:38:26.577 ** ShowInfo: GameWorldTimeSec=4509,45792699996
+Debug - 10:38:26.578 ** ShowInfo: GameEngineTimeMs=451945,849899993
+Debug - 10:38:26.579 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:38:26.579 ** ShowInfo: *** Credits: 0
+
+Debug - 10:38:27.109 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CES
+Debug - 10:38:28.636 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 48' 20"N, 002° 08' 52"W
+Debug - 10:38:36.333 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CEX
+Debug - 10:38:37.369 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 45' 08"N, 001° 45' 49"W
+Debug - 10:38:40.962 ** ShowInfo: Unit [BOZ] E-3 Sentry BOZ (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:38:43.510 ** ShowInfo: [BJI] F-22 BJI (F-22) is being detected by ACTIVE Leninets Rubin PNA-B 'Down Beat' Radar from  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 10:38:51.33 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 40' 02"N, 001° 10' 07"W
+Debug - 10:38:51.648 ** ShowInfo: Received new UnitClass aim9sidewinder AIM-9 Sidewinder Missile
+Debug - 10:38:51.649 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CIX
+Debug - 10:38:52.163 ** ShowInfo: Received BaseUnitInfo: [CIX] Sidewinder from F-22 BJI (aim9sidewinder)
+Debug - 10:38:52.661 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 39' 39"N, 001° 07' 35"W
+Debug - 10:38:53.694 ** ShowInfo: +++Our AIM-9 Sidewinder Missile missed an enemy Tupolev Tu-95
+Debug - 10:38:53.695 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CGE
+Debug - 10:38:54.206 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CIX
+Debug - 10:38:56.779 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:20:23
+Debug - 10:38:56.791 ** ShowInfo: GameWorldTimeSec=4813,34530799996
+Debug - 10:38:56.796 ** ShowInfo: GameEngineTimeMs=482334,587999992
+Debug - 10:38:56.799 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:38:56.802 ** ShowInfo: *** Credits: 0
+
+Debug - 10:38:58.376 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 37' 16"N, 000° 51' 22"W
+Debug - 10:38:59.932 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CGJ
+Debug - 10:39:05.212 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 10:39:05.502 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 24,31km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 10:39:10.385 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 32' 43"N, 000° 21' 01"W
+Debug - 10:39:11.130 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 4,93km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 10:39:15.719 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CGR
+Debug - 10:39:21.849 ** ShowInfo: DetectedUnitInfo received: Id=CHJ  [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 28' 26"N, 000° 06' 38"E
+Debug - 10:39:22.971 ** ShowInfo: [CHJ] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 27' 39"N, 000° 11' 39"E
+Debug - 10:39:25.941 ** ShowInfo: Received new UnitClass aim120amraam AIM-120 AMRAAM Missile
+Debug - 10:39:25.942 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CJV
+Debug - 10:39:25.942 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CJZ
+Debug - 10:39:26.452 ** ShowInfo: Received BaseUnitInfo: [CJV] AMRAAM from F-22 BJI (aim120amraam)
+Debug - 10:39:26.452 ** ShowInfo: Received BaseUnitInfo: [CJZ] Sidewinder from F-22 BJI (aim9sidewinder)
+Debug - 10:39:26.952 ** ShowInfo: +++We shot down an enemy Tupolev Tu-95 using a AIM-120 AMRAAM Missile
+Debug - 10:39:26.954 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CJV
+Debug - 10:39:26.954 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CJZ
+Debug - 10:39:26.955 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CHJ
+Debug - 10:39:26.956 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:25:23
+Debug - 10:39:26.956 ** ShowInfo: GameWorldTimeSec=5113,36246799996
+Debug - 10:39:26.957 ** ShowInfo: GameEngineTimeMs=512336,303999992
+Debug - 10:39:27.503 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:39:27.503 ** ShowInfo: *** Credits: 0
+
+Debug - 10:39:32.617 ** ShowInfo: Unit [BJI] F-22 BJI (F-22) has reached BINGO FUEL and must return to base immediately.
+Debug - 10:39:48.338 ** ShowInfo: UnitOrder to unit BJC : Launch 1 aircraft.
+Debug - 10:39:49.87 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BJQ
+Debug - 10:39:50.116 ** ShowInfo: Received BaseUnitInfo: [BJQ] F-22 BJQ (f22)
+Debug - 10:39:57.510 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:30:27
+Debug - 10:39:57.511 ** ShowInfo: GameWorldTimeSec=5417,50986399996
+Debug - 10:39:57.511 ** ShowInfo: GameEngineTimeMs=542751,043599992
+Debug - 10:39:57.512 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:39:57.512 ** ShowInfo: *** Credits: 0
+
+Debug - 10:40:01.636 ** ShowInfo: *** Movement order sent to unit F-22 BJQ
+Debug - 10:40:27.424 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:35:27
+Debug - 10:40:27.428 ** ShowInfo: GameWorldTimeSec=5717,52702399995
+Debug - 10:40:27.431 ** ShowInfo: GameEngineTimeMs=572752,759599994
+Debug - 10:40:27.434 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:40:27.437 ** ShowInfo: *** Credits: 0
+
+Debug - 10:40:57.277 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:40:27
+Debug - 10:40:57.277 ** ShowInfo: GameWorldTimeSec=6017,54418399995
+Debug - 10:40:57.278 ** ShowInfo: GameEngineTimeMs=602754,475599995
+Debug - 10:40:57.283 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:40:57.287 ** ShowInfo: *** Credits: 0
+
+Debug - 10:41:27.150 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:45:27
+Debug - 10:41:27.150 ** ShowInfo: GameWorldTimeSec=6317,56134399995
+Debug - 10:41:27.151 ** ShowInfo: GameEngineTimeMs=632756,191599996
+Debug - 10:41:27.152 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:41:27.152 ** ShowInfo: *** Credits: 0
+
+Debug - 10:41:41.41 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CKT] FixedWingAircraft (2 units)
+Debug - 10:41:41.549 ** ShowInfo: DetectedUnitInfo received: Id=CKP  [CKP] FixedWingAircraft [FoF Undetermined]  @ 061° 27' 21"N, 001° 22' 09"E
+Debug - 10:41:41.551 ** ShowInfo: DetectedUnitInfo received: Id=CKR  [CKR] FixedWingAircraft [FoF Undetermined]  @ 061° 27' 23"N, 001° 22' 09"E
+Debug - 10:41:44.663 ** ShowInfo: Designate [CKP] FixedWingAircraft [FoF Undetermined]  @ 061° 25' 50"N, 001° 29' 27"E as hostile.
+Debug - 10:41:45.604 ** ShowInfo: DetectedUnitInfo received: Id=CKP  [CKP] FixedWingAircraft [Foe]  @ 061° 25' 19"N, 001° 31' 53"E
+Debug - 10:41:45.606 ** ShowInfo: Contact FixedWingAircraft CKP  [Foe] is now designated as HOSTILE.
+Debug - 10:41:48.202 ** ShowInfo: Designate [CKR] FixedWingAircraft [FoF Undetermined]  @ 061° 23' 49"N, 001° 39' 10"E as hostile.
+Debug - 10:41:49.660 ** ShowInfo: DetectedUnitInfo received: Id=CKR  [CKR] FixedWingAircraft [Foe]  @ 061° 23' 18"N, 001° 41' 35"E
+Debug - 10:41:49.663 ** ShowInfo: Contact FixedWingAircraft CKR  [Foe] is now designated as HOSTILE.
+Debug - 10:41:51.671 ** ShowInfo: *** Movement order sent to unit E-3 Sentry BOZ
+Debug - 10:41:57.422 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:50:27
+Debug - 10:41:57.423 ** ShowInfo: GameWorldTimeSec=6617,57850399995
+Debug - 10:41:57.424 ** ShowInfo: GameEngineTimeMs=662757,907599997
+Debug - 10:41:57.424 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:41:57.425 ** ShowInfo: *** Credits: 0
+
+Debug - 10:41:57.585 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CKP] FixedWingAircraft [Foe]  @ 061° 19' 08"N, 002° 00' 57"E
+Debug - 10:41:59.5 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] FixedWingAircraft [FoF Undetermined]  @ 063° 04' 22"N, 012° 28' 08"W
+Debug - 10:41:59.519 ** ShowInfo: Sir, [BJQ] F-22 BJQ (F-22) is closing 12,29km to engage FixedWingAircraft CKP  [Foe].
+Debug - 10:42:00.320 ** ShowInfo: Designate [CLA] FixedWingAircraft [FoF Undetermined]  @ 063° 04' 00"N, 012° 25' 27"W as hostile.
+Debug - 10:42:01.48 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] FixedWingAircraft [Foe]  @ 063° 03' 16"N, 012° 20' 05"W
+Debug - 10:42:01.545 ** ShowInfo: Contact FixedWingAircraft CLA  [Foe] is now designated as HOSTILE.
+Debug - 10:42:14.356 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CLH
+Debug - 10:42:14.357 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CLL
+Debug - 10:42:14.855 ** ShowInfo: Received BaseUnitInfo: [CLH] Sidewinder from F-22 BJQ (aim9sidewinder)
+Debug - 10:42:14.856 ** ShowInfo: Received BaseUnitInfo: [CLL] AMRAAM from F-22 BJQ (aim120amraam)
+Debug - 10:42:15.367 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a AIM-120 AMRAAM Missile
+Debug - 10:42:15.371 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CLL
+Debug - 10:42:15.372 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CKP
+Debug - 10:42:15.372 ** ShowInfo: DetectedUnitInfo received: Id=CKR  [CKR] Sukhoi PAK FA BRR (sukhoipakfa) [Foe]  @ 061° 10' 14"N, 002° 41' 48"E
+Debug - 10:42:15.373 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CKT] FixedWingAircraft (1 units)
+Debug - 10:42:15.871 ** ShowInfo: DetectedUnitInfo received: Id=CKR  [CKR] Sukhoi PAK FA BRR (sukhoipakfa) [Foe]  @ 061° 09' 42"N, 002° 44' 11"E
+Debug - 10:42:15.872 ** ShowInfo: [BJQ] F-22 BJQ (F-22) is being detected by ACTIVE EGSP-27 Irbis-E 3D Radar from  Sukhoi PAK FA BRR (Sukhoi PAK FA)  [Foe].
+Debug - 10:42:15.873 ** ShowInfo: [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) is being detected by ACTIVE EGSP-27 Irbis-E 3D Radar from  Sukhoi PAK FA BRR (Sukhoi PAK FA)  [Foe].
+Debug - 10:42:16.404 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CLH
+Debug - 10:42:16.915 ** ShowInfo: Aircraft has landed : BJI
+Debug - 10:42:16.916 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BJI
+Debug - 10:42:21.438 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 10:42:28.739 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:55:41
+Debug - 10:42:28.740 ** ShowInfo: GameWorldTimeSec=6930,78641899995
+Debug - 10:42:28.740 ** ShowInfo: GameEngineTimeMs=694078,699099998
+Debug - 10:42:28.741 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:42:28.741 ** ShowInfo: *** Credits: 0
+
+Debug - 10:42:31.313 ** ShowInfo: Unit [BJQ] F-22 BJQ (F-22) has reached BINGO FUEL and must return to base immediately.
+Debug - 10:42:36.63 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CKR] Sukhoi PAK FA BRR (sukhoipakfa) [Foe]  @ 061° 00' 08"N, 003° 28' 21"E
+Debug - 10:42:36.928 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CNH
+Debug - 10:42:37.460 ** ShowInfo: Received BaseUnitInfo: [CNH] AMRAAM from F-22 BJQ (aim120amraam)
+Debug - 10:42:37.461 ** ShowInfo: DetectedUnitInfo received: Id=CKR  [CKR] Sukhoi PAK FA BRR (sukhoipakfa) [Foe]  @ 061° 00' 08"N, 003° 28' 21"E
+Debug - 10:42:39.557 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a AIM-120 AMRAAM Missile
+Debug - 10:42:40.69 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CNH
+Debug - 10:42:40.71 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CKR
+Debug - 10:42:40.72 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id CKT
+Debug - 10:42:44.572 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CLA] FixedWingAircraft [Foe]  @ 062° 51' 33"N, 010° 21' 52"W
+Debug - 10:42:45.716 ** ShowInfo: Sir, [BJQ] F-22 BJQ (F-22) is closing 641,02km to engage FixedWingAircraft CLA  [Foe].
+Debug - 10:42:50.595 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CLA] FixedWingAircraft [Foe]  @ 062° 50' 32"N, 010° 05' 20"W
+Debug - 10:42:51.905 ** ShowInfo: Sir, [BJQ] F-22 BJQ (F-22) is closing 604,76km to engage FixedWingAircraft CLA  [Foe].
+Debug - 10:42:57.493 ** ShowInfo: Unit [BOZ] E-3 Sentry BOZ (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:42:59.17 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:00:41
+Debug - 10:42:59.18 ** ShowInfo: GameWorldTimeSec=7231,46361699994
+Debug - 10:42:59.25 ** ShowInfo: GameEngineTimeMs=724146,418899999
+Debug - 10:42:59.28 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:42:59.31 ** ShowInfo: *** Credits: 0
+
+Debug - 10:42:59.548 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] FixedWingAircraft [Foe]  @ 062° 49' 25"N, 009° 43' 14"W
+Debug - 10:43:06.682 ** ShowInfo: *** Movement order sent to unit E-3 Sentry BOZ
+Debug - 10:43:12.160 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CLA] FixedWingAircraft [Foe]  @ 062° 47' 41"N, 009° 04' 31"W
+Debug - 10:43:13.371 ** ShowInfo: Sir, [BJQ] F-22 BJQ (F-22) is closing 556,69km to engage FixedWingAircraft CLA  [Foe].
+Debug - 10:43:13.372 ** ShowInfo: Unit [BOZ] E-3 Sentry BOZ (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:43:20.507 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CON] FixedWingAircraft (2 units)
+Debug - 10:43:28.214 ** ShowInfo: Designate [COJ] FixedWingAircraft [FoF Undetermined]  @ 063° 36' 33"N, 010° 59' 10"W as hostile.
+Debug - 10:43:28.659 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:05:41
+Debug - 10:43:28.660 ** ShowInfo: GameWorldTimeSec=7531,48077699994
+Debug - 10:43:28.661 ** ShowInfo: GameEngineTimeMs=754148,134900001
+Debug - 10:43:28.662 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:43:28.663 ** ShowInfo: *** Credits: 0
+
+Debug - 10:43:29.194 ** ShowInfo: DetectedUnitInfo received: Id=COJ  [COJ] FixedWingAircraft [Foe]  @ 063° 36' 33"N, 010° 59' 10"W
+Debug - 10:43:29.198 ** ShowInfo: Contact FixedWingAircraft COJ  [Foe] is now designated as HOSTILE.
+Debug - 10:43:31.402 ** ShowInfo: Designate [COL] FixedWingAircraft [FoF Undetermined]  @ 063° 35' 55"N, 010° 50' 45"W as hostile.
+Debug - 10:43:31.748 ** ShowInfo: DetectedUnitInfo received: Id=COL  [COL] FixedWingAircraft [Foe]  @ 063° 35' 55"N, 010° 50' 45"W
+Debug - 10:43:31.749 ** ShowInfo: Contact FixedWingAircraft COL  [Foe] is now designated as HOSTILE.
+Debug - 10:43:37.771 ** ShowInfo: UnitOrder to unit BJC : Launch 1 aircraft.
+Debug - 10:43:38.955 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BJY
+Debug - 10:43:39.486 ** ShowInfo: Received BaseUnitInfo: [BJY] F-22 BJY (f22)
+Debug - 10:43:44.940 ** ShowInfo: *** Unit F-22 BJY to close and engage target [CLA] FixedWingAircraft [Foe]  @ 062° 40' 50"N, 007° 35' 41"W
+Debug - 10:43:45.632 ** ShowInfo: Sir, [BJY] F-22 BJY (F-22) is closing 682,23km to engage FixedWingAircraft CLA  [Foe].
+Debug - 10:43:51.250 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BJQ
+Debug - 10:43:51.252 ** ShowInfo: Unit [BJQ] F-22 BJQ (F-22) has run out of fuel and CRASHED.
+Debug - 10:43:59.451 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:10:47
+Debug - 10:43:59.451 ** ShowInfo: GameWorldTimeSec=7836,70823499994
+Debug - 10:43:59.452 ** ShowInfo: GameEngineTimeMs=784670,880700002
+Debug - 10:43:59.453 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:43:59.453 ** ShowInfo: *** Credits: 0
+
+Debug - 10:43:59.968 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] FixedWingAircraft [Foe]  @ 062° 36' 30"N, 006° 58' 10"W
+Debug - 10:43:59.970 ** ShowInfo: DetectedUnitInfo received: Id=COL  [COL] FixedWingAircraft [Foe]  @ 063° 29' 32"N, 009° 33' 39"W
+Debug - 10:44:26.288 ** ShowInfo: *** Movement order sent to unit E-3 Sentry BOZ
+Debug - 10:44:29.439 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:15:47
+Debug - 10:44:29.440 ** ShowInfo: GameWorldTimeSec=8136,72539499994
+Debug - 10:44:29.440 ** ShowInfo: GameEngineTimeMs=814672,596700003
+Debug - 10:44:29.441 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:44:29.441 ** ShowInfo: *** Credits: 0
+
+Debug - 10:44:42.858 ** ShowInfo: *** Unit F-22 BJY to close and engage target [CLA] FixedWingAircraft [Foe]  @ 062° 18' 21"N, 005° 04' 00"W
+Debug - 10:44:43.450 ** ShowInfo: Sir, [BJY] F-22 BJY (F-22) is closing 400,65km to engage FixedWingAircraft CLA  [Foe].
+Debug - 10:44:53.695 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] MiG-29K BVQ (mig29k) [Foe]  @ 062° 15' 23"N, 004° 34' 41"W
+Debug - 10:44:59.359 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:20:47
+Debug - 10:44:59.360 ** ShowInfo: GameWorldTimeSec=8436,74255499992
+Debug - 10:44:59.361 ** ShowInfo: GameEngineTimeMs=844674,312700004
+Debug - 10:44:59.361 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:44:59.362 ** ShowInfo: *** Credits: 0
+
+Debug - 10:44:59.911 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] MiG-29K BVQ (mig29k) [Foe]  @ 062° 14' 27"N, 004° 21' 12"W
+Debug - 10:44:59.912 ** ShowInfo: DetectedUnitInfo received: Id=COL  [COL] FixedWingAircraft [Foe]  @ 063° 13' 30"N, 006° 50' 11"W
+Debug - 10:45:05.53 ** ShowInfo: Unit [BOZ] E-3 Sentry BOZ (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 10:45:14.855 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] MiG-29K BVQ (mig29k) [Foe]  @ 062° 12' 53"N, 003° 37' 43"W
+Debug - 10:45:18.20 ** ShowInfo: [BJI] F-22 BJI (F-22) is ready on [BJC] Bergen Airport (UK Airport)
+Debug - 10:45:23.677 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] MiG-29K BVQ (mig29k) [Foe]  @ 062° 12' 35"N, 003° 13' 13"W
+Debug - 10:45:25.956 ** ShowInfo: UnitOrder to unit BJC : Launch 1 aircraft.
+Debug - 10:45:26.316 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BKG
+Debug - 10:45:26.830 ** ShowInfo: Received BaseUnitInfo: [BKG] F-22 BKG (f22)
+Debug - 10:45:28.345 ** ShowInfo: DetectedUnitInfo received: Id=COJ  [COJ] MiG-29K BWE (mig29k) [Foe]  @ 063° 04' 29"N, 005° 31' 06"W
+Debug - 10:45:28.856 ** ShowInfo: DetectedUnitInfo received: Id=COL  [COL] MiG-29K BWL (mig29k) [Foe]  @ 063° 04' 30"N, 005° 31' 07"W
+Debug - 10:45:29.355 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:25:47
+Debug - 10:45:29.357 ** ShowInfo: GameWorldTimeSec=8736,8897219999
+Debug - 10:45:29.357 ** ShowInfo: GameEngineTimeMs=874689,029400005
+Debug - 10:45:29.360 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:45:29.361 ** ShowInfo: *** Credits: 0
+
+Debug - 10:45:31.62 ** ShowInfo: *** Unit F-22 BKG to close and engage target [COJ] MiG-29K BWE (mig29k) [Foe]  @ 063° 03' 30"N, 005° 22' 58"W
+Debug - 10:45:31.430 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CQU] MiG-29K BVQ (2 units)
+Debug - 10:45:31.432 ** ShowInfo: DetectedUnitInfo received: Id=CQS  [CQS] MiG-29K BVX (mig29k) [Foe]  @ 062° 12' 40"N, 002° 54' 11"W
+Debug - 10:45:32.448 ** ShowInfo: Sir, [BKG] F-22 BKG (F-22) is closing 588,56km to engage  MiG-29K BWE (MiG-29K)  [Foe].
+Debug - 10:45:38.61 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has reached BINGO FUEL and must return to base immediately.
+Debug - 10:45:50.852 ** ShowInfo: DetectedUnitInfo received: Id=CLA  [CLA] MiG-29K BVQ (mig29k) [Foe]  @ 062° 14' 13"N, 001° 59' 48"W
+Debug - 10:45:52.419 ** ShowInfo: Received new UnitClass vympelr77 Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 10:45:59.584 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:30:51
+Debug - 10:45:59.584 ** ShowInfo: GameWorldTimeSec=9040,89711099991
+Debug - 10:45:59.585 ** ShowInfo: GameEngineTimeMs=905089,768300006
+Debug - 10:45:59.586 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:45:59.586 ** ShowInfo: *** Credits: 0
+

@@ -1,0 +1,9 @@
+Debug - 15:20:49.946 ** ************* GameServer Init Start **************
+Debug - 15:20:49.952 ** ************* GameServer Init End **************
+Debug - 15:20:50.199 ** PollNetwork: New client 2 added.
+Debug - 15:20:52.304 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:52.337 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:53.743 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:53.747 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:21:11.694 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:21:12.236 ** PollNetwork: Object read from receive buffer: GameControlRequest

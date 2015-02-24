@@ -1,0 +1,6 @@
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\NWTerrainTest\NWTerrainTest\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+<<<<<<< .mine
+C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+=======
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+>>>>>>> .r554

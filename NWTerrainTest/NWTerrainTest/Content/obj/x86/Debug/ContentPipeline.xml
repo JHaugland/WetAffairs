@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Graphics="Microsoft.Xna.Framework.Graphics" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>bbEffect.fx</Source>
+      <Name>bbEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\bbEffect.xnb</Output>
+      <Time>2008-12-19T13:13:58.7314787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\bbEffect.xnb</Output>
+      <Time>2008-12-15T15:04:30.8263628+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>Series4Effects.fx</Source>
+      <Name>Series4Effects</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\Series4Effects.xnb</Output>
+      <Time>2008-12-19T13:13:58.3274787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\Series4Effects.xnb</Output>
+      <Time>2008-12-15T15:30:32.2254503+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>dome.x</Source>
+      <Name>dome</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\dome.xnb</Output>
+      <Time>2008-12-19T13:13:58.3204787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\dome.xnb</Output>
+      <Time>2008-12-15T12:06:29.0112646+01:00</Time>
+>>>>>>> .r554
+      <Dependency>
+        <Key>obj\x86\Debug\dome_0.xml</Key>
+<<<<<<< .mine
+        <Value>2008-12-19T13:14:55.4414787+01:00</Value>
+=======
+        <Value>2008-12-19T13:53:16.7147804+01:00</Value>
+>>>>>>> .r554
+      </Dependency>
+<<<<<<< .mine
+      <Request>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\cloudMap_0.xnb</Request>
+=======
+      <Request>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\cloudMap_0.xnb</Request>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>grass.dds</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2008-12-19T13:13:58.3114787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2008-12-15T12:06:29.0112646+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>rock.dds</Source>
+      <Name>rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rock.xnb</Output>
+      <Time>2008-12-19T13:13:58.7124787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rock.xnb</Output>
+      <Time>2008-12-15T12:06:29.0112646+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>sand.dds</Source>
+      <Name>sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\sand.xnb</Output>
+      <Time>2008-12-19T13:13:58.3564787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\sand.xnb</Output>
+      <Time>2008-12-15T12:06:29.0268896+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>snow.dds</Source>
+      <Name>snow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\snow.xnb</Output>
+      <Time>2008-12-19T13:13:58.4134787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\snow.xnb</Output>
+      <Time>2008-12-15T12:06:29.0268896+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>tree.dds</Source>
+      <Name>tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\tree.xnb</Output>
+      <Time>2008-12-19T13:13:58.7264787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\tree.xnb</Output>
+      <Time>2008-12-15T12:06:29.0268896+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>waterbump.dds</Source>
+      <Name>waterbump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\waterbump.xnb</Output>
+      <Time>2008-12-19T13:13:58.0334787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\waterbump.xnb</Output>
+      <Time>2008-12-15T12:06:29.0268896+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>cloudMap.jpg</Source>
+      <Name>cloudMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\cloudMap.xnb</Output>
+      <Time>2008-12-19T13:13:58.1084787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\cloudMap.xnb</Output>
+      <Time>2008-12-15T12:06:29.0112646+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>treeMap.jpg</Source>
+      <Name>treeMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\treeMap.xnb</Output>
+      <Time>2008-12-19T13:13:58.7364787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\treeMap.xnb</Output>
+      <Time>2008-12-15T12:06:29.0268896+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>heightmap2.bmp</Source>
+      <Name>heightmap2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\heightmap2.xnb</Output>
+      <Time>2008-12-19T13:13:58.6674787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\heightmap2.xnb</Output>
+      <Time>2008-12-15T15:26:22.7599718+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>tereng.bmp</Source>
+      <Name>tereng</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\tereng.xnb</Output>
+      <Time>2008-12-19T13:13:58.6404787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\tereng.xnb</Output>
+      <Time>2008-12-15T15:37:29.2368458+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+<<<<<<< .mine
+      <Source>Tereng2.bmp</Source>
+      <Name>Tereng2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\Tereng2.xnb</Output>
+      <Time>2008-12-19T13:13:58.2814787+01:00</Time>
+    </Item>
+    <Item>
+=======
+      <Source>Tereng2.bmp</Source>
+      <Name>Tereng2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\Tereng2.xnb</Output>
+      <Time>2008-12-15T15:37:29.2632113+01:00</Time>
+    </Item>
+    <Item>
+>>>>>>> .r554
+      <Source>rocks.bmp</Source>
+      <Name>rocks</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rocks.xnb</Output>
+      <Time>2008-12-19T13:13:58.3774787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rocks.xnb</Output>
+      <Time>2008-12-19T10:13:59.5279611+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>terrain.bmp</Source>
+      <Name>terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TerrainProcessor</Processor>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\terrain.xnb</Output>
+      <Time>2008-12-19T13:13:58.0414787+01:00</Time>
+      <Request>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rocks_0.xnb</Request>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\terrain.xnb</Output>
+      <Time>2008-12-19T10:30:05.1878911+01:00</Time>
+      <Request>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rocks_0.xnb</Request>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>dome.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\dome_0.xml</Output>
+      <Time>2008-12-19T13:13:58.3204787+01:00</Time>
+    </Item>
+    <Item>
+      <Source>cloudMap.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\cloudMap_0.xnb</Output>
+      <Time>2008-12-19T13:13:58.1084787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\cloudMap_0.xnb</Output>
+      <Time>2008-12-15T12:06:29.0112646+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <Item>
+      <Source>rocks.bmp</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Graphics:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+      </Parameters>
+      <Options>None</Options>
+<<<<<<< .mine
+      <Output>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rocks_0.xnb</Output>
+      <Time>2008-12-19T13:13:58.3774787+01:00</Time>
+=======
+      <Output>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\rocks_0.xnb</Output>
+      <Time>2008-12-19T10:13:59.5279611+01:00</Time>
+>>>>>>> .r554
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+<<<<<<< .mine
+      <RootDirectory>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\</OutputDirectory>
+=======
+      <RootDirectory>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\NWTerrainTest\bin\x86\Debug\Content\</OutputDirectory>
+>>>>>>> .r554
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2008-10-10T18:42:32+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2008-10-10T18:43:28+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2008-10-10T18:43:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2008-10-10T18:48:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2008-10-10T18:48:50+02:00</Value>
+      </Assembly>
+      <Assembly>
+<<<<<<< .mine
+        <Key>C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.dll</Key>
+        <Value>2008-12-19T13:14:51.6234787+01:00</Value>
+=======
+        <Key>C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.dll</Key>
+        <Value>2008-12-19T10:35:50.6566341+01:00</Value>
+>>>>>>> .r554
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2008-11-04T13:06:14.536+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

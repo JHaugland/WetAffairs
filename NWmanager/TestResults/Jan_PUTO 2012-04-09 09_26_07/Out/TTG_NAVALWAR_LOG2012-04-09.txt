@@ -1,0 +1,76 @@
+Debug - 09:26:12.870 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 09:26:12.884 ** **************************************************************************
+Debug - 09:26:12.885 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 09:26:12.886 ** **************************************************************************
+Debug - 09:26:12.890 ** Game() object ALR instantiated!
+Warning - 09:26:12.913 ** GameData->CreateUnit: Unit [ALS]  (NATO Airport) spawned on low ground and is moved up. Height 131m
+Warning - 09:26:12.941 ** GameData->CreateUnit: Unit [BAX]  (Russian Airport) spawned on low ground and is moved up. Height 131m
+Debug - 09:26:12.964 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 09:26:13.25 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 57' 52"N, 006° 03' 19"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 5009,06m at 142,05deg. Strength: 87,50. Size: 524,99 ArcSec
+ 
+Error - 09:26:13.42 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:26:13.102 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 59' 22"N, 005° 55' 42"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 4144,32m at 253,97deg. Strength: 55,31. Size: 663,72 ArcSec
+ 
+Error - 09:26:13.116 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:26:13.146 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 060° 00' 38"N, 005° 56' 59"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 3028,45m at 293,03deg. Strength: 72,36. Size: 868,33 ArcSec
+ 
+Debug - 09:26:13.177 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 55' 33"N, 005° 56' 03"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 9020,55m at 203,96deg. Strength: 194,35. Size: 291,52 ArcSec
+ 
+Error - 09:26:13.192 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:26:13.220 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 060° 04' 26"N, 005° 56' 02"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 9015,33m at 336,04deg. Strength: 24,31. Size: 291,69 ArcSec
+ 
+Error - 09:26:13.242 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:26:13.270 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 56' 54"N, 005° 59' 01"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 5790,67m at 188,99deg. Strength: 36,02. Size: 432,22 ArcSec
+ 
+Debug - 09:26:13.300 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 060° 00' 09"N, 006° 03' 42"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 3451,16m at 84,99deg. Strength: 885,59. Size: 797,03 ArcSec
+ 
+Error - 09:26:13.314 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:26:13.340 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 58' 10"N, 006° 00' 15"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 3397,71m at 176,01deg. Strength: 68,21. Size: 736,63 ArcSec
+ 
+Debug - 09:26:13.364 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 54' 38"N, 005° 59' 37"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 9921,41m at 182,00deg. Strength: 42,04. Size: 252,27 ArcSec
+ 
+Debug - 09:27:04.1 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:27:22.789 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:27:32.649 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:01.72 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:01.74 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:01.75 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:01.639 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:01.641 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:01.642 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:02.149 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:02.150 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:02.151 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:02.607 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:02.608 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:02.609 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:03.39 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:03.40 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:03.41 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:03.485 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:03.487 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:03.488 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:03.910 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:03.912 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:03.913 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:28:04.342 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:28:04.343 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:28:04.345 ** EngageAirThreat: [ALS] Airport (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True

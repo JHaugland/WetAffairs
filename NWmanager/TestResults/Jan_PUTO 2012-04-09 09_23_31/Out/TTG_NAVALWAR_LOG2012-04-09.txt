@@ -1,0 +1,52 @@
+Debug - 09:23:36.642 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 09:23:36.657 ** **************************************************************************
+Debug - 09:23:36.658 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 09:23:36.659 ** **************************************************************************
+Debug - 09:23:36.661 ** Game() object ALR instantiated!
+Warning - 09:23:36.687 ** GameData->CreateUnit: Unit [ALS]  (NATO Airport) spawned on low ground and is moved up. Height 131m
+Warning - 09:23:36.716 ** GameData->CreateUnit: Unit [BAX]  (Russian Airport) spawned on low ground and is moved up. Height 131m
+Debug - 09:23:36.738 ** GameData->RecreateWeatherDataFromMain called.
+Error - 09:23:36.761 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:36.812 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 060° 00' 56"N, 005° 54' 47"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 5134,73m at 290,03deg. Strength: 44,64. Size: 535,70 ArcSec
+ 
+Error - 09:23:36.828 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:36.857 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 58' 31"N, 005° 59' 44"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 2746,60m at 184,99deg. Strength: 75,94. Size: 911,26 ArcSec
+ 
+Error - 09:23:36.874 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:36.903 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 58' 34"N, 006° 02' 03"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 3265,20m at 144,05deg. Strength: 74,57. Size: 805,37 ArcSec
+ 
+Error - 09:23:36.918 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:36.948 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 58' 39"N, 005° 54' 33"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 5623,61m at 243,96deg. Strength: 38,97. Size: 467,62 ArcSec
+ 
+Error - 09:23:36.962 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:36.991 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 57' 59"N, 005° 53' 48"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 6844,44m at 236,96deg. Strength: 32,02. Size: 384,21 ArcSec
+ 
+Debug - 09:23:37.19 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 56' 51"N, 006° 00' 59"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 5885,02m at 171,01deg. Strength: 78,76. Size: 425,29 ArcSec
+ 
+Error - 09:23:37.34 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:37.65 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 57' 27"N, 005° 59' 11"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 4763,08m at 188,99deg. Strength: 43,79. Size: 525,47 ArcSec
+ 
+Debug - 09:23:37.110 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 55' 42"N, 005° 53' 47"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 9826,65m at 215,95deg. Strength: 44,60. Size: 267,61 ArcSec
+ 
+Error - 09:23:37.124 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:23:37.153 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 59' 04"N, 005° 57' 57"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport [NATO Airport]: Distance 2542,93m at 227,95deg. Strength: 86,18. Size: 1034,12 ArcSec
+ 
+Debug - 09:24:42.188 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False

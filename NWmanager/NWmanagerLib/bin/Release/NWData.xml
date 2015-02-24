@@ -1,0 +1,2229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NWData</name>
+    </assembly>
+    <members>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.Position.Coordinate">
+            <summary>
+            Coordinate of position as expressed in latitude and longitude
+            </summary>
+        </member>
+        <member name="T:TTG.NavalWar.NWData.GameObject">
+            <summary>
+            All objects that should be registered (automatic ID) in the game should inherit from GameObject.
+            Objects where all instances are loaded from xml (for example UnitClass or WeaponClass) should not. 
+            </summary>
+        </member>
+        <member name="T:TTG.NavalWar.NWData.Ai.SunTime">
+            <summary>
+            Calculates sunset / sunrise time.
+            
+            Implementation of algorithm found in Almanac for Computers, 1990
+            published by Nautical Almanac Office
+            
+            Implemented by Huysentruit Wouter, Fastload-Media.be
+            See http://69.10.233.10/KB/cs/SunTime.aspx
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.SunTime.#ctor">
+            <summary>
+            Create a new SunTime object with default settings.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.SunTime.#ctor(System.Double,System.Double,System.Double,System.Globalization.DaylightTime)">
+            <summary>
+            Create a new SunTime object for the current date.
+            </summary>
+            <param name="latitude">Global position latitude in degrees. Latitude is positive for North and negative for South.</param>
+            <param name="longitude">Global position longitude in degrees. Longitude is positive for East and negative for West.</param>
+            <param name="utcOffset">The local UTC offset (f.e. +1 for Brussel, Kopenhagen, Madrid, Paris).</param>
+            <param name="daylightChanges">The daylight saving settings to use.</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.SunTime.#ctor(System.Double,System.Double,System.Double,System.Globalization.DaylightTime,System.DateTime)">
+            <summary>
+            Create a new SunTime object for the given date.
+            </summary>
+            <param name="latitude">Global position latitude in degrees. Latitude is positive for North and negative for South.</param>
+            <param name="longitude">Global position longitude in degrees. Longitude is positive for East and negative for West.</param>
+            <param name="utcOffset">The local UTC offset (f.e. +1 for Brussel, Kopenhagen, Madrid, Paris).</param>
+            <param name="daylightChanges">The daylight saving settings to use.</param>
+            <param name="date">The date to calculate the set- and risetime for.</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.SunTime.DegreesToAngle(System.Double,System.Double,System.Double)">
+            <summary>
+            Combine a degrees/minutes/seconds value to an angle in degrees.
+            </summary>
+            <param name="degrees">The degrees part of the value.</param>
+            <param name="minutes">The minutes part of the value.</param>
+            <param name="seconds">The seconds part of the value.</param>
+            <returns>The combined angle in degrees.</returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.Longitude">
+            <summary>
+            Gets or sets the global position longitude in degrees.
+            Longitude is positive for East and negative for West.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.Latitude">
+            <summary>
+            Gets or sets the global position latitude in degrees.
+            Latitude is positive for North and negative for South.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.Date">
+            <summary>
+            Gets or sets the date where the RiseTime and SetTime apply to.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.UtcOffset">
+            <summary>
+            Gets or sets the local UTC offset in hours.
+            F.e.: +1 for Brussel, Kopenhagen, Madrid, Paris.
+            See Windows Time settings for a list of offsets.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.RiseTimeSec">
+            <summary>
+            The time (in seconds starting from midnight) the sun will rise on the given location at the given date.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.SetTimeSec">
+            <summary>
+            The time (in seconds starting from midnight) the sun will set on the given location at the given date.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.RiseTime">
+            <summary>
+            The time the sun will rise on the given location at the given date.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.SetTime">
+            <summary>
+            The time the sun will set on the given location at the given date.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.Zenith">
+            <summary>
+            Gets or sets the zenith used in the sunrise / sunset time calculation.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.SunTime.DaylightChanges">
+            <summary>
+            Gets or sets the daylight saving range to use in sunrise / sunset time calculation.
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Ai.SunTime.ZenithValue.Official">
+            <summary>
+            Official zenith (90.5)
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Ai.SunTime.ZenithValue.Civil">
+            <summary>
+            Civil zenith (96)
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Ai.SunTime.ZenithValue.Nautical">
+            <summary>
+            Nautical zenith (102)
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Ai.SunTime.ZenithValue.Astronomical">
+            <summary>
+            Astronomical zenith (108)
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.EngagementStatus.WeaponCanBeUsedAgainstTarget">
+            <summary>
+            Depends on EngagementStatusResult, returns true if this weapon can be used against the 
+            specific target if only range and sector is right. Returns false if weapon is damaged, out 
+            of ammo, or wrong target type.
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.OrderSystem.Coordinate._latitudeDeg">
+            <summary>
+            Latitude (Y) in degrees. -90 to 90 
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.OrderSystem.Coordinate._longitudeDeg">
+            <summary>
+            Longitude (X) in degree. -180 to 180
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.OrderSystem.Coordinate.ParseFromString(System.String)">
+            <summary>
+            Takes a string in the space separated format "LA MM SS LO MM SS" and returns a coordinate. Use negative
+            numbers for southern latitudes and western longitudes.
+            </summary>
+            <param name="formattedCoordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.Coordinate.LatitudeRad">
+            <summary>
+            Sets and returns latitude (north-south) in Radians
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.Coordinate.LongitudeRad">
+            <summary>
+            Sets and returns longitude (east-west) in Radians
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.BaseMovableObject.Tag">
+            <summary>
+            Tag is used by the AI/scenarios to give units and groups a unique identifier.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.MakeExtraordinaryNoise(System.Double,System.Double)">
+            <summary>
+            Causes the unit to emit extraordinary noise for a period of time. Normally called by a missile launch or explosion. 
+            Extraordinary noise means sonars will more easily detect unit.
+            </summary>
+            <param name="multiplierPercent">The value the units noise is multiplied with, as a percentage. 200 means a doubling of the noise.</param>
+            <param name="timeSec">The time the noise will last</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.DetectionWithActiveSensor(TTG.NavalWar.NWData.Units.BaseSensor,System.Double)">
+            <summary>
+            Signals to the unit it is being detected by ACTIVE sonar or radar, thus
+            turning on its own sensors as appropriate if set to do that.
+            </summary>
+            <param name="detectionSensor">The (enemy) sensor doing the detection</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HasActiveSensors(TTG.NavalWar.NWComms.GameConstants.SensorType)">
+            <summary>
+            Tests if this unit has any sensors of the relevant type (
+            </summary>
+            <param name="sensorType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetSensorsActivePassive(TTG.NavalWar.NWComms.GameConstants.SensorType,System.Boolean)">
+            <summary>
+            Turn on or off all sensors of a particular type
+            </summary>
+            <param name="sensorType">Sensor type, e.g. sonar or radar</param>
+            <param name="turnOn">True to turn sensor on, False to turn sensor off</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetSensorsActivePassive(TTG.NavalWar.NWComms.Entities.UnitOrder)">
+            <summary>
+            Turn on or off sensor as specified in the UnitOrder
+            </summary>
+            <param name="order">UnitOrder specifying which sensor to turn on or off</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetGroup">
+            <summary>
+            Returns the Group object the unit is part of. Null if unit is not in a group.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetWeatherSystem">
+            <summary>
+            Returns local weather at position of unit. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CalculateSizeInSqM(TTG.NavalWar.NWComms.GameConstants.DirectionCardinalPoints)">
+            <summary>
+            This method returns the side area of the object in square meters, very roughly calculated
+            based on height, width and length, assuming the object is rectangular. 
+            </summary>
+            <param name="viewAngle">Angle from which unit is viewed, expressed in 
+            CardinalPoints (N, SE, W, etc)</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CalculateApparentSizeArcSec(TTG.NavalWar.NWComms.GameConstants.DirectionCardinalPoints,System.Double)">
+            <summary>
+            Calculates the apparent size of this unit in ArcSeconds. Used to determine visibility of unit. 
+            Does not correct for stealth.
+            </summary>
+            <param name="viewAngle"></param>
+            <param name="distanceM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CalculateRadarCorrectedSizeArcSec(TTG.NavalWar.NWComms.GameConstants.DirectionCardinalPoints,System.Double)">
+            <summary>
+            Calculates the apparent size of unit in ArcSeconds, taking into account stealth degradation 
+            </summary>
+            <param name="viewAngle"></param>
+            <param name="distanceM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CalculateRadarCrossSectionPercentageOfLarge">
+            <summary>
+            Returns the unit's radar cross section as a percentage of Large (= 100)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetActualSpeed(System.Double)">
+            <summary>
+            When setting ActualSpeedKph, really DesiredSpeedKph is set, 
+            and the game updates ActualSpeed based on max acceleration. This 
+            provides a method to set the actual speed in Kph directly. Used for
+            start of game and initial launch of missiles or planes from catapult.
+            </summary>
+            <param name="newSpeedKph"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HandleUnitMovementOrder(TTG.NavalWar.NWComms.Entities.UnitMovementOrder)">
+            <summary>
+            Handles incoming UnitMovementOrder from player
+            </summary>
+            <param name="order"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetGroupSpeedFromSpeedType(TTG.NavalWar.NWComms.GameConstants.UnitSpeedType)">
+            <summary>
+            Returns the set group speed in kph from speedType (ie cruise) based on the slowest unit in the group.
+            </summary>
+            <param name="speedType">SpeedType</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetDirty(TTG.NavalWar.NWComms.GameConstants.DirtyStatus)">
+            <summary>
+            Sets unit dirty, deciding what data is sent to the frontend/client. Seeting Clean will clear the dirty setting. Other
+            settings are only changed if they elevate the dirty setting
+            </summary>
+            <param name="newDirtySetting">New dirty setting</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetRadarCrossSectionSize">
+            <summary>
+            Returns radar cross section size as an enum, accounting for increases caused by weaponload
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ReCalculateMaxRange">
+            <summary>
+            Recalculates MaxRange for unit, typically called after change of weaponload.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetCurrentWeaponLoadRangeIncreasePercent(System.String)">
+            <summary>
+            Returns how much (in meters) the specified weapon load increases range. Negative for decrease.
+            </summary>
+            <param name="weaponLoadName">A string specifying a valid weapon load name for this unit</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.RemoveAllWeapons">
+            <summary>
+            Removes all weapons from unit. Internally called when new weaponload is set.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetWeaponLoad(System.String)">
+            <summary>
+            Changes weapon loadout for a unit; setting up ready weapons as specified in the load. 
+            After gameplay has started, only units on carrier/airport can change weapon load.
+            The type of load specifies how long it will take before unit is ready after a load change.
+            Note: If an invalid on empty string is given, the default (first) weaponload will be
+            loaded.
+            </summary>
+            <param name="weaponLoadName">A string specifying a valid weapon load for this unit. </param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.AddAmmoToWeaponStores(System.String,System.Int32)">
+            <summary>
+            Used to add or remove ammunition from weapon stores for this carrying unit. If unit is carried, operation is carried out
+            on carrier/airfield unit. Note that if no weapon store exists for this WeaponClassId, nothing happens. 
+            Use negative number to remove ammo. If store is reduced to below 0, it is trunctated to 0.
+            </summary>
+            <param name="weaponClassId"></param>
+            <param name="count"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.AddRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Adds role for this unit. A role is important for AI usage of this unit.
+            </summary>
+            <param name="role"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.RemoveRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Removes a role for this unit.
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SupportsRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns true only if this unit supports the specified role
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SupportsRole(TTG.NavalWar.NWComms.GameConstants.Role,TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns true only if both specified roles are supported by this unit.
+            </summary>
+            <param name="role1"></param>
+            <param name="role2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SupportsRole(System.Collections.Generic.List{TTG.NavalWar.NWComms.GameConstants.Role})">
+            <summary>
+            Takes a list of roles and returns true if all roles in list are supported by the unit,
+            otherwise false.
+            </summary>
+            <param name="roles">List of Role</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UpdateActualSpeed(System.Double)">
+            <summary>
+            Updates the current speed of the unit if DesiredSpeed is different from the current speed, based on
+            how much it can accelerate in the elapsed time.
+            </summary>
+            <param name="elapsedGameTimeSec"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UpdateActualBearing(System.Double)">
+            <summary>
+            Changes the actual bearing of the unit, if DesiredBearing is different from ActualBearing. 
+            The change depends on the unitclass' TurnRangeDegrSec and the elapsed game time.
+            </summary>
+            <param name="elapsedGameTimeSec"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HasEnoughFuelToReachTarget(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Boolean)">
+            <summary>
+            Returns true if the unit has sufficient fuel to reach the specified coordinate, 
+            and return to its base, at cruise speed.
+            </summary>
+            <param name="coordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HasEnoughFuelToReachTarget(TTG.NavalWar.NWData.OrderSystem.Coordinate,TTG.NavalWar.NWComms.GameConstants.UnitSpeedType,System.Boolean)">
+            <summary>
+            Returns true if the unit has sufficient fuel to reach the specified coordinate, 
+            and return to its base, at the designated speed.
+            </summary>
+            <param name="coordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CalculateBingoFuelPercent">
+            <summary>
+            Returns the percentage of bingo fuel, that is the fuel level needed for the unit (aircraft) to successfully
+            return to base. At 100, the unit must (and will) return to the base.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CheckForBingoFuel">
+            <summary>
+            Checks whether unit has reached bingo fuel, and also if it has run out of fuel. If the unit has run 
+            out of fuel, it will be deleted. If it has reached bingo fuel, it will automatically return to base.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetHomeToNewCarrier(System.String)">
+            <summary>
+            Sets a specific carrier unit as new home for this unit.
+            </summary>
+            <param name="newCarrierUnitId"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetHomeToNewCarrier">
+            <summary>
+            Find nearest carrier able to support this unit and assign it has the place to return home to.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ReturnToBase">
+            <summary>
+            Return to base.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UpdateEta(System.Double)">
+            <summary>
+            Updates Estimated Time of Arrival for unit
+            </summary>
+            <param name="elapsedGameTimeSec"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.MoveToNewPosition3D(System.Double)">
+            <summary>
+            The major method that determines the unit's destination and moves it the correct distance based
+            on the elapsed time.
+            </summary>
+            <param name="elapsedGameTimeSec"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.MoveToNewPosition3DWithFormation(TTG.NavalWar.NWData.Units.BaseUnit,System.Double,System.Double)">
+            <summary>
+            Method called by a group's main unit to move this unit along with formation. If group is not
+            near formation position or is not a non-main-unit in a group, do nothing.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CheckIfGroupIsStaging">
+            <summary>
+            A group is staging if not all units in are at the correct position and needs to change course or catch up. This
+            unit changes the speeds of unit if the group is staging, and sets the IsStaging property accordingly.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.MoveToNewCoordinate(System.Double)">
+            <summary>
+            The method that performs the moving of a unit from one map coordinate to the next, based on its destination and speed.
+            </summary>
+            <param name="gameTime">The time, in milliseconds, since last movement.</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HasQueuedMovementOrders">
+            <summary>
+            Returns true if there are any queued movement orders in the Orders queue for this unit.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HasAnyEngagementOrders(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Returns true if orders to engage the specified DetectedUnit already exist in the unit's order queue.
+            </summary>
+            <param name="detectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.HasAnyEngagementOrders">
+            <summary>
+            Returns true if any engagement orders exists in the unit's order queue.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ReCalculateEta">
+            <summary>
+            Recalculates the expected time of arrival in seconds based on all the unit's waypoints
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.Tick(System.Double)">
+            <summary>
+            Called by GameEventLoop every tick.
+            </summary>
+            <param name="timer">Milliseconds since last invocation of GameEventLoop tick</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SensorSweep">
+            <summary>
+            For operating units, performs a sensor sweep for all sensors to detect units.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.AttemptDetectUnit(TTG.NavalWar.NWData.Units.BaseUnit)">
+            <summary>
+            This method will employ all sensors on a unit in attempting to detect a second unit
+            </summary>
+            <param name="unit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.RegisterComponent(TTG.NavalWar.NWData.Units.BaseComponent,System.String)">
+            <summary>
+            Registers a component on this unit. Components are weapons, sensors and aircraft hangars.
+            </summary>
+            <param name="component"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UnregisterComponent(System.String)">
+            <summary>
+            Removes a component from a unit.
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetComponent(System.String)">
+            <summary>
+            Returns a unit by registration name.
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.AddCarriedUnit(System.String)">
+            <summary>
+            Adds a carried unit (typically an aircraft) to a unit which has an aircraft hangar.
+            </summary>
+            <param name="unitClassId"></param>
+            <param name="preferredAircraftDockingStatus"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.LaunchAircraft(System.Collections.Generic.List{TTG.NavalWar.NWData.AircraftUnit},System.String,System.String,System.Collections.Generic.List{TTG.NavalWar.NWData.OrderSystem.BaseOrder},System.String)">
+            <summary>
+            Launches one or more carried aircraft from a unit.
+            </summary>
+            <param name="listUnits">A list of carried aircraft to be launched</param>
+            <param name="groupId">If non-empty, the id of the group the launched units will join</param>
+            <param name="groupName">If non-empty, specifies name of group</param>
+            <param name="orders">A List of orders to be gives to first unit in group</param>
+            <param name="tag">An optional tag for the units</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.LaunchAircraft(System.Collections.Generic.List{System.String},System.String,System.String,System.Collections.Generic.List{TTG.NavalWar.NWData.OrderSystem.BaseOrder},System.String)">
+            <summary>
+            Launches one or more carried aircraft from a unit.
+            </summary>
+            <param name="listUnits">A list of string specifying Ids of aircraft to be launched</param>
+            <param name="groupId">If non-empty, the id of the group the launched units will join</param>
+            <param name="groupName">If non-empty, specifies name of group</param>
+            <param name="orders">A List of orders to be gives to first unit in group</param>
+            <param name="tag">An optional tag for the units</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetNewGroupFormation(TTG.NavalWar.NWComms.Entities.Formation)">
+            <summary>
+            Specified a new formation for a group, and executes the changes
+            </summary>
+            <param name="formation"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SetUnitFormationOrder">
+            <summary>
+            For units in a group, creates a new UnitFormationOrder and executes it. Will load default formations
+            if necessary and assign units to positions.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetFormationPosition">
+            <summary>
+            Returns the formation position if unit is in a group. Not valid for main unit; will return null.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetPositionInfo">
+            <summary>
+            Returns the current PositionInfo of the unit, giving its position and other related data.
+            The PositionInfo object is transmitted to the game client.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetCarriedUnitInfo">
+            <summary>
+            Returns a CarriedUnitInfo for this unit, assuming it is currently on an airport/carrier.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetBaseUnitInfo">
+            <summary>
+            Returns a BaseUnitInfo for this unit, detailing all unit data. A BaseUnitInfo is
+            transmitted to the client.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.DamagePercent">
+            <summary>
+            Returns the Damage as a percent for the unit. 0 is undamaged, 100 is destroyed.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.IsCommunicationJammingCurrentlyInEffect">
+            <summary>
+            Returns true if this unit is currently in another player's communication jamming area.
+            In that case, orders will not go through to unit.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ExecuteSpecialOrder(TTG.NavalWar.NWData.OrderSystem.BaseOrder)">
+            <summary>
+            Executes a order to deploy a special weapon (ie mine or sonobuy drop, jamming, etc).
+            </summary>
+            <param name="order"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ExecuteDropMine(TTG.NavalWar.NWData.OrderSystem.BaseOrder)">
+            <summary>
+            Executes an mine drop order
+            </summary>
+            <param name="order">Order specifying the details of the mine drop</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ExecuteJammer(TTG.NavalWar.NWData.OrderSystem.BaseOrder)">
+            <summary>
+            Executes a jamming order for this unit.
+            </summary>
+            <param name="order">Order specifying jamming type and position</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.AddTargetingDetectedUnit(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            When detected, a unit (missile or other) 
+            </summary>
+            <param name="detectedUnit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.EngageDetectedGroup(TTG.NavalWar.NWData.Units.DetectedGroup,TTG.NavalWar.NWComms.GameConstants.EngagementOrderType,TTG.NavalWar.NWComms.GameConstants.EngagementStrength,System.Boolean)">
+            <summary>
+            Creates and queues an EngagementOrder to engage an entire DetectedGroup
+            </summary>
+            <param name="detectedGroup"></param>
+            <param name="engagementOrderType"></param>
+            <param name="isGroupAttack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.EngageDetectedUnit(TTG.NavalWar.NWData.Units.DetectedUnit,TTG.NavalWar.NWComms.GameConstants.EngagementOrderType,System.Boolean)">
+            <summary>
+            Creates and queues an EngagementOrder for a target. If this unit already
+            has an order to engage the same unit, this order is ignored.
+            </summary>
+            <param name="detectedUnit"></param>
+            <param name="engagementOrderType"></param>
+            <param name="isGroupAttack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.EngageDetectedUnit(TTG.NavalWar.NWData.Units.DetectedUnit,TTG.NavalWar.NWComms.GameConstants.EngagementOrderType,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Creates and queues an EngagementOrder for a target. If this unit already
+            has an order to engage the same unit, this order is ignored.
+            </summary>
+            <param name="detectedUnit"></param>
+            <param name="engagementOrderType"></param>
+            <param name="isGroupAttack"></param>
+            <param name="immediateExecution"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetSpecialWeapon(TTG.NavalWar.NWComms.GameConstants.SpecialOrders)">
+            <summary>
+            Returns the weapon in a unit's current arsenal that can execute a special weapon. If
+            several weapons satisfy criteria, the one with the most ammunition remaining will be returned.
+            If similar, the first will be returned.
+            </summary>
+            <param name="specialOrders"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetUnitEngagementStatus(System.String,TTG.NavalWar.NWData.Units.DetectedUnit,System.Boolean)">
+            <summary>
+            Returns UnitEngagementStatus for this unit targetting a specific platform.
+            </summary>
+            <param name="weaponClassId">If not an emtoy string, only return weapons for this id</param>
+            <param name="detectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetAllWeaponEngagementStatuses(System.String,TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Returns a list of EngagementStatus representing each weapon on the unit and its ability to
+            engage the specified target.
+            </summary>
+            <param name="weaponClassId">If not null or empty, limit to this weapon class</param>
+            <param name="detectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetBestUnitEngagementStatusResult(System.Collections.Generic.List{TTG.NavalWar.NWData.Ai.EngagementStatus},System.Boolean)">
+            <summary>
+            Takes a list of EngagementStatus and returns the best, preferrably one that points to a weapon
+            that can fire immediately. Otherwise reports what is the cause.
+            </summary>
+            <param name="primaryWeaponOnly">If true, all non-primary weapons removed from list first</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.RespondToImminentThreat(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Attempts to respond to imminent threat from supplied DetectedUnit by either evasion or an aggressive response. 
+            </summary>
+            <param name="threateningDetectedUnit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.EvadeIncomingThreat(TTG.NavalWar.NWData.Units.DetectedUnit,System.Double,System.Boolean,TTG.NavalWar.NWData.OrderSystem.BaseOrder)">
+            <summary>
+            Instructs a unit to move away rapidly from an incoming threat (missile or attacking unit)
+            </summary>
+            <param name="threateningDetectedUnit"></param>
+            <param name="distanceToRunM"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetThreateningDetectedUnit">
+            <summary>
+            If this unit (or other units in its group) is currently subject to an imminent threat, the primary threat is returned
+            as a DetectedUnit. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetDegradationFromJammingPercent(TTG.NavalWar.NWComms.GameConstants.SensorType)">
+            <summary>
+            If area is currently being jammed, returning radar degradation as a percentage. If
+            not jammed, returns 0.
+            </summary>
+            <param name="sensorType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetCurrentNoiseLevelPercentage">
+            <summary>
+            Returns current noise level as a percentage of quiet, related to how much it 
+            modifies detection range 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetCurrentNoiseLevel">
+            <summary>
+            Returns current noise level as an enum. Takes into account unit speed (faster is louder)
+            but not extraordinary noise.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetMaxIrDetectionDistanceM">
+            <summary>
+            Returns the maximum detection distance for this unit in meters, taking into account speed
+            and ir shielding (but not weather).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetCurrentEsmRadiation">
+            <summary>
+            Returns current ESM radiation level as an enum. Takes into account active radar and unit size.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetEffectiveSeaState">
+            <summary>
+            Returns current sea state for unit based on weather, taking into account 
+            stability bonus for the unitclass.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetMaxHeightOverSeaLevelM">
+            <summary>
+            Returns current max height over sea level for unit, in meters.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetMinHeightOverSeaLevelM">
+            <summary>
+            Returns current max depth (expressed in negative meters) for unit.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetMaxSpeedKph">
+            <summary>
+            Returns current max speed in kph for this unit. Takes into account firelevel and 
+            damage levels.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetSpeedInKphFromSpeedType(TTG.NavalWar.NWComms.GameConstants.UnitSpeedType)">
+            <summary>
+            Returns this unit's speed in kph for the provided speedtype (ie cruise, slow).
+            </summary>
+            <param name="speedType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetMissionTargetTypeFromDetectedUnit(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Returns mission target type (enum) from a DetectedUnit
+            </summary>
+            <param name="detectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetSpeedTypeFromKph(System.Double)">
+            <summary>
+            Returns the speed type for this unit given an actual speed in kph.
+            </summary>
+            <param name="speedKph"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetPreferredNoOfRounds(TTG.NavalWar.NWData.Units.DetectedUnit,TTG.NavalWar.NWData.Units.BaseWeapon,TTG.NavalWar.NWComms.GameConstants.EngagementStrength)">
+            <summary>
+            Returns the preferred number of round to fire and a specific unit.
+            </summary>
+            <param name="detectedUnit"></param>
+            <param name="weapon"></param>
+            <param name="engagementStrength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ExecuteOrders">
+            <summary>
+            Reads the next order from the unit's Orders queue and executes it if appropriate.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.ExecuteOrders(TTG.NavalWar.NWData.OrderSystem.BaseOrder)">
+            <summary>
+            Executes a specific order on this unit
+            </summary>
+            <param name="order"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.RemoveAllOrdersAndWaypoints">
+            <summary>
+            Removes all exisiting waypoints and clears all orders already in the queue.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.JoinNewGroup(TTG.NavalWar.NWData.OrderSystem.BaseOrder)">
+            <summary>
+            Force all units in unit's current group to join a new group, discarding
+            the old group.
+            </summary>
+            <param name="newGroupId"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.IsInGroupWithOthers">
+            <summary>
+            Returns true if unit is member of a group that has more than itself as a member, 
+            otherwise false.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.IsGroupMainUnit">
+            <summary>
+            Returns true if unit is in a group and it is the group MainUnit
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.InflictDamageFromProjectileHit(TTG.NavalWar.NWData.Units.BaseWeapon)">
+            <summary>
+            This is the method called by external weapons and missiles to inflict damage on this unit.
+            This method determines if the weapon hit, how much damage it did, and creates a
+            BattleDamageReport for both users.
+            </summary>
+            <param name="weapon"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.InflictDamageFromProjectileHit(TTG.NavalWar.NWData.Units.MissileUnit)">
+            This is the method called by external weapons and missiles to inflict damage on this unit.
+            This method determines if the weapon hit, how much damage it did, and creates a
+            BattleDamageReport for both users.
+            <param name="missileUnit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.InflictMissileSoftkill(TTG.NavalWar.NWData.Units.MissileUnit)">
+            <summary>
+            If this unit has countermeasures for incoming hostile missileUnit, it attempts to take them out. Does
+            not remove or destroy missile, but reports true if it has disabled it.
+            </summary>
+            <param name="missileUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.SendDetectedUnitInfoForThisUnit">
+            <summary>
+            When unit has changed, ensures that all other players who can see this unit
+            receives notified updates to that effect.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UpdateDamageReportPriorityAndMessage(TTG.NavalWar.NWComms.Entities.BattleDamageReport)">
+            <summary>
+            Makes changes to a BattleDamageReport by setting priorities and creating
+            user friendly messages to attacker and attackee.
+            </summary>
+            <param name="report"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.InflictDamageFromFires(System.Double)">
+            <summary>
+            In case of fire, randomly increase or decrease damage, and cause damage to unit.
+            Also, with high damage, increase it to destroy unit.
+            </summary>
+            <param name="gameTimeMs">Number of ms since last call</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UnitToBeDestroyed">
+            <summary>
+            Called when unit has been destroyed to release dependencies, update groups, reassign flying units, etc.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetMaxWeaponRangeM(TTG.NavalWar.NWComms.GameConstants.DomainType)">
+            <summary>
+            Returns max weapon range for the specified domain (air, surface, land, sub) for this unit,
+            only taking into account weapons that are not damaged and has ammo.
+            </summary>
+            <param name="domainType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CanImmediatelyFireOnTargetType(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Returns true if any weapon is ready to fire on DetectedUnit, has ammo and range (max and min), 
+            and is in sector range.
+            </summary>
+            <param name="detectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CheckForTerrainUpdates">
+            <summary>
+            Called by the properties that read terrain height, checks at regular intervals if enough time
+            has lapsed to reread the terrain data into the property for future reference. Ensures that not all
+            methods call the terrain data constantly.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.InflictCriticalDamage(System.Int32)">
+            <summary>
+            Inflict damage randomly to critical components and carried units, and start fires. Contains hardcoded
+            probabilities.
+            </summary>
+            <param name="HitPoints">Number of hitpoints damage inflicted</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UpdateFuelDistanceCovered(System.Double,System.Double)">
+            <summary>
+            Based on how much game time has elapsed, deducts fuel from the unit's tanks,
+            (really changing FuelDistanceCoveredSinceRefuelM property). Takes into account
+            unit speed.
+            </summary>
+            <param name="DistanceMeters"></param>
+            <param name="elapsedTimeSec"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.UpdateElevation(System.Double,System.Double)">
+            <summary>
+            Updates the elevation (height/depth) of the unit, based on DesireHeightOverSeaLevelM,
+            current speed and how many seconds have elapsed. 
+            </summary>
+            <param name="gameTime"></param>
+            <returns>Change in elevation in M</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.CalculateCurrentRangeReductionPercent">
+            <summary>
+            For units with movement range restrictions, calculates reduction in (default)
+            range in percent based on load level and current speed and PropulsionSystem. Ensures that
+            afterburner consumes much more fuel than cruise speed.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseUnit.GetBestAvailableWeapon(System.String,TTG.NavalWar.NWData.Units.DetectedUnit,System.Boolean)">
+            <summary>
+            Return weapon most ready and able to target detectedUnit. If weaponClassId is supplied, 
+            search limited to weapons of that class.
+            </summary>
+            <param name="weaponClassId"></param>
+            <param name="detectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.TerrainHeightAtPosM">
+            <summary>
+            The terrain height (depth) in meters at the unit's actual position.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.TerrainHeight10SecForwardM">
+            <summary>
+            The terrain height (depth) in meters at the position the unit will (normally) be in 10 seconds of world time.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.TerrainHeight30SecForwardM">
+            <summary>
+            The terrain height (depth) in meters at the position the unit will (normally) be in 30 seconds of world time.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.IsReserved">
+            <summary>
+            When carried on a unit, returns true if a queued launchorder alreay exists reserving 
+            this unit for a later launch. Used to avoid AI creating several launch orders with
+            the same units.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.IsOrderedToReturnToBase">
+            <summary>
+            Used primarily for bingo fuel / return to base. Can also be used to order a unit
+            to not return to base on bingo fuel!
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.IsCivilianUnit">
+            <summary>
+            Destroying even an enemy unit set as civilian may carry a penalty, depending on victory conditions. Taken from GameScenarioUnit
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.AssignedHighLevelOrder">
+            <summary>
+            Used by AI: Assigned high level order. Clear at landing.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.CurrentEngagementOrder">
+            <summary>
+            When a unit is closing to engage, the EngagementOrder is stored in this property
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.HasLightingOn">
+            <summary>
+            If true, the unit (plane or ship) has lights on, and is visible at much greater distances, 
+            especially at night. Never on in wartime. Would be set for civilian units at night.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.CurrentWeaponLoadName">
+            <summary>
+            Current WeaponLoad for this unit
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.LoadLevel">
+            <summary>
+            Is 0 for clean (unloaded), 1 for loaded and 2 for heavy loaded. Higher values conceivable, but 
+            not presently implemented. This value is used to calculated MaxCruiseRangeM.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.LoadIncreasesLoadLevelBy">
+            <summary>
+            How many levels of load the loaded weapons increases the load
+            of the unit. Influences range. Set by SetWeaponLoad.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.LoadIncreasesRadarCrossSection">
+            <summary>
+            The rate with which this load increases the radar cross section of the unit. 0 is none,
+            1 goes from stealth to small, from small to medium, etc. Set by SetWeaponLoad.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.MaxRangeCruiseM">
+            <summary>
+            The maxium distance unit can cover on full fuel tanks (both ways). Copied from 
+            UnitClass, but then takes into account weight of weapons, etc. Set by
+            ReCalculateMaxRange()
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.CurrentRangeReductionPercent">
+            <summary>
+            Current cruise range reduction in percent based on LoadLevel and HeightAboveSeaLevelM only,
+            not taking ActualSpeedKph into account. Set by SetWeaponLoad.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.FuelDistanceCoveredSinceRefuelM">
+            <summary>
+            The fuel-usage distance in meters covered by this unit since it was launched. 
+            May differ from actual distance moved, since aircraft uses as much fuel at
+            slow speeds as at cruise. This calculated value
+            is compared to MaxRangeCruiseM/MaxRangeMaxM to determine bingo fuel and fuel 
+            exhausted.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.ValueScore">
+            <summary>
+            Used by AI for prioritizing attacks
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.IsAtFormationPositionFlag">
+            <summary>
+            Returns true if unit has a FormationPositionOrder and is at its proper position, 
+            false otherwise. To reduce overhead, this flag is only automatically recalculated
+            at certain times.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseUnit.IsAtFormationPosition">
+            <summary>
+            This property calculates positions to determine whether the unit is in its proper 
+            position. Sets IsAtFormationPositionFlag.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Game.RealTimeCompressionChanged">
+            <summary>
+            Used to notify the game that a change has been made in the requested time compression factor by one of the players.
+            Sets the lowest time value requested by human players as the game's time compression.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Game.HandleGameControlMessage(TTG.NavalWar.NWComms.IMarshallable,TTG.NavalWar.NWData.GamePlay.Player)">
+            <summary>
+            Handles Game Control Messages (orders) from network (human) players to the game
+            </summary>
+            <param name="dataReceived">Order. Should be a GameControlRequest</param>
+            <param name="player">Player sending the order</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Game.GetRealSecondsFromGameTime(System.Double)">
+            <summary>
+            Used to send information to game that a player has been defeated, to 
+            check whether if a player has won and the game is completed.
+            </summary>
+            <param name="player">The player that has met defeat conditions</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Game.Tick(System.Double)">
+            <summary>
+            Initiates a tick that moves events in the game forward. This is called by the game event loop.
+            </summary>
+            <param name="deltaTimeMs">The number of real time milliseconds since the last tick.</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Game.GetJammingDegradationPercent(TTG.NavalWar.NWData.OrderSystem.Coordinate,TTG.NavalWar.NWData.GamePlay.Player)">
+            <summary>
+            Returns jamming degradation in area in percent, ignoring only jammers that are 
+            owned by the player.
+            </summary>
+            <param name="coordinate"></param>
+            <param name="player"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Game.RunGameInSec">
+            <summary>
+            If non-zero, game will terminate after set number of seconds. Used for debugging and
+            test purposes only.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Game.MinNonComputerPlayersToStartGame">
+            <summary>
+            Minimum numbers of non computer players needed for this game to start.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Game.GameEngineTimeMs">
+            <summary>
+            Returns total game running time (from system clock) in milliseconds
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Game.TickCounter">
+            <summary>
+            Counter is increased by 1 every tick count, regardless of time compression.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.EngageHighValueTargets">
+            <summary>
+            Will engage a high value target, if any is detected. A high value target is determined based on victory conditions.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.GetHighestPriorityTarget(System.Collections.Generic.List{TTG.NavalWar.NWData.Units.DetectedUnit},System.Int32)">
+            <summary>
+            Returns the highest priority target from a list of DetectedUnit. A certain percentage of
+            calls (supplied in second parameter), it will simply return a random list member. This to ensure
+            that attacks are somewhat unpredictable.
+            </summary>
+            <param name="knownTargetList">List of DetectedUnit.</param>
+            <param name="chooseRandomPercent">The percentage chance this method will return random list member. If 0, a prioritized member
+            will always be returned.</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.EngageSurfaceOrLandTargets(TTG.NavalWar.NWComms.Entities.HighLevelOrder)">
+            <summary>
+            Executes a HighLevelOrder to engage a surface or land target with all available assets. 
+            Is meant for high value targets, as it throws a lot of coordinated resources into the attack.
+            Will also attempt to defend the involved assets with air cover (CAP).
+            </summary>
+            <param name="order"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.ActivateIdleUnits">
+            <summary>
+            Goes through all deployed units to see if it can be better utilized.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.ActivateIdleUnits(TTG.NavalWar.NWData.Units.BaseUnit)">
+            <summary>
+            Tries to find the optimal activity for the specific idle unit
+            </summary>
+            <param name="unit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.GetPrioritizedTargetOfOpportunity(TTG.NavalWar.NWData.Units.BaseUnit)">
+            <summary>
+            This method returns one (or null) DetectedUnit which presents itself as a target of opportunity (or self defence).
+            No orders are issued in this method.
+            </summary>
+            <param name="unit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.TargetRespondToDetectedUnit(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Called for new and updated detections, to make sure target (if any) responds by evasion or aggression as appropriate
+            </summary>
+            <param name="detectedUnit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.GenerateAiHint(TTG.NavalWar.NWData.Units.BaseUnit,TTG.NavalWar.NWComms.GameConstants.AIHintType,TTG.NavalWar.NWData.Ai.AIHint)">
+            <summary>
+            Attempts to automatically generate an AIhint describing probable threat axis based on unit. Assumes the defence of this
+            unit is very important.
+            </summary>
+            <param name="unit">Unit to be defended</param>
+            <param name="aiHintType">The hint type to be supplied (air, surface, sub)</param>
+            <param name="aiHint">If not null, returned as is</param>
+            <returns>New AI hint. Will be null if unit is null or has no position</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.EngageDetectedGroup(TTG.NavalWar.NWData.Units.BaseUnit,TTG.NavalWar.NWData.Units.DetectedGroup,TTG.NavalWar.NWComms.GameConstants.EngagementOrderType,TTG.NavalWar.NWComms.GameConstants.EngagementStrength,System.String,System.Boolean)">
+            <summary>
+            Engages a detectedgroup, potentially with all units in group with the unit.
+            </summary>
+            <param name="unit"></param>
+            <param name="detectedGroup"></param>
+            <param name="engagementOrderType"></param>
+            <param name="engagementStrength"></param>
+            <param name="weaponClassId"></param>
+            <param name="isGroupAttack"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.GetMaxTargettingMissiles(TTG.NavalWar.NWData.Units.DetectedUnit)">
+            <summary>
+            Return a rough estimate, based on target type and not hit points, about how many
+            missiles/torpedoes it is desirable to have targetting a single DetectedUnit at one time.
+            To avoid units wasting ammo.
+            </summary>
+            <param name="threateningDetectedUnit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BaseAIHandler.FindNearestAvailableUnitRole(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Collections.Generic.List{TTG.NavalWar.NWComms.GameConstants.Role},System.String,System.Boolean)">
+            <summary>
+            Returns a unit (optionally that is a group MainUnit or unaffiliated) that fulfills 
+            all roles listed. Nearest unit is returned in case several meets criteria.
+            </summary>
+            <param name="coordinate"></param>
+            <param name="rolesList"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Ai.AreaEffect.Weapon">
+            <summary>
+            The 'weapon' creating the area effect.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.Waypoint.IsAutomaticEvasionPoint">
+            <summary>
+            Set to true for waypoints generated when automatically evading
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.Waypoint.Orders">
+            <summary>
+            Orders associated with waypoint
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseSensor.IsActive">
+            <summary>
+            If SensorClass.IsPassiveActiveSensor is true, this determines whether sensor is emitting (true) or
+            silent (false).
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseSensor.SensorBearingDeg">
+            <summary>
+            Direction sensor points, in degrees (0-360). 0 is forward on unit.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.AstronomyHelper.GetGregorianDateFromJulianDay(System.Int32,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Gets gregorian date from integer julian day.</summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.AstronomyHelper.GetGregorianDateTimeFromJulianDay(System.Double,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Double@)">
+            <summary>
+            Gets gregorian date time from doubleing point julian day.</summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.AstronomyHelper.GetGregorianDateFromJulianDay(System.Double,System.Int32@,System.Int32@,System.Int32@)">
+            <summary>
+            Gets gregorian date from doubleing point julian day.</summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.PositionRelationship.RelativeSpeed">
+            <summary>
+            Positive means first is faster, 0 means similar speed, negative means second is faster.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseWeapon.CanTargetDetectedUnit(TTG.NavalWar.NWData.Units.DetectedUnit,System.Boolean)">
+            <summary>
+            Determines whether it is possible for weapon to target a specific unit, regardless
+            of range. Optionally takes out of ammo considerations.
+            </summary>
+            <param name="unit"></param>
+            <param name="ignoreNoAmmo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseWeapon.CanTargetDomain(TTG.NavalWar.NWComms.GameConstants.DomainType)">
+            <summary>
+            Returns true if this weapon can target units in the specified domain (air, sea, sub, land),
+            otherwise false. Ignores current readiness and ammo status of the weapon.
+            </summary>
+            <param name="domainType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseWeapon.CanTargetDetectedUnit(TTG.NavalWar.NWData.Units.BaseUnit,System.Boolean)">
+            <summary>
+            Determines whether it is possible for weapon to target a specific unit, regardless
+            of range. Optionally takes out ammo considerations.
+            </summary>
+            <param name="unit"></param>
+            <param name="ignoreNoAmmo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseWeapon.Fire(TTG.NavalWar.NWData.Units.DetectedUnit,System.Int32,System.Double)">
+            <summary>
+            Fires on designated DetectedUnit (target), launching the designated number of rounds
+            if available. 
+            </summary>
+            <param name="targetUnit"></param>
+            <param name="noOfRounds"></param>
+            <returns>Returns number of projectiles/rounds actually fired.</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseWeapon.GetEngagementStatus(TTG.NavalWar.NWData.Units.DetectedUnit,System.Double)">
+            <summary>
+            Returns EngagementStatus (readyness to fire) against a specific target
+            </summary>
+            <param name="detectedUnit"></param>
+            <param name="distanceToTargetM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.BaseWeapon.CalculateEngagementStatusScore(TTG.NavalWar.NWData.Ai.EngagementStatus)">
+            <summary>
+            Sets Score property on an EngagementStatus based on expected effectiveness in engaging
+            the set target with this weapon.
+            </summary>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseWeapon.WeaponBearingDeg">
+            <summary>
+            Weapon bearing degree relative to the unit, which has its front at 0 deg
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.BaseWeapon.IsPrimaryWeapon">
+            <summary>
+            Sets or gets whether this is considered a primary weapon. A primary weapon is one 
+            which the unit or group will actively close range to engage an enemy with. Point
+            defence weapons should not be set as primary weapons.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.DetectedUnit.GetPositionRegion(TTG.NavalWar.NWData.Units.DetectedUnitSensor)">
+            <summary>
+            Based on uncertainty and Position, create a region wherein the detectedunit is found
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.DetectedUnit.IsAlwaysVisibleForEnemy">
+            <summary>
+            If true, all players in the game will always know position of this unit without requiring detection. 
+            Used mainly for land installations like airports and seaports.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.DetectedUnit.ValueScore">
+            <summary>
+            Used by AI to determine which of multiple units to prioritize
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.DetectedUnit.ThreatValueScore">
+            <summary>
+            Used by AI to determine which of multiple units to prioritize
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.DetectedUnit.DistanceValueScore">
+            <summary>
+            Used by AI to determine which of multiple units to prioritize
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.DetectedUnit.DistanceToValuableTargetM">
+            <summary>
+            Used by AI to determine distance to nearest own valuable target, based on unit type and roles
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.ProjCoordinate.Latitude">
+            <summary>
+            Latitude (Y) in coordinate system
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.ProjCoordinate.Longitude">
+            <summary>
+            Longitude (X) in coordinate system
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GameManager.GetRandomNumber(System.Int32)">
+            <summary>
+            Returns a random number between 0 and MaxValue.
+            </summary>
+            <param name="maxValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GameManager.GetFuelEnduranceModifier(TTG.NavalWar.NWComms.GameConstants.PropulsionSystem,TTG.NavalWar.NWComms.GameConstants.UnitSpeedType)">
+            <summary>
+            Get fuel endurance modifier (a number to be multiplied by cruise speed fuel use) for 
+            propulsion system and speed type. This method contains hard-coded values!
+            </summary>
+            <param name="propulsionSystem"></param>
+            <param name="unitSpeedType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GameManager.CalculateRadarCrossSectionPercentageOfLarge(TTG.NavalWar.NWComms.GameConstants.RadarCrossSectionSize)">
+            <summary>
+            Returns the radar cross section of the enum RadarCrossSectionSize as a percentage of Large. This
+            method contains hardcoded values.
+            </summary>
+            <param name="radarCrossSectionSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GameManager.GetRadarDegradationFromSeaStatePercent(System.Int32)">
+            <summary>
+            Returns the expected radar degradation in percent on a ship-based radar (or other similar sensor) 
+            based on effective SeaState. This models the effect of the ship rolling and sea scutter. Contains
+            hardcoded values.
+            </summary>
+            <param name="effectiveSeaState"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GameManager.GetRadarDegradationFromWeatherPercent(TTG.NavalWar.NWData.Ai.WeatherSystem)">
+            <summary>
+            Returns the expected radar degradation in percent of any radar below the cloud cover (if any)
+            based on the current precipitation type and level.
+            </summary>
+            <param name="weatherSystem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.OrderSystem.Region.IsWithinRegion(TTG.NavalWar.NWData.OrderSystem.Coordinate)">
+            <summary>
+            Determines whether a coordinate falls within the boundary specified by a 
+            polygon region
+            </summary>
+            <param name="coordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.GameData.GetWeaponLoadByName(System.String,System.String)">
+            <summary>
+            Returns the UnitClassWeaponLoad associated with a UnitClassId and a WeaponLoadName. If name is
+            left blank, the default (first) weaponload is returned. Returns null if id or name is invalid.
+            </summary>
+            <param name="unitClassId"></param>
+            <param name="weaponLoadName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToNmilesFromMeters(System.Double)">
+            <summary>
+            Converts meters to neutical miles
+            </summary>
+            <param name="meters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToMetersFromNmiles(System.Double)">
+            <summary>
+            Converts neutical miles to meters.
+            </summary>
+            <param name="nm"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToMperSecFromKph(System.Double)">
+            <summary>
+            Converts kilometer per hour to meter per second
+            </summary>
+            <param name="kph"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToRadian(System.Double)">
+            <summary>
+            Converts degrees to Radians.
+            </summary>
+            <returns>Returns a radian from degrees.</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToDegreeSignedLongitude(System.Double)">
+            <summary>
+            To signed degrees ranging from -180 to 180 from a radian value.
+            </summary>
+            <returns>Returns degrees from radians.</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToDegreeSignedLatitude(System.Double)">
+            <summary>
+            To signed degrees ranging from -90 to 90 from a radian value.
+            </summary>
+            <returns>Returns degrees from radians.</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToDegreeBearing(System.Double)">
+            <summary>
+            Returns degrees ranging from 0 to 360 from a radian value.
+            </summary>
+            <param name="radian"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CalculatePositionRelationship(TTG.NavalWar.NWData.OrderSystem.Position,System.Double,TTG.NavalWar.NWData.OrderSystem.Position,System.Double)">
+            <summary>
+            Calculates the relative properties of two positions, including relative movement and relative bearing
+            </summary>
+            <param name="firstPos"></param>
+            <param name="secondPos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CalculateDistanceUnit(TTG.NavalWar.NWData.OrderSystem.Coordinate,TTG.NavalWar.NWData.OrderSystem.Coordinate,TTG.NavalWar.NWComms.GameConstants.UnitsOfLength)">
+            <summary>
+            Calculates the distance between two points of latitude and longitude.
+            Great Link - http://www.movable-type.co.uk/scripts/latlong.html
+            </summary>
+            <param name="coordinate1">First coordinate.</param>
+            <param name="coordinate2">Second coordinate.</param>
+            <param name="unitsOfLength">Sets the return value unit of length.</param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CalculateMaxLineOfSightM(System.Double,System.Double)">
+            <summary>
+            Calculates (rightly) the maximum distance an observer can see on a curved earth surface, given the height of 
+            an observer and a target above sea level (in meters). Does not account for visibility or obstructions.
+            Uses formula calculating exact distance to horizon. See http://en.wikipedia.org/wiki/Horizon#Exact_formula
+            </summary>
+            <param name="heightObserverM"></param>
+            <param name="heightTargetM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.ToCardinalMark(System.Double)">
+            <summary>
+            Method extension for Doubles. Converts a degree to a cardinal point enumeration.
+            </summary>
+            <returns>Returns a cardinal point enumeration representing a compass direction.</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CalculateBearingDegrees(TTG.NavalWar.NWData.OrderSystem.Coordinate,TTG.NavalWar.NWData.OrderSystem.Coordinate)">
+            <summary>
+            Accepts two coordinates in degrees. Returns bearing from c1 to c2 in degrees.
+            </summary>
+            <returns>A double value in degrees.  From 0 to 360.</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.IsWithinRegion(TTG.NavalWar.NWData.OrderSystem.Region,TTG.NavalWar.NWData.OrderSystem.Coordinate)">
+            <summary>
+            Determines whether a coordinate is within a region specified with a polygon
+            </summary>
+            <param name="region"></param>
+            <param name="coordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CreateCoordinateSquare(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Generates a square of coordinates based on a central position and the lenght of the sides in meters. Will return a list of 4 coordinates.
+            </summary>
+            <param name="coordinate"></param>
+            <param name="lenghtM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CreateCoordinateGrid(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Int32,System.Double)">
+            <summary>
+            Generates a grid of coordinates centered on the submitted coordinate, containing
+            the designated number of cells, with each coordinate a designated distance apart.
+            </summary>
+            <param name="coordinate">Center of grid</param>
+            <param name="noOfCoordinates">Number of coordinates. If not square, grid may be larger</param>
+            <param name="distanceM">Distance between coordinates in meter</param>
+            <returns>List of coordinates</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.IsWithinSector(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double,System.Double,TTG.NavalWar.NWData.OrderSystem.Coordinate)">
+            <summary>
+            Determines whether a coord is within a sector calculated on a bearing from a original coordinate.
+            </summary>
+            <param name="posCenter">Coordinate that is the origin of the sector</param>
+            <param name="centerDeg">The line (in degrees) determining the center of the sector, from posCenter</param>
+            <param name="sectorRangeDeg">The range of the sector in degrees. If value is 30, 15 deg on each side.</param>
+            <param name="posToCheck">Coordinate of position to check</param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CalculateCombinedBearingDeg(System.Double,System.Double)">
+            <summary>
+            Calculates the sum of two bearing degrees.
+            </summary>
+            <param name="platformBearingDeg"></param>
+            <param name="componentBearingDeg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.CalculateElevationAngleDeg(TTG.NavalWar.NWData.OrderSystem.Position,TTG.NavalWar.NWData.OrderSystem.Position)">
+            <summary>
+            Calculates the elevation angle between two positions. 0 is defined as vertically aligned 
+            (height is equal). If HeightOverSeaLevel is undefined, 0 is also returned. Angle will be negative if 
+            pos2 is lower than pos1, otherwise positive.
+            </summary>
+            <param name="pos1"></param>
+            <param name="pos2"></param>
+            <returns></returns>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Util.MapHelper.tileSize">
+            <summary>
+            Privates for lat long to pixel format
+            for image tiles width 256 * 256 size.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.LongitudeToXvalue(System.Double,System.Int32)">
+            <summary>
+            Used to get the X pixel value for worldmap.
+            </summary>
+            <param name="longitude"></param>
+            <param name="zoomLevel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.LongitudeToXvalue(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Int32)">
+            <summary>
+            Used to get the X pixel value for worldmap.
+            </summary>
+            <param name="coord"></param>
+            <param name="ZoomLevel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.LatitudeToYvalue(System.Double,System.Int32)">
+            <summary>
+            Used to get the Y pixel value for worldmap.
+            </summary>
+            <param name="Latitude"></param>
+            <param name="ZoomLevel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.MapHelper.LatitudeToYvalue(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Int32)">
+            <summary>
+            Used to get the Y pixel value for worldmap.
+            </summary>
+            <param name="coord"></param>
+            <param name="ZoomLevel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TTG.NavalWar.NWData.Util.MapHelper.CardinalRanges">
+            <summary>
+            Class is used in a calculation to determin cardinal point enumeration values from degrees.
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Util.MapHelper.CardinalRanges.LowRange">
+            <summary>
+            Low range value associated with the cardinal point.
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWData.Util.MapHelper.CardinalRanges.HighRange">
+            <summary>
+            High range value associated with the cardinal point.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.Send(TTG.NavalWar.NWComms.IMarshallable)">
+            <summary>
+            Sends an object to the corresponding player client over tcp/ip. Ignored if player
+            has no connection.
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.HandleSendMessageToPlayers(TTG.NavalWar.NWComms.Entities.GameControlRequest)">
+            <summary>
+            Handles a message sent from a player to one or more other players.
+            </summary>
+            <param name="req"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetPlayersByCriteria(TTG.NavalWar.NWComms.GameConstants.SendMessageTo)">
+            <summary>
+            Accepts a SendMessageTo enum parameterm and returns a List of Player including
+            those players in the game that corresponds to the parameter.
+            </summary>
+            <param name="sendMessageTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.HandleGetAllUnitsInArea(TTG.NavalWar.NWComms.Entities.GameControlRequest)">
+            <summary>
+            Handles a request and sends back a list of units in an area (within radius from specified center)
+            in a GameStateInfo object.
+            </summary>
+            <param name="req"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.HandleMessageFromClient(TTG.NavalWar.NWComms.IMarshallable)">
+            <summary>
+            Handles all orders and requests from game client to the game engine.
+            </summary>
+            <param name="dataReceived"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.SendCommunicationJammingMessageToPlayer(TTG.NavalWar.NWComms.Entities.UnitOrder)">
+            <summary>
+            Used by many order handlers to inform the player that the order has been suppressed
+            by enemy jamming.
+            </summary>
+            <param name="unitOrder"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AddHighLevelOrder(TTG.NavalWar.NWComms.Entities.HighLevelOrder)">
+            <summary>
+            Adds a new HighLevelOrder to queue for this player. No error or sanity checking is performed.
+            </summary>
+            <param name="highLevelOrder"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.HandleUnitMovementOrder(TTG.NavalWar.NWComms.IMarshallable)">
+            <summary>
+            Handles all unitmovement type orders.
+            </summary>
+            <param name="dataReceived"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.SetWeaponOrders(TTG.NavalWar.NWComms.GameConstants.WeaponOrders,System.String)">
+            <summary>
+            Sets active weapon orders for a specified unit.
+            </summary>
+            <param name="weaponOrders"></param>
+            <param name="unitId"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.SetWeaponOrders(TTG.NavalWar.NWComms.GameConstants.WeaponOrders,System.Boolean)">
+            <summary>
+            Sets global weapon orders, applicable to all new units and launched air. Optionally
+            also sets new weapon orders to all existing units.
+            </summary>
+            <param name="weaponOrders"></param>
+            <param name="changeForAllUnits"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.HandleUnitOrderFromClient(TTG.NavalWar.NWComms.IMarshallable)">
+            <summary>
+            Handles all orders received from client that is directed at a specific unit (or group).
+            </summary>
+            <param name="dataReceived"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AcquireNewUnit(TTG.NavalWar.NWComms.Entities.UnitOrder)">
+            <summary>
+            Player using credits to acquire new unit on airport or other designated carrying unit.
+            </summary>
+            <param name="order"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AcquireNewUnit(TTG.NavalWar.NWData.Units.BaseUnit,System.String,System.String)">
+            <summary>
+             Player using credits to acquire new unit on airport or other designated carrying unit.
+            </summary>
+            <param name="carrierUnit"></param>
+            <param name="unitClassId"></param>
+            <param name="weaponLoadName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AcquireMoreAmmo(TTG.NavalWar.NWComms.Entities.UnitOrder)">
+            <summary>
+            Used to acquire more ammo for a weapon store on a carrier / airfield. Returns errors to user if error or 
+            insufficient funds.
+            </summary>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AcquireMoreAmmo(TTG.NavalWar.NWData.Units.BaseUnit,TTG.NavalWar.NWComms.Entities.WeaponClass,System.Int32,System.Boolean)">
+            <summary>
+            Used to acquire more ammo for a weapon store on a carrier / airfield. Returns errors to user if error or 
+            insufficient funds.
+            </summary>
+            <param name="carrierUnit"></param>
+            <param name="weaponClass"></param>
+            <param name="count"></param>
+            <param name="reportErrors"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CheckEventTriggerUnitOrderReceived(TTG.NavalWar.NWData.Units.BaseUnit,TTG.NavalWar.NWComms.Entities.UnitOrder)">
+            <summary>
+            When unit order is received for a specific unit, checks if 
+            a trigger exists for this event, and executes it if available.
+            </summary>
+            <param name="unit"></param>
+            <param name="unitOrder"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetUnitById(System.String)">
+            <summary>
+            Returns a BaseUnit based on its Id. Also supports "TAG:nn" format in parameter for tags.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CanCurrentlySeeEnemyUnit(TTG.NavalWar.NWData.Units.BaseUnit)">
+            <summary>
+            Tests whether a specific unit is known to this player, returning true if it
+            exists in its list of DetectedUnits
+            </summary>
+            <param name="unit"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetDetectedUnitByUnitId(System.String)">
+            <summary>
+            Gets DetectedUnit, if known, based on the Id of the unit it is referring to.
+            </summary>
+            <param name="unitId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetDetectedGroupById(System.String)">
+            <summary>
+            Returns DetectedGroup from its Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetDetectedUnitById(System.String)">
+            <summary>
+            Returns a DetectedUnit based on its Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.BattleReportsAttacking">
+            <summary>
+            Returns a list of BattleDamageReports where this player is the attacking party
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.BattleReportsDefending">
+            <summary>
+            Returns a list of BattleDamageReports where this player is the defending (attacked) party
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.BattleReportsLostUnit(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns a list of BattleDamageReports where this player's unit with the specificied role has been destroyed
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.BattleReportsLostUnit(System.String)">
+            <summary>
+            Returns a list of BattleDamageReports where this player's unit of the specificied UnitClass has been destroyed
+            </summary>
+            <param name="unitClassId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CountUnitsByClass(System.String)">
+            <summary>
+            Returns a count of units remaining in the specifid class 
+            </summary>
+            <param name="unitClassId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CountUnitsByRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns a count of the units remaining supporting the specified role
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetAllUnitsInArea(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all the player's units whose position is within the specific radius from the coordinate.
+            Omits units that are carried.
+            </summary>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetSortedUnitsInAreaByClassId(System.String,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all of a player's units in the specified area of a certain UnitClass
+            </summary>
+            <param name="unitClassId"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetUnitsInAreaByRole(TTG.NavalWar.NWComms.GameConstants.Role,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all of a player's units in the specified area that meets the specified Role
+            </summary>
+            <param name="role"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetUnitsInAreaByUnitType(TTG.NavalWar.NWComms.GameConstants.UnitType,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all of a player's units in the specified area that meets the specified UnitType
+            </summary>
+            <param name="unitType"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetSortedUnitsInAreaByRole(TTG.NavalWar.NWComms.GameConstants.Role,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double,System.Boolean)">
+            <summary>
+            Returns all of a player's units in the specified area that meets the specified role, sorted by distance to center.
+            If isAvailableOnly is True, only units with a patrol order are returned.
+            </summary>
+            <param name="role"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <param name="isAvailableOnly"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetActiveUnitClassesByRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns a list of a player's unitclasses that supports the specified Role.
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetDetectedUnitsInArea(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double,System.Boolean)">
+            <summary>
+            Returns a list of all detections within a set radius of a map coordinate, sorted by its set ValueScore (highest first).
+            
+            </summary>
+            <param name="coordinate"></param>
+            <param name="rangeM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetAllEnemyUnits">
+            <summary>
+            Returns a list of all units owned by enemy players currently in play, that is, excluding units
+            that are carried by others (no position) or destroyed.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetActiveEnemyUnitClassesByRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns a list of all operational unitclasses for all the player's enemies
+            that meets specified role.
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetEnemyUnitsByUnitClass(System.String)">
+            <summary>
+            Returns a list of all units from all the player's enemies which is of the specified UnitClass
+            </summary>
+            <param name="unitClassId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetEnemyUnitsByRole(TTG.NavalWar.NWComms.GameConstants.Role)">
+            <summary>
+            Returns a list of all units from all the player's enemies which supports specified Role
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetEnemyUnitsInArea(TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns a list of all units from all the player's enemies which is within a specific area
+            </summary>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetEnemyUnitsInAreaByUnitClass(System.String,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all enemy units within area that is the specified UnitClass
+            </summary>
+            <param name="unitClassId"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetEnemyUnitsInAreaByRole(TTG.NavalWar.NWComms.GameConstants.Role,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all enemy units within area that supports the specified Role
+            </summary>
+            <param name="role"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetEnemyUnitsInAreaByUnitType(TTG.NavalWar.NWComms.GameConstants.UnitType,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Returns all enemy units within area that is the specified UnitType
+            </summary>
+            <param name="unitType"></param>
+            <param name="coordinateCenter"></param>
+            <param name="areaRadiusM"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.SendNewBattleDamageReport(TTG.NavalWar.NWComms.Entities.BattleDamageReport)">
+            <summary>
+            Sends a BattleDamageReport to client over tcpip (if applicable) and notifies AI.
+            </summary>
+            <param name="report"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AddAllAutomaticDetections">
+            <summary>
+            Initially at game start, makes sure that all players have detected those
+            units of those unitclasses that IsAlwaysVisibleForEnemy. This mostly applies to
+            airports and seaports.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.AddAutomaticDetection(TTG.NavalWar.NWData.Units.BaseUnit)">
+            <summary>
+            Adds specified unit to the DetectedUnits list permanently. Also handles DetectedGroups.
+            </summary>
+            <param name="unit"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.ForgetOldDetections(System.Double)">
+            <summary>
+            Ensures that contact with DetectedUnits that are not renewed is lost.
+            </summary>
+            <param name="timer"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.ExecuteHighLevelOrders">
+            <summary>
+            Executes HighLevelOrders at the right time, based on queue.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.ExecuteHighLevelOrders(TTG.NavalWar.NWComms.Entities.HighLevelOrder)">
+            <summary>
+            Executes specified HighLevelOrder
+            </summary>
+            <param name="order"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.Tick(System.Double)">
+            <summary>
+            Main game tick for player. Calls ticks for all units and executes for other functionality.
+            </summary>
+            <param name="timer"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.ExecuteEventTriggers">
+            <summary>
+            Executes the eventtriggers when conditions are met. Deletes executed triggers to improve performance.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CheckForVictoryConditions">
+            <summary>
+            Checks if victory conditions have been met for current player. Executes necessary functions to notify all players 
+            if true. Returns bool.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.ExecuteEventTriggers(TTG.NavalWar.NWComms.Entities.EventTrigger)">
+            <summary>
+            Executes the specified EventTrigger.
+            </summary>
+            <param name="eventTrigger"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.IsEventTriggerConditionMet(TTG.NavalWar.NWComms.Entities.EventTrigger)">
+            <summary>
+            Returns true if specified EventTrigger's condition is met, otherwise False.
+            </summary>
+            <param name="eventTrigger"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.IsEventTriggerConditionUnitInRegionMet(TTG.NavalWar.NWComms.Entities.EventTrigger)">
+            <summary>
+            Tests if eventTrigger of type PlayerUnitInRegion is met. 
+            </summary>
+            <param name="eventTrigger"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GameVictoryAchieved">
+            <summary>
+            Called when this player has achieved victory in current game.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CreateNewMessage(System.String)">
+            <summary>
+            Creates a new Message to this player.
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CreateNewMessage(TTG.NavalWar.NWData.GamePlay.Player,System.String)">
+            <summary>
+            Creates a new message to specified player.
+            </summary>
+            <param name="toPlayer"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetAllNewMessages">
+            <summary>
+            Returns a list of all unread messages to this player.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.IsEnemy(TTG.NavalWar.NWData.GamePlay.Player)">
+            <summary>
+            Returns true if supplied player is an enemy of this player.
+            </summary>
+            <param name="player"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.IsAlly(TTG.NavalWar.NWData.GamePlay.Player)">
+            <summary>
+            Returns true if supplied player is an ally of this player.
+            </summary>
+            <param name="player"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetPlayerInfo">
+            <summary>
+            Returns a fully populated PlayerInfo for current player (used to send to client).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetNextAvailableVesselName(System.String)">
+            <summary>
+            Returns the next available vessel name for a unitClassId, based on which names are already used. If none available, returns null.
+            </summary>
+            <param name="unitClassId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.SelectUser(TTG.NavalWar.NWComms.Entities.GameControlRequest)">
+            <summary>
+            Player selects user from Users data.
+            </summary>
+            <param name="req"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.SelectCampaign(TTG.NavalWar.NWComms.Entities.GameControlRequest)">
+            <summary>
+            User selects campaign.
+            </summary>
+            <param name="req"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.Cheat(System.String,System.String)">
+            <summary>
+            Executes cheat associated with cheat code. Will not be executed in competitive multiplayer.
+            </summary>
+            <param name="code"></param>
+            <param name="unitId"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.CheatRevealOrders">
+            <summary>
+            Executes the CHEAT to reveal enemy orders.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.DesignateContactFriendOrFoe(System.String,TTG.NavalWar.NWComms.GameConstants.FriendOrFoe)">
+            <summary>
+            Forcibly designates a specific contact as friend or foe.
+            </summary>
+            <param name="detectedContactId"></param>
+            <param name="friendOrFoe"></param>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.GetById(System.String)">
+            <summary>
+            Gets player by Id from current game.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.GamePlay.Player.HandleInfoRequest(TTG.NavalWar.NWComms.Entities.ClientInfoRequest)">
+            <summary>
+            Handles ClientInfoRequest received from player client and returns the appropriate data
+            </summary>
+            <param name="infoReq"></param>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.TcpPlayerIndex">
+            <summary>
+            Index of player Tcp comms. 0 is unassigned; first available is 1.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.ScenarioPlayerId">
+            <summary>
+            Which GameScenarioPlayer id this player is corresponding to
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsAutomaticallyEngagingHighValueTargets">
+            <summary>
+            For AI players. If true, tries to automatically find targets based on victory conditions and engage them.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsAutomaticallyEngagingOpportunityTargets">
+            <summary>
+            For AI players. If true, may engage all targets of opportunity when they are detected. 
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsAutomaticallySettingHighValueDefence">
+            <summary>
+            For AI players. If true, sets up AEW and ASW for high value units automatically.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsAutomaticallyChangingTimeOnDetection">
+            <summary>
+            Should the player request a changed time compression on new detections?
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsAutomaticallyChangingTimeOnBattleReport">
+            <summary>
+            Should the player request a changed time compression on new battle reports?
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsAutomaticallyChangingTimeOnNoOrder">
+            <summary>
+            Should the player request a changed time compression when a unit has no order?
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.AllianceId">
+            <summary>
+            Used for scenario loading.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.IsCompetitivePlayer">
+            <summary>
+            Determines whether this is a player that can win or lose game. Players controlling neutral units,
+            observers, etc, will have this property set to false.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.Tag">
+            <summary>
+            Used for identifying game player as specific scenario player, 
+            for triggers, identifyers, AI, etc.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.GamePlay.Player.DefaultSensor">
+            <summary>
+            For automatically detected units, this is the dummy "sensor" used to detect them.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.Sonar.IsDeployedIntermediateDepth">
+            <summary>
+            This setting determines whether the sonar is set to shallow (default for surface/air) or
+            intermediate depth (below the layer). A sub will always listen on its own depth. 
+            Dependent on SensorClass.IsVariableDepthSensor
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.MissileUnit.CanBeSoftKilled(TTG.NavalWar.NWData.Units.BaseWeapon)">
+            <summary>
+            Given a weapon (countermeasures type), determines if this weapon can work on this missile. Returns bool.
+            Takes into account remaining ammunition on soft kill weapon, but does not deduct from it. If MaxAmmunition==0,
+            this is interpreted as unlimited ammo.
+            </summary>
+            <param name="wpn"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.EngagementOrder.WeaponClassId">
+            <summary>
+            If null/empty, automatic selection
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.OrderSystem.EngagementOrder.RoundCount">
+            <summary>
+            Preferred number of rounds to fire at target. If 0, automatic selection.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.WeatherSystem.RecalculateSunshine">
+            <summary>
+            Sets SunshineWm2 based on GameCurrentTime and Coordinate for this weathersystem, 
+            calculated from the formula from hell.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.WeatherSystem.RecalculateEffectiveLight">
+            <summary>
+            This method calculates the "effective light" as perceived by a normal human, based on
+            pre-calculated SunshineWm2. SunshinePercent is set based on the sun, while TotalLightPercent
+            has added some light based on IsMoonUp and CurrentMoonPhase. Contains hardcoded numbers.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Ai.BlackboardFinder`1.GetAllSortedByCoordinateOwnerAndType(System.String,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Double)">
+            <summary>
+            Return all matching objects sorted by distance to coordinate, closest first.
+            </summary>
+            <param name="ownerId"></param>
+            <param name="coordinate"></param>
+            <param name="maxDistance"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Util.TerrainReader.GetCoordinateLine(TTG.NavalWar.NWData.OrderSystem.Coordinate,TTG.NavalWar.NWData.OrderSystem.Coordinate,System.Int32,System.Double@,System.Double@)">
+            <summary>
+            Returns a list of Coordinate, forming a straight (geodesic) line from start to end point, consisting of noOfPoint samples.
+            </summary>
+            <param name="startCoordinate"></param>
+            <param name="endCoordinate"></param>
+            <param name="noOfPoints"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWData.Units.Group.CheckIfGroupIsStaging">
+            <summary>
+            Finds out if all units in the group with a FormationOrder is in its correct position. Sets IsStaging
+            property, and also sets IsAtFormationPositionFlag for all relevant units in group.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.Group.CountUnitsExpected">
+            <summary>
+            Sets the count from aircraft launch, to keep count on whether a group
+            is staging or fully formed.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.Group.IsStaging">
+            <summary>
+            A flag indicating whether the group is reorganising/staging/waiting for units to
+            catch up to their proper position. This to allow group leader(s) and other units
+            to slow down properly.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWData.Units.Group.SpeedKph">
+            <summary>
+            The speed set for the group by order (user or AI).
+            </summary>
+        </member>
+    </members>
+</doc>

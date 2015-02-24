@@ -1,0 +1,523 @@
+Debug - 13:06:21.123 ** ////////////////////////////////////////////////////////
+Debug - 13:06:21.124 ** ////////////////////////////////////////////////////////
+Debug - 13:06:21.126 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 13:06:21.126 ** ////////////////////////////////////////////////////////
+Debug - 13:06:21.127 ** ////////////////////////////////////////////////////////
+Debug - 13:06:21.128 ** Game client connecting...
+Debug - 13:06:21.176 ** Game client connected
+Debug - 13:06:21.178 ** Connection status is : NotConnected
+Debug - 13:06:21.180 ** Attempting to change connection status...
+Debug - 13:06:21.181 ** Current status: NotConnected status to change to: Connected
+Debug - 13:06:21.183 ** ShowInfo: Connection status changed: Connected
+Debug - 13:06:21.184 ** Game client status is now Connected
+Debug - 13:06:26.296 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:26.299 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:26.300 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 13:06:28.712 ** ShowInfo: *** Sending select scenario ***
+Debug - 13:06:35.134 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:06:37.236 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:06:37.241 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:06:37.245 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:37.249 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:38.616 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:06:38.621 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:06:38.626 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:06:38.631 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:38.635 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:41.366 ** ShowInfo: *** Sending start game ***
+Debug - 13:06:41.369 ** ShowInfo: *** Player selects user Jan
+Debug - 13:06:41.371 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 13:06:55.236 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 13:06:55.237 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:06:55.239 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:06:55.240 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:55.242 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:55.767 ** ShowInfo: Received BaseUnitInfo: [BIZ] Bergen Airport (ukairportlarge)
+Debug - 13:06:55.784 ** ShowInfo: Received BaseUnitInfo: [BKJ] Fridtjof Nansen (fridtjofnansen)
+Debug - 13:06:56.296 ** ShowInfo: ### GameUiControl received: GameUiControl SelectUnit
+Debug - 13:06:56.298 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 13:06:56.299 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:06:56.301 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:06:56.302 ** ShowInfo: ### GameUiControl received: GameUiControl SetMapPositionFlag
+Debug - 13:06:56.307 ** ShowInfo: From: BLH
+gl hf
+Debug - 13:07:08.881 ** ShowInfo: UnitOrder to unit BKJ : Launch 1 aircraft.
+Debug - 13:07:14.359 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:07:14.361 ** ShowInfo: *** Credits: 0
+
+Debug - 13:07:14.880 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BKX
+Debug - 13:07:14.885 ** ShowInfo: Received BaseUnitInfo: [BKX] NH90 NFH BKX (nh90nhf)
+Debug - 13:07:29.724 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:36
+Debug - 13:07:29.726 ** ShowInfo: GameWorldTimeSec=36,2620169
+Debug - 13:07:29.727 ** ShowInfo: GameEngineTimeMs=36264,0742
+Debug - 13:07:29.729 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:07:29.731 ** ShowInfo: *** Credits: 0
+
+Debug - 13:08:11.753 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:10
+Debug - 13:08:11.755 ** ShowInfo: GameWorldTimeSec=69,110953
+Debug - 13:08:11.756 ** ShowInfo: GameEngineTimeMs=70112,0102
+Debug - 13:08:11.758 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:08:11.760 ** ShowInfo: *** Credits: 0
+
+Debug - 13:08:17.340 ** ShowInfo: *** Movement order sent to unit NH90 NFH BKX
+Debug - 13:09:25.649 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:47
+Debug - 13:09:25.651 ** ShowInfo: GameWorldTimeSec=107,1670724
+Debug - 13:09:25.652 ** ShowInfo: GameEngineTimeMs=107168,1297
+Debug - 13:09:25.654 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:09:25.656 ** ShowInfo: *** Credits: 0
+
+Debug - 13:09:39.136 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:43
+Debug - 13:09:39.138 ** ShowInfo: GameWorldTimeSec=163,0822706
+Debug - 13:09:39.139 ** ShowInfo: GameEngineTimeMs=163083,3279
+Debug - 13:09:39.143 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:09:39.148 ** ShowInfo: *** Credits: 0
+
+Debug - 13:10:46.40 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:03:17
+Debug - 13:10:48.272 ** ShowInfo: GameWorldTimeSec=197,5392414
+Debug - 13:10:48.274 ** ShowInfo: GameEngineTimeMs=197540,2987
+Debug - 13:10:48.276 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:10:48.277 ** ShowInfo: *** Credits: 0
+
+Debug - 13:21:22.888 ** ////////////////////////////////////////////////////////
+Debug - 13:21:22.890 ** ////////////////////////////////////////////////////////
+Debug - 13:21:22.891 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 13:21:22.893 ** ////////////////////////////////////////////////////////
+Debug - 13:21:22.894 ** ////////////////////////////////////////////////////////
+Debug - 13:21:22.895 ** Game client connecting...
+Debug - 13:21:22.902 ** Game client connected
+Debug - 13:21:22.904 ** Connection status is : NotConnected
+Debug - 13:21:22.906 ** Attempting to change connection status...
+Debug - 13:21:22.907 ** Current status: NotConnected status to change to: Connected
+Debug - 13:21:22.909 ** ShowInfo: Connection status changed: Connected
+Debug - 13:21:22.911 ** Game client status is now Connected
+Debug - 13:21:26.103 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:21:26.106 ** ShowInfo: *** Credits: 0
+
+Debug - 13:21:26.109 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 13:21:29.841 ** ShowInfo: *** Sending select scenario ***
+Debug - 13:21:42.156 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:21:42.158 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:21:42.159 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:21:42.164 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:21:42.170 ** ShowInfo: *** Credits: 0
+
+Debug - 13:21:42.190 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:21:42.195 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:21:42.200 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:21:42.204 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:21:42.208 ** ShowInfo: *** Credits: 0
+
+Debug - 13:21:46.98 ** ShowInfo: *** Sending start game ***
+Debug - 13:21:46.101 ** ShowInfo: *** Player selects user Jan
+Debug - 13:21:46.103 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 13:22:00.338 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 13:22:00.340 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:22:00.342 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:22:00.343 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:22:00.345 ** ShowInfo: *** Credits: 0
+
+Debug - 13:22:00.878 ** ShowInfo: Received BaseUnitInfo: [BIZ] Bergen Airport (ukairportlarge)
+Debug - 13:22:00.878 ** ShowInfo: Received BaseUnitInfo: [BKJ] Fridtjof Nansen (fridtjofnansen)
+Debug - 13:22:01.385 ** ShowInfo: ### GameUiControl received: GameUiControl SelectUnit
+Debug - 13:22:01.391 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 13:22:01.395 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:22:01.399 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:22:01.403 ** ShowInfo: ### GameUiControl received: GameUiControl SetMapPositionFlag
+Debug - 13:22:01.411 ** ShowInfo: From: BLH
+gl hf
+Debug - 13:22:07.848 ** ShowInfo: UnitOrder to unit BKJ : Launch 1 aircraft.
+Debug - 13:22:13.783 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:22:13.785 ** ShowInfo: *** Credits: 0
+
+Debug - 13:22:14.305 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BKX
+Debug - 13:22:14.313 ** ShowInfo: Received BaseUnitInfo: [BKX] NH90 NFH BKX (nh90nhf)
+Debug - 13:22:48.124 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:37
+Debug - 13:23:00.270 ** ShowInfo: GameWorldTimeSec=36,5349039
+Debug - 13:23:00.270 ** ShowInfo: GameEngineTimeMs=37536,9249
+Debug - 13:23:00.270 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:23:00.270 ** ShowInfo: *** Credits: 0
+
+Debug - 13:24:16.28 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:23
+Debug - 13:24:16.30 ** ShowInfo: GameWorldTimeSec=82,4989777
+Debug - 13:24:16.31 ** ShowInfo: GameEngineTimeMs=83500,9915
+Debug - 13:24:16.33 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:24:16.35 ** ShowInfo: *** Credits: 0
+
+Debug - 13:24:22.769 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:25
+Debug - 13:24:22.775 ** ShowInfo: GameWorldTimeSec=141,5009915
+Debug - 13:24:22.780 ** ShowInfo: GameEngineTimeMs=145205,6451
+Debug - 13:24:22.785 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:24:22.789 ** ShowInfo: *** Credits: 0
+
+Debug - 13:24:47.513 ** ShowInfo: *** Movement order sent to unit NH90 NFH BKX
+Debug - 13:24:58.459 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:57
+Debug - 13:24:58.461 ** ShowInfo: GameWorldTimeSec=177,0863902
+Debug - 13:24:58.463 ** ShowInfo: GameEngineTimeMs=177087,4475
+Debug - 13:24:58.465 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:24:58.466 ** ShowInfo: *** Credits: 0
+
+Debug - 13:29:14.665 ** ////////////////////////////////////////////////////////
+Debug - 13:29:14.667 ** ////////////////////////////////////////////////////////
+Debug - 13:29:14.669 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 13:29:14.670 ** ////////////////////////////////////////////////////////
+Debug - 13:29:14.672 ** ////////////////////////////////////////////////////////
+Debug - 13:29:14.673 ** Game client connecting...
+Debug - 13:29:14.680 ** Game client connected
+Debug - 13:29:14.682 ** Connection status is : NotConnected
+Debug - 13:29:14.685 ** Attempting to change connection status...
+Debug - 13:29:14.686 ** Current status: NotConnected status to change to: Connected
+Debug - 13:29:14.689 ** ShowInfo: Connection status changed: Connected
+Debug - 13:29:14.691 ** Game client status is now Connected
+Debug - 13:29:17.887 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:29:17.890 ** ShowInfo: *** Credits: 0
+
+Debug - 13:29:17.892 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 13:29:21.63 ** ShowInfo: *** Sending select scenario ***
+Debug - 13:29:31.716 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:29:31.722 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:29:31.727 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:29:31.732 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:29:31.737 ** ShowInfo: *** Credits: 0
+
+Debug - 13:29:33.953 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:29:33.957 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:29:33.963 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:29:33.968 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:29:33.973 ** ShowInfo: *** Credits: 0
+
+Debug - 13:29:37.822 ** ShowInfo: *** Sending start game ***
+Debug - 13:29:37.825 ** ShowInfo: *** Player selects user Jan
+Debug - 13:29:37.827 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 13:29:57.270 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 13:29:57.272 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:29:57.274 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:29:57.276 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:29:57.278 ** ShowInfo: *** Credits: 0
+
+Debug - 13:29:57.828 ** ShowInfo: Received BaseUnitInfo: [BIZ] Bergen Airport (ukairportlarge)
+Debug - 13:29:57.832 ** ShowInfo: Received BaseUnitInfo: [BKJ] Fridtjof Nansen (fridtjofnansen)
+Debug - 13:29:58.343 ** ShowInfo: ### GameUiControl received: GameUiControl SelectUnit
+Debug - 13:29:58.349 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 13:29:58.353 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:29:58.357 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:29:58.361 ** ShowInfo: ### GameUiControl received: GameUiControl SetMapPositionFlag
+Debug - 13:29:58.369 ** ShowInfo: From: BLH
+gl hf
+Debug - 13:30:04.893 ** ShowInfo: UnitOrder to unit BKJ : Launch 1 aircraft.
+Debug - 13:30:57.388 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:30:57.390 ** ShowInfo: *** Credits: 0
+
+Debug - 13:30:57.394 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BKX
+Debug - 13:30:57.397 ** ShowInfo: Received BaseUnitInfo: [BKX] NH90 NFH BKX (nh90nhf)
+Debug - 13:31:04.892 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:14
+Debug - 13:31:04.898 ** ShowInfo: GameWorldTimeSec=50,1602675
+Debug - 13:31:04.903 ** ShowInfo: GameEngineTimeMs=74604,2671
+Debug - 13:31:04.908 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:31:04.912 ** ShowInfo: *** Credits: 0
+
+Debug - 13:31:47.821 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:37
+Debug - 13:31:47.823 ** ShowInfo: GameWorldTimeSec=96,2185034
+Debug - 13:31:47.825 ** ShowInfo: GameEngineTimeMs=97219,5607
+Debug - 13:31:47.827 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:31:47.829 ** ShowInfo: *** Credits: 0
+
+Debug - 13:32:21.945 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:21
+Debug - 13:32:21.947 ** ShowInfo: GameWorldTimeSec=140,112014
+Debug - 13:32:21.948 ** ShowInfo: GameEngineTimeMs=141113,0712
+Debug - 13:32:21.950 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:32:21.952 ** ShowInfo: *** Credits: 0
+
+Debug - 13:32:27.720 ** ShowInfo: Select a unit. Use decimal points for Lat and Long. Input string was not in a correct format.
+Debug - 13:32:49.69 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:59
+Debug - 13:32:49.71 ** ShowInfo: GameWorldTimeSec=179,2141933
+Debug - 13:32:49.73 ** ShowInfo: GameEngineTimeMs=179215,2506
+Debug - 13:32:49.74 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:32:49.76 ** ShowInfo: *** Credits: 0
+
+Debug - 13:32:54.173 ** ShowInfo: Select a unit. Use decimal points for Lat and Long. Input string was not in a correct format.
+Debug - 13:33:03.106 ** ShowInfo: *** Movement order sent to unit NH90 NFH BKX
+Debug - 13:33:37.612 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:03:32
+Debug - 13:33:37.614 ** ShowInfo: GameWorldTimeSec=212,4160081
+Debug - 13:33:37.616 ** ShowInfo: GameEngineTimeMs=212417,0536
+Debug - 13:33:37.619 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:33:37.620 ** ShowInfo: *** Credits: 0
+
+Debug - 13:34:28.980 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:04:13
+Debug - 13:34:28.982 ** ShowInfo: GameWorldTimeSec=252,9242148
+Debug - 13:34:28.984 ** ShowInfo: GameEngineTimeMs=253925,2721
+Debug - 13:34:28.986 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:34:28.988 ** ShowInfo: *** Credits: 0
+
+Debug - 13:40:24.518 ** ////////////////////////////////////////////////////////
+Debug - 13:40:24.520 ** ////////////////////////////////////////////////////////
+Debug - 13:40:24.521 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 13:40:24.523 ** ////////////////////////////////////////////////////////
+Debug - 13:40:24.524 ** ////////////////////////////////////////////////////////
+Debug - 13:40:24.526 ** Game client connecting...
+Debug - 13:40:24.532 ** Game client connected
+Debug - 13:40:24.535 ** Connection status is : NotConnected
+Debug - 13:40:24.537 ** Attempting to change connection status...
+Debug - 13:40:24.538 ** Current status: NotConnected status to change to: Connected
+Debug - 13:40:24.541 ** ShowInfo: Connection status changed: Connected
+Debug - 13:40:24.543 ** Game client status is now Connected
+Debug - 13:40:30.189 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:40:30.192 ** ShowInfo: *** Credits: 0
+
+Debug - 13:40:30.196 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 13:40:33.356 ** ShowInfo: *** Sending select scenario ***
+Debug - 13:40:37.367 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:40:37.369 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:40:37.371 ** ShowInfo: *** Credits: 0
+
+Debug - 13:40:40.333 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:40:40.335 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:40:40.337 ** ShowInfo: *** Credits: 0
+
+Debug - 13:40:42.493 ** ShowInfo: *** Sending start game ***
+Debug - 13:40:42.496 ** ShowInfo: *** Player selects user Jan
+Debug - 13:40:42.498 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 13:41:27.701 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 13:41:27.703 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:41:27.704 ** ShowInfo: *** Credits: 0
+
+Debug - 13:41:27.708 ** ShowInfo: Trigger: EventTrigger OrderReceivedFromPlayer  Tag:nansen  OrderType: LaunchAircraft
+Debug - 13:41:28.242 ** ShowInfo: Received BaseUnitInfo: [BIZ] Bergen Airport (ukairportlarge)
+Debug - 13:41:28.247 ** ShowInfo: Received BaseUnitInfo: [BKJ] Fridtjof Nansen (fridtjofnansen)
+Debug - 13:41:28.249 ** ShowInfo: ### GameUiControl received: GameUiControl SelectUnit
+Debug - 13:41:28.251 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 13:41:28.253 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:41:28.254 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 13:41:28.256 ** ShowInfo: ### GameUiControl received: GameUiControl SetMapPositionFlag
+Debug - 13:41:28.779 ** ShowInfo: From: BLH
+gl hf
+Debug - 13:41:39.305 ** ShowInfo: UnitOrder to unit BKJ : Launch 1 aircraft.
+Debug - 13:55:53.883 ** ////////////////////////////////////////////////////////
+Debug - 13:55:53.885 ** ////////////////////////////////////////////////////////
+Debug - 13:55:53.887 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 13:55:53.888 ** ////////////////////////////////////////////////////////
+Debug - 13:55:53.889 ** ////////////////////////////////////////////////////////
+Debug - 13:55:53.891 ** Game client connecting...
+Debug - 13:55:53.896 ** Game client connected
+Debug - 13:55:53.898 ** Connection status is : NotConnected
+Debug - 13:55:53.901 ** Attempting to change connection status...
+Debug - 13:55:53.902 ** Current status: NotConnected status to change to: Connected
+Debug - 13:55:53.904 ** ShowInfo: Connection status changed: Connected
+Debug - 13:55:53.906 ** Game client status is now Connected
+Debug - 13:55:58.216 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:55:58.227 ** ShowInfo: *** Credits: 0
+
+Debug - 13:55:58.230 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 13:56:01.286 ** ShowInfo: *** Sending select scenario ***
+Debug - 13:56:08.343 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:56:08.345 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:56:08.347 ** ShowInfo: *** Credits: 0
+
+Debug - 13:56:14.432 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:56:14.434 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:56:14.436 ** ShowInfo: *** Credits: 0
+
+Debug - 13:56:18.981 ** ShowInfo: *** Sending start game ***
+Debug - 13:56:18.985 ** ShowInfo: *** Player selects user Jan
+Debug - 13:56:18.986 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 14:03:21.43 ** ////////////////////////////////////////////////////////
+Debug - 14:03:21.44 ** ////////////////////////////////////////////////////////
+Debug - 14:03:21.46 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 14:03:21.47 ** ////////////////////////////////////////////////////////
+Debug - 14:03:21.49 ** ////////////////////////////////////////////////////////
+Debug - 14:03:21.50 ** Game client connecting...
+Debug - 14:03:21.56 ** Game client connected
+Debug - 14:03:21.58 ** Connection status is : NotConnected
+Debug - 14:03:21.61 ** Attempting to change connection status...
+Debug - 14:03:21.62 ** Current status: NotConnected status to change to: Connected
+Debug - 14:03:21.64 ** ShowInfo: Connection status changed: Connected
+Debug - 14:03:21.66 ** Game client status is now Connected
+Debug - 14:03:27.95 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:03:27.98 ** ShowInfo: *** Credits: 0
+
+Debug - 14:03:27.100 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 14:03:29.146 ** ShowInfo: *** Sending select scenario ***
+Debug - 14:03:29.728 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:03:29.734 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:03:29.739 ** ShowInfo: *** Credits: 0
+
+Debug - 14:03:29.745 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:03:29.750 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:03:29.754 ** ShowInfo: *** Credits: 0
+
+Debug - 14:03:31.460 ** ShowInfo: *** Sending start game ***
+Debug - 14:03:31.463 ** ShowInfo: *** Player selects user Jan
+Debug - 14:03:31.465 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 14:27:11.712 ** ////////////////////////////////////////////////////////
+Debug - 14:27:11.714 ** ////////////////////////////////////////////////////////
+Debug - 14:27:11.715 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 14:27:11.717 ** ////////////////////////////////////////////////////////
+Debug - 14:27:11.718 ** ////////////////////////////////////////////////////////
+Debug - 14:27:11.719 ** Game client connecting...
+Debug - 14:27:11.726 ** Game client connected
+Debug - 14:27:11.727 ** Connection status is : NotConnected
+Debug - 14:27:11.730 ** Attempting to change connection status...
+Debug - 14:27:11.731 ** Current status: NotConnected status to change to: Connected
+Debug - 14:27:11.733 ** ShowInfo: Connection status changed: Connected
+Debug - 14:27:11.735 ** Game client status is now Connected
+Debug - 14:27:17.300 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:27:17.303 ** ShowInfo: *** Credits: 0
+
+Debug - 14:27:17.305 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 14:27:19.639 ** ShowInfo: *** Sending select scenario ***
+Debug - 14:27:19.902 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:27:19.909 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:27:19.914 ** ShowInfo: *** Credits: 0
+
+Debug - 14:27:19.920 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 14:27:19.925 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:27:19.929 ** ShowInfo: *** Credits: 0
+
+Debug - 14:27:20.968 ** ShowInfo: *** Sending start game ***
+Debug - 14:27:20.971 ** ShowInfo: *** Player selects user Jan
+Debug - 14:27:20.973 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 14:27:34.4 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 14:27:34.11 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:27:34.16 ** ShowInfo: *** Credits: 0
+
+Debug - 14:27:34.23 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:27:34.27 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 14:27:34.31 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:27:34.36 ** ShowInfo: *** Credits: 0
+
+Debug - 14:27:34.40 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:27:34.566 ** ShowInfo: Received BaseUnitInfo: [BIZ] Bergen Airport (ukairportlarge)
+Debug - 14:27:34.570 ** ShowInfo: Received BaseUnitInfo: [BKJ] Fridtjof Nansen (fridtjofnansen)
+Debug - 14:27:34.573 ** ShowInfo: From: BLH
+gg wp
+Debug - 14:27:35.89 ** ShowInfo: ### GameUiControl received: GameUiControl SelectUnit
+Debug - 14:27:35.91 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 14:27:35.93 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 14:27:35.94 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 14:27:35.96 ** ShowInfo: ### GameUiControl received: GameUiControl SetMapPositionFlag
+Debug - 14:27:35.101 ** ShowInfo: From: BLH
+gl hf
+Debug - 14:27:51.693 ** ShowInfo: UnitOrder to unit BKJ : Launch 1 aircraft.
+Debug - 14:27:58.271 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:27:58.277 ** ShowInfo: *** Credits: 0
+
+Debug - 14:27:58.281 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:27:58.800 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BKX
+Debug - 14:27:58.800 ** ShowInfo: Received BaseUnitInfo: [BKX] NH90 NFH BKX (nh90nhf)
+Debug - 14:28:07.429 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:33
+Debug - 14:28:07.431 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:28:07.433 ** ShowInfo: *** Credits: 0
+
+Debug - 14:28:07.434 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:28:18.362 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 14:28:18.365 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 14:28:18.366 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:28:18.368 ** ShowInfo: *** Credits: 0
+
+Debug - 14:28:18.370 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:28:18.864 ** ShowInfo: ### GameUiControl received: GameUiControl ClearMapPositionFlag
+Debug - 14:28:18.867 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 14:28:18.868 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 14:28:18.870 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:28:18.872 ** ShowInfo: *** Credits: 0
+
+Debug - 14:28:18.873 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:28:18.876 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:28:37.426 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:03
+Debug - 14:28:37.428 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:28:37.430 ** ShowInfo: *** Credits: 0
+
+Debug - 14:28:37.432 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:28:37.433 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:28:42.476 ** ShowInfo: *** Movement order sent to unit NH90 NFH BKX
+Debug - 14:29:04.507 ** ShowInfo: *** Movement order sent to unit NH90 NFH BKX
+Debug - 14:29:07.506 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:33
+Debug - 14:29:07.508 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:29:07.509 ** ShowInfo: *** Credits: 0
+
+Debug - 14:29:07.511 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:29:07.512 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:29:37.738 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:03
+Debug - 14:29:37.741 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:29:37.747 ** ShowInfo: *** Credits: 0
+
+Debug - 14:29:37.752 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:29:37.757 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:30:07.580 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:02:33
+Debug - 14:30:07.582 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:30:07.583 ** ShowInfo: *** Credits: 0
+
+Debug - 14:30:07.585 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:30:07.587 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:30:35.541 ** ShowInfo: *** Movement order sent to unit NH90 NFH BKX
+Debug - 14:30:37.813 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:03:03
+Debug - 14:30:37.815 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:30:37.817 ** ShowInfo: *** Credits: 0
+
+Debug - 14:30:37.818 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:30:37.820 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:31:07.578 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:03:33
+Debug - 14:31:07.580 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:31:07.582 ** ShowInfo: *** Credits: 0
+
+Debug - 14:31:07.584 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:31:07.585 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:31:37.934 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:04:03
+Debug - 14:31:37.937 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:31:37.938 ** ShowInfo: *** Credits: 0
+
+Debug - 14:31:37.940 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:31:37.946 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition
+Debug - 14:32:07.732 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:04:33
+Debug - 14:32:07.734 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 14:32:07.735 ** ShowInfo: *** Credits: 0
+
+Debug - 14:32:07.737 ** ShowInfo: Trigger: PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:32:07.739 ** ShowInfo: Trigger: PlayerObjective EventTrigger CountUnitClassInSectorEqualsOrHigher TUT_TUTORIALTEST_P1_VICCON_PLAYER  UnitClassId:nh90nhf Victory Condition

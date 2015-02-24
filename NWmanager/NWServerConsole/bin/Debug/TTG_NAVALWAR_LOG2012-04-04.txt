@@ -1,0 +1,39 @@
+Debug - 15:20:48.335 ** Game() object ALN instantiated!
+Debug - 15:20:49.842 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 15:20:49.920 ** **************************************************************************
+Debug - 15:20:49.921 ** GameManager->CreateGame. GameName: test game
+Debug - 15:20:49.922 ** **************************************************************************
+Debug - 15:20:49.923 ** Game() object ALO instantiated!
+Debug - 15:20:49.931 ** **************************************************************************
+Debug - 15:20:49.933 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 15:20:49.934 ** **************************************************************************
+Debug - 15:20:50.33 ** Game connection status is set to Connected
+Debug - 15:20:50.196 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 15:20:52.332 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 15:20:52.336 ** SelectCampaign: Campaign not found:test
+Debug - 15:20:52.339 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:20:52.342 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TUTORIAL5_GAME_NAME at skill level 2
+Debug - 15:20:53.745 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:20:53.748 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:20:53.805 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 15:21:10.670 ** GameData->CreateUnit: Unit [BIX]  (NATO Airport) spawned on low ground and is moved up. Height 348m
+Debug - 15:21:10.674 ** Group BIW adds unit [BIX]  (NATO Airport). Count=1
+Debug - 15:21:10.796 ** LoadGameScenario: Unit [BIX] CFB Goose Bay (NATO Airport) has added carried unit [BJG] Boeing P-8A Poseidon BJG (Boeing P-8A Poseidon), Weapon-load ASW
+Debug - 15:21:10.797 ** LoadGameScenario: Unit [BIX] CFB Goose Bay (NATO Airport) has added carried unit [BJP] Boeing P-8A Poseidon BJP (Boeing P-8A Poseidon), Weapon-load ASW
+Debug - 15:21:10.799 ** LoadGameScenario: Unit [BIX] CFB Goose Bay (NATO Airport) has added carried unit [BJY] F-35A BJY (F-35A), Weapon-load Air superiority
+Debug - 15:21:10.800 ** LoadGameScenario: Unit [BIX] CFB Goose Bay (NATO Airport) has added carried unit [BKM] F-35A BKM (F-35A), Weapon-load Air superiority
+Debug - 15:21:10.814 ** Group BLA adds unit [BLB]  (Halifax). Count=1
+Debug - 15:21:10.877 ** GetAvailableGamePlayer adding player [BME] BME
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 15:21:10.892 ** Group BMF adds unit [BMG]  (MV Sirius Star). Count=1
+Debug - 15:21:10.903 ** Group BMK adds unit [BML]  (M/S Pamela). Count=1
+Debug - 15:21:10.913 ** Group BMP adds unit [BMQ]  (Boeing 767). Count=1
+Debug - 15:21:11.186 ** AddAutomaticDetection added persistent detection  CFB Goose Bay (NATO Airport)  [Foe]
+Position: 053° 19' 09"N, 060° 25' 32"W Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BME] BME
+Debug - 15:21:11.702 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:21:11.710 ** **************************************************************************
+Debug - 15:21:11.711 ** Game->StartGamePlay. GameName: TUT_TUTORIAL5_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 1  TimeLimit: 0
+Debug - 15:21:11.713 ** **************************************************************************
+Debug - 15:21:12.238 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest

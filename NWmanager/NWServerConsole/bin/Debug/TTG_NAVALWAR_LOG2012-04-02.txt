@@ -1,0 +1,37 @@
+Debug - 15:10:05.363 ** Game() object ALN instantiated!
+Debug - 15:10:06.820 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 15:10:06.941 ** **************************************************************************
+Debug - 15:10:06.955 ** GameManager->CreateGame. GameName: test game
+Debug - 15:10:06.955 ** **************************************************************************
+Debug - 15:10:06.956 ** Game() object ALO instantiated!
+Debug - 15:10:06.981 ** **************************************************************************
+Debug - 15:10:06.982 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 15:10:06.983 ** **************************************************************************
+Debug - 15:10:18.657 ** Game connection status is set to Connected
+Debug - 15:10:18.709 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 15:10:20.907 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 15:10:20.912 ** SelectCampaign: Campaign not found:test
+Debug - 15:10:20.914 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:10:20.917 ** HandleGameControlMessage: Player [ALP] ALP selects scenario SCE_BETAPVP3_GAME_NAME at skill level 2
+Debug - 15:10:21.984 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:10:21.987 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:10:22.37 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 15:10:34.242 ** Group FMO adds unit [FMP]  (Hamina). Count=1
+Debug - 15:10:34.390 ** Group FNB adds unit [FNC]  (Absalon). Count=1
+Debug - 15:10:34.414 ** Group FOP adds unit [FOQ]  (Visby). Count=1
+Debug - 15:10:34.416 ** LoadGameScenario: Unit [FOQ] Visby (Visby) has added carried unit [FPA] NH90 NFH FPA (NH90 NFH), Weapon-load Naval Strike
+Debug - 15:10:34.429 ** GetAvailableGamePlayer adding player [FPO] FPO
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 15:10:34.440 ** Group FPQ adds unit [FPR]  (Admiral Gorshkov). Count=1
+Debug - 15:10:34.442 ** LoadGameScenario: Unit [FPR] Admiral Sergey Gorshkov (Admiral Gorshkov) has added carried unit [FQI] Kamov Ka-27 FQI (Kamov Ka-27), Weapon-load Naval Strike
+Debug - 15:10:34.452 ** Group FQR adds unit [FQS]  (Project 206MR Vikhr). Count=1
+Debug - 15:10:34.457 ** Group FQY adds unit [FQZ]  (Steregushchiy). Count=1
+Debug - 15:10:34.458 ** LoadGameScenario: Unit [FQZ] Steregushchiy (Steregushchiy) has added carried unit [FRQ] Kamov Ka-27 FRQ (Kamov Ka-27), Weapon-load Naval Strike
+Debug - 15:10:34.732 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:10:34.740 ** **************************************************************************
+Debug - 15:10:34.741 ** Game->StartGamePlay. GameName: SCE_BETAPVP3_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 15:10:34.742 ** **************************************************************************
+Debug - 15:10:34.753 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 15:10:35.515 ** ExecuteHighLevelOrders for player [FPO] Computer AI: Order HighLevelOrder: SetAewPatrol aew1  Pos: 055° 08' 59"N, 015° 54' 00"E
+Debug - 15:10:54.58 ** CreateAircraftLaunchOrder orders carrier [FPR] Admiral Sergey Gorshkov (Admiral Gorshkov) to launch 1 aircraft with 1 order(s).
+Debug - 15:10:57.9 ** Launchaircraft(order) set to launch 1 aircraft.

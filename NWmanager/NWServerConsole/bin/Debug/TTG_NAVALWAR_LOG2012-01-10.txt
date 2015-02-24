@@ -1,0 +1,404 @@
+Debug - 13:29:00.57 ** Game() object ALN instantiated!
+Debug - 13:29:00.58 ** ***** NWServerConsole started *****
+Debug - 13:29:01.230 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 13:29:01.248 ** **************************************************************************
+Debug - 13:29:01.249 ** GameManager->CreateGame. GameName: test game
+Debug - 13:29:01.250 ** **************************************************************************
+Debug - 13:29:01.251 ** Game() object ALO instantiated!
+Debug - 13:29:01.256 ** 
+Debug - 13:29:01.258 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 13:29:01.259 ** 
+Debug - 13:29:01.260 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 13:29:01.261 ** 
+Debug - 13:29:01.263 ** **************************************************************************
+Debug - 13:29:01.265 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 13:29:01.266 ** **************************************************************************
+Debug - 13:29:14.705 ** Game connection status is set to Connected
+Debug - 13:29:14.707 ** 
+Debug - 13:29:14.708 ** Status changed. Status=Connected
+Debug - 13:29:14.709 ** 
+Debug - 13:29:17.841 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 13:29:17.843 ** 
+Debug - 13:29:17.844 ** NWConsole: New connection. Id=1
+Debug - 13:29:17.845 ** 
+Debug - 13:29:21.160 ** 
+Debug - 13:29:21.162 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:29:21.163 ** 
+Debug - 13:29:21.174 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:29:28.545 ** 
+Debug - 13:29:28.546 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:29:28.547 ** 
+Debug - 13:29:28.548 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:29:28.551 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TUTORIALTEST_GAME_NAME at skill level 2
+Debug - 13:29:37.847 ** 
+Debug - 13:29:37.848 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:29:37.849 ** 
+Debug - 13:29:37.850 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 13:29:37.853 ** SelectUser: User not found: Jan
+Debug - 13:29:37.856 ** 
+Debug - 13:29:37.857 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:29:37.859 ** 
+Debug - 13:29:37.860 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:29:37.862 ** 
+Debug - 13:29:37.863 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:29:37.864 ** 
+Debug - 13:29:37.866 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:29:37.900 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 13:29:42.774 ** GameData->CreateUnit: Unit [BIZ]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 13:29:42.778 ** Group BIY adds unit [BIZ]  (UK Airport). Count=1
+Debug - 13:29:42.831 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJI] Boeing P-8A Poseidon BJI (Boeing P-8A Poseidon)
+Debug - 13:29:42.843 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJN] Boeing P-8A Poseidon BJN (Boeing P-8A Poseidon)
+Debug - 13:29:42.844 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJS] F-35C BJS (F-35C)
+Debug - 13:29:42.845 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BKA] F-35C BKA (F-35C)
+Debug - 13:29:42.848 ** Group BKI adds unit [BKJ]  (Fridtjof Nansen). Count=1
+Debug - 13:29:42.865 ** GetAvailableGamePlayer adding player [BLH] BLH
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 13:29:42.869 ** Group BLK adds unit [BLL]  (MV Sirius Star). Count=1
+Debug - 13:29:42.876 ** **************************************************************************
+Debug - 13:29:42.877 ** Game->StartGamePlay. GameName: TUT_TUTORIALTEST_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 1  TimeLimit: 0
+Debug - 13:29:42.878 ** **************************************************************************
+Debug - 13:29:57.284 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BLH] BLH
+Debug - 13:29:57.954 ** CreateNewMessage: From: [BLH] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 13:30:05.46 ** 
+Debug - 13:30:05.48 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 13:30:05.49 ** 
+Debug - 13:30:05.58 ** ExecuteEventTriggers: Trigger EventTrigger OrderReceivedFromPlayer  Tag:nansen  OrderType: LaunchAircraft
+Debug - 13:30:56.899 ** ExecuteOrders: Unit [BKJ] Fridtjof Nansen (Fridtjof Nansen) order: LaunchOrder
+Debug - 13:30:56.915 ** LaunchAircraft: Unit [BKJ] Fridtjof Nansen (Fridtjof Nansen) to launch 1 aircraft.
+Debug - 13:30:56.920 **      Order: MovementOrder BLU, 1 waypoint(s).
+Current waypoint: [WP] Pos: 055° 00' 00"N, 003° 00' 00"E Bearing:0,00
+Debug - 13:30:56.925 ** Group BLV adds unit [BKX] NH90 NFH BKX (NH90 NFH). Count=1
+Debug - 13:30:56.929 ** ExecuteOrders: Unit [BKX] NH90 NFH BKX (NH90 NFH) order: MovementOrder
+Debug - 13:31:15.62 ** 
+Debug - 13:31:15.64 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 13:31:15.65 ** 
+Debug - 13:31:15.67 ** ExecuteOrders: Unit [BKX] NH90 NFH BKX (NH90 NFH) order: SensorActivationOrder
+Debug - 13:31:15.173 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection  Rusty Heap (MV Sirius Star)  [Foe]
+Position: 062° 17' 59"N, 001° 30' 00"E Fixed. Identified.Sensors: (1)
+Sensor [BKZ] Thales MRR/3D NG Radar on unit NH90 NFH BKX [NH90 NFH]: Distance 55735,17m at 332,00deg. Strength: 13,65. Size: 327,68 ArcSec
+ 
+Debug - 13:33:03.205 ** 
+Debug - 13:33:03.206 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 13:33:03.208 ** 
+Debug - 13:33:03.212 ** HandleUnitMovementOrder for unit [BKX] NH90 NFH BKX (NH90 NFH): Move to Waypoint destination: 062° 12' 00"N, 001° 30' 00"E. 0 Order(s)
+Debug - 13:36:52.845 ** Game() object ALN instantiated!
+Debug - 13:36:52.845 ** ***** NWServerConsole started *****
+Debug - 13:36:54.49 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 13:36:54.67 ** **************************************************************************
+Debug - 13:36:54.69 ** GameManager->CreateGame. GameName: test game
+Debug - 13:36:54.70 ** **************************************************************************
+Debug - 13:36:54.71 ** Game() object ALO instantiated!
+Debug - 13:36:54.77 ** 
+Debug - 13:36:54.79 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 13:36:54.80 ** 
+Debug - 13:36:54.81 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 13:36:54.83 ** 
+Debug - 13:36:54.85 ** **************************************************************************
+Debug - 13:36:54.87 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 13:36:54.88 ** **************************************************************************
+Debug - 13:40:03.379 ** Game() object ALN instantiated!
+Debug - 13:40:03.381 ** ***** NWServerConsole started *****
+Debug - 13:40:04.593 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 13:40:04.611 ** **************************************************************************
+Debug - 13:40:04.613 ** GameManager->CreateGame. GameName: test game
+Debug - 13:40:04.614 ** **************************************************************************
+Debug - 13:40:04.615 ** Game() object ALO instantiated!
+Debug - 13:40:04.621 ** 
+Debug - 13:40:04.623 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 13:40:04.625 ** 
+Debug - 13:40:04.626 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 13:40:04.627 ** 
+Debug - 13:40:04.630 ** **************************************************************************
+Debug - 13:40:04.632 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 13:40:04.633 ** **************************************************************************
+Debug - 13:40:24.585 ** Game connection status is set to Connected
+Debug - 13:40:24.587 ** 
+Debug - 13:40:24.588 ** Status changed. Status=Connected
+Debug - 13:40:24.590 ** 
+Debug - 13:40:30.162 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 13:40:30.164 ** 
+Debug - 13:40:30.165 ** NWConsole: New connection. Id=1
+Debug - 13:40:30.167 ** 
+Debug - 13:40:33.383 ** 
+Debug - 13:40:33.384 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:40:33.385 ** 
+Debug - 13:40:33.397 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:40:37.364 ** 
+Debug - 13:40:37.366 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:40:37.367 ** 
+Debug - 13:40:37.369 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:40:37.373 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TUTORIALTEST_GAME_NAME at skill level 2
+Debug - 13:40:42.525 ** 
+Debug - 13:40:42.526 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:40:42.528 ** 
+Debug - 13:40:42.529 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 13:40:42.533 ** SelectUser: User not found: Jan
+Debug - 13:40:42.536 ** 
+Debug - 13:40:42.537 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:40:42.539 ** 
+Debug - 13:40:42.540 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:40:42.543 ** 
+Debug - 13:40:42.544 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:40:42.546 ** 
+Debug - 13:40:42.548 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:40:42.581 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 13:41:20.909 ** GameData->CreateUnit: Unit [BIZ]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 13:41:20.915 ** Group BIY adds unit [BIZ]  (UK Airport). Count=1
+Debug - 13:41:20.967 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJI] Boeing P-8A Poseidon BJI (Boeing P-8A Poseidon)
+Debug - 13:41:20.969 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJN] Boeing P-8A Poseidon BJN (Boeing P-8A Poseidon)
+Debug - 13:41:20.970 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJS] F-35C BJS (F-35C)
+Debug - 13:41:20.972 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BKA] F-35C BKA (F-35C)
+Debug - 13:41:20.974 ** Group BKI adds unit [BKJ]  (Fridtjof Nansen). Count=1
+Debug - 13:41:20.993 ** GetAvailableGamePlayer adding player [BLH] BLH
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 13:41:20.997 ** Group BLK adds unit [BLL]  (MV Sirius Star). Count=1
+Debug - 13:41:21.4 ** **************************************************************************
+Debug - 13:41:21.5 ** Game->StartGamePlay. GameName: TUT_TUTORIALTEST_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 1  TimeLimit: 0
+Debug - 13:41:21.7 ** **************************************************************************
+Debug - 13:41:27.713 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BLH] BLH
+Debug - 13:41:28.249 ** CreateNewMessage: From: [BLH] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 13:41:40.131 ** 
+Debug - 13:41:40.132 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 13:41:40.134 ** 
+Debug - 13:41:40.143 ** ExecuteEventTriggers: Trigger EventTrigger OrderReceivedFromPlayer  Tag:nansen  OrderType: LaunchAircraft
+Debug - 13:55:42.105 ** Game() object ALN instantiated!
+Debug - 13:55:42.107 ** ***** NWServerConsole started *****
+Debug - 13:55:43.297 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 13:55:43.316 ** **************************************************************************
+Debug - 13:55:43.317 ** GameManager->CreateGame. GameName: test game
+Debug - 13:55:43.319 ** **************************************************************************
+Debug - 13:55:43.320 ** Game() object ALO instantiated!
+Debug - 13:55:43.326 ** 
+Debug - 13:55:43.328 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 13:55:43.329 ** 
+Debug - 13:55:43.331 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 13:55:43.332 ** 
+Debug - 13:55:43.335 ** **************************************************************************
+Debug - 13:55:43.337 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 13:55:43.339 ** **************************************************************************
+Debug - 13:55:53.976 ** Game connection status is set to Connected
+Debug - 13:55:53.978 ** 
+Debug - 13:55:53.980 ** Status changed. Status=Connected
+Debug - 13:55:53.981 ** 
+Debug - 13:55:58.192 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 13:55:58.194 ** 
+Debug - 13:55:58.196 ** NWConsole: New connection. Id=1
+Debug - 13:55:58.197 ** 
+Debug - 13:56:01.313 ** 
+Debug - 13:56:01.315 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:56:01.317 ** 
+Debug - 13:56:01.329 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:56:08.342 ** 
+Debug - 13:56:08.344 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:56:08.345 ** 
+Debug - 13:56:08.347 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:56:08.351 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TUTORIALTEST_GAME_NAME at skill level 2
+Debug - 13:56:19.24 ** 
+Debug - 13:56:19.26 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:56:19.27 ** 
+Debug - 13:56:19.28 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 13:56:19.32 ** SelectUser: User not found: Jan
+Debug - 13:56:19.35 ** 
+Debug - 13:56:19.36 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:56:19.37 ** 
+Debug - 13:56:19.39 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:56:19.42 ** 
+Debug - 13:56:19.43 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:56:19.45 ** 
+Debug - 13:56:19.46 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:56:19.84 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 13:56:35.488 ** GameData->CreateUnit: Unit [BIZ]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 13:56:35.493 ** Group BIY adds unit [BIZ]  (UK Airport). Count=1
+Debug - 13:56:35.546 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJI] Boeing P-8A Poseidon BJI (Boeing P-8A Poseidon)
+Debug - 13:56:35.548 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJN] Boeing P-8A Poseidon BJN (Boeing P-8A Poseidon)
+Debug - 13:56:35.549 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJS] F-35C BJS (F-35C)
+Debug - 13:56:35.551 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BKA] F-35C BKA (F-35C)
+Debug - 13:56:35.554 ** Group BKI adds unit [BKJ]  (Fridtjof Nansen). Count=1
+Debug - 13:56:35.572 ** GetAvailableGamePlayer adding player [BLH] BLH
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 13:56:35.577 ** Group BLK adds unit [BLL]  (MV Sirius Star). Count=1
+Debug - 13:56:35.584 ** **************************************************************************
+Debug - 13:56:35.585 ** Game->StartGamePlay. GameName: TUT_TUTORIALTEST_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 1  TimeLimit: 0
+Debug - 13:56:35.587 ** **************************************************************************
+Debug - 13:56:35.597 ** CreateNewMessage: From: [BLH] BLH
+To: [ALP] ALP
+gg wp
+
+Debug - 14:02:56.990 ** Game() object ALN instantiated!
+Debug - 14:02:56.990 ** ***** NWServerConsole started *****
+Debug - 14:02:58.190 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 14:02:58.209 ** **************************************************************************
+Debug - 14:02:58.211 ** GameManager->CreateGame. GameName: test game
+Debug - 14:02:58.212 ** **************************************************************************
+Debug - 14:02:58.213 ** Game() object ALO instantiated!
+Debug - 14:02:58.218 ** 
+Debug - 14:02:58.221 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 14:02:58.222 ** 
+Debug - 14:02:58.223 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 14:02:58.225 ** 
+Debug - 14:02:58.227 ** **************************************************************************
+Debug - 14:02:58.229 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 14:02:58.230 ** **************************************************************************
+Debug - 14:03:21.80 ** Game connection status is set to Connected
+Debug - 14:03:21.82 ** 
+Debug - 14:03:21.83 ** Status changed. Status=Connected
+Debug - 14:03:21.85 ** 
+Debug - 14:03:26.561 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 14:03:26.563 ** 
+Debug - 14:03:26.564 ** NWConsole: New connection. Id=1
+Debug - 14:03:26.566 ** 
+Debug - 14:03:29.181 ** 
+Debug - 14:03:29.183 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:03:29.184 ** 
+Debug - 14:03:29.196 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:03:29.206 ** 
+Debug - 14:03:29.208 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:03:29.209 ** 
+Debug - 14:03:29.210 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:03:29.214 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TUTORIALTEST_GAME_NAME at skill level 2
+Debug - 14:03:31.514 ** 
+Debug - 14:03:31.516 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:03:31.517 ** 
+Debug - 14:03:31.519 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 14:03:31.522 ** SelectUser: User not found: Jan
+Debug - 14:03:31.526 ** 
+Debug - 14:03:31.527 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:03:31.529 ** 
+Debug - 14:03:31.530 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:03:31.533 ** 
+Debug - 14:03:31.535 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:03:31.536 ** 
+Debug - 14:03:31.537 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:03:31.572 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 14:03:46.581 ** GameData->CreateUnit: Unit [BIZ]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 14:03:46.587 ** Group BIY adds unit [BIZ]  (UK Airport). Count=1
+Debug - 14:03:46.639 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJI] Boeing P-8A Poseidon BJI (Boeing P-8A Poseidon)
+Debug - 14:03:46.640 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJN] Boeing P-8A Poseidon BJN (Boeing P-8A Poseidon)
+Debug - 14:03:46.642 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJS] F-35C BJS (F-35C)
+Debug - 14:03:46.643 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BKA] F-35C BKA (F-35C)
+Debug - 14:03:46.646 ** Group BKI adds unit [BKJ]  (Fridtjof Nansen). Count=1
+Debug - 14:03:46.664 ** GetAvailableGamePlayer adding player [BLH] BLH
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 14:03:46.668 ** Group BLK adds unit [BLL]  (MV Sirius Star). Count=1
+Debug - 14:03:46.675 ** **************************************************************************
+Debug - 14:03:46.677 ** Game->StartGamePlay. GameName: TUT_TUTORIALTEST_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 1  TimeLimit: 0
+Debug - 14:03:46.678 ** **************************************************************************
+Debug - 14:03:46.688 ** CreateNewMessage: From: [BLH] BLH
+To: [ALP] ALP
+gg wp
+
+Debug - 14:26:53.561 ** Game() object ALN instantiated!
+Debug - 14:26:53.561 ** ***** NWServerConsole started *****
+Debug - 14:26:54.825 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 14:26:54.844 ** **************************************************************************
+Debug - 14:26:54.845 ** GameManager->CreateGame. GameName: test game
+Debug - 14:26:54.847 ** **************************************************************************
+Debug - 14:26:54.848 ** Game() object ALO instantiated!
+Debug - 14:26:54.854 ** 
+Debug - 14:26:54.856 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 14:26:54.857 ** 
+Debug - 14:26:54.858 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 14:26:54.860 ** 
+Debug - 14:26:54.862 ** **************************************************************************
+Debug - 14:26:54.864 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 14:26:54.866 ** **************************************************************************
+Debug - 14:27:11.821 ** Game connection status is set to Connected
+Debug - 14:27:11.823 ** 
+Debug - 14:27:11.824 ** Status changed. Status=Connected
+Debug - 14:27:11.826 ** 
+Debug - 14:27:16.730 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 14:27:16.733 ** 
+Debug - 14:27:16.734 ** NWConsole: New connection. Id=1
+Debug - 14:27:16.735 ** 
+Debug - 14:27:19.752 ** 
+Debug - 14:27:19.753 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:27:19.755 ** 
+Debug - 14:27:19.766 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:27:19.776 ** 
+Debug - 14:27:19.778 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:27:19.779 ** 
+Debug - 14:27:19.781 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:27:19.784 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TUTORIALTEST_GAME_NAME at skill level 2
+Debug - 14:27:20.982 ** 
+Debug - 14:27:20.983 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:27:20.985 ** 
+Debug - 14:27:20.986 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 14:27:20.989 ** SelectUser: User not found: Jan
+Debug - 14:27:20.992 ** 
+Debug - 14:27:20.994 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:27:20.995 ** 
+Debug - 14:27:20.996 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:27:21.0 ** 
+Debug - 14:27:21.1 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 14:27:21.3 ** 
+Debug - 14:27:21.4 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 14:27:21.42 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 14:27:33.504 ** GameData->CreateUnit: Unit [BIZ]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 14:27:33.509 ** Group BIY adds unit [BIZ]  (UK Airport). Count=1
+Debug - 14:27:33.561 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJI] Boeing P-8A Poseidon BJI (Boeing P-8A Poseidon)
+Debug - 14:27:33.562 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJN] Boeing P-8A Poseidon BJN (Boeing P-8A Poseidon)
+Debug - 14:27:33.564 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BJS] F-35C BJS (F-35C)
+Debug - 14:27:33.565 ** LoadGameScenario: Unit [BIZ] Bergen Airport (UK Airport) has added carried unit [BKA] F-35C BKA (F-35C)
+Debug - 14:27:33.568 ** Group BKI adds unit [BKJ]  (Fridtjof Nansen). Count=1
+Debug - 14:27:33.586 ** GetAvailableGamePlayer adding player [BLH] BLH
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 14:27:33.590 ** Group BLK adds unit [BLL]  (MV Sirius Star). Count=1
+Debug - 14:27:33.597 ** **************************************************************************
+Debug - 14:27:33.598 ** Game->StartGamePlay. GameName: TUT_TUTORIALTEST_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 1  TimeLimit: 0
+Debug - 14:27:33.600 ** **************************************************************************
+Debug - 14:27:33.610 ** CreateNewMessage: From: [BLH] BLH
+To: [ALP] ALP
+gg wp
+
+Debug - 14:27:33.625 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BLH] BLH
+Debug - 14:27:34.693 ** CreateNewMessage: From: [BLH] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 14:27:51.763 ** 
+Debug - 14:27:51.764 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 14:27:51.766 ** 
+Debug - 14:27:51.776 ** ExecuteEventTriggers: Trigger PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_LAUNCH_AIR  Tag:nansen  OrderType: LaunchAircraft 1Inner Triggers Victory Condition
+Debug - 14:27:58.268 ** ExecuteOrders: Unit [BKJ] Fridtjof Nansen (Fridtjof Nansen) order: LaunchOrder
+Debug - 14:27:58.283 ** LaunchAircraft: Unit [BKJ] Fridtjof Nansen (Fridtjof Nansen) to launch 1 aircraft.
+Debug - 14:27:58.287 **      Order: MovementOrder BLV, 1 waypoint(s).
+Current waypoint: [WP] Pos: 055° 00' 00"N, 003° 00' 00"E Bearing:0,00
+Debug - 14:27:58.293 ** Group BLW adds unit [BKX] NH90 NFH BKX (NH90 NFH). Count=1
+Debug - 14:27:58.297 ** ExecuteOrders: Unit [BKX] NH90 NFH BKX (NH90 NFH) order: MovementOrder
+Debug - 14:28:17.941 ** 
+Debug - 14:28:17.942 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 14:28:17.944 ** 
+Debug - 14:28:17.945 ** ExecuteEventTriggers: Trigger PlayerObjective EventTrigger OrderReceivedFromPlayer TUT_TUTORIALTEST_P1_TR_SENSOR  OrderType: SensorActivationOrder
+Debug - 14:28:17.948 ** ExecuteOrders: Unit [BKX] NH90 NFH BKX (NH90 NFH) order: SensorActivationOrder
+Debug - 14:28:18.384 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection  Rusty Heap (MV Sirius Star)  [Foe]
+Position: 062° 17' 59"N, 001° 30' 00"E Fixed. Identified.Sensors: (1)
+Sensor [BKZ] Thales MRR/3D NG Radar on unit NH90 NFH BKX [NH90 NFH]: Distance 52848,64m at 330,62deg. Strength: 14,40. Size: 345,58 ArcSec
+ 
+Debug - 14:28:18.390 ** ExecuteEventTriggers: Trigger EventTrigger PlayerDetectsEnemy   Tag:siriusstar 1Inner Triggers
+Debug - 14:28:43.135 ** 
+Debug - 14:28:43.136 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 14:28:43.138 ** 
+Debug - 14:28:43.144 ** HandleUnitMovementOrder for unit [BKX] NH90 NFH BKX (NH90 NFH): Move to Waypoint destination: 062° 00' 00"N, 001° 30' 00"E. 0 Order(s)
+Debug - 14:29:05.165 ** 
+Debug - 14:29:05.166 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 14:29:05.168 ** 
+Debug - 14:29:05.169 ** HandleUnitMovementOrder for unit [BKX] NH90 NFH BKX (NH90 NFH): Move to Waypoint destination: 062° 06' 00"N, 001° 30' 00"E. 0 Order(s)
+Debug - 14:30:36.312 ** 
+Debug - 14:30:36.314 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 14:30:36.316 ** 
+Debug - 14:30:36.317 ** HandleUnitMovementOrder for unit [BKX] NH90 NFH BKX (NH90 NFH): Move to Waypoint destination: 062° 17' 59"N, 001° 30' 00"E. 0 Order(s)

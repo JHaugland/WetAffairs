@@ -1,0 +1,11 @@
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\Data\terrain.bin
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWData.dll.config
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWData.XML
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWData.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWData.pdb
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWComms.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWComms.pdb
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Release\NWComms.xml
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\obj\Release\NWData.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\obj\Release\NWData.pdb

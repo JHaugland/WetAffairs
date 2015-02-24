@@ -1,0 +1,578 @@
+Debug - 15:07:00.134 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 15:07:00.228 ** **************************************************************************
+Debug - 15:07:00.230 ** GameManager->CreateGame. GameName: test game
+Debug - 15:07:00.230 ** **************************************************************************
+Debug - 15:07:00.242 ** Game() object ALN instantiated!
+Debug - 15:07:00.258 ** **************************************************************************
+Debug - 15:07:00.259 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 15:07:00.261 ** **************************************************************************
+Debug - 15:07:13.188 ** Game connection status is set to Connected
+Debug - 15:07:13.245 ** Game: New connection. ClientId= 1. Player=[ALO] ALO
+Debug - 15:07:15.237 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:07:15.241 ** SelectCampaign: Campaign not found:test
+Debug - 15:07:15.245 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:07:17.785 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:07:17.787 ** No game scenario selected.
+Debug - 15:07:17.790 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:07:17.791 ** No game scenario selected.
+Debug - 15:07:17.794 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:09:08.515 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 15:09:08.533 ** **************************************************************************
+Debug - 15:09:08.534 ** GameManager->CreateGame. GameName: test game
+Debug - 15:09:08.535 ** **************************************************************************
+Debug - 15:09:08.539 ** Game() object ALN instantiated!
+Debug - 15:09:08.548 ** **************************************************************************
+Debug - 15:09:08.551 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 15:09:08.552 ** **************************************************************************
+Debug - 15:09:25.690 ** Game connection status is set to Connected
+Debug - 15:09:25.725 ** Game: New connection. ClientId= 1. Player=[ALO] ALO
+Debug - 15:09:28.286 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:09:28.291 ** SelectCampaign: Campaign not found:test
+Debug - 15:09:28.294 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:19:59.907 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 15:19:59.926 ** **************************************************************************
+Debug - 15:19:59.927 ** GameManager->CreateGame. GameName: test game
+Debug - 15:19:59.928 ** **************************************************************************
+Debug - 15:19:59.933 ** Game() object ALN instantiated!
+Debug - 15:19:59.940 ** **************************************************************************
+Debug - 15:19:59.942 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 15:19:59.944 ** **************************************************************************
+Debug - 15:20:14.279 ** Game connection status is set to Connected
+Debug - 15:20:14.314 ** Game: New connection. ClientId= 1. Player=[ALO] ALO
+Debug - 15:20:16.211 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:20:16.216 ** SelectCampaign: Campaign not found:test
+Debug - 15:20:16.219 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:20:16.222 ** HandleGameControlMessage: Player [ALO] ALO selects scenario Ultimate at skill level 2
+Debug - 15:20:26.72 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:20:26.74 ** SelectCampaign: Campaign not found:test
+Debug - 15:20:26.76 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:20:26.80 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:20:26.81 ** HandleGameControlMessage: Player [ALO] ALO selects scenario Ultimate at skill level 2
+Debug - 15:23:12.9 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 15:23:12.27 ** **************************************************************************
+Debug - 15:23:12.29 ** GameManager->CreateGame. GameName: test game
+Debug - 15:23:12.30 ** **************************************************************************
+Debug - 15:23:12.34 ** Game() object ALN instantiated!
+Debug - 15:23:12.43 ** **************************************************************************
+Debug - 15:23:12.45 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 15:23:12.46 ** **************************************************************************
+Debug - 15:23:23.343 ** Game connection status is set to Connected
+Debug - 15:23:23.377 ** Game: New connection. ClientId= 1. Player=[ALO] ALO
+Debug - 15:23:24.695 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Error - 15:23:24.700 ** SelectCampaign: Campaign not found:test
+Debug - 15:23:24.703 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:23:24.707 ** HandleGameControlMessage: Player [ALO] ALO selects scenario Air Force at skill level 2
+Debug - 15:23:25.713 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:23:25.717 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:23:43.777 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 15:23:48.570 ** GameData->CreateUnit: Unit [BIW]  (NATO Airport) spawned on low ground and is moved up. Height 276m
+Debug - 15:23:48.574 ** Group BIV adds unit [BIW]  (NATO Airport). Count=1
+Debug - 15:23:48.701 ** Group BYC adds unit [BYD]  (E-3 Sentry). Count=1
+Debug - 15:23:48.747 ** Group BYK adds unit [BYL]  (F-22). Count=1
+Debug - 15:23:48.770 ** GetAvailableGamePlayer adding player [BYW] BYW
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Warning - 15:23:48.801 ** GameData->CreateUnit: Unit [BZD]  (Russian Airport) spawned on low ground and is moved up. Height 131m
+Debug - 15:23:48.803 ** Group BZC adds unit [BZD]  (Russian Airport). Count=1
+Debug - 15:23:48.819 ** Group CQZ adds unit [CRA]  (Admiral Kuznetsov). Count=1
+Debug - 15:23:48.829 ** Group CQZ adds unit [DFC]  (Kirov). Count=2
+Debug - 15:23:48.834 ** Group CQZ adds unit [DHD]  (Udaloy II). Count=3
+Debug - 15:23:48.836 ** Group CQZ adds unit [DIS]  (Admiral Gorshkov). Count=4
+Debug - 15:23:48.851 ** AddAutomaticDetection added persistent detection  Keflavik Airport (Russian Airport)  [Foe]
+Position: 064° 00' 59"N, 022° 33' 59"W Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [ALO] ALO
+Debug - 15:23:48.853 ** AddAutomaticDetection added persistent detection  Bergen Airport (NATO Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BYW] BYW
+Debug - 15:23:49.936 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:23:49.946 ** **************************************************************************
+Debug - 15:23:49.948 ** Game->StartGamePlay. GameName: Air Force   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 15:23:49.950 ** **************************************************************************
+Debug - 15:23:49.964 ** BaseAIHandler->CreateLaunchTankerHlo creates HLO HighLevelOrder: LaunchAircraft   Pos: 061° 00' 00"N, 001° 00' 00"E
+Debug - 15:23:49.966 ** BaseAIHandler->CreateLaunchTankerHlo creates HLO HighLevelOrder: LaunchAircraft   Pos: 064° 00' 59"N, 022° 33' 59"W
+Debug - 15:23:49.976 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 060° 56' 57"N, 006° 41' 32"E for player [BYW] Computer AI
+Debug - 15:23:49.978 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 064° 00' 59"N, 022° 33' 59"W for player [BYW] Computer AI
+Debug - 15:23:49.993 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 060° 43' 32"N, 004° 45' 08"E for player [BYW] Computer AI
+Debug - 15:23:50.0 ** Game->HandleGameControlMessage for player [ALO] ALO: Token GameControlRequest
+Debug - 15:23:50.631 ** CreateOrUpdateDetectionReport NEW Player: [ALO] ALO: Detection  Admiral Kuznetsov (Admiral Kuznetsov)  [Foe]
+Position: 061° 02' 21"N, 001° 04' 06"E Identified.Sensors: (1)
+Sensor [BYO] AN/ALR-94 RWR on unit F-22 BYL [F-22]: Distance 146501,25m at 225,03deg. Strength: 15,71. Size: 157,05 ArcSec
+ 
+Debug - 15:23:50.694 ** CreateOrUpdateDetectionReport NEW Player: [ALO] ALO: Detection  Pyotr Veliky (Kirov)  [Foe]
+Position: 061° 00' 35"N, 000° 58' 47"E Identified.Sensors: (1)
+Sensor [BYO] AN/ALR-94 RWR on unit F-22 BYL [F-22]: Distance 152061,87m at 225,49deg. Strength: 9,00. Size: 90,00 ArcSec
+ 
+Debug - 15:23:50.705 ** CreateOrUpdateDetectionReport NEW Player: [ALO] ALO: Detection  Admiral Chabanenko (Udaloy II)  [Foe]
+Position: 060° 56' 27"N, 000° 52' 59"E Identified.Sensors: (1)
+Sensor [BYO] AN/ALR-94 RWR on unit F-22 BYL [F-22]: Distance 161090,34m at 224,96deg. Strength: 7,31. Size: 73,09 ArcSec
+ 
+Debug - 15:24:06.917 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: SetAewPatrol aew  Pos: 062° 00' 00"N, 000° 00' 00"W
+Debug - 15:24:06.937 ** CreateAircraftLaunchOrder orders carrier [DFC] Pyotr Veliky (Kirov) to launch 1 aircraft with 1 order(s).
+Debug - 15:24:06.940 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 15:24:06.942 ** SetAswAirPatrol launches 1 aircraft to fulfill AEW role near 062° 00' 00"N, 000° 00' 00"W.
+Debug - 15:24:07.926 ** ExecuteOrders: Unit [DFC] Pyotr Veliky (Kirov) order: LaunchOrder
+Debug - 15:24:07.941 ** LaunchAircraft: Unit [DFC] Pyotr Veliky (Kirov) to launch 1 aircraft.
+Debug - 15:24:07.945 **      Order: MovementOrder DKE, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 062° 04' 38"N, 000° 00' 10"E Height:2000,00
+Debug - 15:24:07.948 ** Group DKG adds unit [DFX] Kamov Ka-27 DFX (Kamov Ka-27). Count=1
+Debug - 15:24:07.950 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: LaunchAircraft asuaircraft1  Pos: 063° 00' 00"N, 001° 00' 00"E
+Debug - 15:24:07.952 ** CreateAircraftLaunchOrder orders carrier [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 2 aircraft with 1 order(s).
+Debug - 15:24:07.954 ** Launchaircraft(order) set to launch 2 aircraft.
+Debug - 15:24:08.915 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:08.917 ** LaunchAircraft: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 2 aircraft.
+Debug - 15:24:08.918 **      Order: MovementOrder DKI, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 062° 24' 55"N, 001° 43' 31"E Height:2000,00
+Debug - 15:24:08.920 ** Group DKL adds unit [CWB] Sukhoi T-50K CWB (Sukhoi T-50K). Count=1
+Debug - 15:24:08.922 ** Group DKL adds unit [CWP] Sukhoi T-50K CWP (Sukhoi T-50K). Count=2
+Debug - 15:24:08.932 ** ExecuteOrders: Unit [DFX] Kamov Ka-27 DFX (Kamov Ka-27) order: MovementOrder
+Debug - 15:24:08.935 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: LaunchAircraft aew1  Pos: 060° 00' 00"N, 001° 00' 00"W
+Debug - 15:24:08.937 ** CreateAircraftLaunchOrder orders carrier [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 2 aircraft with 1 order(s).
+Debug - 15:24:08.938 ** Launchaircraft(order) set to launch 2 aircraft.
+Debug - 15:24:09.914 ** ExecuteOrders: Unit [CWB] Sukhoi T-50K CWB (Sukhoi T-50K) order: MovementOrder
+Debug - 15:24:09.916 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:10.942 ** CreateOrUpdateDetectionReport NEW Player: [ALO] ALO: Detection  Kamov Ka-27 DFX (Kamov Ka-27)  [Foe]
+Position: 060° 57' 12"N, 000° 53' 38"E Identified.Sensors: (1)
+Sensor [BYO] AN/ALR-94 RWR on unit F-22 BYL [F-22]: Distance 157870,58m at 226,76deg. Strength: 1,50. Size: 15,01 ArcSec
+ 
+Debug - 15:24:10.946 ** BaseAIHandler->EngageAirThreat to engage  Kamov Ka-27 DFX (Kamov Ka-27)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 15:24:10.959 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:11.914 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:12.914 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:12.916 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: LaunchAircraft   Pos: 061° 00' 00"N, 001° 00' 00"E
+Debug - 15:24:12.918 ** CreateAircraftLaunchOrder orders carrier [BZD] Keflavik Airport (Russian Airport) to launch 1 aircraft with 1 order(s).
+Debug - 15:24:12.920 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 15:24:13.930 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:13.932 ** LaunchAircraft: Unit [BZD] Keflavik Airport (Russian Airport) to launch 1 aircraft.
+Debug - 15:24:13.933 **      Order: MovementOrder DKW, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 061° 00' 34"N, 001° 05' 12"E Height:2000,00
+Debug - 15:24:13.935 ** Group DKY adds unit [CJA] Ilyushin Il-78 CJA (Ilyushin Il-78). Count=1
+Debug - 15:24:13.936 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:13.938 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: LaunchAircraft   Pos: 064° 00' 59"N, 022° 33' 59"W
+Debug - 15:24:13.939 ** CreateAircraftLaunchOrder orders carrier [BZD] Keflavik Airport (Russian Airport) to launch 1 aircraft with 1 order(s).
+Debug - 15:24:13.941 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 15:24:14.915 ** ExecuteOrders: Unit [CJA] Ilyushin Il-78 CJA (Ilyushin Il-78) order: MovementOrder
+Debug - 15:24:14.917 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:14.919 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:14.920 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 060° 56' 57"N, 006° 41' 32"E
+Debug - 15:24:14.922 ** CreateAircraftLaunchOrder orders carrier [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 1 aircraft with 1 order(s).
+Debug - 15:24:14.923 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 15:24:14.925 ** SetAswAirPatrol launches 1 aircraft to fulfill AEW role near 060° 56' 57"N, 006° 41' 32"E.
+Debug - 15:24:15.916 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:15.918 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:15.919 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 064° 00' 59"N, 022° 33' 59"W
+Debug - 15:24:15.922 ** CreateAircraftLaunchOrder orders carrier [BZD] Keflavik Airport (Russian Airport) to launch 1 aircraft with 1 order(s).
+Debug - 15:24:15.923 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 15:24:15.925 ** SetAswAirPatrol launches 1 aircraft to fulfill AEW role near 064° 00' 59"N, 022° 33' 59"W.
+Debug - 15:24:16.926 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:16.928 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:16.930 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: SetAswPatrol   Pos: 060° 43' 32"N, 004° 45' 08"E
+Debug - 15:24:16.951 ** CreateSearchOrdersAircraft: ASW search on land ignored.
+Debug - 15:24:16.961 ** CreateSearchOrdersAircraft: ASW search on land ignored.
+Debug - 15:24:16.970 ** CreateSearchOrdersAircraft: ASW search on land ignored.
+Debug - 15:24:16.976 ** CreateAircraftLaunchOrder orders carrier [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 1 aircraft with 1 order(s).
+Debug - 15:24:16.977 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 15:24:16.979 ** SetAswAirPatrol launches 1 aircraft to fulfill ASW role near 060° 43' 32"N, 004° 45' 08"E.
+Debug - 15:24:17.915 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:17.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:18.915 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:18.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:19.915 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:19.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:20.926 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:20.928 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:21.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:21.940 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:22.915 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:22.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:23.916 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:23.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:24.916 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:24.918 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:25.915 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:25.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:26.915 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:26.917 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:27.918 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:27.920 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:28.918 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:28.920 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:29.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:29.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:30.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:30.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:31.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:31.920 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:32.920 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:32.922 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:33.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:33.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:34.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:34.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:35.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:35.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:36.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:36.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:37.934 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:37.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:38.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:38.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:39.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:39.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:40.940 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:40.942 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:41.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:41.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:42.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:42.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:43.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:43.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:44.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:44.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:45.936 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:45.937 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:46.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:46.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:47.919 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:47.921 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:48.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:48.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:49.920 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:49.922 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:50.928 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:50.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:50.931 ** BaseAIHandler->EngageAirThreat to engage  Kamov Ka-27 DFX (Kamov Ka-27)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 15:24:51.920 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:51.922 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:52.920 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:52.922 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:53.935 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:53.937 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:54.925 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:54.927 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:55.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:55.928 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:56.939 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:56.940 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:57.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:57.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:58.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:58.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:24:59.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:24:59.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:00.960 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:00.962 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:01.935 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:01.937 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:02.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:02.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:03.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:03.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:04.935 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:04.937 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:05.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:05.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:06.927 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:06.929 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:07.928 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:07.930 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:08.928 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:08.930 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:08.931 ** LaunchAircraft: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 2 aircraft.
+Debug - 15:25:08.933 **      Order: MovementOrder DKR, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 060° 46' 12"N, 000° 07' 26"W Height:2000,00
+Debug - 15:25:08.934 ** Group DNG adds unit [CRT] Sukhoi T-50K CRT (Sukhoi T-50K). Count=1
+Debug - 15:25:08.936 ** Group DNG adds unit [CSH] Sukhoi T-50K CSH (Sukhoi T-50K). Count=2
+Debug - 15:25:09.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:09.945 ** ExecuteOrders: Unit [CRT] Sukhoi T-50K CRT (Sukhoi T-50K) order: MovementOrder
+Debug - 15:25:09.947 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:11.25 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:11.27 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:11.929 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:11.931 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:12.941 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:12.943 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:13.928 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:13.930 ** LaunchAircraft: Unit [BZD] Keflavik Airport (Russian Airport) to launch 1 aircraft.
+Debug - 15:25:13.931 **      Order: MovementOrder DLH, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 063° 52' 52"N, 020° 22' 18"W Height:2000,00
+Debug - 15:25:13.933 ** Group DNL adds unit [BZI] Sukhoi T-50A BZI (Sukhoi T-50A). Count=1
+Debug - 15:25:13.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:14.928 ** ExecuteOrders: Unit [BZI] Sukhoi T-50A BZI (Sukhoi T-50A) order: MovementOrder
+Debug - 15:25:14.930 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:14.932 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:15.928 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:15.930 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:16.929 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:16.930 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:17.942 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:17.943 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:18.928 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:18.930 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:19.929 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:19.930 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:20.953 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:20.954 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:21.931 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:21.933 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:22.931 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:22.933 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:23.931 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:23.933 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:24.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:24.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:25.949 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:25.951 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:26.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:26.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:27.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:27.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:28.945 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:28.947 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:29.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:29.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:30.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:30.940 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:31.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:31.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:32.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:32.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:33.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:33.951 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:34.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:34.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:35.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:35.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:36.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:36.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:37.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:37.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:38.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:38.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:39.932 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:39.934 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:40.939 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:40.940 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:41.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:41.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:42.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:42.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:42.936 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: LaunchAircraft aew3  Pos: 054° 00' 00"N, 002° 00' 00"E
+Debug - 15:25:42.938 ** CreateAircraftLaunchOrder orders carrier [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 2 aircraft with 1 order(s).
+Debug - 15:25:42.940 ** Launchaircraft(order) set to launch 2 aircraft.
+Debug - 15:25:43.934 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:43.936 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:43.937 ** ExecuteHighLevelOrders for player [BYW] Computer AI: Order HighLevelOrder: LaunchAircraft bears1  Pos: 065° 00' 00"N, 001° 00' 00"W
+Debug - 15:25:43.939 ** CreateAircraftLaunchOrder orders carrier [BZD] Keflavik Airport (Russian Airport) to launch 2 aircraft with 1 order(s).
+Debug - 15:25:43.941 ** Launchaircraft(order) set to launch 2 aircraft.
+Debug - 15:25:44.934 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:44.936 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:45.933 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:45.935 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:46.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:46.938 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:47.936 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:47.938 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:48.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:48.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:49.955 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:49.957 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:50.956 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:50.958 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:51.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:51.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:51.941 ** BaseAIHandler->EngageAirThreat to engage  Kamov Ka-27 DFX (Kamov Ka-27)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 15:25:52.951 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:52.953 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:53.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:53.938 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:54.936 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:54.938 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:55.936 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:55.938 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:56.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:56.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:57.952 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:57.953 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:58.936 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:58.938 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:25:59.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:25:59.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:00.955 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:00.957 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:01.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:01.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:02.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:02.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:03.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:03.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:04.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:04.940 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:05.951 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:05.953 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:06.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:06.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:07.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:07.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:08.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:08.940 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:08.942 ** LaunchAircraft: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 1 aircraft.
+Debug - 15:26:08.943 **      Order: MovementOrder DLK, 16 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 060° 52' 37"N, 003° 02' 25"E Height:100,00  (has 1 orders)
+Debug - 15:26:08.945 ** Group DNT adds unit [DDN] Kamov Ka-27 DDN (Kamov Ka-27). Count=1
+Debug - 15:26:09.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:09.939 ** ExecuteOrders: Unit [DDN] Kamov Ka-27 DDN (Kamov Ka-27) order: MovementOrder
+Debug - 15:26:09.941 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:10.939 ** CreateOrUpdateDetectionReport NEW Player: [ALO] ALO: Detection  Kamov Ka-27 DDN (Kamov Ka-27)  [Foe]
+Position: 060° 57' 47"N, 000° 53' 40"E Identified.Sensors: (1)
+Sensor [BYO] AN/ALR-94 RWR on unit F-22 BYL [F-22]: Distance 149265,36m at 237,30deg. Strength: 1,59. Size: 15,86 ArcSec
+ 
+Debug - 15:26:10.941 ** BaseAIHandler->EngageAirThreat to engage  Kamov Ka-27 DDN (Kamov Ka-27)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 15:26:10.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:10.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:11.937 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:11.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:12.938 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:12.939 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:13.950 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:13.953 ** LaunchAircraft: Unit [BZD] Keflavik Airport (Russian Airport) to launch 2 aircraft.
+Debug - 15:26:13.954 **      Order: MovementOrder DNR, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 064° 20' 41"N, 002° 03' 07"W Height:2000,00
+Debug - 15:26:13.955 ** Group DNX adds unit [CNN] Tupolev Tu-95 CNN (Tupolev Tu-95). Count=1
+Debug - 15:26:13.957 ** Group DNX adds unit [CNU] Tupolev Tu-95 CNU (Tupolev Tu-95). Count=2
+Debug - 15:26:13.958 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:14.941 ** ExecuteOrders: Unit [CNN] Tupolev Tu-95 CNN (Tupolev Tu-95) order: MovementOrder
+Debug - 15:26:14.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:14.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:15.942 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:15.944 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:16.945 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:16.947 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:17.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:17.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:18.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:18.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:19.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:19.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:20.950 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:20.952 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:21.974 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:21.975 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:22.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:22.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:24.3 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:24.6 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:24.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:24.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:25.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:25.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:26.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:26.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:27.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:27.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:28.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:28.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:29.958 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:29.960 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:30.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:30.948 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:31.943 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:31.945 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:32.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:32.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:33.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:33.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:34.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:34.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:35.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:35.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:36.945 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:36.947 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:37.966 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:37.968 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:38.944 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:38.946 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:39.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:39.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:40.953 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:40.955 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:41.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:41.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:42.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:42.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:43.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:43.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:44.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:44.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:45.964 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:45.966 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:46.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:46.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:47.959 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:47.961 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:48.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:48.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:49.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:49.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:50.950 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:50.952 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:51.947 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:51.949 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:52.949 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:52.951 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:52.953 ** BaseAIHandler->EngageAirThreat to engage  Kamov Ka-27 DFX (Kamov Ka-27)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 15:26:52.954 ** BaseAIHandler->EngageAirThreat to engage  Kamov Ka-27 DDN (Kamov Ka-27)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 15:26:53.974 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:53.976 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:54.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:54.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:55.949 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:55.951 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:56.949 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:56.951 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:57.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:57.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:58.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:58.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:26:59.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:26:59.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:00.962 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:00.963 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:01.963 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:01.965 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:02.948 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:02.950 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:03.950 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:03.952 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:04.949 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:04.951 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:05.950 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:05.952 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:06.957 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:06.959 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:07.954 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:07.956 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:08.955 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:08.957 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:08.958 ** LaunchAircraft: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 1 aircraft.
+Debug - 15:27:08.960 **      Order: MovementOrder DLE, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 060° 22' 25"N, 009° 41' 53"E Height:2000,00
+Warning - 15:27:08.961 ** BaseUnit.LaunchAircraft: could not launch aircraft [CRT] Sukhoi T-50K CRT (Sukhoi T-50K) from Admiral Kuznetsov
+Warning - 15:27:08.963 ** BaseUnit.LaunchAircraft: could not launch any aircraft from Admiral Kuznetsov
+Debug - 15:27:09.971 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:09.973 ** ExecuteOrders: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) order: LaunchOrder
+Debug - 15:27:09.974 ** LaunchAircraft: Unit [CRA] Admiral Kuznetsov (Admiral Kuznetsov) to launch 2 aircraft.
+Debug - 15:27:09.976 **      Order: MovementOrder DNO, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 054° 39' 09"N, 003° 01' 11"E Height:2000,00
+Debug - 15:27:09.977 ** Group DOE adds unit [CSV] Sukhoi T-50K CSV (Sukhoi T-50K). Count=1
+Debug - 15:27:09.979 ** Group DOE adds unit [CTJ] Sukhoi T-50K CTJ (Sukhoi T-50K). Count=2
+Debug - 15:27:10.958 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:10.959 ** ExecuteOrders: Unit [CSV] Sukhoi T-50K CSV (Sukhoi T-50K) order: MovementOrder
+Debug - 15:27:11.957 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:12.956 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:13.957 ** ExecuteOrders: Unit [BZD] Keflavik Airport (Russian Airport) order: LaunchOrder
+Debug - 15:27:13.959 ** LaunchAircraft: Unit [BZD] Keflavik Airport (Russian Airport) to launch 1 aircraft.
+Debug - 15:27:13.960 **      Order: MovementOrder DLB, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 063° 59' 57"N, 022° 31' 59"W Height:2000,00
+Debug - 15:27:13.962 ** Group DOJ adds unit [CJH] Ilyushin Il-78 CJH (Ilyushin Il-78). Count=1
+Debug - 15:27:14.956 ** ExecuteOrders: Unit [CJH] Ilyushin Il-78 CJH (Ilyushin Il-78) order: MovementOrder

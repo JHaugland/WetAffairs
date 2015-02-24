@@ -1,0 +1,9 @@
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWData.dll.config
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWData.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWData.pdb
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWComms.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWComms.pdb
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\obj\Debug\NWData.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\obj\Debug\NWData.pdb
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\Data\terrain.bin

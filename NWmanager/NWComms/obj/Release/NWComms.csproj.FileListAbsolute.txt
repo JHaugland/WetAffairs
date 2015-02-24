@@ -1,0 +1,7 @@
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Release\NWComms.dll.config
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Release\NWComms.XML
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Release\NWComms.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Release\NWComms.pdb
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\obj\Release\NWComms.dll
+C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\obj\Release\NWComms.pdb

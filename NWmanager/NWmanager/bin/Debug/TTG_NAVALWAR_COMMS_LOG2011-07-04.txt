@@ -1,0 +1,722 @@
+Debug - 11:56:05.840 ** ////////////////////////////////////////////////////////
+Debug - 11:56:05.840 ** ////////////////////////////////////////////////////////
+Debug - 11:56:05.841 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 11:56:05.841 ** ////////////////////////////////////////////////////////
+Debug - 11:56:05.842 ** ////////////////////////////////////////////////////////
+Debug - 11:56:05.842 ** Gameclient connecting...
+Debug - 11:56:05.887 ** Gameclient connected
+Debug - 11:56:05.887 ** Connectionstatus is : NotConnected
+Debug - 11:56:05.890 ** Attempting to change connectionstatus...
+Debug - 11:56:05.890 ** Current status: NotConnected status to change to: Connected
+Debug - 11:56:05.892 ** ShowInfo: Connection status changed: Connected
+Debug - 11:56:05.893 ** Gameclient status is now Connected
+Debug - 11:56:06.517 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 11:56:07.334 ** ShowInfo: *** Sending select scenario ***
+Debug - 11:56:07.550 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:56:07.556 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:56:07.559 ** ShowInfo: *** Credits: 0
+
+Debug - 11:56:08.73 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:56:08.73 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:56:08.74 ** ShowInfo: *** Credits: 0
+
+Debug - 11:56:10.545 ** ShowInfo: *** Sending start game ***
+Debug - 11:56:10.547 ** ShowInfo: *** Player selects user Jan
+Debug - 11:56:10.547 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 11:56:10.604 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:56:11.117 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:56:11.118 ** ShowInfo:    UserId =Jan
+Debug - 11:56:11.118 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:56:11.119 ** ShowInfo: *** Credits: 0
+
+Debug - 11:56:13.178 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 11:56:13.691 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:56:13.692 ** ShowInfo:    UserId =Jan
+Debug - 11:56:13.692 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:56:13.693 ** ShowInfo: *** Credits: 0
+
+Debug - 11:56:14.209 ** ShowInfo: Received BaseUnitInfo: [BJB] Bergen Airport (ukairportlarge)
+Debug - 11:56:14.721 ** ShowInfo: Received BaseUnitInfo: [BOY] E-3 Sentry BOY (e3sentry)
+Debug - 11:56:14.722 ** ShowInfo: Received BaseUnitInfo: [BPD] USS Virginia (virginia)
+Debug - 11:56:15.238 ** ShowInfo: Received BaseUnitInfo: [BPK] Winston S. Churchill (arleighburke)
+Debug - 11:56:15.245 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 11:56:15.750 ** ShowInfo: From: BQO
+gl hf!
+Debug - 11:56:41.741 ** ShowInfo: UnitOrder to unit BPK : Launch 1 aircraft.
+Debug - 11:56:42.332 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BQF
+Debug - 11:56:42.848 ** ShowInfo: Received BaseUnitInfo: [BQF] SH-60B Seahawk BQF (sh60b)
+Debug - 11:56:43.877 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:01
+Debug - 11:56:44.391 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:56:44.392 ** ShowInfo:    UserId =Jan
+Debug - 11:56:44.392 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:56:44.394 ** ShowInfo: *** Credits: 0
+
+Debug - 11:57:07.909 ** ShowInfo: *** Movement order sent to unit SH-60B Seahawk BQF
+Debug - 11:57:13.962 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:10:06
+Debug - 11:57:14.472 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:57:14.473 ** ShowInfo:    UserId =Jan
+Debug - 11:57:14.473 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:57:14.474 ** ShowInfo: *** Credits: 0
+
+Debug - 11:57:44.192 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:15:07
+Debug - 11:57:44.701 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:57:44.702 ** ShowInfo:    UserId =Jan
+Debug - 11:57:44.702 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:57:44.703 ** ShowInfo: *** Credits: 0
+
+Debug - 11:58:14.663 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:20:09
+Debug - 11:58:15.169 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:58:15.170 ** ShowInfo:    UserId =Jan
+Debug - 11:58:15.170 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:58:15.171 ** ShowInfo: *** Credits: 0
+
+Debug - 11:58:21.767 ** ShowInfo: *** Movement order sent to unit USS Virginia
+Debug - 11:58:37.385 ** ShowInfo: Designate [CBW] Submarine [FoF Undetermined]  @ 060° 57' 51"N, 003° 00' 00"E as hostile.
+Debug - 11:58:38.615 ** ShowInfo: DetectedUnitInfo received: Id=CBW  [CBW] Submarine [Foe]  @ 060° 57' 50"N, 003° 00' 00"E
+Debug - 11:58:38.619 ** ShowInfo: Contact Submarine CBW  [Foe] is now designated as HOSTILE.
+Debug - 11:58:41.924 ** ShowInfo: *** Unit SH-60B Seahawk BQF to close and engage target [CBW] Submarine [Foe]  @ 060° 57' 46"N, 003° 00' 00"E
+Debug - 11:58:42.749 ** ShowInfo: Sir, [BQF] SH-60B Seahawk BQF (SH-60B Seahawk) is closing 16,86km to engage Submarine CBW  [Foe].
+Debug - 11:58:44.778 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:25:14
+Debug - 11:58:45.279 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:58:45.280 ** ShowInfo:    UserId =Jan
+Debug - 11:58:45.280 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:58:45.286 ** ShowInfo: *** Credits: 0
+
+Debug - 11:58:59.600 ** ShowInfo: DetectedUnitInfo received: Id=CBW  [CBW] Vepr (akula) [Foe]  @ 060° 57' 31"N, 003° 00' 00"E
+Debug - 11:59:10.20 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:10.24 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:10.27 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:10.31 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:10.548 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:10.552 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:11.64 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:11.579 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:12.79 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:12.593 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:13.92 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:13.607 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:13.609 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:14.621 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:15.119 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:30:15
+Debug - 11:59:15.634 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:59:15.635 ** ShowInfo:    UserId =Jan
+Debug - 11:59:15.636 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:59:15.636 ** ShowInfo: *** Credits: 0
+
+Debug - 11:59:16.143 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:16.145 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:16.648 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:17.150 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:17.164 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:17.678 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:18.190 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:19.239 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:19.243 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:19.252 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:19.768 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:20.273 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:20.783 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:21.280 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:21.797 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:22.296 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:22.810 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:23.308 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:23.824 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:24.338 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:24.851 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:25.352 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:25.859 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:26.365 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:26.879 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:27.385 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:42.628 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:42.629 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:42.630 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:42.631 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:43.138 ** ShowInfo: DetectedUnitInfo received: Id=CBW  [CBW] Vepr (akula) [Foe]  @ 060° 56' 52"N, 003° 00' 00"E
+Debug - 11:59:44.653 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:45.166 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:35:19
+Debug - 11:59:45.678 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:59:45.679 ** ShowInfo:    UserId =Jan
+Debug - 11:59:45.679 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:59:45.685 ** ShowInfo: *** Credits: 0
+
+Debug - 11:59:46.195 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:46.196 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:46.726 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:47.224 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:47.227 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:47.739 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:48.240 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:48.754 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:49.254 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:49.767 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:50.264 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:50.783 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:51.278 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:51.801 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:51.950 ** ShowInfo: *** Unit SH-60B Seahawk BQF to close and engage target [CBW] Vepr (akula) [Foe]  @ 060° 56' 43"N, 003° 00' 00"E
+Debug - 11:59:52.326 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:52.840 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:53.361 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:53.856 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:54.372 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:54.869 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:55.382 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:55.899 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:56.395 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:56.918 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:57.409 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:57.942 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 11:59:58.455 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:12.326 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:12.327 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:12.330 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:15.399 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:40:19
+Debug - 12:00:15.905 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:00:15.906 ** ShowInfo:    UserId =Jan
+Debug - 12:00:15.906 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:00:15.907 ** ShowInfo: *** Credits: 0
+
+Debug - 12:00:16.415 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:16.918 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:16.919 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:17.426 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:17.964 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:18.475 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:18.989 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:19.491 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:20.1 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:20.516 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:21.77 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:21.624 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:22.138 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:22.651 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:23.153 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:23.665 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:24.213 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:24.215 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:25.336 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:25.859 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:26.355 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:26.942 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:26.948 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:27.534 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:42.860 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:42.861 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:42.862 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:42.863 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:45.397 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:45.903 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:45:21
+Debug - 12:00:46.411 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:00:46.412 ** ShowInfo:    UserId =Jan
+Debug - 12:00:46.413 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:00:46.413 ** ShowInfo: *** Credits: 0
+
+Debug - 12:00:46.911 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:46.912 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:47.426 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:47.427 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:47.924 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:48.441 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:48.937 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:49.454 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:50.0 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:50.501 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:51.60 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:51.577 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:52.88 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:52.608 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:53.122 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:53.637 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:54.149 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:54.664 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:55.181 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:55.694 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:56.199 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:56.708 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:57.335 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:57.893 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:00:58.407 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:01:12.254 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:01:12.255 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:01:12.256 ** ShowInfo: Sir, weapon Mark 54 Lightweight Hybrid Torpedo on the SH-60B Seahawk BQF cannot engage  Vepr (Shchuka-B)  [Foe]. The speed is too high at 300kph. Max speed is 40kph.
+Debug - 12:09:15.649 ** ////////////////////////////////////////////////////////
+Debug - 12:09:15.650 ** ////////////////////////////////////////////////////////
+Debug - 12:09:15.650 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 12:09:15.651 ** ////////////////////////////////////////////////////////
+Debug - 12:09:15.651 ** ////////////////////////////////////////////////////////
+Debug - 12:09:15.651 ** Gameclient connecting...
+Debug - 12:09:15.656 ** Gameclient connected
+Debug - 12:09:15.657 ** Connectionstatus is : NotConnected
+Debug - 12:09:15.658 ** Attempting to change connectionstatus...
+Debug - 12:09:15.659 ** Current status: NotConnected status to change to: Connected
+Debug - 12:09:15.660 ** ShowInfo: Connection status changed: Connected
+Debug - 12:09:15.661 ** Gameclient status is now Connected
+Debug - 12:09:16.192 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 12:09:19.808 ** ShowInfo: *** Sending select scenario ***
+Debug - 12:09:19.864 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:09:19.867 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:19.868 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:20.902 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:09:20.903 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:20.903 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:20.926 ** ShowInfo: *** Sending start game ***
+Debug - 12:09:20.927 ** ShowInfo: *** Player selects user Jan
+Debug - 12:09:20.928 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 12:09:21.967 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:09:22.481 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:22.482 ** ShowInfo:    UserId =Jan
+Debug - 12:09:22.482 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:09:22.483 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:24.510 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 12:09:25.9 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:25.10 ** ShowInfo:    UserId =Jan
+Debug - 12:09:25.10 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:09:25.11 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:25.553 ** ShowInfo: Received BaseUnitInfo: [BJC] Bergen Airport (ukairportlarge)
+Debug - 12:09:26.66 ** ShowInfo: Received BaseUnitInfo: [BOZ] E-3 Sentry BOZ (e3sentry)
+Debug - 12:09:26.67 ** ShowInfo: Received BaseUnitInfo: [BPE] USS Virginia (virginia)
+Debug - 12:09:26.574 ** ShowInfo: Received BaseUnitInfo: [BPL] Winston S. Churchill (arleighburke)
+Debug - 12:09:27.97 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 12:09:27.101 ** ShowInfo: From: BQP
+gl hf!
+Debug - 12:09:27.104 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BPY
+Debug - 12:09:28.126 ** ShowInfo: Received BaseUnitInfo: [BPY] SH-60B Seahawk BPY (sh60b)
+Debug - 12:09:55.786 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:12
+Debug - 12:09:56.299 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:56.300 ** ShowInfo:    UserId =Jan
+Debug - 12:09:56.300 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:09:56.301 ** ShowInfo: *** Credits: 0
+
+Debug - 12:10:26.299 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:10:13
+Debug - 12:10:26.800 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:10:26.801 ** ShowInfo:    UserId =Jan
+Debug - 12:10:26.801 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:10:26.802 ** ShowInfo: *** Credits: 0
+
+Debug - 12:10:56.797 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:15:19
+Debug - 12:10:57.312 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:10:57.312 ** ShowInfo:    UserId =Jan
+Debug - 12:10:57.313 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:10:57.314 ** ShowInfo: *** Credits: 0
+
+Debug - 12:11:08.203 ** ShowInfo: UnitOrder to unit BJC : Launch 1 aircraft.
+Debug - 12:11:08.467 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BJI
+Debug - 12:11:08.974 ** ShowInfo: Received BaseUnitInfo: [BJI] F-22 BJI (f22)
+Debug - 12:11:13.279 ** ShowInfo: *** Movement order sent to unit F-22 BJI
+Debug - 12:11:26.936 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:20:24
+Debug - 12:11:27.456 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:11:27.457 ** ShowInfo:    UserId =Jan
+Debug - 12:11:27.457 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:11:27.458 ** ShowInfo: *** Credits: 0
+
+Debug - 12:11:42.866 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CCG
+Debug - 12:11:43.379 ** ShowInfo: Received BaseUnitInfo: [CCG] DICASS AN/SSQ-62 Sonobuoy CCG (dicass)
+Debug - 12:11:43.385 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:11:57.110 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:25:25
+Debug - 12:11:57.622 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:11:57.623 ** ShowInfo:    UserId =Jan
+Debug - 12:11:57.623 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:11:57.624 ** ShowInfo: *** Credits: 0
+
+Debug - 12:12:05.265 ** ShowInfo: Unit [BJI] F-22 BJI (F-22) has no movement orders and continues on same course.
+Debug - 12:12:07.793 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CCN
+Debug - 12:12:08.306 ** ShowInfo: Received BaseUnitInfo: [CCN] DICASS AN/SSQ-62 Sonobuoy CCN (dicass)
+Debug - 12:12:08.307 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:12:27.662 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:30:27
+Debug - 12:12:28.668 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:12:28.669 ** ShowInfo:    UserId =Jan
+Debug - 12:12:28.669 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:12:28.670 ** ShowInfo: *** Credits: 0
+
+Debug - 12:12:30.228 ** ShowInfo: UnitOrder to unit BPL : Launch 1 aircraft.
+Debug - 12:12:30.696 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BQG
+Debug - 12:12:31.243 ** ShowInfo: Received BaseUnitInfo: [BQG] SH-60B Seahawk BQG (sh60b)
+Debug - 12:12:31.759 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CCX
+Debug - 12:12:32.263 ** ShowInfo: Received BaseUnitInfo: [CCX] DICASS AN/SSQ-62 Sonobuoy CCX (dicass)
+Debug - 12:12:32.264 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:12:48.91 ** ShowInfo: *** Movement order sent to unit SH-60B Seahawk BQG
+Debug - 12:12:56.793 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CDD
+Debug - 12:12:57.307 ** ShowInfo: Received BaseUnitInfo: [CDD] DICASS AN/SSQ-62 Sonobuoy CDD (dicass)
+Debug - 12:12:57.308 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:12:58.321 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:35:37
+Debug - 12:12:58.821 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:12:58.821 ** ShowInfo:    UserId =Jan
+Debug - 12:12:58.822 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:12:58.822 ** ShowInfo: *** Credits: 0
+
+Debug - 12:13:23.284 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CDK
+Debug - 12:13:23.786 ** ShowInfo: Received BaseUnitInfo: [CDK] DICASS AN/SSQ-62 Sonobuoy CDK (dicass)
+Debug - 12:13:23.788 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:13:27.853 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:40:39
+Debug - 12:13:28.355 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:13:28.356 ** ShowInfo:    UserId =Jan
+Debug - 12:13:28.357 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:13:28.357 ** ShowInfo: *** Credits: 0
+
+Debug - 12:13:58.788 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:45:39
+Debug - 12:13:59.289 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:13:59.289 ** ShowInfo:    UserId =Jan
+Debug - 12:13:59.290 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:13:59.291 ** ShowInfo: *** Credits: 0
+
+Debug - 12:14:28.692 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:50:44
+Debug - 12:14:29.207 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:14:29.208 ** ShowInfo:    UserId =Jan
+Debug - 12:14:29.209 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:14:29.209 ** ShowInfo: *** Credits: 0
+
+Debug - 12:14:59.174 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:55:45
+Debug - 12:14:59.690 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:14:59.691 ** ShowInfo:    UserId =Jan
+Debug - 12:14:59.691 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:14:59.692 ** ShowInfo: *** Credits: 0
+
+Debug - 12:15:00.718 ** ShowInfo: Unit [BQG] SH-60B Seahawk BQG (SH-60B Seahawk) has no movement orders and continues on same course.
+Debug - 12:15:30.142 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:00:53
+Debug - 12:15:30.644 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:15:30.644 ** ShowInfo:    UserId =Jan
+Debug - 12:15:30.645 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:15:30.646 ** ShowInfo: *** Credits: 0
+
+Debug - 12:16:00.564 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:05:57
+Debug - 12:16:01.77 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:16:01.78 ** ShowInfo:    UserId =Jan
+Debug - 12:16:01.78 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:16:01.79 ** ShowInfo: *** Credits: 0
+
+Debug - 12:16:30.997 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:11:05
+Debug - 12:16:31.502 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:16:31.503 ** ShowInfo:    UserId =Jan
+Debug - 12:16:31.503 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:16:31.504 ** ShowInfo: *** Credits: 0
+
+Debug - 12:16:59.905 ** ShowInfo: DetectedUnitInfo received: Id=CDP  [CDP] FixedWingAircraftLarge [FoF Undetermined]  @ 062° 56' 54"N, 001° 57' 52"W
+Debug - 12:17:01.933 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:16:11
+Debug - 12:17:02.446 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:17:02.447 ** ShowInfo:    UserId =Jan
+Debug - 12:17:02.448 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:17:02.448 ** ShowInfo: *** Credits: 0
+
+Debug - 12:17:31.887 ** ShowInfo: DetectedUnitInfo received: Id=CDP  [CDP] FixedWingAircraftLarge [FoF Undetermined]  @ 062° 45' 49"N, 000° 35' 49"W
+Debug - 12:17:32.401 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:21:20
+Debug - 12:17:32.901 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:17:32.902 ** ShowInfo:    UserId =Jan
+Debug - 12:17:32.903 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:17:32.903 ** ShowInfo: *** Credits: 0
+
+Debug - 12:17:42.543 ** ShowInfo: Unit [CCG] DICASS AN/SSQ-62 Sonobuoy CCG has been DESTROYED.
+Debug - 12:17:43.54 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CCG
+Debug - 12:18:02.819 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:26:25
+Debug - 12:18:03.335 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:18:03.336 ** ShowInfo:    UserId =Jan
+Debug - 12:18:03.336 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:18:03.337 ** ShowInfo: *** Credits: 0
+
+Debug - 12:18:06.878 ** ShowInfo: Unit [CCN] DICASS AN/SSQ-62 Sonobuoy CCN has been DESTROYED.
+Debug - 12:18:07.391 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CCN
+Debug - 12:18:31.772 ** ShowInfo: Unit [CCX] DICASS AN/SSQ-62 Sonobuoy CCX has been DESTROYED.
+Debug - 12:18:31.774 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CCX
+Debug - 12:18:33.288 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:31:29
+Debug - 12:18:33.802 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:18:33.803 ** ShowInfo:    UserId =Jan
+Debug - 12:18:33.804 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:18:33.804 ** ShowInfo: *** Credits: 0
+
+Debug - 12:18:56.626 ** ShowInfo: Unit [CDD] DICASS AN/SSQ-62 Sonobuoy CDD has been DESTROYED.
+Debug - 12:18:57.124 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CDD
+Debug - 12:19:04.223 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:36:34
+Debug - 12:19:04.736 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:19:04.737 ** ShowInfo:    UserId =Jan
+Debug - 12:19:04.737 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:19:04.738 ** ShowInfo: *** Credits: 0
+
+Debug - 12:19:10.826 ** ShowInfo: DetectedUnitInfo received: Id=CDP  [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 06' 21"N, 003° 32' 55"E
+Debug - 12:19:22.491 ** ShowInfo: Unit [CDK] DICASS AN/SSQ-62 Sonobuoy CDK has been DESTROYED.
+Debug - 12:19:22.992 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CDK
+Debug - 12:19:34.660 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:41:43
+Debug - 12:19:35.158 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:19:35.159 ** ShowInfo:    UserId =Jan
+Debug - 12:19:35.160 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:19:35.160 ** ShowInfo: *** Credits: 0
+
+Debug - 12:20:05.126 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:46:47
+Debug - 12:20:05.626 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:20:05.627 ** ShowInfo:    UserId =Jan
+Debug - 12:20:05.627 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:20:05.628 ** ShowInfo: *** Credits: 0
+
+Debug - 12:20:35.550 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:51:52
+Debug - 12:20:36.561 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:20:36.562 ** ShowInfo:    UserId =Jan
+Debug - 12:20:36.562 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:20:36.563 ** ShowInfo: *** Credits: 0
+
+Debug - 12:21:05.981 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 14:56:57
+Debug - 12:21:06.480 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:21:06.480 ** ShowInfo:    UserId =Jan
+Debug - 12:21:06.481 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:21:06.482 ** ShowInfo: *** Credits: 0
+
+Debug - 12:21:36.643 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:02:00
+Debug - 12:21:37.150 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:21:37.151 ** ShowInfo:    UserId =Jan
+Debug - 12:21:37.152 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:21:37.152 ** ShowInfo: *** Credits: 0
+
+Debug - 12:21:37.856 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 48' 15"N, 000° 53' 50"W
+Debug - 12:21:39.178 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 394,48km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:22:01.533 ** ShowInfo: UnitOrder to unit BJC : Launch 1 aircraft.
+Debug - 12:22:01.691 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BJQ
+Debug - 12:22:02.191 ** ShowInfo: Received BaseUnitInfo: [BJQ] F-22 BJQ (f22)
+Debug - 12:22:05.744 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 062° 58' 28"N, 002° 10' 36"W
+Debug - 12:22:06.838 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:07:07
+Debug - 12:22:07.853 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:22:07.854 ** ShowInfo:    UserId =Jan
+Debug - 12:22:07.855 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:22:07.855 ** ShowInfo: *** Credits: 0
+
+Debug - 12:22:08.866 ** ShowInfo: Sir, [BJQ] F-22 BJQ (F-22) is closing 447,91km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:22:37.693 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:12:10
+Debug - 12:22:38.194 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:22:38.199 ** ShowInfo:    UserId =Jan
+Debug - 12:22:38.203 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:22:38.206 ** ShowInfo: *** Credits: 0
+
+Debug - 12:23:07.926 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:17:13
+Debug - 12:23:08.440 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:23:08.441 ** ShowInfo:    UserId =Jan
+Debug - 12:23:08.441 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:23:08.442 ** ShowInfo: *** Credits: 0
+
+Debug - 12:23:11.1 ** ShowInfo: Unit [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) has reached BINGO FUEL and must return to base immediately.
+Debug - 12:23:38.35 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:22:16
+Debug - 12:23:38.550 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:23:38.551 ** ShowInfo:    UserId =Jan
+Debug - 12:23:38.552 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:23:38.552 ** ShowInfo: *** Credits: 0
+
+Debug - 12:24:08.470 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:27:16
+Debug - 12:24:08.975 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:24:08.979 ** ShowInfo:    UserId =Jan
+Debug - 12:24:08.982 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:24:08.985 ** ShowInfo: *** Credits: 0
+
+Debug - 12:24:20.672 ** ShowInfo: Unit [BQG] SH-60B Seahawk BQG (SH-60B Seahawk) has reached BINGO FUEL and must return to base immediately.
+Debug - 12:24:38.969 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:32:21
+Debug - 12:24:39.483 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:24:39.484 ** ShowInfo:    UserId =Jan
+Debug - 12:24:39.485 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:24:39.485 ** ShowInfo: *** Credits: 0
+
+Debug - 12:24:46.583 ** ShowInfo: Aircraft has landed : BPY
+Debug - 12:24:46.584 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BPY
+Debug - 12:25:09.406 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:37:26
+Debug - 12:25:09.909 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:25:09.910 ** ShowInfo:    UserId =Jan
+Debug - 12:25:09.911 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:25:09.912 ** ShowInfo: *** Credits: 0
+
+Debug - 12:25:39.436 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:42:30
+Debug - 12:25:39.950 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:25:39.950 ** ShowInfo:    UserId =Jan
+Debug - 12:25:39.951 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:25:39.952 ** ShowInfo: *** Credits: 0
+
+Debug - 12:26:07.412 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BMY
+Debug - 12:26:08.934 ** ShowInfo: Received BaseUnitInfo: [BMY] SH-60B Seahawk BMY (sh60b)
+Debug - 12:26:10.448 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:47:35
+Debug - 12:26:10.964 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:26:10.969 ** ShowInfo:    UserId =Jan
+Debug - 12:26:10.972 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:26:10.975 ** ShowInfo: *** Credits: 0
+
+Debug - 12:26:40.530 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:52:46
+Debug - 12:26:41.39 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:26:41.40 ** ShowInfo:    UserId =Jan
+Debug - 12:26:41.41 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:26:41.41 ** ShowInfo: *** Credits: 0
+
+Debug - 12:27:11.38 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 15:57:46
+Debug - 12:27:11.549 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:27:11.550 ** ShowInfo:    UserId =Jan
+Debug - 12:27:11.551 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:27:11.552 ** ShowInfo: *** Credits: 0
+
+Debug - 12:27:41.585 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:02:52
+Debug - 12:27:42.87 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:27:42.88 ** ShowInfo:    UserId =Jan
+Debug - 12:27:42.89 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:27:42.89 ** ShowInfo: *** Credits: 0
+
+Debug - 12:27:46.665 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 02' 41"N, 017° 37' 49"W
+Debug - 12:27:47.162 ** ShowInfo: [BPY] SH-60B Seahawk BPY (SH-60B Seahawk) is ready on [BPL] Winston S. Churchill (Arleigh Burke)
+Debug - 12:27:47.667 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 247,86km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:28:06.743 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 03' 17"N, 018° 33' 46"W
+Debug - 12:28:07.644 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 269,67km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:28:12.285 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:07:57
+Debug - 12:28:12.786 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:28:12.787 ** ShowInfo:    UserId =Jan
+Debug - 12:28:12.787 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:28:12.788 ** ShowInfo: *** Credits: 0
+
+Debug - 12:28:24.10 ** ShowInfo: Designate [CHW] FixedWingAircraftLarge [FoF Undetermined]  @ 064° 01' 10"N, 016° 22' 08"W as hostile.
+Debug - 12:28:24.640 ** ShowInfo: DetectedUnitInfo received: Id=CHW  [CHW] FixedWingAircraftLarge [Foe]  @ 064° 01' 06"N, 016° 19' 21"W
+Debug - 12:28:25.154 ** ShowInfo: Contact FixedWingAircraftLarge CHW  [Foe] is now designated as HOSTILE.
+Debug - 12:28:37.807 ** ShowInfo: *** Movement order sent to unit F-22 BJI
+Debug - 12:28:41.68 ** ShowInfo: DetectedUnitInfo received: Id=CHW  [CHW] FixedWingAircraftLarge [Foe]  @ 063° 59' 51"N, 015° 31' 56"W
+Debug - 12:28:42.629 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:13:04
+Debug - 12:28:42.659 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CHW] FixedWingAircraftLarge [Foe]  @ 063° 59' 46"N, 015° 29' 09"W
+Debug - 12:28:43.141 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:28:43.142 ** ShowInfo:    UserId =Jan
+Debug - 12:28:43.143 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:28:43.143 ** ShowInfo: *** Credits: 0
+
+Debug - 12:28:44.157 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 91,48km to engage FixedWingAircraftLarge CHW  [Foe].
+Debug - 12:28:46.184 ** ShowInfo: DetectedUnitInfo received: Id=CHW  [CHW] Tupolev Tu-95 BUK (tu95) [Foe]  @ 063° 59' 24"N, 015° 17' 03"W
+Debug - 12:29:00.100 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CID
+Debug - 12:29:00.653 ** ShowInfo: Received BaseUnitInfo: [CID] DICASS AN/SSQ-62 Sonobuoy CID (dicass)
+Debug - 12:29:01.161 ** ShowInfo: Unit [BMY] SH-60B Seahawk BMY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:29:04.214 ** ShowInfo: Received new UnitClass aim120amraam AIM-120 AMRAAM Missile
+Debug - 12:29:04.219 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CIJ
+Debug - 12:29:04.732 ** ShowInfo: Received BaseUnitInfo: [CIJ] AMRAAM from F-22 BJI (aim120amraam)
+Debug - 12:29:05.245 ** ShowInfo: DetectedUnitInfo received: Id=CHW  [CHW] Tupolev Tu-95 BUK (tu95) [Foe]  @ 063° 57' 43"N, 014° 26' 54"W
+Debug - 12:29:06.807 ** ShowInfo: DetectedUnitInfo received: Id=CHW  [CHW] Tupolev Tu-95 BUK (tu95) [Foe]  @ 063° 57' 43"N, 014° 26' 54"W
+Debug - 12:29:09.385 ** ShowInfo: Unit [CIJ] AMRAAM from F-22 BJI has been DESTROYED.
+Debug - 12:29:09.388 ** ShowInfo: +++We shot down an enemy Tupolev Tu-95 using a AIM-120 AMRAAM Missile
+Debug - 12:29:09.897 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CIJ
+Debug - 12:29:09.900 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CHW
+Debug - 12:29:13.998 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:18:15
+Debug - 12:29:14.498 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:29:14.499 ** ShowInfo:    UserId =Jan
+Debug - 12:29:14.499 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:29:14.500 ** ShowInfo: *** Credits: 0
+
+Debug - 12:29:19.262 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 02' 26"N, 021° 57' 44"W
+Debug - 12:29:19.694 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 422,19km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:29:24.797 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CIU
+Debug - 12:29:25.310 ** ShowInfo: Received BaseUnitInfo: [CIU] DICASS AN/SSQ-62 Sonobuoy CIU (dicass)
+Debug - 12:29:25.808 ** ShowInfo: Unit [BMY] SH-60B Seahawk BMY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:29:44.779 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:23:16
+Debug - 12:29:45.279 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:29:45.280 ** ShowInfo:    UserId =Jan
+Debug - 12:29:45.280 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:29:45.281 ** ShowInfo: *** Credits: 0
+
+Debug - 12:29:45.858 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 12:29:48.335 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CJA
+Debug - 12:29:48.884 ** ShowInfo: Received BaseUnitInfo: [CJA] DICASS AN/SSQ-62 Sonobuoy CJA (dicass)
+Debug - 12:29:49.399 ** ShowInfo: Unit [BMY] SH-60B Seahawk BMY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:29:49.408 ** ShowInfo: DetectedUnitInfo received: Id=CDP  [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 02' 44"N, 021° 49' 19"W
+Debug - 12:29:53.568 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 02' 54"N, 021° 38' 08"W
+Debug - 12:29:55.27 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 322,23km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:30:14.422 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CJL
+Debug - 12:30:14.967 ** ShowInfo: Received BaseUnitInfo: [CJL] DICASS AN/SSQ-62 Sonobuoy CJL (dicass)
+Debug - 12:30:15.478 ** ShowInfo: Unit [BMY] SH-60B Seahawk BMY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:30:15.484 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:28:24
+Debug - 12:30:16.493 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:30:16.494 ** ShowInfo:    UserId =Jan
+Debug - 12:30:16.494 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:30:16.495 ** ShowInfo: *** Credits: 0
+
+Debug - 12:30:30.445 ** ShowInfo: *** Unit F-22 BJQ to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 03' 40"N, 019° 53' 45"W
+Debug - 12:30:30.809 ** ShowInfo: Sir, [BJQ] F-22 BJQ (F-22) is closing 129,59km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:30:35.789 ** ShowInfo: *** Unit F-22 BJI to close and engage target [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 03' 41"N, 019° 39' 45"W
+Debug - 12:30:37.444 ** ShowInfo: Sir, [BJI] F-22 BJI (F-22) is closing 126,89km to engage  Tupolev Tu-95 BUC (Tupolev Tu-95)  [Foe].
+Debug - 12:30:37.945 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CJZ
+Debug - 12:30:38.459 ** ShowInfo: Received BaseUnitInfo: [CJZ] DICASS AN/SSQ-62 Sonobuoy CJZ (dicass)
+Debug - 12:30:38.968 ** ShowInfo: Unit [BMY] SH-60B Seahawk BMY (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 12:30:46.687 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:33:47
+Debug - 12:30:47.208 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:30:47.209 ** ShowInfo:    UserId =Jan
+Debug - 12:30:47.210 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:30:47.210 ** ShowInfo: *** Credits: 0
+
+Debug - 12:31:02.142 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CKJ
+Debug - 12:31:02.687 ** ShowInfo: Received BaseUnitInfo: [CKJ] AMRAAM from F-22 BJQ (aim120amraam)
+Debug - 12:31:02.688 ** ShowInfo: DetectedUnitInfo received: Id=CDP  [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 03' 20"N, 018° 23' 47"W
+Debug - 12:31:03.718 ** ShowInfo: DetectedUnitInfo received: Id=CDP  [CDP] Tupolev Tu-95 BUC (tu95) [Foe]  @ 064° 03' 20"N, 018° 23' 47"W
+Debug - 12:31:05.294 ** ShowInfo: Unit [CKJ] AMRAAM from F-22 BJQ has been DESTROYED.
+Debug - 12:31:05.790 ** ShowInfo: +++We shot down an enemy Tupolev Tu-95 using a AIM-120 AMRAAM Missile
+Debug - 12:31:05.792 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CKJ
+Debug - 12:31:05.793 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CDP
+Debug - 12:31:17.679 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:38:49
+Debug - 12:31:18.192 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:31:18.193 ** ShowInfo:    UserId =Jan
+Debug - 12:31:18.193 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:31:18.194 ** ShowInfo: *** Credits: 0
+
+Debug - 12:31:25.388 ** ShowInfo: Aircraft has landed : BQG
+Debug - 12:31:25.389 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftIsLanded for Id BQG
+Debug - 12:31:48.589 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 16:43:58
+Debug - 12:31:49.99 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:31:49.100 ** ShowInfo:    UserId =Jan
+Debug - 12:31:49.101 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 12:31:49.101 ** ShowInfo: *** Credits: 0
+

@@ -1,0 +1,60 @@
+Debug - 09:46:14.18 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 09:46:14.32 ** **************************************************************************
+Debug - 09:46:14.33 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 09:46:14.34 ** **************************************************************************
+Debug - 09:46:14.36 ** Game() object ALR instantiated!
+Warning - 09:46:14.56 ** GameData->CreateUnit: Unit [ALS]  (NATO Airport) spawned on low ground and is moved up. Height 131m
+Warning - 09:46:14.80 ** GameData->CreateUnit: Unit [BAX]  (NATO Airport) spawned on low ground and is moved up. Height 131m
+Debug - 09:46:14.112 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 09:46:14.130 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 59' 55"N, 005° 51' 20"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport1 [NATO Airport]: Distance 8019,46m at 269,00deg. Strength: 57,17. Size: 343,00 ArcSec
+ 
+Debug - 09:46:14.132 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 58' 35"N, 005° 56' 23"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport1 [NATO Airport]: Distance 4247,17m at 231,95deg. Strength: 103,19. Size: 619,16 ArcSec
+ 
+Debug - 09:46:14.134 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection  Airport (SH-60B Seahawk)  [Foe]
+Position: 059° 57' 30"N, 005° 57' 34"E Fixed. Identified.Sensors: (1)
+Sensor [ALU] AN/MPQ-64 Sentinel Radar on unit Airport1 [NATO Airport]: Distance 5133,17m at 205,96deg. Strength: 85,38. Size: 512,29 ArcSec
+ 
+Debug - 09:46:14.135 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection Helicopter CRA  [Undetermined]
+Position: 059° 59' 34"N, 005° 59' 09"E Fixed.Sensors: (1)
+Sensor [ALT] Visual on unit Airport1 [NATO Airport]: Distance 1104,29m at 224,95deg. Strength: 1,32. Size: 2381,31 ArcSec
+ 
+Debug - 09:46:14.141 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:46:14.149 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport1 (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:46:14.151 ** EngageAirThreat: [ALS] Airport1 (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:46:14.151 ** BaseUnit->EngageDetectedUnit creates new order for [BAX] Airport2 (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:46:14.152 ** EngageAirThreat: [BAX] Airport2 (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:46:14.153 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:46:14.154 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport1 (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:46:14.155 ** EngageAirThreat: [ALS] Airport1 (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:46:14.156 ** BaseUnit->EngageDetectedUnit creates new order for [BAX] Airport2 (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:46:14.157 ** EngageAirThreat: [BAX] Airport2 (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:46:14.158 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:46:14.159 ** BaseUnit->EngageDetectedUnit creates new order for [ALS] Airport1 (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:46:14.160 ** EngageAirThreat: [ALS] Airport1 (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:46:14.161 ** BaseUnit->EngageDetectedUnit creates new order for [BAX] Airport2 (NATO Airport). Type EngageNotClose  Target  Airport (SH-60B Seahawk)  [Foe]
+Debug - 09:46:14.162 ** EngageAirThreat: [BAX] Airport2 (NATO Airport) ordered to fire on  Airport (SH-60B Seahawk)  [Foe]: True
+Debug - 09:46:14.163 ** BaseAIHandler->EngageAirThreat to engage  Airport (SH-60B Seahawk)  [Foe]: CloseAndEngage: False, LaunchAir: False
+Debug - 09:46:14.170 ** ExecuteOrders: Unit [ALS] Airport1 (NATO Airport) order: EngagementOrder
+Error - 09:46:14.180 ** GetEffectiveSeaState: WeatherSystem is null.
+Error - 09:46:14.182 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:46:14.184 ** GetBestUnitEngagementStatusResult: [ALS] Airport1 (NATO Airport) Best status: EngagementStatus: Trgt: Airport (SH-60B Seahawk)  [Foe] Wpn: MIM-104F Patriot SAM (22) Ready to engage
+Debug - 09:46:14.185 ** GetBestUnitEngagementStatusResult: [ALS] Airport1 (NATO Airport) Best status: EngagementStatus: Trgt: Airport (SH-60B Seahawk)  [Foe] Wpn: MIM-104F Patriot SAM (22) Ready to engage
+Debug - 09:46:14.187 ** BaseWeapon->GetRoundToFireCount returns Desired Count Rounds = 1
+Error - 09:46:14.192 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:46:14.193 ** Fire: Weapon MIM-104F Patriot SAM to engage target  Airport (SH-60B Seahawk)  [Foe] with 1 rounds.
+Error - 09:46:14.207 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:46:14.216 ** Fire: Weapon MIM-104F Patriot SAM launches MissileUnit [CRZ] MIM-104F Patriot SAM (Patriot). First wp: [WP] Pos: 060° 00' 01"N, 006° 00' 06"E Bearing:70,00 Height:83,00
+Debug - 09:46:14.218 ** ExecuteOrders: Unit [BAX] Airport2 (NATO Airport) order: EngagementOrder
+Error - 09:46:14.219 ** GetEffectiveSeaState: WeatherSystem is null.
+Error - 09:46:14.220 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:46:14.221 ** GetBestUnitEngagementStatusResult: [BAX] Airport2 (NATO Airport) Best status: EngagementStatus: Trgt: Airport (SH-60B Seahawk)  [Foe] Wpn: MIM-104F Patriot SAM (22) Ready to engage
+Debug - 09:46:14.222 ** GetBestUnitEngagementStatusResult: [BAX] Airport2 (NATO Airport) Best status: EngagementStatus: Trgt: Airport (SH-60B Seahawk)  [Foe] Wpn: MIM-104F Patriot SAM (22) Ready to engage
+Debug - 09:46:14.223 ** BaseWeapon->GetRoundToFireCount returns Desired Count Rounds = 1
+Error - 09:46:14.224 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:46:14.225 ** Fire: Weapon MIM-104F Patriot SAM to engage target  Airport (SH-60B Seahawk)  [Foe] with 1 rounds.
+Error - 09:46:14.226 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 09:46:14.227 ** Fire: Weapon MIM-104F Patriot SAM launches MissileUnit [CSG] MIM-104F Patriot SAM (Patriot). First wp: [WP] Pos: 060° 00' 01"N, 006° 00' 06"E Bearing:70,00 Height:89,00

@@ -1,0 +1,18 @@
+﻿<Window x:Class="GameObjectEditor.ObjectEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="328" Width="316">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"></RowDefinition>
+            <RowDefinition Height="256*"></RowDefinition>
+            <RowDefinition Height="24*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button HorizontalAlignment="Left" Grid.Row="2" Margin="204.783,0,0,0" Width="40.217" Name="btnDelete">Delete</Button>
+        <Button HorizontalAlignment="Right" Grid.Row="2" Margin="0,0,12,0" Width="30.503" Name="btnSave" Click="btnSave_Click">Save</Button>
+        <ScrollViewer Grid.Row="1"  Margin="8,14,12,21">
+            <WrapPanel Name="spnlControls" Orientation="Vertical"  HorizontalAlignment="Left" Background="AliceBlue" Margin="12,14,0,21" Grid.Row="1"></WrapPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Window>

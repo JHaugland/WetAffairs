@@ -1,0 +1,32 @@
+Debug - 10:29:13.123 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 10:29:13.185 ** **************************************************************************
+Debug - 10:29:13.186 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 10:29:13.186 ** **************************************************************************
+Debug - 10:29:13.189 ** Game() object ALQ instantiated!
+Debug - 10:29:13.265 ** Group ALP adds unit [ALR]  (Arleigh Burke). Count=1
+Debug - 10:29:13.336 ** Group ANH adds unit [ANI]  (Arleigh Burke). Count=1
+Debug - 10:29:13.338 ** **************************************************************************
+Debug - 10:29:13.339 ** Game->StartGamePlay. GameName: test game   Net?: False   PlayerCount: 3  Max human players: 1  TimeLimit: 1
+Debug - 10:29:13.340 ** **************************************************************************
+Debug - 10:29:13.399 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 061° 07' 26"N, 005° 50' 36"E for player [ALN] GoodGuy
+Debug - 10:29:13.425 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 060° 34' 10"N, 004° 23' 49"E for player [ALN] GoodGuy
+Debug - 10:29:13.427 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 061° 07' 49"N, 005° 51' 23"E for player [ALO] BadGuy
+Debug - 10:29:13.432 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 060° 34' 33"N, 004° 24' 35"E for player [ALO] BadGuy
+Debug - 10:29:13.434 ** **************************************************************************
+Debug - 10:29:13.435 ** Game->StartGameLoop. GameName: test game   Net?: False   PlayerCount: 3  Max human players: 1  TimeLimit: 1
+Debug - 10:29:13.436 ** **************************************************************************
+Debug - 10:29:14.466 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 10:29:14.495 ** CreateOrUpdateDetectionReport NEW Player: [ALN] GoodGuy: Detection MediumSurface BMD  [Undetermined]
+Position: 060° 00' 22"N, 003° 00' 45"E Fixed.Sensors: (1)
+Sensor [ALS] Visual on unit DDG Valiant [Arleigh Burke]: Distance 995,28m at 44,65deg. Strength: 2,50. Size: 9013,08 ArcSec
+ 
+Error - 10:29:14.504 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 10:29:14.513 ** CreateOrUpdateDetectionReport NEW Player: [ALO] BadGuy: Detection MediumSurface BMJ  [Undetermined]
+Position: 059° 59' 59"N, 003° 00' 00"E Fixed.Sensors: (1)
+Sensor [ANJ] Visual on unit DDG Vicious [Arleigh Burke]: Distance 995,28m at 224,66deg. Strength: 2,50. Size: 9013,08 ArcSec
+ 
+Error - 10:29:14.514 ** GetEffectiveSeaState: WeatherSystem is null.
+Error - 10:29:14.517 ** GetEffectiveSeaState: WeatherSystem is null.
+Debug - 10:29:14.673 ** BaseUnit->EngageDetectedUnit creates new order for [ALR] DDG Valiant (Arleigh Burke). Type EngageNotClose  Target  DDG Vicious (Arleigh Burke)  [Foe]
+Debug - 10:29:14.678 ** BaseUnit->EngageDetectedUnit creates new order for [ANI] DDG Vicious (Arleigh Burke). Type EngageNotClose  Target  DDG Valiant (Arleigh Burke)  [Foe]
+Debug - 10:29:14.685 ** Game ends after RunGameInSec seconds (1).

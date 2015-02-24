@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5997927a-7ca6-4a0c-a5d2-638b5687b536" name="Jan@PUTO 2012-04-19 10:29:06" runUser="PuTo\Jan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="39198a4b-6277-4aef-87ed-d59e010881d7">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="Jan_PUTO 2012-04-19 10_29_06">
+      <DeploymentItem filename="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWData\bin\Debug\NWData.dll" />
+      <DeploymentItem filename="C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\bin\Debug\NWComms.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-19T10:29:06.1111000+02:00" queuing="2012-04-19T10:29:09.6493024+02:00" start="2012-04-19T10:29:10.1273297+02:00" finish="2012-04-19T10:29:14.7995969+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="VisualDetection" storage="c:\users\jan\documents\visual studio 2010\projects\navalwar-backend\nwmanager\nwmanagertest\bin\debug\nwmanagertest.dll" id="8dbfad4e-029c-a83b-72d4-030aeb61f96a">
+      <Execution id="1531bbef-e3df-404c-a226-275c33d3dc7a" />
+      <TestMethod codeBase="C:/Users/Jan/Documents/Visual Studio 2010/Projects/navalwar-backend/NWmanager/NWManagerTest/bin/Debug/NWManagerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NWManagerTest.DetectionTest, NWManagerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VisualDetection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8dbfad4e-029c-a83b-72d4-030aeb61f96a" executionId="1531bbef-e3df-404c-a226-275c33d3dc7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1531bbef-e3df-404c-a226-275c33d3dc7a" testId="8dbfad4e-029c-a83b-72d4-030aeb61f96a" testName="VisualDetection" computerName="PUTO" duration="00:00:04.0606582" startTime="2012-04-19T10:29:10.1783326+02:00" endTime="2012-04-19T10:29:14.7635949+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1531bbef-e3df-404c-a226-275c33d3dc7a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

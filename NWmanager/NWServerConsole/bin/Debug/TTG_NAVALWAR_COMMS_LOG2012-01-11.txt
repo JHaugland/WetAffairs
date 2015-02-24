@@ -1,0 +1,287 @@
+Debug - 10:44:52.248 ** ************* GameServer Init Start **************
+Debug - 10:44:52.254 ** ************* GameServer Init End **************
+Debug - 10:45:08.615 ** PollNetwork: New client 2 added.
+Debug - 10:45:13.326 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:45:13.350 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:45:15.403 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:45:15.412 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:45:15.418 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:47:42.765 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 10:48:04.43 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 10:48:07.72 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 10:49:24.602 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 10:49:27.676 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Error - 10:51:40.748 ** GameServer->Send failed to send to client. System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 178
+Error - 10:51:40.766 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 10:51:40.773 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 10:51:40.780 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 10:51:40.787 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 10:51:40.793 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 10:51:40.799 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 10:51:40.805 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 10:51:40.813 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Debug - 10:54:24.76 ** ************* GameServer Init Start **************
+Debug - 10:54:24.82 ** ************* GameServer Init End **************
+Debug - 10:54:51.446 ** PollNetwork: New client 2 added.
+Debug - 10:54:53.857 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:54:53.884 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:54:57.27 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:54:57.38 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:54:57.45 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:01:42.105 ** ************* GameServer Init Start **************
+Debug - 11:01:42.110 ** ************* GameServer Init End **************
+Debug - 11:02:01.274 ** PollNetwork: New client 2 added.
+Debug - 11:02:04.85 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:02:04.111 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:02:05.484 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:02:05.495 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:02:05.502 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:12:27.240 ** ************* GameServer Init Start **************
+Debug - 11:12:59.945 ** ************* GameServer Init Start **************
+Debug - 11:12:59.951 ** ************* GameServer Init End **************
+Debug - 11:13:13.113 ** PollNetwork: New client 2 added.
+Debug - 11:13:14.823 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:13:14.849 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:13:17.549 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:13:17.560 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:13:17.567 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:44:41.186 ** ************* GameServer Init Start **************
+Debug - 11:44:41.192 ** ************* GameServer Init End **************
+Debug - 11:44:54.558 ** PollNetwork: New client 2 added.
+Debug - 11:44:55.768 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:44:55.796 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:44:56.898 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:44:56.909 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:44:56.916 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:45:09.316 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 11:49:54.699 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 11:50:22.389 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 11:51:04.856 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 11:52:07.889 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 11:52:25.482 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Error - 11:55:08.901 ** GameServer->Send failed to send to client. System.IO.IOException: Unable to write data to the transport connection: An established connection was aborted by the software in your host machine. ---> System.Net.Sockets.SocketException: An established connection was aborted by the software in your host machine
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 178
+Error - 11:55:08.907 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.913 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.920 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.926 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.931 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.938 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.943 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.950 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 11:55:08.956 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.962 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.967 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.972 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.978 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.983 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.988 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.994 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:08.999 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.906 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 11:55:09.913 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.920 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.926 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.932 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.938 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.944 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.951 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.956 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.961 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.967 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 11:55:09.972 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.977 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.983 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.988 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.993 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:09.998 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.3 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.8 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.13 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.924 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 11:55:10.929 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.934 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.939 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.944 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.950 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.955 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.960 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.965 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.971 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.977 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 11:55:10.983 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.989 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:10.995 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:11.0 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:11.5 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:11.10 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:11.15 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:11.20 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Error - 11:55:11.25 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175
+Debug - 12:06:23.488 ** ************* GameServer Init Start **************
+Debug - 12:06:23.494 ** ************* GameServer Init End **************
+Debug - 12:06:42.258 ** PollNetwork: New client 2 added.
+Debug - 12:06:43.670 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:06:43.696 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:06:44.545 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:06:44.557 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:06:44.564 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:06:49.925 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:08:16.776 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 12:08:45.118 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 12:08:58.392 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 12:09:23.76 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:10:02.199 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 12:10:13.90 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 12:10:18.414 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder

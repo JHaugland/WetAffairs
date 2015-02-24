@@ -1,0 +1,23 @@
+C:\Users\Espen\Documents\XNACollision\HeightmapCollision\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Espen\Documents\XNACollision\HeightmapCollision\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.pdb
+C:\Users\Espen\Documents\XNACollision\HeightmapCollision\HeightmapCollisionPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Espen\Documents\XNACollision\HeightmapCollision\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Espen\Documents\XNACollision\HeightmapCollision\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.pdb
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.pdb
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.pdb
+<<<<<<< .mine
+C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.pdb
+C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Jan\Documents\Visual Studio 2008\Projects\Naval War\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.pdb
+=======
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\HeightmapCollisionPipeline\bin\x86\Debug\HeightmapCollisionPipeline.pdb
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.dll
+C:\Users\Espen\Documents\Visual Studio 2008\Projects\SvnNW\NWTerrainTest\HeightmapCollisionPipeline\obj\x86\Debug\HeightmapCollisionPipeline.pdb
+>>>>>>> .r554

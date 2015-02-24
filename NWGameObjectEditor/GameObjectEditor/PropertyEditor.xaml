@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="GameObjectEditor.PropertyEditor"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="55" Width="307">
+    <Grid Height="52" x:Name="ContentGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  x:Name="label"></ColumnDefinition>
+            <ColumnDefinition x:Name="valueField"></ColumnDefinition>
+            <ColumnDefinition x:Name="btnField"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Margin="12,14,8,12" Name="lblName">Label</Label>
+    </Grid>
+</UserControl>

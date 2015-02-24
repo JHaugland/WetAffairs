@@ -1,0 +1,17 @@
+Debug - 11:14:00.539 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 11:14:00.554 ** **************************************************************************
+Debug - 11:14:00.555 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 11:14:00.556 ** **************************************************************************
+Debug - 11:14:00.558 ** Game() object ALQ instantiated!
+Debug - 11:14:00.581 ** Group ALP adds unit [ALR]  (Arleigh Burke). Count=1
+Debug - 11:14:00.607 ** Group ANH adds unit [ANI]  (Arleigh Burke). Count=1
+Debug - 11:14:57.204 ** **************************************************************************
+Debug - 11:14:57.206 ** Game->StartGamePlay. GameName: test game   Net?: False   PlayerCount: 3  Max human players: 1  TimeLimit: 1
+Debug - 11:14:57.206 ** **************************************************************************
+Debug - 11:14:57.220 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 061° 07' 26"N, 005° 50' 36"E for player [ALN] GoodGuy
+Debug - 11:14:57.222 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 060° 34' 10"N, 004° 23' 49"E for player [ALN] GoodGuy
+Debug - 11:14:57.224 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 061° 12' 00"N, 006° 00' 09"E for player [ALO] BadGuy
+Debug - 11:14:57.225 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 060° 38' 44"N, 004° 33' 09"E for player [ALO] BadGuy
+Debug - 11:14:57.227 ** **************************************************************************
+Debug - 11:14:57.228 ** Game->StartGameLoop. GameName: test game   Net?: False   PlayerCount: 3  Max human players: 1  TimeLimit: 1
+Debug - 11:14:57.229 ** **************************************************************************

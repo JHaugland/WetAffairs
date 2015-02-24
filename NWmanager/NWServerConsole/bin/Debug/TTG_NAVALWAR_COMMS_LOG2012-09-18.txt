@@ -1,0 +1,2 @@
+Debug - 14:55:23.985 ** ************* GameServer Init Start **************
+Debug - 14:55:24.8 ** ************* GameServer Init End **************

@@ -1,0 +1,1693 @@
+Debug - 10:44:50.875 ** Game() object ALN instantiated!
+Debug - 10:44:50.876 ** ***** NWServerConsole started *****
+Debug - 10:44:52.200 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 10:44:52.219 ** **************************************************************************
+Debug - 10:44:52.220 ** GameManager->CreateGame. GameName: test game
+Debug - 10:44:52.221 ** **************************************************************************
+Debug - 10:44:52.222 ** Game() object ALO instantiated!
+Debug - 10:44:52.227 ** 
+Debug - 10:44:52.229 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 10:44:52.230 ** 
+Debug - 10:44:52.231 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 10:44:52.232 ** 
+Debug - 10:44:52.234 ** **************************************************************************
+Debug - 10:44:52.236 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 10:44:52.237 ** **************************************************************************
+Debug - 10:45:08.574 ** Game connection status is set to Connected
+Debug - 10:45:08.576 ** 
+Debug - 10:45:08.577 ** Status changed. Status=Connected
+Debug - 10:45:08.578 ** 
+Debug - 10:45:08.609 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 10:45:08.611 ** 
+Debug - 10:45:08.612 ** NWConsole: New connection. Id=1
+Debug - 10:45:08.613 ** 
+Debug - 10:45:13.329 ** 
+Debug - 10:45:13.330 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:45:13.331 ** 
+Debug - 10:45:13.342 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:45:13.352 ** 
+Debug - 10:45:13.353 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:45:13.354 ** 
+Debug - 10:45:13.355 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:45:13.359 ** HandleGameControlMessage: Player [ALP] ALP selects scenario SCE_BETAPVP3_GAME_NAME at skill level 2
+Debug - 10:45:15.405 ** 
+Debug - 10:45:15.406 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:45:15.407 ** 
+Debug - 10:45:15.408 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 10:45:15.411 ** SelectUser: User not found: Jan
+Debug - 10:45:15.413 ** 
+Debug - 10:45:15.415 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:45:15.416 ** 
+Debug - 10:45:15.417 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:45:15.419 ** 
+Debug - 10:45:15.421 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:45:15.422 ** 
+Debug - 10:45:15.423 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:45:15.458 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 10:46:00.533 ** Group FMR adds unit [FMS]  (Hamina). Count=1
+Debug - 10:46:00.588 ** Group FNE adds unit [FNF]  (Iver Huitfeldt). Count=1
+Debug - 10:46:00.597 ** Group FOC adds unit [FOD]  (Sachsen). Count=1
+Debug - 10:46:00.600 ** LoadGameScenario: Unit [FOD] Sachsen (Sachsen) has added carried unit [FOS] NH90 NFH FOS (NH90 NFH)
+Debug - 10:46:00.610 ** GetAvailableGamePlayer adding player [FPE] FPE
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 10:46:02.885 ** Group FPH adds unit [FPI]  (Admiral Gorshkov). Count=1
+Debug - 10:46:02.887 ** LoadGameScenario: Unit [FPI] Admiral Sergey Gorshkov (Admiral Gorshkov) has added carried unit [FPY] Kamov Ka-27 FPY (Kamov Ka-27)
+Debug - 10:46:02.888 ** Group FQH adds unit [FQI]  (Project 206MR Vikhr). Count=1
+Debug - 10:46:02.889 ** Group FQO adds unit [FQP]  (Admiral Gorshkov). Count=1
+Debug - 10:46:02.891 ** LoadGameScenario: Unit [FQP] Admiral Kasatonov (Admiral Gorshkov) has added carried unit [FRF] Kamov Ka-27 FRF (Kamov Ka-27)
+Debug - 10:46:02.895 ** **************************************************************************
+Debug - 10:46:02.896 ** Game->StartGamePlay. GameName: SCE_BETAPVP3_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 10:46:02.897 ** **************************************************************************
+Debug - 10:46:02.908 ** CreateNewMessage: From: [FPE] FPE
+To: [ALP] ALP
+gg wp
+
+Debug - 10:46:52.924 ** CreateNewMessage: From: [FPE] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 10:46:52.940 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 057° 16' 44"N, 022° 50' 25"E for player [FPE] Computer AI
+Debug - 10:46:52.942 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 056° 17' 05"N, 019° 52' 44"E for player [FPE] Computer AI
+Debug - 10:46:52.943 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 058° 23' 10"N, 021° 30' 34"E for player [FPE] Computer AI
+Debug - 10:46:57.558 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAswPatrol   Pos: 058° 23' 10"N, 021° 30' 34"E
+Debug - 10:46:57.577 ** CreateSearchOrdersAircraft: ASW search on land ignored.
+Debug - 10:46:57.579 ** CreateSearchOrdersAircraft: ASW search on land ignored.
+Debug - 10:46:57.589 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 10:46:57.591 ** SetAswAirPatrol launches 0 aircraft to fulfill ASW role near 058° 23' 10"N, 021° 30' 34"E.
+Debug - 10:46:57.970 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 057° 16' 44"N, 022° 50' 25"E
+Debug - 10:46:57.975 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 10:46:57.976 ** SetAswAirPatrol launches 0 aircraft to fulfill AEW role near 057° 16' 44"N, 022° 50' 25"E.
+Debug - 10:46:57.980 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 056° 17' 05"N, 019° 52' 44"E
+Debug - 10:46:57.982 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 10:46:57.983 ** SetAswAirPatrol launches 0 aircraft to fulfill AEW role near 056° 17' 05"N, 019° 52' 44"E.
+Debug - 10:47:42.766 ** 
+Debug - 10:47:42.768 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 10:47:42.769 ** 
+Debug - 10:47:42.787 ** ExecuteOrders: Unit [FOD] Sachsen (Sachsen) order: LaunchOrder
+Debug - 10:47:42.802 ** LaunchAircraft: Unit [FOD] Sachsen (Sachsen) to launch 1 aircraft.
+Debug - 10:47:42.806 **      Order: MovementOrder FTZ, 1 waypoint(s).
+Current waypoint: [WP] Pos: 055° 00' 00"N, 003° 00' 00"E Bearing:0,00
+Debug - 10:47:42.810 ** Group FUA adds unit [FOS] NH90 NFH FOS (NH90 NFH). Count=1
+Debug - 10:47:42.814 ** ExecuteOrders: Unit [FOS] NH90 NFH FOS (NH90 NFH) order: MovementOrder
+Debug - 10:48:04.44 ** 
+Debug - 10:48:04.46 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 10:48:04.47 ** 
+Debug - 10:48:04.54 ** HandleUnitMovementOrder for unit [FOS] NH90 NFH FOS (NH90 NFH): Move to Waypoint destination: 057° 00' 00"N, 013° 00' 00"E. 0 Order(s)
+Debug - 10:48:07.74 ** 
+Debug - 10:48:07.75 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 10:48:07.77 ** 
+Debug - 10:48:07.80 ** ExecuteOrders: Unit [FOS] NH90 NFH FOS (NH90 NFH) order: SensorActivationOrder
+Debug - 10:48:07.231 ** CreateOrUpdateDetectionReport NEW Player: [FPE] Computer AI: Detection  NH90 NFH FOS (NH90 NFH)  [Foe]
+Position: 055° 06' 30"N, 015° 55' 30"E Identified.Sensors: (1)
+Sensor [FPK] MR-710 Fregat-MA 'Top Plate' 3D Radar on unit Admiral Sergey Gorshkov [Admiral Gorshkov]: Distance 293059,31m at 248,90deg. Strength: 30,39. Size: 3600,00 ArcSec
+ 
+Debug - 10:48:07.247 ** BaseAIHandler->EngageAirThreat to engage  NH90 NFH FOS (NH90 NFH)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 10:48:07.252 ** EngageAirThreat: Launched 0 aircraft to intercept target  NH90 NFH FOS (NH90 NFH)  [Foe].
+Debug - 10:49:04.501 ** BaseAIHandler->EngageAirThreat to engage  NH90 NFH FOS (NH90 NFH)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 10:49:04.502 ** EngageAirThreat: Launched 0 aircraft to intercept target  NH90 NFH FOS (NH90 NFH)  [Foe].
+Debug - 10:49:24.604 ** 
+Debug - 10:49:24.605 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 10:49:24.607 ** 
+Debug - 10:49:24.608 ** HandleUnitMovementOrder for unit [FOS] NH90 NFH FOS (NH90 NFH): Move to Waypoint destination: 057° 00' 00"N, 016° 00' 00"E. 0 Order(s)
+Debug - 10:49:27.678 ** 
+Debug - 10:49:27.679 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 10:49:27.681 ** 
+Debug - 10:49:27.682 ** HandleUnitMovementOrder for unit [FOS] NH90 NFH FOS (NH90 NFH): Move to Waypoint destination: 057° 00' 00"N, 016° 00' 00"E. 0 Order(s)
+Debug - 10:50:05.22 ** BaseAIHandler->EngageAirThreat to engage  NH90 NFH FOS (NH90 NFH)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 10:50:05.24 ** EngageAirThreat: Launched 0 aircraft to intercept target  NH90 NFH FOS (NH90 NFH)  [Foe].
+Debug - 10:51:05.410 ** BaseAIHandler->EngageAirThreat to engage  NH90 NFH FOS (NH90 NFH)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 10:51:05.412 ** EngageAirThreat: Launched 0 aircraft to intercept target  NH90 NFH FOS (NH90 NFH)  [Foe].
+Debug - 10:54:22.851 ** Game() object ALN instantiated!
+Debug - 10:54:22.852 ** ***** NWServerConsole started *****
+Debug - 10:54:24.22 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 10:54:24.41 ** **************************************************************************
+Debug - 10:54:24.43 ** GameManager->CreateGame. GameName: test game
+Debug - 10:54:24.44 ** **************************************************************************
+Debug - 10:54:24.46 ** Game() object ALO instantiated!
+Debug - 10:54:24.51 ** 
+Debug - 10:54:24.53 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 10:54:24.55 ** 
+Debug - 10:54:24.56 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 10:54:24.58 ** 
+Debug - 10:54:24.61 ** **************************************************************************
+Debug - 10:54:24.63 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 10:54:24.64 ** **************************************************************************
+Debug - 10:54:51.403 ** Game connection status is set to Connected
+Debug - 10:54:51.405 ** 
+Debug - 10:54:51.406 ** Status changed. Status=Connected
+Debug - 10:54:51.408 ** 
+Debug - 10:54:51.439 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 10:54:51.441 ** 
+Debug - 10:54:51.443 ** NWConsole: New connection. Id=1
+Debug - 10:54:51.445 ** 
+Debug - 10:54:53.860 ** 
+Debug - 10:54:53.862 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:54:53.863 ** 
+Debug - 10:54:53.875 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:54:53.885 ** 
+Debug - 10:54:53.887 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:54:53.888 ** 
+Debug - 10:54:53.889 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:54:53.893 ** HandleGameControlMessage: Player [ALP] ALP selects scenario SCE_BETAPVP3_GAME_NAME at skill level 2
+Debug - 10:54:57.29 ** 
+Debug - 10:54:57.30 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:54:57.32 ** 
+Debug - 10:54:57.33 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 10:54:57.36 ** SelectUser: User not found: Jan
+Debug - 10:54:57.39 ** 
+Debug - 10:54:57.41 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:54:57.42 ** 
+Debug - 10:54:57.43 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:54:57.46 ** 
+Debug - 10:54:57.48 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 10:54:57.49 ** 
+Debug - 10:54:57.51 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 10:54:57.85 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 10:55:17.12 ** Group FMR adds unit [FMS]  (Hamina). Count=1
+Debug - 10:55:17.68 ** Group FNE adds unit [FNF]  (Iver Huitfeldt). Count=1
+Debug - 10:55:17.78 ** Group FOC adds unit [FOD]  (Sachsen). Count=1
+Debug - 10:55:17.82 ** LoadGameScenario: Unit [FOD] Sachsen (Sachsen) has added carried unit [FOS] NH90 NFH FOS (NH90 NFH)
+Debug - 10:55:17.92 ** GetAvailableGamePlayer adding player [FPE] FPE
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 10:55:17.93 ** Group FPH adds unit [FPI]  (Admiral Gorshkov). Count=1
+Debug - 10:55:17.95 ** LoadGameScenario: Unit [FPI] Admiral Sergey Gorshkov (Admiral Gorshkov) has added carried unit [FPY] Kamov Ka-27 FPY (Kamov Ka-27)
+Debug - 10:55:17.96 ** Group FQH adds unit [FQI]  (Project 206MR Vikhr). Count=1
+Debug - 10:55:17.98 ** Group FQO adds unit [FQP]  (Admiral Gorshkov). Count=1
+Debug - 10:55:17.99 ** LoadGameScenario: Unit [FQP] Admiral Kasatonov (Admiral Gorshkov) has added carried unit [FRF] Kamov Ka-27 FRF (Kamov Ka-27)
+Debug - 10:55:17.103 ** **************************************************************************
+Debug - 10:55:17.104 ** Game->StartGamePlay. GameName: SCE_BETAPVP3_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 10:55:17.105 ** **************************************************************************
+Debug - 10:55:17.115 ** CreateNewMessage: From: [FPE] FPE
+To: [ALP] ALP
+gg wp
+
+Debug - 10:55:56.577 ** CreateNewMessage: From: [FPE] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 10:55:56.594 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 057° 16' 44"N, 022° 50' 25"E for player [FPE] Computer AI
+Debug - 10:55:56.596 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 056° 17' 05"N, 019° 52' 44"E for player [FPE] Computer AI
+Debug - 10:55:56.597 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 058° 23' 10"N, 021° 30' 34"E for player [FPE] Computer AI
+Debug - 10:56:00.771 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 057° 16' 44"N, 022° 50' 25"E
+Debug - 10:56:00.789 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 10:56:00.791 ** SetAswAirPatrol launches 0 aircraft to fulfill AEW role near 057° 16' 44"N, 022° 50' 25"E.
+Debug - 10:56:00.796 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 056° 17' 05"N, 019° 52' 44"E
+Debug - 10:56:00.798 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 10:56:00.799 ** SetAswAirPatrol launches 0 aircraft to fulfill AEW role near 056° 17' 05"N, 019° 52' 44"E.
+Debug - 10:56:01.239 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAswPatrol   Pos: 058° 23' 10"N, 021° 30' 34"E
+Debug - 10:56:01.251 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 10:56:01.253 ** SetAswAirPatrol launches 0 aircraft to fulfill ASW role near 058° 23' 10"N, 021° 30' 34"E.
+Debug - 11:01:40.864 ** Game() object ALN instantiated!
+Debug - 11:01:40.866 ** ***** NWServerConsole started *****
+Debug - 11:01:42.54 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 11:01:42.73 ** **************************************************************************
+Debug - 11:01:42.74 ** GameManager->CreateGame. GameName: test game
+Debug - 11:01:42.75 ** **************************************************************************
+Debug - 11:01:42.77 ** Game() object ALO instantiated!
+Debug - 11:01:42.82 ** 
+Debug - 11:01:42.84 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 11:01:42.85 ** 
+Debug - 11:01:42.87 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 11:01:42.88 ** 
+Debug - 11:01:42.91 ** **************************************************************************
+Debug - 11:01:42.92 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 11:01:42.93 ** **************************************************************************
+Debug - 11:02:01.231 ** Game connection status is set to Connected
+Debug - 11:02:01.233 ** 
+Debug - 11:02:01.234 ** Status changed. Status=Connected
+Debug - 11:02:01.236 ** 
+Debug - 11:02:01.267 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 11:02:01.269 ** 
+Debug - 11:02:01.270 ** NWConsole: New connection. Id=1
+Debug - 11:02:01.272 ** 
+Debug - 11:02:04.88 ** 
+Debug - 11:02:04.90 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:02:04.91 ** 
+Debug - 11:02:04.103 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:02:04.113 ** 
+Debug - 11:02:04.114 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:02:04.116 ** 
+Debug - 11:02:04.117 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:02:04.120 ** HandleGameControlMessage: Player [ALP] ALP selects scenario SCE_BETAPVP3_GAME_NAME at skill level 2
+Debug - 11:02:05.486 ** 
+Debug - 11:02:05.488 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:02:05.489 ** 
+Debug - 11:02:05.490 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 11:02:05.494 ** SelectUser: User not found: Jan
+Debug - 11:02:05.496 ** 
+Debug - 11:02:05.498 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:02:05.499 ** 
+Debug - 11:02:05.500 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:02:05.503 ** 
+Debug - 11:02:05.505 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:02:05.506 ** 
+Debug - 11:02:05.508 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:02:05.542 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 11:02:18.167 ** Group FMR adds unit [FMS]  (Hamina). Count=1
+Debug - 11:02:18.222 ** Group FNE adds unit [FNF]  (Iver Huitfeldt). Count=1
+Debug - 11:02:18.232 ** Group FOC adds unit [FOD]  (Sachsen). Count=1
+Debug - 11:02:18.235 ** LoadGameScenario: Unit [FOD] Sachsen (Sachsen) has added carried unit [FOS] NH90 NFH FOS (NH90 NFH)
+Debug - 11:02:18.246 ** GetAvailableGamePlayer adding player [FPE] FPE
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 11:02:18.248 ** Group FPH adds unit [FPI]  (Admiral Gorshkov). Count=1
+Debug - 11:02:18.249 ** LoadGameScenario: Unit [FPI] Admiral Sergey Gorshkov (Admiral Gorshkov) has added carried unit [FPY] Kamov Ka-27 FPY (Kamov Ka-27)
+Debug - 11:02:18.250 ** Group FQH adds unit [FQI]  (Project 206MR Vikhr). Count=1
+Debug - 11:02:18.252 ** Group FQO adds unit [FQP]  (Admiral Gorshkov). Count=1
+Debug - 11:02:18.253 ** LoadGameScenario: Unit [FQP] Admiral Kasatonov (Admiral Gorshkov) has added carried unit [FRF] Kamov Ka-27 FRF (Kamov Ka-27)
+Debug - 11:02:18.257 ** **************************************************************************
+Debug - 11:02:18.258 ** Game->StartGamePlay. GameName: SCE_BETAPVP3_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 11:02:18.259 ** **************************************************************************
+Debug - 11:02:25.795 ** CreateNewMessage: From: [FPE] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 11:02:25.811 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 057° 16' 44"N, 022° 50' 25"E for player [FPE] Computer AI
+Debug - 11:02:25.813 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAewPatrol   Pos: 056° 17' 05"N, 019° 52' 44"E for player [FPE] Computer AI
+Debug - 11:02:25.815 ** GenerateHloifNeccessary adds new hlo HighLevelOrder: SetAswPatrol   Pos: 058° 23' 10"N, 021° 30' 34"E for player [FPE] Computer AI
+Debug - 11:02:26.879 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 057° 16' 44"N, 022° 50' 25"E
+Debug - 11:02:26.897 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 11:02:26.899 ** SetAswAirPatrol launches 0 aircraft to fulfill AEW role near 057° 16' 44"N, 022° 50' 25"E.
+Debug - 11:02:27.902 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAewPatrol   Pos: 056° 17' 05"N, 019° 52' 44"E
+Debug - 11:02:27.904 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 11:02:27.906 ** SetAswAirPatrol launches 0 aircraft to fulfill AEW role near 056° 17' 05"N, 019° 52' 44"E.
+Debug - 11:02:27.909 ** ExecuteHighLevelOrders for player [FPE] Computer AI: Order HighLevelOrder: SetAswPatrol   Pos: 058° 23' 10"N, 021° 30' 34"E
+Debug - 11:02:27.921 ** Launchaircraft(order) set to launch 0 aircraft.
+Debug - 11:02:27.923 ** SetAswAirPatrol launches 0 aircraft to fulfill ASW role near 058° 23' 10"N, 021° 30' 34"E.
+Debug - 11:12:25.977 ** Game() object ALN instantiated!
+Debug - 11:12:25.979 ** ***** NWServerConsole started *****
+Debug - 11:12:27.188 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 11:12:27.207 ** **************************************************************************
+Debug - 11:12:27.208 ** GameManager->CreateGame. GameName: test game
+Debug - 11:12:27.210 ** **************************************************************************
+Debug - 11:12:27.211 ** Game() object ALO instantiated!
+Debug - 11:12:27.217 ** 
+Debug - 11:12:27.219 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 11:12:27.220 ** 
+Debug - 11:12:27.221 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 11:12:27.223 ** 
+Debug - 11:12:27.226 ** **************************************************************************
+Debug - 11:12:27.228 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 11:12:27.229 ** **************************************************************************
+Debug - 11:12:58.695 ** Game() object ALN instantiated!
+Debug - 11:12:58.697 ** ***** NWServerConsole started *****
+Debug - 11:12:59.890 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 11:12:59.909 ** **************************************************************************
+Debug - 11:12:59.910 ** GameManager->CreateGame. GameName: test game
+Debug - 11:12:59.912 ** **************************************************************************
+Debug - 11:12:59.913 ** Game() object ALO instantiated!
+Debug - 11:12:59.919 ** 
+Debug - 11:12:59.922 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 11:12:59.923 ** 
+Debug - 11:12:59.924 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 11:12:59.926 ** 
+Debug - 11:12:59.929 ** **************************************************************************
+Debug - 11:12:59.931 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 11:12:59.933 ** **************************************************************************
+Debug - 11:13:13.71 ** Game connection status is set to Connected
+Debug - 11:13:13.73 ** 
+Debug - 11:13:13.74 ** Status changed. Status=Connected
+Debug - 11:13:13.76 ** 
+Debug - 11:13:13.106 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 11:13:13.108 ** 
+Debug - 11:13:13.110 ** NWConsole: New connection. Id=1
+Debug - 11:13:13.111 ** 
+Debug - 11:13:14.826 ** 
+Debug - 11:13:14.828 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:13:14.829 ** 
+Debug - 11:13:14.841 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:13:14.851 ** 
+Debug - 11:13:14.852 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:13:14.854 ** 
+Debug - 11:13:14.855 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:13:14.859 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TURKEYSHOOT_GAME_NAME at skill level 2
+Debug - 11:13:17.551 ** 
+Debug - 11:13:17.552 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:13:17.553 ** 
+Debug - 11:13:17.555 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 11:13:17.558 ** SelectUser: User not found: Jan
+Debug - 11:13:17.562 ** 
+Debug - 11:13:17.563 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:13:17.564 ** 
+Debug - 11:13:17.565 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:13:17.568 ** 
+Debug - 11:13:17.569 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:13:17.571 ** 
+Debug - 11:13:17.572 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:13:17.607 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 11:13:22.268 ** GameData->CreateUnit: Unit [BJA]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 11:13:22.272 ** Group BIZ adds unit [BJA]  (UK Airport). Count=1
+Debug - 11:13:22.329 ** Group BSF adds unit [BSG]  (E-3 Sentry). Count=1
+Debug - 11:13:22.339 ** Group BSK adds unit [BSL]  (Virginia). Count=1
+Debug - 11:13:22.342 ** Group BST adds unit [BSU]  (Virginia). Count=1
+Debug - 11:13:22.346 ** Group BTC adds unit [BTD]  (CG Ticonderoga). Count=1
+Debug - 11:13:22.352 ** Group BTC adds unit [BUM]  (Arleigh Burke). Count=2
+Debug - 11:13:22.367 ** GetAvailableGamePlayer adding player [BVV] BVV
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 11:13:22.371 ** Group BVY adds unit [BVZ]  (Shchuka-B). Count=1
+Debug - 11:13:22.373 ** Group BWK adds unit [BWL]  (M/S Pamela). Count=1
+Debug - 11:13:22.375 ** Group BWK adds unit [BWP]  (MV Sirius Star). Count=2
+Debug - 11:13:22.376 ** Group BWU adds unit [BWV]  (Fishing Boat). Count=1
+Debug - 11:13:22.378 ** Group BWU adds unit [BWZ]  (Fishing Boat). Count=2
+Debug - 11:13:22.381 ** **************************************************************************
+Debug - 11:13:22.383 ** Game->StartGamePlay. GameName: TUT_TURKEYSHOOT_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 11:13:22.384 ** **************************************************************************
+Debug - 11:13:22.871 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BVV] BVV
+Debug - 11:44:39.973 ** Game() object ALN instantiated!
+Debug - 11:44:39.974 ** ***** NWServerConsole started *****
+Debug - 11:44:41.134 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 11:44:41.153 ** **************************************************************************
+Debug - 11:44:41.155 ** GameManager->CreateGame. GameName: test game
+Debug - 11:44:41.156 ** **************************************************************************
+Debug - 11:44:41.157 ** Game() object ALO instantiated!
+Debug - 11:44:41.162 ** 
+Debug - 11:44:41.164 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 11:44:41.166 ** 
+Debug - 11:44:41.167 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 11:44:41.169 ** 
+Debug - 11:44:41.171 ** **************************************************************************
+Debug - 11:44:41.173 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 11:44:41.175 ** **************************************************************************
+Debug - 11:44:54.513 ** Game connection status is set to Connected
+Debug - 11:44:54.514 ** 
+Debug - 11:44:54.516 ** Status changed. Status=Connected
+Debug - 11:44:54.518 ** 
+Debug - 11:44:54.551 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 11:44:54.553 ** 
+Debug - 11:44:54.554 ** NWConsole: New connection. Id=1
+Debug - 11:44:54.556 ** 
+Debug - 11:44:55.772 ** 
+Debug - 11:44:55.774 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:44:55.775 ** 
+Debug - 11:44:55.787 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:44:55.797 ** 
+Debug - 11:44:55.799 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:44:55.800 ** 
+Debug - 11:44:55.802 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:44:55.805 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TURKEYSHOOT_GAME_NAME at skill level 2
+Debug - 11:44:56.900 ** 
+Debug - 11:44:56.901 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:44:56.903 ** 
+Debug - 11:44:56.904 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 11:44:56.907 ** SelectUser: User not found: Jan
+Debug - 11:44:56.910 ** 
+Debug - 11:44:56.912 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:44:56.913 ** 
+Debug - 11:44:56.915 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:44:56.917 ** 
+Debug - 11:44:56.919 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:44:56.920 ** 
+Debug - 11:44:56.922 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:44:56.958 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 11:45:01.682 ** GameData->CreateUnit: Unit [BJA]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 11:45:01.686 ** Group BIZ adds unit [BJA]  (UK Airport). Count=1
+Debug - 11:45:01.739 ** Group BSF adds unit [BSG]  (E-3 Sentry). Count=1
+Debug - 11:45:01.750 ** Group BSK adds unit [BSL]  (Virginia). Count=1
+Debug - 11:45:01.753 ** Group BST adds unit [BSU]  (Virginia). Count=1
+Debug - 11:45:01.756 ** Group BTC adds unit [BTD]  (CG Ticonderoga). Count=1
+Debug - 11:45:01.763 ** Group BTC adds unit [BUM]  (Arleigh Burke). Count=2
+Debug - 11:45:01.779 ** GetAvailableGamePlayer adding player [BVV] BVV
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 11:45:01.784 ** Group BVY adds unit [BVZ]  (Shchuka-B). Count=1
+Debug - 11:45:01.786 ** Group BWK adds unit [BWL]  (M/S Pamela). Count=1
+Debug - 11:45:01.787 ** Group BWK adds unit [BWP]  (MV Sirius Star). Count=2
+Debug - 11:45:01.789 ** Group BWU adds unit [BWV]  (Fishing Boat). Count=1
+Debug - 11:45:01.790 ** Group BWU adds unit [BWZ]  (Fishing Boat). Count=2
+Debug - 11:45:01.794 ** **************************************************************************
+Debug - 11:45:01.795 ** Game->StartGamePlay. GameName: TUT_TURKEYSHOOT_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 11:45:01.797 ** **************************************************************************
+Debug - 11:45:02.306 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BVV] BVV
+Debug - 11:45:03.16 ** CreateNewMessage: From: [BVV] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 11:45:03.100 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection LargeSurface BXG  [Undetermined]
+Position: 060° 00' 02"N, 004° 01' 39"ESensors: (1)
+Sensor [BSV] AN/BQQ-5 Bow-Mounted Spherical Array Sonar  on unit USS Texas [Virginia]: Distance 23779,44m at 89,62deg. Strength: 1,50. Size: 0,00 ArcSec
+ 
+Debug - 11:45:03.111 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection LargeSurface BXI  [Undetermined]
+Position: 060° 00' 15"N, 004° 01' 27"ESensors: (1)
+Sensor [BSV] AN/BQQ-5 Bow-Mounted Spherical Array Sonar  on unit USS Texas [Virginia]: Distance 23597,65m at 88,65deg. Strength: 1,45. Size: 0,00 ArcSec
+ 
+Debug - 11:45:03.380 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection MediumSurface BXL  [Undetermined]
+Position: 061° 00' 06"N, 003° 32' 40"ESensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 29361,16m at 89,35deg. Strength: 1,24. Size: 0,00 ArcSec
+ 
+Debug - 11:45:03.385 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection MediumSurface BXN  [Undetermined]
+Position: 060° 59' 17"N, 003° 28' 29"ESensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 25643,74m at 92,71deg. Strength: 1,31. Size: 0,00 ArcSec
+ 
+Debug - 11:45:09.318 ** 
+Debug - 11:45:09.320 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 11:45:09.321 ** 
+Debug - 11:45:09.323 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 11:45:12.507 ** ExecuteHighLevelOrders for player [ALP] ALP: Order HighLevelOrder: SetAswPatrol asw  Pos: 061° 00' 00"N, 003° 00' 00"E
+Debug - 11:45:12.535 ** CreateAircraftLaunchOrder orders carrier [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft with 1 order(s).
+Debug - 11:45:12.538 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 11:45:12.540 ** CreateAircraftLaunchOrder orders carrier [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft with 1 order(s).
+Debug - 11:45:12.542 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 11:45:12.543 ** SetAswAirPatrol launches 1 aircraft to fulfill ASW role near 061° 00' 00"N, 003° 00' 00"E.
+Debug - 11:45:12.558 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:12.573 ** LaunchAircraft: Unit [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft.
+Debug - 11:45:12.577 **      Order: MovementOrder BXR, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 060° 59' 04"N, 003° 03' 17"E Height:100,00  (has 1 orders)
+Debug - 11:45:12.714 ** Group CDL adds unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk). Count=1
+Debug - 11:45:13.525 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: MovementOrder
+Debug - 11:45:13.534 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:13.734 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:14.540 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:14.744 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:15.549 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:15.677 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:16.583 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:16.775 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:17.680 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:17.786 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:18.691 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:18.799 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:19.704 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:19.813 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:20.718 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:20.828 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:21.734 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:21.873 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:22.778 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:22.887 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:23.792 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:23.904 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:24.809 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:24.920 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:25.825 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:25.976 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:26.883 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:27.6 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:27.911 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:28.67 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:28.972 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:29.95 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:30.1 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:30.109 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:31.15 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:31.123 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:32.29 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:32.170 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:33.187 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:33.197 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:34.103 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:34.227 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:35.132 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:35.257 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:36.162 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:36.271 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:37.177 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:37.287 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:38.192 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:38.304 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:39.210 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:39.319 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:40.224 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:40.344 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:41.249 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:41.404 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:42.309 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:42.427 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:43.332 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:43.494 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:44.400 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:44.509 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:45.414 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:45.571 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:46.476 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:46.599 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:47.504 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:47.646 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:48.551 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:48.679 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:49.584 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:49.688 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:50.593 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:50.704 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:51.609 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:51.677 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:52.683 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:52.781 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:53.686 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:53.790 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:54.697 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:54.807 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:55.712 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:55.818 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:56.724 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:56.869 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:57.774 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:57.879 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:58.785 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:58.898 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:59.803 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:45:59.910 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:00.816 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:00.920 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:01.826 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:01.835 ** BaseUnit->EngageDetectedUnit creates new order for [BVZ] Vepr (Shchuka-B). Type EngageNotClose  Target MediumSurface BXL  [Foe]
+Debug - 11:46:01.843 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:46:01.845 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface BXL  [Foe]
+Debug - 11:46:01.846 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:46:01.848 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:46:01.938 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:01.940 ** ExecuteOrders: Unit [BVZ] Vepr (Shchuka-B) order: EngagementOrder
+Debug - 11:46:02.6 ** GetBestUnitEngagementStatusResult: [BVZ] Vepr (Shchuka-B) Best status: EngagementStatus: Trgt:MediumSurface BXL  [Foe] Wpn: Type 65-76 Heavyweight Torpedo (22) Ready to engage
+Debug - 11:46:02.7 ** GetBestUnitEngagementStatusResult: [BVZ] Vepr (Shchuka-B) Best status: EngagementStatus: Trgt:MediumSurface BXL  [Foe] Wpn: Type 65-76 Heavyweight Torpedo (22) Ready to engage
+Debug - 11:46:02.18 ** Fire: Weapon Type 65-76 Heavyweight Torpedo to engage target MediumSurface BXL  [Foe] with 1 rounds.
+Debug - 11:46:02.37 ** Group CDR adds unit [CDS] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo). Count=1
+Debug - 11:46:02.55 ** Fire: Weapon Type 65-76 Heavyweight Torpedo launches MissileUnit [CDS] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo). First wp: [WP] Pos: 060° 59' 42"N, 003° 00' 00"E Bearing:180,00 Height:-100,00  (has 1 orders)
+Debug - 11:46:02.860 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:02.953 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:03.969 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:03.977 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:04.983 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:05.7 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:06.13 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:06.36 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:07.43 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:07.51 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:08.56 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:08.64 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:09.69 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:09.78 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:10.85 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:10.95 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:11.100 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:11.109 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:12.116 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:12.124 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:13.129 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:13.136 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 11:46:13.138 ** LaunchAircraft: Unit [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft.
+Debug - 11:46:13.141 **      Order: MovementOrder CAO, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 060° 58' 57"N, 003° 03' 11"E Height:100,00  (has 1 orders)
+Error - 11:46:13.142 ** BaseUnit.LaunchAircraft: could not launch aircraft [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) from Winston S. Churchill
+Error - 11:46:13.144 ** BaseUnit.LaunchAircraft: could not launch any aircraft from Winston S. Churchill
+Debug - 11:46:16.283 ** ExecuteOrders: Unit [CDS] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 11:46:16.285 ** ExecuteOrders: MissileSearchForTarget. Unit [CDS] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) to search for target BXL.
+Debug - 11:46:16.291 ** MissileUnit->InterceptTarget. Missile [CDS] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) set to intercept target MediumSurface BXL  [Foe]
+Debug - 11:47:02.262 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:47:02.264 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:48:02.317 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:48:02.319 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface BXL  [Foe]
+Debug - 11:48:02.320 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:48:02.322 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:49:03.293 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:49:03.295 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface BXL  [Foe]
+Debug - 11:49:03.296 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:49:03.297 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:49:45.926 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 11:49:45.928 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 11:49:45.945 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection Submarine CEG  [Undetermined]
+Position: 060° 59' 38"N, 002° 59' 58"ESensors: (1)
+Sensor [CEF] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CEE [DICASS AN/SSQ-62 Sonobuoy]: Distance 3102,86m at 289,85deg. Strength: 3,05. Size: 0,00 ArcSec
+ 
+Debug - 11:49:45.948 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection Torpedo CEI  [Foe]
+Position: 060° 59' 45"N, 003° 06' 01"ESensors: (1)
+Sensor [CEF] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CEE [DICASS AN/SSQ-62 Sonobuoy]: Distance 2820,75m at 63,45deg. Strength: 6,70. Size: 0,00 ArcSec
+ 
+Debug - 11:49:45.952 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat Torpedo CEI  [Foe]
+Debug - 11:49:46.451 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CEM  [Undetermined]
+Position: 060° 59' 04"N, 003° 03' 14"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3063,69m at 107,74deg. Strength: 7,31. Size: 0,00 ArcSec
+ 
+Debug - 11:49:46.453 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CEE (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 59' 04"N, 003° 03' 13"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3063,69m at 107,74deg. Strength: 7,31. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3063,69m at 107,74deg. Strength: 7,31. Size: 0,00 ArcSec
+
+Debug - 11:49:46.953 ** CreateOrUpdateDetectionReport: UPDATE:  Vepr (Shchuka-B)  [Foe]
+Position: 060° 59' 34"N, 003° 00' 00"E Fixed. Identified.Sensors: (1)
+Sensor [CEF] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CEE [DICASS AN/SSQ-62 Sonobuoy]: Distance 3101,92m at 289,80deg. Strength: 3,05. Size: 0,00 ArcSec
+
+Debug - 11:49:46.955 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:49:46.957 ** CreateOrUpdateDetectionReport: UPDATE:  Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo)  [Foe]
+Position: 060° 59' 44"N, 003° 05' 59"E Fixed. Identified.Sensors: (1)
+Sensor [CEF] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CEE [DICASS AN/SSQ-62 Sonobuoy]: Distance 2843,84m at 63,68deg. Strength: 6,65. Size: 0,00 ArcSec
+
+Debug - 11:49:46.960 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo)  [Foe]
+Debug - 11:49:54.701 ** 
+Debug - 11:49:54.703 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 11:49:54.704 ** 
+Debug - 11:49:54.707 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BVB to engage target CEG.
+Debug - 11:49:54.711 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: EngagementOrder
+Debug - 11:49:54.714 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 11:49:54.715 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 11:49:54.717 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 11:49:54.719 ** Group CEQ adds unit [CER] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 11:49:54.720 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CER] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 060° 58' 43"N, 003° 02' 47"E Bearing:202,81 Height:100,00  (has 1 orders)
+Debug - 11:49:55.608 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Torpedo CEV  [Foe]
+Position: 060° 58' 42"N, 003° 02' 50"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3006,98m at 121,95deg. Strength: 7,53. Size: 0,00 ArcSec
+ 
+Debug - 11:49:55.609 ** CreateOrUpdateDetectionReport: UPDATE:  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Position: 060° 58' 43"N, 003° 02' 47"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3006,98m at 121,95deg. Strength: 7,53. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3006,98m at 121,95deg. Strength: 7,53. Size: 0,00 ArcSec
+
+Debug - 11:50:00.821 ** ExecuteOrders: Unit [CER] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 11:50:00.823 ** ExecuteOrders: MissileSearchForTarget. Unit [CER] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEG.
+Debug - 11:50:00.824 ** MissileUnit->InterceptTarget. Missile [CER] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 11:50:03.905 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:50:03.912 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:50:03.913 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface BXL  [Foe]
+Debug - 11:50:03.915 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:50:03.916 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:50:06.962 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 11:50:06.965 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 11:50:07.391 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 11:50:07.998 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 11:50:08.401 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 11:50:09.420 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 11:50:09.432 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 11:50:09.433 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 11:50:09.436 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:50:09.438 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo)  [Foe]
+Debug - 11:50:09.946 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CFG  [Undetermined]
+Position: 060° 58' 09"N, 003° 02' 19"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3309,27m at 140,72deg. Strength: 6,92. Size: 0,00 ArcSec
+ 
+Debug - 11:50:09.948 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CFB (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 11"N, 003° 02' 15"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3309,27m at 140,72deg. Strength: 6,92. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3309,27m at 140,72deg. Strength: 6,92. Size: 0,00 ArcSec
+
+Debug - 11:50:22.391 ** 
+Debug - 11:50:22.393 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 11:50:22.395 ** 
+Debug - 11:50:22.396 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BVB to engage target CEG.
+Debug - 11:50:22.400 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: EngagementOrder
+Debug - 11:50:22.402 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 11:50:22.403 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 11:50:22.404 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 11:50:22.406 ** Group CFK adds unit [CFL] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 11:50:22.407 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CFL] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 060° 57' 44"N, 003° 01' 22"E Bearing:223,40 Height:100,00  (has 1 orders)
+Debug - 11:50:22.837 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Torpedo CFP  [Foe]
+Position: 060° 57' 43"N, 003° 01' 22"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3547,29m at 159,48deg. Strength: 6,27. Size: 0,00 ArcSec
+ 
+Debug - 11:50:23.361 ** CreateOrUpdateDetectionReport: UPDATE:  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Position: 060° 57' 43"N, 003° 01' 20"E Fixed. Identified.Sensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3547,55m at 159,49deg. Strength: 6,27. Size: 0,00 ArcSec
+
+Debug - 11:50:28.598 ** ExecuteOrders: Unit [CFL] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 11:50:28.600 ** ExecuteOrders: MissileSearchForTarget. Unit [CFL] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEG.
+Debug - 11:50:28.601 ** MissileUnit->InterceptTarget. Missile [CFL] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 11:50:33.746 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 11:50:33.748 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 11:50:34.187 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:50:34.189 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo)  [Foe]
+Debug - 11:50:34.198 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CFX  [Undetermined]
+Position: 060° 57' 19"N, 003° 00' 43"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4084,38m at 170,89deg. Strength: 5,61. Size: 0,00 ArcSec
+ 
+Debug - 11:50:34.209 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CFS (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 57' 23"N, 003° 00' 41"E Fixed. Identified.Sensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4084,22m at 170,89deg. Strength: 5,61. Size: 0,00 ArcSec
+
+Debug - 11:51:04.858 ** 
+Debug - 11:51:04.860 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 11:51:04.861 ** 
+Debug - 11:51:04.867 ** HandleUnitMovementOrder for unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk): Move to Waypoint destination: 061° 00' 00"N, 003° 00' 00"E. 0 Order(s)
+Debug - 11:51:05.263 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:51:05.268 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:51:05.269 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface BXL  [Foe]
+Debug - 11:51:05.271 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:51:05.272 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:51:33.825 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:51:33.827 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:51:33.829 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:05.868 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:05.874 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:52:05.875 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface BXL  [Foe]
+Debug - 11:52:05.877 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:52:05.878 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:52:07.891 ** 
+Debug - 11:52:07.893 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 11:52:07.895 ** 
+Debug - 11:52:07.897 ** HandleUnitMovementOrder for unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk): Move to Waypoint destination: 061° 00' 00"N, 003° 00' 00"E. 0 Order(s)
+Debug - 11:52:16.588 ** MissileUnit->Impact called for unit CER
+Debug - 11:52:16.595 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CER] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) hits unit [BVZ] Vepr (Shchuka-B).
+Debug - 11:52:16.600 ** GameManager->GetDamageHitpoints returns 119
+Debug - 11:52:16.644 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 119 HP, 59 %.
+Debug - 11:52:16.652 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 119 HP, 59 %.
+Debug - 11:52:16.655 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 0 from targettinglist after miss on target  Vepr (Shchuka-B)  [Foe]. 0 still in list.
+Debug - 11:52:16.657 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:16.660 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:16.662 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:17.108 ** BaseAIHandler.DetectionLost triggered for  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 11:52:21.381 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:21.383 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:25.484 ** 
+Debug - 11:52:25.486 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 11:52:25.487 ** 
+Debug - 11:52:25.489 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BVB to engage target CEG.
+Debug - 11:52:25.493 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: EngagementOrder
+Debug - 11:52:25.495 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 11:52:25.497 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 11:52:25.498 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 11:52:25.500 ** Group CGG adds unit [CGH] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 11:52:25.501 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CGH] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 060° 59' 44"N, 002° 59' 42"E Bearing:208,74 Height:100,00  (has 1 orders)
+Debug - 11:52:25.806 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:52:31.726 ** ExecuteOrders: Unit [CGH] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 11:52:31.728 ** ExecuteOrders: MissileSearchForTarget. Unit [CGH] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEG.
+Debug - 11:52:31.730 ** MissileUnit->InterceptTarget. Missile [CGH] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:00.913 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection  E-3 Sentry BSG (E-3 Sentry)  [Foe]
+Position: 061° 39' 54"N, 001° 53' 31"E Identified.Sensors: (1)
+Sensor [BWA] Chiblis 'Park Lamp' Radar on unit Vepr [Shchuka-B]: Distance 96085,87m at 322,33deg. Strength: 12,36. Size: 98,90 ArcSec
+ 
+Debug - 11:53:00.918 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BSG (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:53:00.920 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:53:00.921 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BSG (E-3 Sentry)  [Foe].
+Debug - 11:53:00.923 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe]
+Position: 060° 58' 25"N, 002° 58' 14"E Identified.Sensors: (1)
+Sensor [BWA] Chiblis 'Park Lamp' Radar on unit Vepr [Shchuka-B]: Distance 2270,65m at 224,11deg. Strength: 142,54. Size: 1140,35 ArcSec
+ 
+Debug - 11:53:00.926 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:53:00.927 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:53:00.928 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe].
+Debug - 11:53:00.935 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:00.937 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:00.939 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:00.940 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:00.942 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:00.943 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:01.825 ** MissileUnit->Impact called for unit CFL
+Debug - 11:53:01.826 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CFL] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) hits unit [BVZ] Vepr (Shchuka-B).
+Debug - 11:53:01.828 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 11:53:01.830 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 11:53:01.944 ** BaseAIHandler.DetectionLost triggered for  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 11:53:05.914 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 11:53:05.921 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:53:05.923 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  San Jacinto (CG Ticonderoga)  [Foe]
+Debug - 11:53:05.924 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:53:05.926 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:53:05.927 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BSG (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:53:05.929 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:53:05.930 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BSG (E-3 Sentry)  [Foe].
+Debug - 11:53:05.931 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe]
+Debug - 11:53:05.933 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:53:05.934 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:53:05.936 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe].
+Debug - 11:53:15.229 ** MissileUnit->Impact called for unit CGH
+Debug - 11:53:15.231 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CGH] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) hits unit [BVZ] Vepr (Shchuka-B).
+Debug - 11:53:15.232 ** GameManager->GetDamageHitpoints returns 135
+Debug - 11:53:15.239 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 135 HP, 67 %.
+Target destroyed!
+Debug - 11:53:15.241 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 135 HP, 67 %.
+Target destroyed!
+Debug - 11:53:15.243 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 1 from targettinglist after miss on target  Vepr (Shchuka-B)  [Foe]. 0 still in list.
+Debug - 11:53:15.734 ** BaseAIHandler.DetectionLost triggered for  Vepr (Shchuka-B)  [Foe]
+Debug - 11:54:06.270 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo)  [Foe]
+Debug - 11:54:06.276 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:54:06.277 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  San Jacinto (CG Ticonderoga)  [Foe]
+Debug - 11:54:06.279 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:54:06.280 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:54:06.282 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BSG (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:54:06.283 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:54:06.284 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BSG (E-3 Sentry)  [Foe].
+Debug - 11:54:06.286 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:54:06.287 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:54:06.288 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe].
+Debug - 11:55:03.740 ** ExecuteHighLevelOrders for player [BVV] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 11:55:06.813 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo)  [Foe]
+Debug - 11:55:06.818 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:55:06.819 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  San Jacinto (CG Ticonderoga)  [Foe]
+Debug - 11:55:06.820 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:55:06.822 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 11:55:06.823 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BSG (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:55:06.824 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:55:06.825 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BSG (E-3 Sentry)  [Foe].
+Debug - 11:55:06.827 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 11:55:06.828 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 11:55:06.830 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BVB (SH-60B Seahawk)  [Foe].
+Debug - 12:06:22.201 ** Game() object ALN instantiated!
+Debug - 12:06:22.203 ** ***** NWServerConsole started *****
+Debug - 12:06:23.436 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 12:06:23.455 ** **************************************************************************
+Debug - 12:06:23.457 ** GameManager->CreateGame. GameName: test game
+Debug - 12:06:23.458 ** **************************************************************************
+Debug - 12:06:23.459 ** Game() object ALO instantiated!
+Debug - 12:06:23.465 ** 
+Debug - 12:06:23.467 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 12:06:23.469 ** 
+Debug - 12:06:23.470 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 12:06:23.471 ** 
+Debug - 12:06:23.474 ** **************************************************************************
+Debug - 12:06:23.476 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 12:06:23.477 ** **************************************************************************
+Debug - 12:06:42.215 ** Game connection status is set to Connected
+Debug - 12:06:42.217 ** 
+Debug - 12:06:42.219 ** Status changed. Status=Connected
+Debug - 12:06:42.220 ** 
+Debug - 12:06:42.251 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 12:06:42.254 ** 
+Debug - 12:06:42.255 ** NWConsole: New connection. Id=1
+Debug - 12:06:42.257 ** 
+Debug - 12:06:43.673 ** 
+Debug - 12:06:43.674 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:06:43.676 ** 
+Debug - 12:06:43.688 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 12:06:43.698 ** 
+Debug - 12:06:43.700 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:06:43.701 ** 
+Debug - 12:06:43.702 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 12:06:43.706 ** HandleGameControlMessage: Player [ALP] ALP selects scenario TUT_TURKEYSHOOT_GAME_NAME at skill level 2
+Debug - 12:06:44.547 ** 
+Debug - 12:06:44.549 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:06:44.550 ** 
+Debug - 12:06:44.551 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 12:06:44.555 ** SelectUser: User not found: Jan
+Debug - 12:06:44.558 ** 
+Debug - 12:06:44.559 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:06:44.561 ** 
+Debug - 12:06:44.562 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 12:06:44.565 ** 
+Debug - 12:06:44.567 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:06:44.568 ** 
+Debug - 12:06:44.569 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 12:06:44.603 ** GameData->RecreateWeatherDataFromMain called.
+Warning - 12:06:49.305 ** GameData->CreateUnit: Unit [BJA]  (UK Airport) spawned on low ground and is moved up. Height 131m
+Debug - 12:06:49.310 ** Group BIZ adds unit [BJA]  (UK Airport). Count=1
+Debug - 12:06:49.362 ** Group BSF adds unit [BSG]  (E-3 Sentry). Count=1
+Debug - 12:06:49.372 ** Group BSK adds unit [BSL]  (Virginia). Count=1
+Debug - 12:06:49.375 ** Group BST adds unit [BSU]  (Virginia). Count=1
+Debug - 12:06:49.378 ** Group BTC adds unit [BTD]  (CG Ticonderoga). Count=1
+Debug - 12:06:49.384 ** Group BTC adds unit [BUM]  (Arleigh Burke). Count=2
+Debug - 12:06:49.399 ** GetAvailableGamePlayer adding player [BVV] BVV
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0   IsComputerPlayer: True
+Debug - 12:06:49.404 ** Group BVY adds unit [BVZ]  (Shchuka-B). Count=1
+Debug - 12:06:49.406 ** Group BWK adds unit [BWL]  (M/S Pamela). Count=1
+Debug - 12:06:49.407 ** Group BWK adds unit [BWP]  (MV Sirius Star). Count=2
+Debug - 12:06:49.409 ** Group BWU adds unit [BWV]  (Fishing Boat). Count=1
+Debug - 12:06:49.410 ** Group BWU adds unit [BWZ]  (Fishing Boat). Count=2
+Debug - 12:06:49.414 ** **************************************************************************
+Debug - 12:06:49.415 ** Game->StartGamePlay. GameName: TUT_TURKEYSHOOT_GAME_NAME   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 12:06:49.417 ** **************************************************************************
+Debug - 12:06:49.923 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BVV] BVV
+Debug - 12:06:49.926 ** 
+Debug - 12:06:49.928 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:06:49.930 ** 
+Debug - 12:06:49.931 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 12:07:56.472 ** CreateNewMessage: From: [BVV] Computer AI
+To: [ALP] ALP
+gl hf
+
+Debug - 12:07:56.561 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection LargeSurface BXG  [Undetermined]
+Position: 059° 59' 59"N, 004° 01' 21"ESensors: (1)
+Sensor [BSV] AN/BQQ-5 Bow-Mounted Spherical Array Sonar  on unit USS Texas [Virginia]: Distance 23481,02m at 89,76deg. Strength: 1,50. Size: 0,00 ArcSec
+ 
+Debug - 12:07:56.572 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection LargeSurface BXI  [Undetermined]
+Position: 060° 00' 18"N, 004° 02' 21"ESensors: (1)
+Sensor [BSV] AN/BQQ-5 Bow-Mounted Spherical Array Sonar  on unit USS Texas [Virginia]: Distance 24420,49m at 88,40deg. Strength: 1,45. Size: 0,00 ArcSec
+ 
+Debug - 12:07:56.878 ** ExecuteHighLevelOrders for player [ALP] ALP: Order HighLevelOrder: SetAswPatrol asw  Pos: 061° 00' 00"N, 003° 00' 00"E
+Debug - 12:07:56.908 ** CreateAircraftLaunchOrder orders carrier [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft with 1 order(s).
+Debug - 12:07:56.911 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 12:07:56.913 ** CreateAircraftLaunchOrder orders carrier [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft with 1 order(s).
+Debug - 12:07:56.914 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 12:07:56.916 ** SetAswAirPatrol launches 1 aircraft to fulfill ASW role near 061° 00' 00"N, 003° 00' 00"E.
+Debug - 12:07:56.918 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection MediumSurface CDG  [Undetermined]
+Position: 060° 59' 59"N, 003° 30' 15"ESensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 27198,44m at 89,73deg. Strength: 1,24. Size: 0,00 ArcSec
+ 
+Debug - 12:07:56.923 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection MediumSurface CDI  [Undetermined]
+Position: 060° 59' 08"N, 003° 30' 18"ESensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 27289,41m at 93,06deg. Strength: 1,31. Size: 0,00 ArcSec
+ 
+Debug - 12:07:56.941 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:56.957 ** LaunchAircraft: Unit [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft.
+Debug - 12:07:56.961 **      Order: MovementOrder BXM, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 060° 58' 10"N, 002° 59' 12"E Height:100,00  (has 1 orders)
+Debug - 12:07:56.966 ** Group CDL adds unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk). Count=1
+Debug - 12:07:57.405 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: MovementOrder
+Debug - 12:07:57.415 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:57.422 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:57.428 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:57.930 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:58.427 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:58.445 ** ExecuteOrders: Unit [BUM] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 12:07:58.446 ** LaunchAircraft: Unit [BUM] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft.
+Debug - 12:07:58.448 **      Order: MovementOrder CAJ, 19 waypoint(s). Recurring.
+Current waypoint: [WP] Pos: 061° 01' 27"N, 003° 02' 37"E Height:100,00  (has 1 orders)
+Error - 12:07:58.449 ** BaseUnit.LaunchAircraft: could not launch aircraft [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) from Winston S. Churchill
+Error - 12:07:58.450 ** BaseUnit.LaunchAircraft: could not launch any aircraft from Winston S. Churchill
+Debug - 12:08:04.248 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:04.250 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:04.765 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection Submarine CDS  [Undetermined]
+Position: 060° 59' 29"N, 003° 00' 00"ESensors: (1)
+Sensor [CDR] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CDQ [DICASS AN/SSQ-62 Sonobuoy]: Distance 2553,08m at 17,10deg. Strength: 3,63. Size: 0,00 ArcSec
+ 
+Debug - 12:08:04.769 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CDV  [Undetermined]
+Position: 060° 58' 11"N, 002° 59' 12"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2481,66m at 196,81deg. Strength: 8,81. Size: 0,00 ArcSec
+ 
+Debug - 12:08:04.774 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:04.777 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:05.277 ** CreateOrUpdateDetectionReport: UPDATE:  Vepr (Shchuka-B)  [Foe]
+Position: 060° 59' 28"N, 003° 00' 00"E Fixed. Identified.Sensors: (1)
+Sensor [CDR] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CDQ [DICASS AN/SSQ-62 Sonobuoy]: Distance 2526,60m at 17,29deg. Strength: 3,67. Size: 0,00 ArcSec
+
+Debug - 12:08:05.281 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CDQ (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 10"N, 002° 59' 09"E Fixed. Identified.Sensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2455,14m at 197,00deg. Strength: 8,90. Size: 0,00 ArcSec
+
+Debug - 12:08:05.789 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:05.796 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:05.800 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:06.295 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:06.427 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:06.808 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:06.816 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:07.308 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:07.818 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:07.824 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:07.831 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:07.838 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:08.325 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:08.831 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:08.838 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.335 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.342 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.349 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.356 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.363 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.370 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.376 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.383 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.401 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.423 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.430 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.436 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.443 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.450 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.457 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.462 ** BaseAIHandler.DetectionLost triggered for MediumSurface CDG  [Foe]
+Debug - 12:08:09.463 ** BaseAIHandler.DetectionLost triggered for  Winston S. Churchill (Arleigh Burke)  [Foe]
+Debug - 12:08:09.467 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.474 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.480 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.585 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:09.590 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:10.3 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:10.508 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:11.15 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:11.17 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:11.515 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CEB  [Undetermined]
+Position: 060° 59' 01"N, 002° 55' 44"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3827,47m at 272,31deg. Strength: 6,03. Size: 0,00 ArcSec
+ 
+Debug - 12:08:11.517 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 58"N, 002° 55' 54"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3827,47m at 272,31deg. Strength: 6,03. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3827,47m at 272,31deg. Strength: 6,03. Size: 0,00 ArcSec
+
+Debug - 12:08:11.523 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:11.525 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:12.30 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CEI  [Undetermined]
+Position: 060° 59' 10"N, 002° 54' 51"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4645,46m at 275,97deg. Strength: 4,98. Size: 0,00 ArcSec
+ 
+Debug - 12:08:12.31 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CEE (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 59' 10"N, 002° 55' 03"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4645,46m at 275,97deg. Strength: 4,98. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 4645,46m at 275,97deg. Strength: 4,98. Size: 0,00 ArcSec
+
+Debug - 12:08:12.37 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:12.38 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:12.543 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:13.43 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:13.51 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:13.550 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:14.62 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:14.64 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:14.563 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CEQ  [Undetermined]
+Position: 061° 00' 25"N, 002° 55' 39"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4904,60m at 307,17deg. Strength: 4,67. Size: 0,00 ArcSec
+ 
+Debug - 12:08:14.565 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CEM (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 061° 00' 25"N, 002° 55' 51"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4904,60m at 307,17deg. Strength: 4,67. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 4904,60m at 307,17deg. Strength: 4,67. Size: 0,00 ArcSec
+
+Debug - 12:08:15.640 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:15.642 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:16.778 ** 
+Debug - 12:08:16.780 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 12:08:16.781 ** 
+Debug - 12:08:16.787 ** HandleMessageFromClient: UnitEngagementOrder received for Unit CDX to engage target CDS.
+Debug - 12:08:17.179 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:17.180 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:17.182 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:17.679 ** ExecuteOrders: Unit [CDX] DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy) order: EngagementOrder
+Debug - 12:08:17.701 ** ExecuteEngagementOrder: [CDX] DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy) does not have a weapon with which to engage target  Vepr (Shchuka-B)  [Foe]. 
+Debug - 12:08:18.191 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:18.197 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:08:18.200 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:18.814 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:19.226 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:19.735 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:19.736 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:20.356 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:20.357 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:20.785 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:20.787 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:21.396 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:21.830 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:22.438 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:22.860 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:23.575 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:23.577 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:24.78 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:24.83 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CFK  [Undetermined]
+Position: 061° 01' 23"N, 003° 04' 00"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 6315,70m at 34,77deg. Strength: 3,54. Size: 0,00 ArcSec
+ 
+Debug - 12:08:24.85 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CFG (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 061° 01' 22"N, 003° 03' 59"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 6315,70m at 34,77deg. Strength: 3,54. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 6315,70m at 34,77deg. Strength: 3,54. Size: 0,00 ArcSec
+
+Debug - 12:08:24.89 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:08:24.499 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:24.501 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:24.655 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CFR  [Undetermined]
+Position: 061° 01' 15"N, 003° 03' 58"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 6129,54m at 35,61deg. Strength: 3,61. Size: 0,00 ArcSec
+ 
+Debug - 12:08:24.656 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CFN (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 061° 01' 14"N, 003° 04' 06"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 6129,54m at 35,61deg. Strength: 3,61. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 6129,54m at 35,61deg. Strength: 3,61. Size: 0,00 ArcSec
+
+Debug - 12:08:29.672 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:29.675 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:29.784 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:29.790 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:08:29.795 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:30.703 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:30.796 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:31.703 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:31.706 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:31.708 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:31.822 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CFY  [Undetermined]
+Position: 060° 58' 05"N, 003° 03' 35"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3308,11m at 102,07deg. Strength: 6,80. Size: 0,00 ArcSec
+ 
+Debug - 12:08:31.823 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CFU (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 06"N, 003° 03' 33"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3308,11m at 102,07deg. Strength: 6,80. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3308,11m at 102,07deg. Strength: 6,80. Size: 0,00 ArcSec
+
+Debug - 12:08:31.830 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:31.831 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:31.841 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CGF  [Undetermined]
+Position: 060° 58' 03"N, 003° 03' 25"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3182,75m at 104,06deg. Strength: 6,80. Size: 0,00 ArcSec
+ 
+Debug - 12:08:31.842 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CGB (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 06"N, 003° 03' 33"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3182,75m at 104,06deg. Strength: 6,80. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3182,75m at 104,06deg. Strength: 6,80. Size: 0,00 ArcSec
+
+Debug - 12:08:32.749 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:32.751 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:33.372 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:33.781 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:33.875 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:34.786 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:34.916 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:34.917 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:35.430 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CGM  [Undetermined]
+Position: 060° 58' 34"N, 003° 02' 16"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2066,88m at 81,78deg. Strength: 11,25. Size: 0,00 ArcSec
+ 
+Debug - 12:08:35.432 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CGI (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 34"N, 003° 02' 10"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2066,88m at 81,78deg. Strength: 11,25. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 2066,88m at 81,78deg. Strength: 11,25. Size: 0,00 ArcSec
+
+Debug - 12:08:35.840 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:35.841 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:35.948 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:35.952 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CGT  [Undetermined]
+Position: 060° 58' 53"N, 003° 01' 27"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 1581,64m at 56,18deg. Strength: 14,28. Size: 0,00 ArcSec
+ 
+Debug - 12:08:35.954 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CGP (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 58' 51"N, 003° 01' 27"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 1581,64m at 56,18deg. Strength: 14,28. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 1581,64m at 56,18deg. Strength: 14,28. Size: 0,00 ArcSec
+
+Debug - 12:08:35.959 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:08:39.957 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:39.959 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:40.86 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:40.999 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:41.151 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:42.68 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:42.73 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:42.80 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:08:42.184 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:42.186 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:42.689 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Sonobuoy CHA  [Undetermined]
+Position: 060° 57' 43"N, 002° 59' 12"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 1305,99m at 213,29deg. Strength: 17,60. Size: 0,00 ArcSec
+ 
+Debug - 12:08:42.691 ** CreateOrUpdateDetectionReport: UPDATE:  DICASS AN/SSQ-62 Sonobuoy CGW (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 060° 57' 44"N, 002° 59' 13"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 1305,99m at 213,29deg. Strength: 17,60. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 1305,99m at 213,29deg. Strength: 17,60. Size: 0,00 ArcSec
+
+Debug - 12:08:45.121 ** 
+Debug - 12:08:45.122 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 12:08:45.124 ** 
+Debug - 12:08:45.126 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BVB to engage target CDS.
+Debug - 12:08:45.129 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: EngagementOrder
+Debug - 12:08:45.143 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 12:08:45.145 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 12:08:45.156 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 12:08:45.171 ** Group CHE adds unit [CHF] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 12:08:45.189 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CHF] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 060° 58' 29"N, 002° 56' 46"E Bearing:301,97 Height:100,00  (has 1 orders)
+Debug - 12:08:45.260 ** ExecuteOrders: Unit [CHF] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 12:08:45.261 ** ExecuteOrders: MissileSearchForTarget. Unit [CHF] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CDS.
+Debug - 12:08:45.267 ** MissileUnit->InterceptTarget. Missile [CHF] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:45.774 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Torpedo CHK  [Foe]
+Position: 060° 58' 28"N, 002° 56' 50"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2857,94m at 277,41deg. Strength: 7,79. Size: 0,00 ArcSec
+ 
+Debug - 12:08:45.776 ** CreateOrUpdateDetectionReport: UPDATE:  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Position: 060° 58' 29"N, 002° 56' 51"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2857,94m at 277,41deg. Strength: 7,79. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 2857,94m at 277,41deg. Strength: 7,79. Size: 0,00 ArcSec
+
+Debug - 12:08:46.273 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:46.275 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:48.306 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:48.316 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:08:49.221 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:49.223 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:49.325 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:50.236 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:50.333 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:51.249 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:51.341 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:51.343 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:52.254 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:52.256 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:54.279 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:54.281 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:54.387 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:08:54.394 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:08:54.400 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 12:08:55.310 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: ScheduledOrder
+Debug - 12:08:55.402 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetSpeed
+Debug - 12:08:56.336 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SetElevation
+Debug - 12:08:56.443 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:56.445 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:57.363 ** ExecuteHighLevelOrders for player [BVV] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 12:08:57.369 ** BaseAIHandler->TurnOffActiveRadar() triggers for player [BVV] Computer AI
+Debug - 12:08:57.375 ** BaseAIHandler->TurnOffActiveSonar() triggers for player [BVV] Computer AI
+Debug - 12:08:58.394 ** 
+Debug - 12:08:58.396 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 12:08:58.397 ** 
+Debug - 12:08:58.399 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BVB to engage target CDS.
+Debug - 12:08:58.428 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: EngagementOrder
+Debug - 12:08:58.430 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 12:08:58.431 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 12:08:58.432 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 12:08:58.434 ** Group CHP adds unit [CHQ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 12:08:58.435 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CHQ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 061° 01' 29"N, 003° 00' 54"E Bearing:93,06 Height:100,00  (has 1 orders)
+Debug - 12:08:59.401 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: SpecialOrders
+Debug - 12:08:59.402 ** ExecuteOrders: SpecialOrders. Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 12:08:59.502 ** ExecuteOrders: Unit [CHQ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 12:08:59.503 ** ExecuteOrders: MissileSearchForTarget. Unit [CHQ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CDS.
+Debug - 12:08:59.505 ** MissileUnit->InterceptTarget. Missile [CHQ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:00.417 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:00.426 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:04.559 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection Torpedo CHV  [Foe]
+Position: 061° 01' 00"N, 003° 01' 08"ESensors: (1)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 5714,89m at 341,37deg. Strength: 1,01. Size: 0,00 ArcSec
+ 
+Debug - 12:09:06.741 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:06.750 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:12.792 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:12.800 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:18.908 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:18.917 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CEM (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:18.919 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CFG (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:18.920 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CFN (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:18.921 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:23.78 ** 
+Debug - 12:09:23.80 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 12:09:23.81 ** 
+Debug - 12:09:23.82 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 12:09:23.192 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CEE (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:25.243 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:25.252 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:28.197 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CDX (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:31.255 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:31.264 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:37.582 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:37.591 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:43.598 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:43.608 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:44.757 ** CreateOrUpdateDetectionReport: UPDATE:  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Position: 060° 58' 16"N, 003° 08' 10"E Fixed. Identified.Sensors: (2)
+Sensor [BWB] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2873,31m at 285,04deg. Strength: 2,01. Size: 0,00 ArcSec
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 3598,84m at 302,96deg. Strength: 1,62. Size: 0,00 ArcSec
+
+Debug - 12:09:45.829 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CDQ (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:45.831 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CGW (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:49.984 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:49.993 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:52.956 ** Unit [CHF] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) has a max range of 14200m, has moved 14208,9329488671m and is being deleted. Distance to target: 347,472410230143m.
+Debug - 12:09:52.991 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 12:09:52.997 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 12:09:53.71 ** BaseAIHandler.DetectionLost triggered for  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:56.73 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:09:56.82 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CGP (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:09:56.83 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:09:58.120 ** ExecuteHighLevelOrders for player [BVV] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 12:09:58.122 ** BaseAIHandler->TurnOffActiveRadar() triggers for player [BVV] Computer AI
+Debug - 12:09:58.124 ** BaseAIHandler->TurnOffActiveSonar() triggers for player [BVV] Computer AI
+Debug - 12:09:58.207 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection  DICASS AN/SSQ-62 Sonobuoy CFG (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 061° 01' 26"N, 003° 03' 48"E Identified.Sensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 11111,38m at 305,31deg. Strength: 12,24. Size: 0,00 ArcSec
+ 
+Debug - 12:09:58.209 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection  DICASS AN/SSQ-62 Sonobuoy CFN (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Position: 061° 01' 08"N, 003° 04' 19"E Identified.Sensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 10401,54m at 304,27deg. Strength: 12,51. Size: 0,00 ArcSec
+ 
+Debug - 12:10:00.150 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CGI (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:10:02.202 ** 
+Debug - 12:10:02.204 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 12:10:02.205 ** 
+Debug - 12:10:02.207 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BVB to engage target CDS.
+Debug - 12:10:02.211 ** ExecuteOrders: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) order: EngagementOrder
+Debug - 12:10:02.213 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:02.215 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:02.217 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 2,49km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:02.220 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:02.228 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:10:03.215 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:03.217 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 42"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:03.218 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.220 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.221 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 2,16km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:03.223 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:03.224 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 42"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:03.225 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.227 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.228 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 2,08km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:03.229 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:03.231 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 42"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:03.232 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.234 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.235 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 2,00km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:03.237 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:03.238 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 42"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:03.239 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.241 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.242 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,92km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:03.244 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:03.245 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 42"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:03.246 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.248 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.249 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,83km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:03.333 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:03.334 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:03.338 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.339 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:03.341 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 2,00km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.243 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.244 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.246 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.247 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.249 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,92km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.250 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.252 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.253 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.255 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.256 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,84km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.258 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.259 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.261 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.262 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.264 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,75km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.265 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.267 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.269 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.270 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.272 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,67km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.273 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.275 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.276 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.278 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.279 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,59km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.281 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.282 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.283 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.285 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.286 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,50km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.288 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.289 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.291 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.293 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.294 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,42km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.296 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.297 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.298 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.300 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.301 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,34km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.303 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.304 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.306 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.307 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.309 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,26km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.310 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.311 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 14' 54"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.313 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.314 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.315 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,17km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:04.345 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:04.347 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 15' 06"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:04.348 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.349 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:04.351 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,33km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:05.256 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:05.258 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 15' 07"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:05.260 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.261 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.263 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,25km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:05.264 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:05.266 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 15' 07"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:05.269 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.271 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.272 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,17km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:05.274 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:05.275 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 15' 07"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:05.277 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.278 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.280 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,08km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:05.281 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:05.282 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 15' 07"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:05.284 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.285 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (12) Out of range
+Debug - 12:10:05.287 ** ExecuteEngagementOrder: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) is closing 1,00km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:05.288 ** MoveToNewPosition3D: Unit [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has met desired distance 13287,5524189969m to target.
+Debug - 12:10:05.290 ** [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 57"N, 003° 15' 07"E Bearing:91,94 Height:-100,00.
+Debug - 12:10:05.291 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (20) Ready to engage
+Debug - 12:10:05.293 ** GetBestUnitEngagementStatusResult: [BVB] SH-60B Seahawk BVB (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (20) Ready to engage
+Debug - 12:10:05.294 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 12:10:05.296 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 12:10:10.572 ** Group CID adds unit [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 12:10:10.573 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 060° 58' 51"N, 003° 02' 05"E Bearing:98,02 Height:100,00  (has 1 orders)
+Debug - 12:10:10.971 ** ExecuteOrders: Unit [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 12:10:10.973 ** ExecuteOrders: MissileSearchForTarget. Unit [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CDS.
+Debug - 12:10:10.975 ** MissileUnit->InterceptTarget. Missile [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:12.557 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:12.565 ** RespondToImminentThreat: [BVZ] Vepr (Shchuka-B) requested to respond to threat  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:10:12.570 ** Unit [CHQ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) has a max range of 14200m, has moved 14208,5174488668m and is being deleted. Distance to target: 2124,88269719886m.
+Debug - 12:10:12.580 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 12:10:12.582 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BVB fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 12:10:13.83 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CFU (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:10:13.85 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CGB (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:10:13.87 ** BaseAIHandler.DetectionLost triggered for  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:10:13.96 ** 
+Debug - 12:10:13.97 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 12:10:13.99 ** 
+Debug - 12:10:13.106 ** ExecuteOrders: Unit [BTD] San Jacinto (CG Ticonderoga) order: LaunchOrder
+Debug - 12:10:13.108 ** LaunchAircraft: Unit [BTD] San Jacinto (CG Ticonderoga) to launch 1 aircraft.
+Debug - 12:10:13.109 **      Order: MovementOrder DFO, 1 waypoint(s).
+Current waypoint: [WP] Pos: 055° 00' 00"N, 003° 00' 00"E Bearing:0,00
+Debug - 12:10:13.110 ** Group DFP adds unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk). Count=1
+Debug - 12:10:13.626 ** ExecuteOrders: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) order: MovementOrder
+Debug - 12:10:18.416 ** 
+Debug - 12:10:18.418 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 12:10:18.420 ** 
+Debug - 12:10:18.421 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BUC to engage target CDS.
+Debug - 12:10:18.424 ** ExecuteOrders: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) order: EngagementOrder
+Debug - 12:10:18.426 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:18.428 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:18.429 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 5,04km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:18.845 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:19.466 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.468 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.470 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.471 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.473 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,72km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.474 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.475 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.477 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.478 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.479 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,63km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.481 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.482 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.484 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.485 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.486 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,55km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.488 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.489 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.491 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.492 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.494 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,47km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.495 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.497 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.498 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.500 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.501 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,38km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.503 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.504 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.505 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.507 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.508 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,30km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.510 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.511 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.512 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.514 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.515 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,22km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.517 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.518 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.520 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.521 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.523 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,13km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.524 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.525 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 55"N, 003° 17' 57"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.527 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.528 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.529 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 4,05km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:19.870 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:19.872 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:19.873 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.875 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:19.876 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,86km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.479 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.481 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.482 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.483 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.485 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,77km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.486 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.488 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.489 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.490 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.492 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,69km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.493 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.494 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.495 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.497 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.498 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,60km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.499 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.501 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.502 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.504 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.505 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,52km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.506 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.508 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.509 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.511 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.512 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,44km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.513 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.515 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.516 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.518 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.519 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,35km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.520 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.522 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.523 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.524 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.526 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,27km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.527 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.529 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.530 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.532 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.533 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,19km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.535 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.536 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.537 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.539 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.540 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,11km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.541 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.543 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 09"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.544 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.545 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.547 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 3,02km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:20.885 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:20.887 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:20.888 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.890 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:20.891 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,86km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.492 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.494 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.495 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.497 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.498 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,78km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.499 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.501 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.502 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.503 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.505 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,70km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.506 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.508 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.509 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.511 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.512 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,61km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.514 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.515 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.516 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.518 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.519 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,53km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.521 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.522 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.524 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.525 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.527 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,45km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.528 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.529 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.532 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.534 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.535 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,36km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.537 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.538 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.539 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.541 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.542 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,28km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.544 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.545 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.547 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.548 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.549 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,20km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.550 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.552 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.553 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.555 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.556 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,11km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.557 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.559 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 21"E Bearing:91,68 Height:-100,00.
+Debug - 12:10:21.560 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.561 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.563 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 2,03km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:21.895 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:21.897 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:21.898 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.900 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:21.901 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,87km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.523 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.524 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.526 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.527 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.529 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,79km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.530 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.532 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.533 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.534 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.536 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,70km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.537 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.539 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.540 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.541 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.543 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,62km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.544 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.546 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.547 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.549 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.550 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,54km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.551 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.553 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.554 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.556 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.557 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,46km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.559 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.560 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.562 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.563 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.564 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,37km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.566 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.567 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.568 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.570 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.571 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,29km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.573 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.574 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.575 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.577 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.578 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,21km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.579 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.581 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.582 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.584 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.585 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,12km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.587 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.588 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 33"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.590 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.591 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (14) Out of range
+Debug - 12:10:22.593 ** ExecuteEngagementOrder: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) is closing 1,04km to engage  Vepr (Shchuka-B)  [Foe].
+Debug - 12:10:22.938 ** MoveToNewPosition3D: Unit [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has met desired distance 15840,8845652209m to target.
+Debug - 12:10:22.940 ** [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) has arrived near target  Vepr (Shchuka-B)  [Foe] at position 060° 57' 54"N, 003° 18' 45"E Bearing:91,69 Height:-100,00.
+Debug - 12:10:22.942 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 12:10:22.943 ** GetBestUnitEngagementStatusResult: [BUC] SH-60B Seahawk BUC (SH-60B Seahawk) Best status: EngagementStatus: Trgt: Vepr (Shchuka-B)  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (22) Ready to engage
+Debug - 12:10:22.944 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target  Vepr (Shchuka-B)  [Foe] with 1 rounds.
+Debug - 12:10:22.946 ** Group DFS adds unit [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 12:10:22.947 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: [WP] Pos: 060° 54' 01"N, 003° 29' 09"E Bearing:307,56 Height:100,00  (has 1 orders)
+Debug - 12:10:23.564 ** ExecuteOrders: Unit [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 12:10:23.567 ** ExecuteOrders: MissileSearchForTarget. Unit [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CDS.
+Debug - 12:10:23.568 ** MissileUnit->InterceptTarget. Missile [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:25.6 ** RespondToImminentThreat: [BTD] San Jacinto (CG Ticonderoga) requested to respond to threat  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:26.28 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Position: 060° 54' 12"N, 003° 28' 44"E Identified.Sensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 10843,11m at 128,94deg. Strength: 12,29. Size: 0,00 ArcSec
+ 
+Debug - 12:10:28.734 ** BaseAIHandler.DetectionLost triggered for  Vepr (Shchuka-B)  [Foe]
+Debug - 12:10:29.145 ** MissileUnit->SearchForTarget Missile [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) looks for detid= or classid=akula
+Debug - 12:10:29.147 ** MissileUnit->SearchForTarget Missile [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) found no target and is being deleted.
+Debug - 12:10:29.149 ** MissileUnit->ActiveWaypoint Unit [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) has no destination or target and is being deleted.
+Debug - 12:10:29.151 ** MissileUnit->ActiveWaypoint Unit [CIE] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) has no destination or target and is being deleted.
+Debug - 12:10:29.157 ** MissileUnit->SearchForTarget Missile [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) looks for detid= or classid=akula
+Debug - 12:10:29.158 ** MissileUnit->SearchForTarget Missile [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) found no target and is being deleted.
+Debug - 12:10:29.159 ** MissileUnit->ActiveWaypoint Unit [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) has no destination or target and is being deleted.
+Debug - 12:10:29.161 ** MissileUnit->ActiveWaypoint Unit [DFT] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) has no destination or target and is being deleted.
+Debug - 12:10:29.664 ** BaseAIHandler.DetectionLost triggered for  Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo)  [Foe]
+Debug - 12:10:30.160 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CFG (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:10:30.781 ** BaseAIHandler.DetectionLost triggered for  DICASS AN/SSQ-62 Sonobuoy CFN (DICASS AN/SSQ-62 Sonobuoy)  [Foe]
+Debug - 12:10:51.578 ** CreateOrUpdateDetectionReport NEW Player: [BVV] Computer AI: Detection MediumSurface DGC  [Undetermined]
+Position: 060° 55' 51"N, 003° 31' 53"ESensors: (1)
+Sensor [BWC] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 7585,11m at 118,54deg. Strength: 1,20. Size: 0,00 ArcSec
+ 

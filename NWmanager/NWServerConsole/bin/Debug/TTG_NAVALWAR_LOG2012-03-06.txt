@@ -1,0 +1,12 @@
+Warning - 09:29:45.370 ** Game: New connection from client ignored since game is full.
+Error - 09:29:45.417 ** Game->GetPlayerByClientIndex failed to find player for index=2
+Error - 09:29:45.418 ** GameServer_DataReceived receives message from unknown clientID = 2 Data token: GameControlRequest
+Error - 09:30:25.272 ** SelectCampaign: Campaign not found:test
+Warning - 09:30:32.284 ** GameData->CreateUnit: Unit [BIZ]  (NATO Airport) spawned on low ground and is moved up. Height 131m
+Warning - 09:30:32.385 ** GameData->CreateUnit: Unit [BSF]  (NATO Airport) spawned on low ground and is moved up. Height 131m
+Warning - 09:30:32.489 ** GameData->CreateUnit: Unit [CTO]  (Russian Airport) spawned on low ground and is moved up. Height 131m
+Warning - 09:30:32.503 ** GameData->CreateUnit: Unit [DFA]  (Russian Airport) spawned on low ground and is moved up. Height 305m
+Warning - 09:30:57.602 ** ExecuteEventTriggers: Trigger EventTrigger PlayerDetectsEnemy   Role:IsSurfaceCombattant
+Error - 09:30:58.728 ** BaseUnit.LaunchAircraft: could not launch aircraft [DRM] Sukhoi PAK FA DRM (Sukhoi PAK FA) from Admiral Kuznetsov
+Error - 09:30:58.729 ** BaseUnit.LaunchAircraft: could not launch aircraft [DRT] Sukhoi PAK FA DRT (Sukhoi PAK FA) from Admiral Kuznetsov
+Error - 09:30:58.731 ** BaseUnit.LaunchAircraft: could not launch any aircraft from Admiral Kuznetsov

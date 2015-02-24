@@ -1,0 +1,151 @@
+Debug - 10:07:11.184 ** ////////////////////////////////////////////////////////
+Debug - 10:07:11.185 ** ////////////////////////////////////////////////////////
+Debug - 10:07:11.186 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 10:07:11.187 ** ////////////////////////////////////////////////////////
+Debug - 10:07:11.188 ** ////////////////////////////////////////////////////////
+Debug - 10:07:11.189 ** Game client connecting...
+Debug - 10:07:11.203 ** Game client connected
+Debug - 10:07:11.204 ** Connection status is : NotConnected
+Debug - 10:07:11.207 ** Attempting to change connection status...
+Debug - 10:07:11.208 ** Current status: NotConnected status to change to: Connected
+Debug - 10:07:11.211 ** ShowInfo: Connection status changed: Connected
+Debug - 10:07:11.213 ** Game client status is now Connected
+Debug - 10:07:19.954 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:07:19.958 ** ShowInfo: *** Credits: 0
+
+Debug - 10:07:19.959 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 10:07:33.619 ** ShowInfo: *** Sending select scenario ***
+Debug - 10:07:34.27 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:07:34.34 ** ShowInfo: GameWorldTimeSec=0
+Debug - 10:07:34.39 ** ShowInfo: GameEngineTimeMs=0
+Debug - 10:07:34.45 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:07:34.50 ** ShowInfo: *** Credits: 0
+
+Debug - 10:07:34.92 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 10:07:34.96 ** ShowInfo: GameWorldTimeSec=0
+Debug - 10:07:34.100 ** ShowInfo: GameEngineTimeMs=0
+Debug - 10:07:34.104 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:07:34.108 ** ShowInfo: *** Credits: 0
+
+Debug - 10:07:35.969 ** ShowInfo: *** Sending start game ***
+Debug - 10:07:35.972 ** ShowInfo: *** Player selects user Jan
+Debug - 10:07:35.973 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 10:08:17.787 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 10:08:17.789 ** ShowInfo: GameWorldTimeSec=0
+Debug - 10:08:17.791 ** ShowInfo: GameEngineTimeMs=0
+Debug - 10:08:17.792 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:08:17.794 ** ShowInfo: *** Credits: 0
+
+Debug - 10:08:18.334 ** ShowInfo: Received BaseUnitInfo: [BJB] Bergen Airport (ukairportlarge)
+Debug - 10:08:18.338 ** ShowInfo: Received BaseUnitInfo: [BKL] Fridtjof Nansen (fridtjofnansen)
+Debug - 10:08:18.854 ** ShowInfo: ### GameUiControl received: GameUiControl SelectUnit
+Debug - 10:08:18.860 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 10:08:18.864 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 10:08:18.868 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 10:08:18.872 ** ShowInfo: ### GameUiControl received: GameUiControl SetMapPositionFlag
+Debug - 10:08:18.880 ** ShowInfo: From: BLJ
+gl hf
+Debug - 10:08:27.881 ** ShowInfo: UnitOrder to unit BKL : Launch 1 aircraft.
+Debug - 10:08:44.927 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:08:44.928 ** ShowInfo: *** Credits: 0
+
+Debug - 10:08:45.449 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BKZ
+Debug - 10:08:45.452 ** ShowInfo: Received BaseUnitInfo: [BKZ] NH90 NFH BKZ (nh90nhf)
+Debug - 10:08:52.185 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:04
+Debug - 10:08:52.187 ** ShowInfo: GameWorldTimeSec=47,4647148
+Debug - 10:08:52.188 ** ShowInfo: GameEngineTimeMs=64482,6882
+Debug - 10:08:52.190 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:08:52.191 ** ShowInfo: *** Credits: 0
+
+Debug - 10:09:11.810 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 10:09:11.812 ** ShowInfo: ### GameUiControl received: GameUiControl HighlightGUIElement
+Debug - 10:09:11.813 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:09:11.815 ** ShowInfo: *** Credits: 0
+
+Debug - 10:09:12.503 ** ShowInfo: ### GameUiControl received: GameUiControl ClearMapPositionFlag
+Debug - 10:09:12.505 ** ShowInfo: ### GameUiControl received: GameUiControl ShowTextInfo
+Debug - 10:09:12.508 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 10:09:12.510 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:09:12.512 ** ShowInfo: *** Credits: 0
+
+Debug - 10:09:40.47 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:01:35
+Debug - 10:09:40.49 ** ShowInfo: GameWorldTimeSec=95,5744093
+Debug - 10:09:40.50 ** ShowInfo: GameEngineTimeMs=95575,4666
+Debug - 10:09:40.52 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 10:09:40.53 ** ShowInfo: *** Credits: 0
+
+Debug - 10:09:56.45 ** ShowInfo: Terminate object sent
+Debug - 10:09:57.807 ** Game client disconnecting...
+Debug - 10:09:57.809 ** Attempting to change connection status...
+Debug - 10:09:57.810 ** Current status: Connected status to change to: Disconnected
+Debug - 10:09:57.811 ** ShowInfo: Connection status changed: Disconnected
+Debug - 10:09:57.813 ** Game client disconnected.
+Debug - 12:08:06.198 ** ////////////////////////////////////////////////////////
+Debug - 12:08:06.220 ** ////////////////////////////////////////////////////////
+Debug - 12:08:06.221 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 12:08:06.222 ** ////////////////////////////////////////////////////////
+Debug - 12:08:06.224 ** ////////////////////////////////////////////////////////
+Debug - 12:08:06.225 ** Game client connecting...
+Debug - 12:08:06.231 ** Game client connected
+Debug - 12:08:06.233 ** Connection status is : NotConnected
+Debug - 12:08:06.236 ** Attempting to change connection status...
+Debug - 12:08:06.237 ** Current status: NotConnected status to change to: Connected
+Debug - 12:08:06.241 ** ShowInfo: Connection status changed: Connected
+Debug - 12:08:06.243 ** Game client status is now Connected
+Debug - 12:08:12.36 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:08:12.43 ** ShowInfo: *** Credits: 0
+
+Debug - 12:08:12.47 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 12:08:14.822 ** ShowInfo: *** Sending select scenario ***
+Debug - 12:08:25.671 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:08:25.673 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:08:25.675 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:08:25.677 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:08:25.679 ** ShowInfo: *** Credits: 0
+
+Debug - 12:08:25.683 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:08:25.687 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:08:25.692 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:08:25.696 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:08:25.700 ** ShowInfo: *** Credits: 0
+
+Debug - 12:08:28.805 ** ShowInfo: *** Sending start game ***
+Debug - 12:08:28.809 ** ShowInfo: *** Player selects user Jan
+Debug - 12:08:28.810 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 12:09:22.725 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 07.12.2030 12:30:00  Current Time: 07.12.2030 12:30:00
+Debug - 12:09:24.789 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:09:24.791 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:09:25.802 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:26.260 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:26.265 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 07.12.2030 12:30:00  Current Time: 07.12.2030 12:30:00
+Debug - 12:09:27.703 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:09:27.708 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:09:27.713 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:27.717 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:27.722 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 07.12.2030 12:30:00  Current Time: 07.12.2030 12:30:00
+Debug - 12:09:27.727 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:09:27.731 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:09:27.736 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:09:27.740 ** ShowInfo: *** Credits: 0
+
+Debug - 12:09:28.270 ** ShowInfo: Received BaseUnitInfo: [FMU] Andøya Air Base (ukairportlarge)
+Debug - 12:09:28.274 ** ShowInfo: Received BaseUnitInfo: [FRB] Boeing P-8A Poseidon FRB (p8poseidon)
+Debug - 12:09:28.277 ** ShowInfo: Received BaseUnitInfo: [FRL] Fridtjof Nansen (fridtjofnansen)
+Debug - 12:09:28.279 ** ShowInfo: Received BaseUnitInfo: [FSK] Skjold (skjold)
+Debug - 12:09:28.281 ** ShowInfo: Received BaseUnitInfo: [FSS] Storm (skjold)
+Debug - 12:09:28.283 ** ShowInfo: Received BaseUnitInfo: [FTA] Ula (ula)
+Debug - 12:09:28.820 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraFocus
+Debug - 12:09:29.343 ** ShowInfo: From: FTF
+gl hf

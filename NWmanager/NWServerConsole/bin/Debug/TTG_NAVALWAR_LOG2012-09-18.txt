@@ -1,0 +1,8 @@
+Debug - 14:55:23.614 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWServerConsole\bin\Debug\Data\terrain.bin> .
+Debug - 14:55:23.917 ** **************************************************************************
+Debug - 14:55:23.918 ** GameManager->CreateGame. GameName: test game
+Debug - 14:55:23.919 ** **************************************************************************
+Debug - 14:55:23.924 ** Game() object ALN instantiated!
+Debug - 14:55:23.959 ** **************************************************************************
+Debug - 14:55:23.961 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 14:55:23.962 ** **************************************************************************

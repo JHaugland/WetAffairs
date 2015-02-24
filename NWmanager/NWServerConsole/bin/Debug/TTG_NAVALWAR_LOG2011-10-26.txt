@@ -1,0 +1,985 @@
+Debug - 13:05:47.564 ** Game() object ALN instantiated!
+Debug - 13:05:47.565 ** ***** NWServerConsole started *****
+Debug - 13:05:49.197 ** **************************************************************************
+Debug - 13:05:49.197 ** GameManager->CreateGame. GameName: test game
+Debug - 13:05:49.197 ** **************************************************************************
+Debug - 13:05:49.198 ** Game() object ALO instantiated!
+Debug - 13:05:49.202 ** 
+Debug - 13:05:49.203 **  *** Game: [ALO] test game  Player Count: 0   Tick: 0
+Debug - 13:05:49.203 ** 
+Debug - 13:05:49.204 ** Game server started on port 2055. Send terminate request object from client to end.
+Debug - 13:05:49.204 ** 
+Debug - 13:05:49.206 ** **************************************************************************
+Debug - 13:05:49.207 ** Game->StartGameLoop. GameName: test game   Net?: True   PlayerCount: 0  Max human players: 1  TimeLimit: 0
+Debug - 13:05:49.208 ** **************************************************************************
+Debug - 13:06:05.56 ** Game connection status is set to Connected
+Debug - 13:06:05.57 ** 
+Debug - 13:06:05.57 ** Status changed. Status=Connected
+Debug - 13:06:05.58 ** 
+Debug - 13:06:05.76 ** Game: New connection. ClientId= 1. Player=[ALP] ALP
+Debug - 13:06:05.77 ** 
+Debug - 13:06:05.78 ** NWConsole: New connection. Id=1
+Debug - 13:06:05.79 ** 
+Debug - 13:06:06.513 ** 
+Debug - 13:06:06.514 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:06:06.514 ** 
+Debug - 13:06:06.553 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:06:06.592 ** 
+Debug - 13:06:06.593 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:06:06.593 ** 
+Debug - 13:06:06.593 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:06:07.113 ** 
+Debug - 13:06:07.113 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:06:07.114 ** 
+Debug - 13:06:07.114 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Error - 13:06:07.117 ** SelectUser: User not found: Jan
+Debug - 13:06:07.118 ** 
+Debug - 13:06:07.119 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:06:07.119 ** 
+Debug - 13:06:07.119 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:06:07.121 ** 
+Debug - 13:06:07.122 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:06:07.122 ** 
+Debug - 13:06:07.123 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:06:07.159 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 13:06:11.326 ** Group BJB adds unit [BJC]  (UK Airport). Count=1
+Debug - 13:06:11.416 ** Group BRT adds unit [BRU]  (E-3 Sentry). Count=1
+Debug - 13:06:11.441 ** Group BRY adds unit [BRZ]  (Virginia). Count=1
+Debug - 13:06:11.444 ** Group BSH adds unit [BSI]  (Virginia). Count=1
+Debug - 13:06:11.444 ** Group BSQ adds unit [BSR]  (Arleigh Burke). Count=1
+Debug - 13:06:11.445 ** Group BSQ adds unit [BTZ]  (CG Ticonderoga). Count=2
+Debug - 13:06:11.556 ** GetAvailableGamePlayer adding player [BVJ] BVJ
+Unit Count: 0  Detected Unit Count: 0  IsComputer: True IsCompetitive: True TcpIndex: 0
+Debug - 13:06:11.562 ** Group BVO adds unit [BVP]  (Shchuka-B). Count=1
+Debug - 13:06:11.564 ** Group BWA adds unit [BWB]  (M/S Pamela). Count=1
+Debug - 13:06:11.564 ** Group BWA adds unit [BWF]  (MV Sirius Star). Count=2
+Debug - 13:06:11.565 ** Group BWK adds unit [BWL]  (Fishing Boat). Count=1
+Debug - 13:06:11.566 ** Group BWK adds unit [BWP]  (Fishing Boat). Count=2
+Debug - 13:06:11.568 ** **************************************************************************
+Debug - 13:06:11.568 ** Game->StartGamePlay. GameName: Sitting ducks   Net?: True   PlayerCount: 2  Max human players: 2  TimeLimit: 0
+Debug - 13:06:11.569 ** **************************************************************************
+Debug - 13:06:11.589 ** AddAutomaticDetection added persistent detection  Bergen Airport (UK Airport)  [Foe]
+Position: 060° 17' 31"N, 005° 13' 19"E Fixed. Identified.Sensors: (0)
+Intelligence
+ for player [BVJ] BVJ
+Debug - 13:06:12.580 ** CreateNewMessage: From: [BVJ] Computer AI
+To: [ALP] ALP
+gl hf!
+
+Debug - 13:06:12.674 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection LargeSurface BWW  [Undetermined]
+Position: 060° 00' 06"N, 004° 01' 26"ESensors: (1)
+Sensor [BSJ] AN/BQQ-5 Bow-Mounted Spherical Array Sonar  on unit USS Texas [Virginia]: Distance 23568,23m at 89,24deg. Strength: 1,00. Size: 0,00 ArcSec
+ 
+Debug - 13:06:12.682 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection LargeSurface BWY  [Undetermined]
+Position: 060° 00' 20"N, 004° 01' 38"ESensors: (1)
+Sensor [BSJ] AN/BQQ-5 Bow-Mounted Spherical Array Sonar  on unit USS Texas [Virginia]: Distance 23765,88m at 88,20deg. Strength: 0,97. Size: 0,00 ArcSec
+ 
+Debug - 13:06:12.967 ** ExecuteHighLevelOrders for player [ALP] ALP: Order HighLevelOrder: SetAswPatrol asw  Pos: 061° 00' 00"N, 003° 00' 00"E
+Debug - 13:06:12.993 ** CreateAircraftLaunchOrder orders carrier [BSR] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft with 1 order(s).
+Debug - 13:06:12.995 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 13:06:12.995 ** CreateAircraftLaunchOrder orders carrier [BSR] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft with 1 order(s).
+Debug - 13:06:12.996 ** Launchaircraft(order) set to launch 1 aircraft.
+Debug - 13:06:12.996 ** SetAswAirPatrol launches 1 aircraft to fulfill ASW role near 061° 00' 00"N, 003° 00' 00"E.
+Debug - 13:06:12.997 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection MediumSurface CCW  [Foe]
+Position: 061° 00' 08"N, 003° 32' 04"ESensors: (1)
+Sensor [BVS] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 28830,12m at 89,18deg. Strength: 0,82. Size: 0,00 ArcSec
+ 
+Debug - 13:06:13.0 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection MediumSurface CCY  [Foe]
+Position: 061° 00' 02"N, 003° 30' 41"ESensors: (1)
+Sensor [BVS] MGK-540 Flank Array Sonar on unit Vepr [Shchuka-B]: Distance 27584,72m at 89,55deg. Strength: 0,82. Size: 0,00 ArcSec
+ 
+Debug - 13:06:13.12 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:13.24 ** LaunchAircraft: Unit [BSR] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft.
+Debug - 13:06:13.27 **      Order: MovementOrder BXC, 19 waypoint(s). Recurring.
+Current waypoint: Waypoint Pos: 061° 01' 57"N, 003° 00' 04"E Height:100,00
+Has 1 orders.
+Debug - 13:06:13.31 ** Group CDB adds unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk). Count=1
+Debug - 13:06:13.572 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: MovementOrder
+Debug - 13:06:13.590 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:14.43 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:14.571 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:15.54 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:15.572 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:15.596 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:16.572 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:16.599 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:17.572 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:17.579 ** BaseUnit->EngageDetectedUnit creates new order: [BVP] Vepr (Shchuka-B) engages target MediumSurface CCW  [Foe]
+Debug - 13:06:17.587 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:17.587 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:06:17.588 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:17.588 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:06:17.631 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:17.632 ** ExecuteOrders: Unit [BVP] Vepr (Shchuka-B) order: EngagementOrder
+Debug - 13:06:17.663 ** GetBestUnitEngagementStatusResult: [BVP] Vepr (Shchuka-B) Best status: EngagementStatus: Trgt:MediumSurface CCW  [Foe] Wpn: Type 65-76 Heavyweight Torpedo (24) Ready to engage
+Debug - 13:06:17.663 ** GetBestUnitEngagementStatusResult: [BVP] Vepr (Shchuka-B) Best status: EngagementStatus: Trgt:MediumSurface CCW  [Foe] Wpn: Type 65-76 Heavyweight Torpedo (24) Ready to engage
+Debug - 13:06:17.673 ** Fire: Weapon Type 65-76 Heavyweight Torpedo to engage target MediumSurface CCW  [Foe] with 1 rounds.
+Debug - 13:06:17.692 ** Group CDH adds unit [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo). Count=1
+Debug - 13:06:17.708 ** Fire: Weapon Type 65-76 Heavyweight Torpedo launches MissileUnit [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo). First wp: Waypoint Pos: 061° 00' 10"N, 003° 00' 00"E Bearing:180,00 Height:-100,00
+Has 1 orders.
+Debug - 13:06:18.572 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:18.642 ** ExecuteOrders: Unit [BSR] Winston S. Churchill (Arleigh Burke) order: LaunchOrder
+Debug - 13:06:18.643 ** LaunchAircraft: Unit [BSR] Winston S. Churchill (Arleigh Burke) to launch 1 aircraft.
+Debug - 13:06:18.643 **      Order: MovementOrder BZZ, 19 waypoint(s). Recurring.
+Current waypoint: Waypoint Pos: 061° 02' 16"N, 003° 00' 09"E Height:100,00
+Has 1 orders.
+Error - 13:06:18.643 ** BaseUnit.LaunchAircraft: could not launch aircraft [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) from Winston S. Churchill
+Error - 13:06:18.644 ** BaseUnit.LaunchAircraft: could not launch any aircraft from Winston S. Churchill
+Debug - 13:06:20.573 ** ExecuteOrders: Unit [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:06:20.574 ** ExecuteOrders: MissileSearchForTarget. Unit [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) to search for target CCW.
+Debug - 13:06:20.579 ** MissileUnit->InterceptTarget. Missile [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) set to intercept target MediumSurface CCW  [Foe]
+Debug - 13:06:20.707 ** ExecuteOrders: Unit [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:06:20.708 ** ExecuteOrders: MissileSearchForTarget. Unit [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) to search for target CCW.
+Debug - 13:06:20.708 ** MissileUnit->InterceptTarget. Missile [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) set to intercept target MediumSurface CCW  [Foe]
+Debug - 13:06:21.572 ** 
+Debug - 13:06:21.573 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:06:21.573 ** 
+Debug - 13:06:21.573 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:06:23.575 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:23.575 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:06:29.573 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:29.574 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:06:29.574 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:29.575 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:06:35.575 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:35.575 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:06:35.575 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:35.576 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:06:59.597 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:59.597 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:06:59.598 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:59.598 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:06:59.621 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:59.622 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:06:59.622 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:06:59.622 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:06:59.661 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:06:59.662 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:06:59.681 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection Submarine CEC  [Undetermined]
+Position: 060° 59' 25"N, 003° 00' 14"ESensors: (1)
+Sensor [CEA] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CDZ [DICASS AN/SSQ-62 Sonobuoy]: Distance 4699,38m at 177,83deg. Strength: 0,13. Size: 0,00 ArcSec
+ 
+Debug - 13:06:59.682 ** CreateOrUpdateDetectionReport NEW Player: [ALP] ALP: Detection Torpedo CEE  [Foe]
+Position: 060° 59' 58"N, 003° 07' 35"ESensors: (1)
+Sensor [CEA] AN/SSQ-62 DICASS Sonobuoy Sonar on unit DICASS AN/SSQ-62 Sonobuoy CDZ [DICASS AN/SSQ-62 Sonobuoy]: Distance 7705,32m at 118,28deg. Strength: 0,16. Size: 0,00 ArcSec
+ 
+Debug - 13:06:59.685 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:00.706 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:00.707 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:00.716 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:00.722 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:00.725 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:00.736 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:00.742 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:00.743 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:00.745 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:00.749 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CEN  [Foe]
+Position: 061° 01' 32"N, 003° 04' 12"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 5549,60m at 42,99deg. Strength: 0,26. Size: 0,00 ArcSec
+ 
+Debug - 13:07:00.770 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:00.771 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:00.779 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:00.785 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CEV  [Foe]
+Position: 061° 01' 02"N, 003° 05' 06"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 5586,63m at 55,29deg. Strength: 0,25. Size: 0,00 ArcSec
+ 
+Debug - 13:07:01.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:01.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:01.822 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:01.866 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:02.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:02.887 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:03.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:03.821 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:03.823 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:03.903 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CFD  [Foe]
+Position: 060° 58' 24"N, 003° 02' 53"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3009,07m at 119,94deg. Strength: 0,49. Size: 0,00 ArcSec
+ 
+Debug - 13:07:03.905 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:03.905 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:03.906 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:03.923 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CFL  [Foe]
+Position: 060° 58' 28"N, 003° 02' 47"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 2866,87m at 118,82deg. Strength: 0,49. Size: 0,00 ArcSec
+ 
+Debug - 13:07:04.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:04.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:04.946 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:05.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:05.824 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Undetermined]
+Debug - 13:07:05.826 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:05.826 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:05.826 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:05.827 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:05.958 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:06.821 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:06.973 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:06.973 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:06.974 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:06.976 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CFV  [Foe]
+Position: 060° 57' 44"N, 003° 02' 04"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3245,63m at 144,86deg. Strength: 0,47. Size: 0,00 ArcSec
+ 
+Debug - 13:07:08.822 ** 
+Debug - 13:07:08.823 ** ServerDataReceived. ClientId=1  DataReceived=GameControlRequest
+Debug - 13:07:08.823 ** 
+Debug - 13:07:08.824 ** Game->HandleGameControlMessage for player [ALP] ALP: Token GameControlRequest
+Debug - 13:07:08.826 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:08.826 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:08.827 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:08.827 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:08.844 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:08.845 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:10.822 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:10.822 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:11.33 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:11.33 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:11.37 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CGD  [Foe]
+Position: 060° 57' 19"N, 002° 59' 08"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3408,36m at 193,00deg. Strength: 0,41. Size: 0,00 ArcSec
+ 
+Debug - 13:07:11.823 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:16.510 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:16.510 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:16.510 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:16.511 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:17.40 ** ExecuteHighLevelOrders for player [BVJ] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 13:07:17.46 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:17.46 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:17.552 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:17.555 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:18.54 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:18.565 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:18.569 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:18.572 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:18.572 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:18.572 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:18.573 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:18.574 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:18.574 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:18.576 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:18.576 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:18.588 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CGO  [Foe]
+Position: 060° 59' 44"N, 002° 56' 32"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3397,47m at 293,78deg. Strength: 0,43. Size: 0,00 ArcSec
+ 
+Debug - 13:07:19.565 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:19.565 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:19.643 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:19.643 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:20.154 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CGW  [Foe]
+Position: 060° 59' 51"N, 002° 56' 15"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 3739,42m at 295,97deg. Strength: 0,40. Size: 0,00 ArcSec
+ 
+Debug - 13:07:23.565 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:23.565 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:23.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:23.793 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:24.565 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:24.807 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:24.809 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:24.809 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:24.809 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:24.809 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:24.810 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:25.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:25.566 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:25.569 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:25.570 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:25.825 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:25.825 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:25.826 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:25.827 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:26.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:26.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:26.880 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:27.567 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:27.596 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:28.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:28.971 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:28.971 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:28.973 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:28.973 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:30.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:30.566 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:31.60 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:31.61 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:31.67 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:31.69 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:31.69 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:31.70 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:31.70 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:33.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:33.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:33.624 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:34.567 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:34.634 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:35.566 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:35.567 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:35.567 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:35.653 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:35.654 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Torpedo CEE  [Foe]
+Debug - 13:07:36.164 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Sonobuoy CIC  [Foe]
+Position: 061° 00' 30"N, 003° 03' 06"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4302,96m at 40,36deg. Strength: 0,34. Size: 0,00 ArcSec
+ 
+Debug - 13:07:36.165 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:36.165 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:36.659 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:36.663 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:36.663 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:36.663 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:36.664 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:38.568 ** 
+Debug - 13:07:38.568 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 13:07:38.569 ** 
+Debug - 13:07:38.571 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BTG to engage target CEC.
+Debug - 13:07:38.572 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: EngagementOrder
+Debug - 13:07:38.574 ** GetBestUnitEngagementStatusResult: [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) Best status: EngagementStatus: Trgt:Submarine CEC  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 13:07:38.574 ** GetBestUnitEngagementStatusResult: [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) Best status: EngagementStatus: Trgt:Submarine CEC  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 13:07:38.574 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target Submarine CEC  [Foe] with 1 rounds.
+Debug - 13:07:38.575 ** Group CII adds unit [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 13:07:38.576 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: Waypoint Pos: 060° 59' 42"N, 003° 04' 13"E Bearing:141,09 Height:100,00
+Has 1 orders.
+Debug - 13:07:38.576 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:38.769 ** ExecuteOrders: Unit [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 13:07:38.769 ** ExecuteOrders: MissileSearchForTarget. Unit [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEC.
+Debug - 13:07:38.769 ** MissileUnit->InterceptTarget. Missile [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target Submarine CEC  [Foe]
+Debug - 13:07:39.281 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection Torpedo CIO  [Foe]
+Position: 060° 59' 43"N, 003° 04' 17"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 4296,96m at 63,66deg. Strength: 0,33. Size: 0,00 ArcSec
+ 
+Debug - 13:07:39.282 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:39.284 ** ExecuteOrders: Unit [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 13:07:39.285 ** ExecuteOrders: MissileSearchForTarget. Unit [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEC.
+Debug - 13:07:39.285 ** MissileUnit->InterceptTarget. Missile [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target Submarine CEC  [Foe]
+Debug - 13:07:39.598 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:39.785 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:40.597 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:40.831 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:41.597 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:41.598 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:42.598 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:42.598 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:42.869 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:42.871 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:42.872 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:42.872 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:42.872 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:46.598 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:46.599 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:46.973 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SensorActivationOrder
+Debug - 13:07:47.599 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: ScheduledOrder
+Debug - 13:07:48.1 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetSpeed
+Debug - 13:07:48.598 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SetElevation
+Debug - 13:07:48.601 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:48.603 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:48.603 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:48.603 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:48.604 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:07:48.844 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:48.845 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:50.598 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: SpecialOrders
+Debug - 13:07:50.598 ** ExecuteOrders: SpecialOrders. Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) executes DropSonobuoy.
+Debug - 13:07:54.599 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:07:54.604 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:54.604 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:07:54.605 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:07:54.605 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:00.856 ** MissileUnit->Impact called for unit CIJ
+Debug - 13:08:00.863 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CIJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) hits unit [BVP] Vepr (Shchuka-B).
+Debug - 13:08:00.866 ** GameManager->GetDamageHitpoints returns 100
+Debug - 13:08:00.897 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BTG fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 100 HP, 50 %.
+Critical Damage: MinorFire
+Debug - 13:08:00.903 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 100 HP, 50 %.
+Critical Damage: MinorFire
+Debug - 13:08:00.905 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 0 from targettinglist after miss on target Submarine CEC  [Foe]. 0 still in list.
+Debug - 13:08:01.363 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:01.365 ** BaseAIHandler.DetectionLost triggered for Torpedo CIO  [Foe]
+Debug - 13:08:01.366 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:01.367 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:01.367 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:01.367 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:04.605 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection  E-3 Sentry BRU (E-3 Sentry)  [Foe]
+Position: 062° 36' 51"N, 002° 24' 41"E Identified.Sensors: (1)
+Sensor [BVQ] Chiblis 'Park Lamp' Radar on unit Vepr [Shchuka-B]: Distance 185343,75m at 350,65deg. Strength: 7,03. Size: 56,27 ArcSec
+ 
+Debug - 13:08:04.608 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:04.609 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:04.609 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:04.610 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Position: 061° 01' 26"N, 003° 03' 56"E Identified.Sensors: (1)
+Sensor [BVQ] Chiblis 'Park Lamp' Radar on unit Vepr [Shchuka-B]: Distance 6777,76m at 31,42deg. Strength: 47,71. Size: 381,68 ArcSec
+ 
+Debug - 13:08:04.610 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:04.611 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:04.611 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:07.13 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:07.15 ** Unit [BVP] Vepr (Shchuka-B) firelevel is now MajorFire.
+Debug - 13:08:07.16 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:07.16 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:07.17 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:07.17 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:07.17 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:07.18 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:07.18 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:07.18 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:07.19 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:07.19 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:07.19 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:12.618 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:12.621 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:12.621 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:12.622 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:12.622 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:12.622 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:12.623 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:12.623 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:12.623 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:12.624 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:12.624 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:12.624 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:16.602 ** ExecuteHighLevelOrders for player [BVJ] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 13:08:18.754 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:18.757 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:18.758 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:18.758 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:18.758 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:18.759 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:18.759 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:18.759 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:18.760 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:18.760 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:18.760 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:18.761 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:19.602 ** GameManager->GetDamageHitpoints returns 8
+Debug - 13:08:19.602 ** Unit [BVP] Vepr (Shchuka-B) takes damage 8 HP from MajorFire
+Debug - 13:08:19.764 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.765 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.765 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.766 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.766 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.766 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.768 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.768 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.768 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.769 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.769 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.770 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.770 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:19.771 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:24.957 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:24.961 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:24.961 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:24.962 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:24.962 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:24.962 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:24.963 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:24.963 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:24.963 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:24.964 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:24.964 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:24.964 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:28.600 ** 
+Debug - 13:08:28.601 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 13:08:28.601 ** 
+Debug - 13:08:28.602 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BTG to engage target CEC.
+Debug - 13:08:28.603 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: EngagementOrder
+Debug - 13:08:28.603 ** GetBestUnitEngagementStatusResult: [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) Best status: EngagementStatus: Trgt:Submarine CEC  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 13:08:28.604 ** GetBestUnitEngagementStatusResult: [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) Best status: EngagementStatus: Trgt:Submarine CEC  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 13:08:28.604 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target Submarine CEC  [Foe] with 1 rounds.
+Debug - 13:08:28.605 ** Group CJY adds unit [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 13:08:28.605 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: Waypoint Pos: 061° 01' 47"N, 002° 57' 46"E Bearing:12,70 Height:100,00
+Has 1 orders.
+Debug - 13:08:29.70 ** ExecuteOrders: Unit [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 13:08:29.71 ** ExecuteOrders: MissileSearchForTarget. Unit [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEC.
+Debug - 13:08:29.71 ** MissileUnit->InterceptTarget. Missile [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target Submarine CEC  [Foe]
+Debug - 13:08:29.562 ** ExecuteOrders: Unit [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 13:08:29.562 ** ExecuteOrders: MissileSearchForTarget. Unit [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEC.
+Debug - 13:08:29.562 ** MissileUnit->InterceptTarget. Missile [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target Submarine CEC  [Foe]
+Debug - 13:08:31.90 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:31.92 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:31.93 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:31.93 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:31.93 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:31.94 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:31.94 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:31.94 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:31.95 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:31.95 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:31.95 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:31.96 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:32.79 ** GameManager->GetDamageHitpoints returns 7
+Debug - 13:08:32.80 ** Unit [BVP] Vepr (Shchuka-B) takes damage 7 HP from MajorFire
+Debug - 13:08:32.139 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.139 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.140 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.140 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.141 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.141 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.141 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.142 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.142 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.143 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.143 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.144 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.144 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:32.144 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:37.284 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:37.287 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:37.288 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:37.288 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:37.289 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:37.289 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:37.289 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:37.290 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:37.290 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:37.290 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:37.291 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:37.291 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:43.572 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:43.575 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:43.576 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:43.576 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:43.577 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:43.577 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:43.577 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:43.578 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:43.578 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:43.578 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:43.579 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:43.579 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:44.78 ** 
+Debug - 13:08:44.78 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 13:08:44.79 ** 
+Debug - 13:08:44.79 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BSI to engage target BWY.
+Debug - 13:08:44.80 ** ExecuteOrders: Unit [BSI] USS Texas (Virginia) order: EngagementOrder
+Debug - 13:08:44.81 ** GetBestUnitEngagementStatusResult: [BSI] USS Texas (Virginia) Best status: EngagementStatus: Trgt:LargeSurface BWY  [Foe] Wpn: Mark 48 ADCAP Heavyweight Torpedo (24) Ready to engage
+Debug - 13:08:44.81 ** GetBestUnitEngagementStatusResult: [BSI] USS Texas (Virginia) Best status: EngagementStatus: Trgt:LargeSurface BWY  [Foe] Wpn: Mark 48 ADCAP Heavyweight Torpedo (24) Ready to engage
+Debug - 13:08:44.83 ** BaseWeapon->GetRoundToFireCount returns Desired Count Rounds = 3
+Debug - 13:08:44.83 ** Fire: Weapon Mark 48 ADCAP Heavyweight Torpedo to engage target LargeSurface BWY  [Foe] with 2 rounds.
+Debug - 13:08:44.84 ** Group CKS adds unit [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo). Count=1
+Debug - 13:08:44.85 ** Fire: Weapon Mark 48 ADCAP Heavyweight Torpedo launches MissileUnit [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo). First wp: Waypoint Pos: 059° 58' 21"N, 003° 38' 27"E Bearing:147,28 Height:-100,00
+Has 1 orders.
+Debug - 13:08:44.85 ** Group CKS adds unit [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo). Count=2
+Debug - 13:08:44.86 ** Fire: Weapon Mark 48 ADCAP Heavyweight Torpedo launches MissileUnit [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo). First wp: Waypoint Pos: 059° 58' 21"N, 003° 38' 27"E Bearing:147,28 Height:-100,00
+Has 1 orders.
+Debug - 13:08:44.116 ** ExecuteOrders: Unit [BSI] USS Texas (Virginia) order: EngagementOrder
+Debug - 13:08:44.116 ** GetBestUnitEngagementStatusResult: [BSI] USS Texas (Virginia) Best status: EngagementStatus: Trgt:LargeSurface BWY  [Foe] Wpn: Mark 48 ADCAP Heavyweight Torpedo (24) Ready to engage
+Debug - 13:08:44.117 ** GetBestUnitEngagementStatusResult: [BSI] USS Texas (Virginia) Best status: EngagementStatus: Trgt:LargeSurface BWY  [Foe] Wpn: Mark 48 ADCAP Heavyweight Torpedo (24) Ready to engage
+Debug - 13:08:44.117 ** Fire: Weapon Mark 48 ADCAP Heavyweight Torpedo to engage target LargeSurface BWY  [Foe] with 1 rounds.
+Debug - 13:08:44.118 ** Group CLB adds unit [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo). Count=1
+Debug - 13:08:44.118 ** Fire: Weapon Mark 48 ADCAP Heavyweight Torpedo launches MissileUnit [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo). First wp: Waypoint Pos: 059° 58' 21"N, 003° 38' 27"E Bearing:147,28 Height:-100,00
+Has 1 orders.
+Debug - 13:08:45.160 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CEN  [Foe]
+Debug - 13:08:46.79 ** ExecuteOrders: Unit [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:08:46.80 ** ExecuteOrders: MissileSearchForTarget. Unit [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) to search for target BWY.
+Debug - 13:08:46.80 ** MissileUnit->InterceptTarget. Missile [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWY  [Foe]
+Debug - 13:08:46.94 ** ExecuteOrders: Unit [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:08:46.94 ** ExecuteOrders: MissileSearchForTarget. Unit [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) to search for target BWY.
+Debug - 13:08:46.95 ** MissileUnit->InterceptTarget. Missile [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWY  [Foe]
+Debug - 13:08:46.187 ** ExecuteOrders: Unit [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:08:46.188 ** ExecuteOrders: MissileSearchForTarget. Unit [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) to search for target BWY.
+Debug - 13:08:46.188 ** MissileUnit->InterceptTarget. Missile [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWY  [Foe]
+Debug - 13:08:46.688 ** ExecuteOrders: Unit [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:08:46.688 ** ExecuteOrders: MissileSearchForTarget. Unit [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) to search for target BWY.
+Debug - 13:08:46.689 ** MissileUnit->InterceptTarget. Missile [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWY  [Foe]
+Debug - 13:08:47.207 ** ExecuteOrders: Unit [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:08:47.207 ** ExecuteOrders: MissileSearchForTarget. Unit [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) to search for target BWY.
+Debug - 13:08:47.207 ** MissileUnit->InterceptTarget. Missile [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWY  [Foe]
+Debug - 13:08:47.213 ** ExecuteOrders: Unit [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) order: MissileSearchForTarget
+Debug - 13:08:47.213 ** ExecuteOrders: MissileSearchForTarget. Unit [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) to search for target BWY.
+Debug - 13:08:47.213 ** MissileUnit->InterceptTarget. Missile [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWY  [Foe]
+Debug - 13:08:49.262 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:49.266 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:49.266 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:49.266 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:49.267 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:49.267 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:49.267 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:49.268 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:49.268 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:49.268 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:49.269 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:49.269 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:08:55.460 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:08:55.464 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:55.464 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:08:55.464 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:55.465 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:08:55.465 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:55.465 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:55.466 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:08:55.466 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:08:55.466 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:08:55.467 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:08:55.467 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:01.124 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:01.125 ** Unit [BVP] Vepr (Shchuka-B) firelevel is now MinorFire.
+Debug - 13:09:01.126 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:01.126 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:09:01.127 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:01.127 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:09:01.127 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:01.128 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:01.128 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:01.128 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:01.129 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:01.129 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:01.129 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:03.203 ** Unit [BVP] Vepr (Shchuka-B) firelevel is now NoFire.
+Debug - 13:09:05.289 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CIC  [Foe]
+Debug - 13:09:07.80 ** 
+Debug - 13:09:07.80 ** ServerDataReceived. ClientId=1  DataReceived=UnitMovementOrder
+Debug - 13:09:07.81 ** 
+Debug - 13:09:07.85 ** HandleUnitMovementOrder for unit [BRU] E-3 Sentry BRU (E-3 Sentry): Move to Waypoint destination: 060° 30' 00"N, 003° 00' 00"E. 0 Order(s)
+Debug - 13:09:07.330 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:07.332 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:07.333 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:09:07.333 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:07.333 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:09:07.334 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:07.334 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:07.334 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:07.335 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:07.335 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:07.335 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:07.336 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:09.80 ** MissileUnit->Impact called for unit CJZ
+Debug - 13:09:09.81 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CJZ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) hits unit [BVP] Vepr (Shchuka-B).
+Debug - 13:09:09.86 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BTG fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 13:09:09.87 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 0 HP, 0 %.
+Missed!
+Debug - 13:09:12.510 ** 
+Debug - 13:09:12.511 ** ServerDataReceived. ClientId=1  DataReceived=UnitOrder
+Debug - 13:09:12.512 ** 
+Debug - 13:09:12.514 ** ExecuteOrders: Unit [BRU] E-3 Sentry BRU (E-3 Sentry) order: SensorActivationOrder
+Debug - 13:09:13.527 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:13.529 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:13.529 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:09:13.529 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:13.530 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:09:13.530 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:13.530 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:13.531 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:13.531 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:13.531 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:13.532 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:13.532 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:17.87 ** ExecuteHighLevelOrders for player [BVJ] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 13:09:19.138 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:19.141 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:19.141 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:09:19.142 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:19.142 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:09:19.142 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:19.143 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:19.143 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:19.143 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:19.144 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:19.144 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:19.144 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:22.79 ** GameData->RecreateWeatherDataFromMain called.
+Debug - 13:09:26.361 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:26.364 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:26.365 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:09:26.365 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:26.365 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:09:26.366 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:26.366 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:26.366 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:26.367 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:26.367 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:26.367 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:26.368 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:32.568 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:32.572 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:32.572 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCW  [Foe]
+Debug - 13:09:32.572 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:32.573 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface CCY  [Foe]
+Debug - 13:09:32.573 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:32.573 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:32.574 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:32.574 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:32.575 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:32.575 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:32.575 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:34.603 ** BaseAIHandler.DetectionLost triggered for MediumSurface CCW  [Foe]
+Debug - 13:09:34.603 ** BaseAIHandler.DetectionLost triggered for MediumSurface CCY  [Foe]
+Debug - 13:09:34.612 ** MissileUnit->SearchForTarget Missile [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) looks for detid= or classid=arleighburke
+Debug - 13:09:34.616 ** MissileUnit->SearchForTarget Missile [CDI] Type 65-76 Heavyweight Torpedo (Type 65-76 Heavyweight Torpedo) looks for detid= or classid=arleighburke
+Debug - 13:09:35.423 ** BaseAIHandler.DetectionLost triggered for Torpedo CEE  [Foe]
+Debug - 13:09:38.691 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:38.694 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:38.694 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:38.695 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:38.695 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:38.695 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:38.696 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:38.696 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:38.696 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:44.939 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:44.941 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:44.942 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:44.942 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:44.943 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:44.943 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:44.943 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:44.944 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:44.944 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:50.664 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:50.665 ** Unit [BVP] Vepr (Shchuka-B) firelevel is now MinorFire.
+Debug - 13:09:50.666 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:50.666 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:50.667 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:50.667 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:50.667 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:50.668 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:50.668 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:50.668 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:56.456 ** 
+Debug - 13:09:56.457 ** ServerDataReceived. ClientId=1  DataReceived=UnitEngagementOrder
+Debug - 13:09:56.457 ** 
+Debug - 13:09:56.458 ** HandleMessageFromClient: UnitEngagementOrder received for Unit BTG to engage target CEC.
+Debug - 13:09:56.459 ** ExecuteOrders: Unit [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) order: EngagementOrder
+Debug - 13:09:56.460 ** GetBestUnitEngagementStatusResult: [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) Best status: EngagementStatus: Trgt:Submarine CEC  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 13:09:56.460 ** GetBestUnitEngagementStatusResult: [BTG] SH-60B Seahawk BTG (SH-60B Seahawk) Best status: EngagementStatus: Trgt:Submarine CEC  [Foe] Wpn: Mark 54 Lightweight Hybrid Torpedo (24) Ready to engage
+Debug - 13:09:56.460 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo to engage target Submarine CEC  [Foe] with 1 rounds.
+Debug - 13:09:56.461 ** Group DKI adds unit [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). Count=1
+Debug - 13:09:56.461 ** Fire: Weapon Mark 54 Lightweight Hybrid Torpedo launches MissileUnit [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo). First wp: Waypoint Pos: 061° 00' 59"N, 002° 59' 23"E Bearing:17,72 Height:100,00
+Has 1 orders.
+Debug - 13:09:56.814 ** ExecuteOrders: Unit [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 13:09:56.814 ** ExecuteOrders: MissileSearchForTarget. Unit [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEC.
+Debug - 13:09:56.815 ** MissileUnit->InterceptTarget. Missile [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target Submarine CEC  [Foe]
+Debug - 13:09:56.844 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:09:56.846 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:56.846 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:56.847 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:56.847 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:09:56.848 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:09:56.848 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:09:56.848 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:09:56.849 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:09:57.325 ** ExecuteOrders: Unit [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) order: MissileSearchForTarget
+Debug - 13:09:57.326 ** ExecuteOrders: MissileSearchForTarget. Unit [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) to search for target CEC.
+Debug - 13:09:57.326 ** MissileUnit->InterceptTarget. Missile [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) set to intercept target Submarine CEC  [Foe]
+Debug - 13:10:01.461 ** Unit [BVP] Vepr (Shchuka-B) firelevel is now MajorFire.
+Debug - 13:10:02.505 ** MissileUnit->Impact called for unit CKT
+Debug - 13:10:02.505 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CKT] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) hits unit [BWF] MV Sirius Star BWF (MV Sirius Star).
+Debug - 13:10:02.506 ** GameManager->GetDamageHitpoints returns 973
+Debug - 13:10:02.521 ** New BattleDamageReport: Player ALP unit USS Texas fires weapon Mark 48 ADCAP Heavyweight Torpedo at player Computer AI unit MV Sirius Star BWF: Damage 973 HP, 97 %.
+Critical Damage: MajorFire
+Debug - 13:10:02.522 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 48 ADCAP Heavyweight Torpedo at player Computer AI unit MV Sirius Star BWF: Damage 973 HP, 97 %.
+Critical Damage: MajorFire
+Debug - 13:10:02.522 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 0 from targettinglist after miss on target LargeSurface BWY  [Foe]. 0 still in list.
+Debug - 13:10:02.523 ** MissileUnit->Impact called for unit CKX
+Debug - 13:10:02.524 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CKX] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) hits unit [BWF] MV Sirius Star BWF (MV Sirius Star).
+Debug - 13:10:02.524 ** GameManager->GetDamageHitpoints returns 963
+Debug - 13:10:02.532 ** New BattleDamageReport: Player ALP unit USS Texas fires weapon Mark 48 ADCAP Heavyweight Torpedo at player Computer AI unit MV Sirius Star BWF: Damage 963 HP, 96 %.
+Target destroyed!
+Debug - 13:10:02.533 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 48 ADCAP Heavyweight Torpedo at player Computer AI unit MV Sirius Star BWF: Damage 963 HP, 96 %.
+Target destroyed!
+Debug - 13:10:02.534 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 0 from targettinglist after miss on target LargeSurface BWY  [Foe]. 0 still in list.
+Debug - 13:10:03.30 ** BaseAIHandler.DetectionLost triggered for LargeSurface BWY  [Foe]
+Debug - 13:10:03.31 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:03.35 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:03.35 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:03.36 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:03.36 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:03.36 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:03.37 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:03.37 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:03.37 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:03.554 ** MissileUnit->SearchForTarget Missile [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) looks for detid= or classid=siriusstar
+Debug - 13:10:03.554 ** MissileUnit->InterceptTarget. Missile [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) set to intercept target LargeSurface BWW  [Foe]
+Debug - 13:10:04.578 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CGO  [Foe]
+Debug - 13:10:05.645 ** MissileUnit->Impact called for unit CLC
+Debug - 13:10:05.645 ** BaseUnit->InflictDamageFromProjectileHit. Missile [CLC] Mark 48 ADCAP Heavyweight Torpedo (Mark 48 ADCAP Heavyweight Torpedo) hits unit [BWB] M/S Pamela BWB (M/S Pamela).
+Debug - 13:10:05.646 ** GameManager->GetDamageHitpoints returns 961
+Debug - 13:10:05.654 ** New BattleDamageReport: Player ALP unit USS Texas fires weapon Mark 48 ADCAP Heavyweight Torpedo at player Computer AI unit M/S Pamela BWB: Damage 961 HP, 96 %.
+Critical Damage: Sensor BWD
+Debug - 13:10:05.655 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 48 ADCAP Heavyweight Torpedo at player Computer AI unit M/S Pamela BWB: Damage 961 HP, 96 %.
+Critical Damage: Sensor BWD
+Debug - 13:10:05.655 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 0 from targettinglist after miss on target LargeSurface BWW  [Foe]. 0 still in list.
+Debug - 13:10:06.156 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection MediumSurface DKV  [Foe]
+Position: 060° 59' 53"N, 003° 57' 51"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 52462,43m at 82,73deg. Strength: 0,03. Size: 0,00 ArcSec
+ 
+Debug - 13:10:06.156 ** CreateOrUpdateDetectionReport NEW Player: [BVJ] Computer AI: Detection MediumSurface DKY  [Foe]
+Position: 060° 59' 34"N, 003° 54' 41"ESensors: (1)
+Sensor [BVR] MGK-540 Bow-Mounted Sonar on unit Vepr [Shchuka-B]: Distance 49564,94m at 83,04deg. Strength: 0,03. Size: 0,00 ArcSec
+ 
+Debug - 13:10:06.657 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CGW  [Foe]
+Debug - 13:10:08.577 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:08.581 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:08.581 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:08.581 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:08.582 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:08.582 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:08.583 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:08.583 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:08.583 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:08.584 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:08.584 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:08.584 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:08.585 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:14.577 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:14.581 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:14.581 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:14.582 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:14.582 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:14.582 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:14.583 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:14.583 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:14.583 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:14.584 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:14.584 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:14.584 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:14.585 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:17.969 ** ExecuteHighLevelOrders for player [BVJ] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 13:10:17.970 ** BaseAIHandler->TurnOffActiveRadar() triggers for player [BVJ] Computer AI
+Debug - 13:10:17.972 ** BaseAIHandler->TurnOffActiveSonar() triggers for player [BVJ] Computer AI
+Debug - 13:10:18.578 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CEV  [Foe]
+Debug - 13:10:20.636 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:20.638 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:20.638 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:20.639 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:20.639 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:20.639 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:20.640 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:20.640 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:20.640 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:20.641 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:20.641 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:20.641 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:20.642 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:23.707 ** Unit [BWB] M/S Pamela BWB (M/S Pamela) firelevel is now MinorFire.
+Debug - 13:10:26.578 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:26.580 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:26.581 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:26.581 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:26.581 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:26.582 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:26.582 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:26.582 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:26.583 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:26.583 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:26.584 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:26.584 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:26.584 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:28.934 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CGD  [Foe]
+Debug - 13:10:33.66 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:33.67 ** GameManager->GetDamageHitpoints returns 8
+Debug - 13:10:33.67 ** Unit [BVP] Vepr (Shchuka-B) takes damage 8 HP from MajorFire
+Debug - 13:10:33.68 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:33.69 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:33.69 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:33.69 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:33.70 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:33.70 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:33.70 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:33.71 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:33.71 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:33.71 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:33.72 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:33.72 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:38.683 ** RespondToImminentThreat: [BSR] Winston S. Churchill (Arleigh Burke) requested to respond to threat Submarine CEC  [Foe]
+Debug - 13:10:38.684 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:38.685 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:38.685 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:38.685 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:38.686 ** RespondToImminentThreat: [BVP] Vepr (Shchuka-B) requested to respond to threat  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:10:38.686 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:38.686 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:38.687 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:38.687 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:38.687 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:38.688 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:38.688 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:41.770 ** MissileUnit->Impact called for unit DKJ
+Debug - 13:10:41.771 ** BaseUnit->InflictDamageFromProjectileHit. Missile [DKJ] Mark 54 Lightweight Hybrid Torpedo (Mark 54 Lightweight Hybrid Torpedo) hits unit [BVP] Vepr (Shchuka-B).
+Debug - 13:10:41.771 ** GameManager->GetDamageHitpoints returns 109
+Debug - 13:10:41.776 ** New BattleDamageReport: Player ALP unit SH-60B Seahawk BTG fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 109 HP, 54 %.
+Target destroyed!
+Debug - 13:10:41.777 ** New BattleDamageReport: Player ALP unit  fires weapon Mark 54 Lightweight Hybrid Torpedo at player Computer AI unit Vepr: Damage 109 HP, 54 %.
+Target destroyed!
+Debug - 13:10:41.777 ** RemoveTargettingForDetectedUnitAfterImpact-> Removed 0 from targettinglist after miss on target Submarine CEC  [Foe]. 0 still in list.
+Debug - 13:10:41.779 ** CreateNewMessage: From: [BVJ] Computer AI
+To: [ALP] ALP
+gg wp
+
+Debug - 13:10:41.782 ** CreateNewMessage: To: [ALP] ALP
+Congratulations. You have won!
+
+Debug - 13:10:42.279 ** BaseAIHandler.DetectionLost triggered for Submarine CEC  [Foe]
+Debug - 13:10:44.788 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:44.788 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:44.789 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:44.789 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:44.790 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:44.790 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:44.790 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:44.791 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:44.791 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:44.791 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:50.788 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:50.789 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:50.789 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:50.790 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:50.790 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:50.791 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:50.791 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:50.791 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:50.792 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:50.792 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:52.788 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CFV  [Foe]
+Debug - 13:10:56.160 ** Unit [BWB] M/S Pamela BWB (M/S Pamela) takes further damage 0 HP.
+Debug - 13:10:56.160 ** GameManager->GetDamageHitpoints returns 14
+Debug - 13:10:56.789 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:56.789 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:56.790 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:10:56.790 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:10:56.791 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:56.791 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:10:56.791 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:56.792 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:10:56.792 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:10:56.792 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:10:57.789 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CFD  [Foe]
+Debug - 13:10:57.789 ** BaseAIHandler.DetectionLost triggered for Sonobuoy CFL  [Foe]
+Debug - 13:11:00.836 ** GameManager->GetDamageHitpoints returns 39
+Debug - 13:11:00.836 ** Unit [BWB] M/S Pamela BWB (M/S Pamela) takes damage 39 HP from MinorFire
+Debug - 13:11:00.837 ** InflictDamageFromFires: Unit [BWB] M/S Pamela BWB (M/S Pamela) is destroyed.
+Debug - 13:11:00.837 ** AutoAssignUnitsToFormation: Group BWA Transport 1 mainunit [BWB] M/S Pamela BWB (M/S Pamela) has been destroyed and is removed.
+Debug - 13:11:00.838 ** AutoAssignUnitsToFormation: Group BWA Transport 1 has been assigned a new mainunit [BWF] MV Sirius Star BWF (MV Sirius Star).
+Debug - 13:11:00.843 ** BaseAIHandler.DetectionLost triggered for LargeSurface BWW  [Foe]
+Debug - 13:11:02.789 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:11:02.789 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:02.790 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:11:02.790 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:11:02.790 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:02.791 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:11:02.791 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:02.791 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:11:02.792 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:02.792 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:11:10.479 ** BaseAIHandler->EngageAirThreat to engage  E-3 Sentry BRU (E-3 Sentry)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:11:10.479 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:10.479 ** EngageAirThreat: Launched 0 aircraft to intercept target  E-3 Sentry BRU (E-3 Sentry)  [Foe].
+Debug - 13:11:10.480 ** BaseAIHandler->EngageAirThreat to engage  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]: CloseAndEngage: True, LaunchAir: True
+Debug - 13:11:10.480 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:10.480 ** EngageAirThreat: Launched 0 aircraft to intercept target  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe].
+Debug - 13:11:10.481 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:10.481 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKV  [Foe]
+Debug - 13:11:10.481 ** LaunchAircraft could not find any carrier to launch desired aircraft.
+Debug - 13:11:10.482 ** BaseAIHandler.EngageSurfaceThreat: Launched 0 aircraft to engage target MediumSurface DKY  [Foe]
+Debug - 13:11:12.540 ** BaseAIHandler.DetectionLost triggered for  E-3 Sentry BRU (E-3 Sentry)  [Foe]
+Debug - 13:11:12.540 ** BaseAIHandler.DetectionLost triggered for  SH-60B Seahawk BTG (SH-60B Seahawk)  [Foe]
+Debug - 13:11:12.541 ** BaseAIHandler.DetectionLost triggered for MediumSurface DKV  [Foe]
+Debug - 13:11:12.541 ** BaseAIHandler.DetectionLost triggered for MediumSurface DKY  [Foe]
+Debug - 13:11:17.959 ** ExecuteHighLevelOrders for player [BVJ] Computer AI: Order HighLevelOrder: TurnOffUnnecessaryActiveSensors 
+Debug - 13:11:17.959 ** BaseAIHandler->TurnOffActiveRadar() triggers for player [BVJ] Computer AI
+Debug - 13:11:17.959 ** BaseAIHandler->TurnOffActiveSonar() triggers for player [BVJ] Computer AI

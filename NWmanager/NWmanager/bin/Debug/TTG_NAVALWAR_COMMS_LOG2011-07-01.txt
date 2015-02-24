@@ -1,0 +1,222 @@
+Debug - 11:39:23.854 ** ////////////////////////////////////////////////////////
+Debug - 11:39:23.855 ** ////////////////////////////////////////////////////////
+Debug - 11:39:23.855 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 11:39:23.855 ** ////////////////////////////////////////////////////////
+Debug - 11:39:23.856 ** ////////////////////////////////////////////////////////
+Debug - 11:39:23.856 ** Gameclient connecting...
+Debug - 11:39:23.930 ** Gameclient connected
+Debug - 11:39:23.931 ** Connectionstatus is : NotConnected
+Debug - 11:39:23.932 ** Attempting to change connectionstatus...
+Debug - 11:39:23.933 ** Current status: NotConnected status to change to: Connected
+Debug - 11:39:23.934 ** ShowInfo: Connection status changed: Connected
+Debug - 11:39:23.950 ** Gameclient status is now Connected
+Debug - 11:39:24.570 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 11:39:25.131 ** ShowInfo: *** Sending select scenario ***
+Debug - 11:39:25.623 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:39:25.629 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:39:25.632 ** ShowInfo: *** Credits: 0
+
+Debug - 11:39:25.930 ** ShowInfo: *** Sending start game ***
+Debug - 11:39:25.933 ** ShowInfo: *** Player selects user Jan
+Debug - 11:39:25.934 ** ShowInfo: *** Player selects scenario player player
+Debug - 11:39:26.147 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:39:26.147 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:39:26.148 ** ShowInfo: *** Credits: 0
+
+Debug - 11:39:26.665 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 11:39:27.204 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:39:27.205 ** ShowInfo:    UserId =Jan
+Debug - 11:39:27.206 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:39:27.207 ** ShowInfo: *** Credits: 0
+
+Debug - 11:39:28.770 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 11:39:29.270 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:39:29.270 ** ShowInfo:    UserId =Jan
+Debug - 11:39:29.271 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:39:29.272 ** ShowInfo: *** Credits: 0
+
+Debug - 11:39:29.809 ** ShowInfo: Received BaseUnitInfo: [BJB] Bergen Airport (ukairportlarge)
+Debug - 11:39:30.349 ** ShowInfo: Received BaseUnitInfo: [BOY] E-3 Sentry BOY (e3sentry)
+Debug - 11:39:30.350 ** ShowInfo: Received BaseUnitInfo: [BPD] F-22 BPD (f22) *
+Debug - 11:39:30.862 ** ShowInfo: Received BaseUnitInfo: [BPM] F-22 BPM (f22)
+Debug - 11:39:31.391 ** ShowInfo: ***GroupInfo received.
+BPC Fighters (2 units)
+Fighter:  2
+Mission: Patrol(Undefined)
+
+Debug - 11:39:31.392 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 11:39:31.398 ** ShowInfo: From: BPW
+gl hf!
+Debug - 11:39:36.768 ** ShowInfo: Designate [CHY] Helicopter [FoF Undetermined]  @ 060° 59' 24"N, 002° 59' 08"E as hostile.
+Debug - 11:39:37.37 ** ShowInfo: DetectedUnitInfo received: Id=CHY  [CHY] Helicopter [Foe]  @ 060° 59' 24"N, 002° 59' 08"E
+Debug - 11:39:37.46 ** ShowInfo: Contact Helicopter CHY  [Foe] is now designated as HOSTILE.
+Debug - 11:39:40.338 ** ShowInfo: *** Unit F-22 BPD to close and engage target [CHY] Helicopter [Foe]  @ 061° 00' 05"N, 002° 57' 06"E
+Debug - 11:39:41.172 ** ShowInfo: ***GroupInfo received.
+BPC Fighters (2 units)
+Fighter:  2
+Mission: Attack(Air)
+
+Debug - 11:39:41.173 ** ShowInfo: Sir, [BPD] F-22 BPD (F-22) is closing 46,57km to engage Helicopter CHY  [Foe].
+Debug - 11:39:57.88 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CJO] FixedWingAircraft (2 units)
+Debug - 11:39:58.98 ** ShowInfo: DetectedUnitInfo received: Id=CJK  [CJK] FixedWingAircraft [FoF Undetermined]  @ 061° 19' 53"N, 002° 26' 54"E
+Debug - 11:39:58.99 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] FixedWingAircraft [FoF Undetermined]  @ 061° 19' 51"N, 002° 26' 52"E
+Debug - 11:39:58.646 ** ShowInfo: DetectedUnitInfo received: Id=CJK  [CJK] FixedWingAircraft [FoF Undetermined]  @ 061° 20' 54"N, 002° 25' 18"E
+Debug - 11:39:58.647 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] FixedWingAircraft [FoF Undetermined]  @ 061° 20' 52"N, 002° 25' 16"E
+Debug - 11:39:59.170 ** ShowInfo: Received new UnitClass aim120amraam AIM-120 AMRAAM Missile
+Debug - 11:39:59.176 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CJV
+Debug - 11:39:59.180 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CJZ
+Debug - 11:39:59.688 ** ShowInfo: Received BaseUnitInfo: [CJV] AMRAAM from F-22 BPD (aim120amraam)
+Debug - 11:40:00.202 ** ShowInfo: Received BaseUnitInfo: [CJZ] AMRAAM from F-22 BPM (aim120amraam)
+Debug - 11:40:00.204 ** ShowInfo: DetectedUnitInfo received: Id=CHY  [CHY] Helicopter [Foe]  @ 061° 03' 12"N, 002° 47' 53"E
+Debug - 11:40:00.749 ** ShowInfo: DetectedUnitInfo received: Id=CJK  [CJK] FixedWingAircraft [FoF Undetermined]  @ 061° 20' 54"N, 002° 25' 18"E
+Debug - 11:40:00.750 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] FixedWingAircraft [FoF Undetermined]  @ 061° 20' 52"N, 002° 25' 16"E
+Debug - 11:40:01.269 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [CKJ] Admiral Kuznetsov (2 units)
+Debug - 11:40:01.272 ** ShowInfo: Received new UnitClass vympelr77 Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 11:40:02.279 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:04
+Debug - 11:40:02.781 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:40:02.782 ** ShowInfo:    UserId =Jan
+Debug - 11:40:02.782 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:40:02.783 ** ShowInfo: *** Credits: 0
+
+Debug - 11:40:03.297 ** ShowInfo: DetectedUnitInfo received: Id=CHY  [CHY] Kamov Ka-27 CGW (ka27) [Foe]  @ 061° 03' 22"N, 002° 47' 21"E
+Debug - 11:40:03.306 ** ShowInfo: DetectedUnitInfo received: Id=CJK  [CJK] Sukhoi PAK FA BYH (sukhoipakfa) [Foe]  @ 061° 21' 54"N, 002° 23' 43"E
+Debug - 11:40:03.822 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] Sukhoi PAK FA BYP (sukhoipakfa) [Foe]  @ 061° 21' 53"N, 002° 23' 41"E
+Debug - 11:40:03.826 ** ShowInfo: DetectedUnitInfo received: Id=CKE  [CKE] Admiral Kuznetsov (kuznetsov) [Foe]  @ 060° 59' 34"N, 003° 00' 00"E
+Debug - 11:40:04.338 ** ShowInfo: DetectedUnitInfo received: Id=CKH  [CKH] Petr Velikiy (kirov) [Foe]  @ 060° 59' 50"N, 002° 59' 13"E
+Debug - 11:40:04.339 ** ShowInfo: [BOY] E-3 Sentry BOY (E-3 Sentry) is being detected by ACTIVE EGSP-27 Irbis-E 3D Radar from FixedWingAircraft CJK  [Undetermined].
+Debug - 11:40:06.373 ** ShowInfo: Unit [CJV] AMRAAM from F-22 BPD has been DESTROYED.
+Debug - 11:40:06.884 ** ShowInfo: +++We shot down an enemy Kamov Ka-27 using a AIM-120 AMRAAM Missile
+Debug - 11:40:06.885 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27 (out of fuel)
+Debug - 11:40:06.885 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27 (out of fuel)
+Debug - 11:40:06.886 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CJV
+Debug - 11:40:06.888 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CHY
+Debug - 11:40:07.381 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CJZ
+Debug - 11:40:08.397 ** ShowInfo: [BPD] F-22 BPD (F-22) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA BYH (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 11:40:08.401 ** ShowInfo: [BPM] F-22 BPM (F-22) is being detected by ACTIVE Missile Guidance Radar from  Vympel 77 from Sukhoi PAK FA BYH (Vympel R-77 'AA-12 Adder' AA Missile)  [Foe].
+Debug - 11:40:09.923 ** ShowInfo: Unit [BOY] E-3 Sentry BOY has been DESTROYED.
+Debug - 11:40:09.926 ** ShowInfo: ---A E-3 Sentry was SHOT DOWN by a Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 11:40:10.425 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BOY
+Debug - 11:40:10.426 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CMJ
+Debug - 11:40:18.206 ** ShowInfo: *** Unit F-22 BPD to close and engage target [CJK] Sukhoi PAK FA BYH (sukhoipakfa) [Foe]  @ 061° 40' 36"N, 001° 53' 52"E
+Debug - 11:40:19.563 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CON
+Debug - 11:40:20.62 ** ShowInfo: Received BaseUnitInfo: [CON] AMRAAM from F-22 BPD (aim120amraam)
+Debug - 11:40:20.63 ** ShowInfo: DetectedUnitInfo received: Id=CJK  [CJK] Sukhoi PAK FA BYH (sukhoipakfa) [Foe]  @ 061° 41' 36"N, 001° 52' 14"E
+Debug - 11:40:20.64 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] Sukhoi PAK FA BYP (sukhoipakfa) [Foe]  @ 061° 41' 35"N, 001° 52' 13"E
+Debug - 11:40:20.579 ** ShowInfo: DetectedUnitInfo received: Id=CKE  [CKE] Admiral Kuznetsov (kuznetsov) [Foe]  @ 060° 59' 16"N, 003° 00' 00"E
+Debug - 11:40:20.582 ** ShowInfo: DetectedUnitInfo received: Id=CKH  [CKH] Petr Velikiy (kirov) [Foe]  @ 060° 59' 32"N, 002° 59' 13"E
+Debug - 11:40:22.607 ** ShowInfo: Unit [CON] AMRAAM from F-22 BPD has been DESTROYED.
+Debug - 11:40:22.608 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a AIM-120 AMRAAM Missile
+Debug - 11:40:23.108 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CON
+Debug - 11:40:23.110 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CJK
+Debug - 11:40:23.110 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] Sukhoi PAK FA BYP (sukhoipakfa) [Foe]  @ 061° 44' 00"N, 001° 48' 17"E
+Debug - 11:40:23.111 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CJO] FixedWingAircraft (1 units)
+Debug - 11:40:25.680 ** ShowInfo: Received new UnitClass s400trimuf S-400 Triumf 'SA-21 Growler' SAM
+Debug - 11:40:33.261 ** ShowInfo: *** Unit F-22 BPD to close and engage target [CJM] Sukhoi PAK FA BYP (sukhoipakfa) [Foe]  @ 061° 54' 03"N, 001° 31' 50"E
+Debug - 11:40:33.370 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:10:41
+Debug - 11:40:33.869 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:40:33.870 ** ShowInfo:    UserId =Jan
+Debug - 11:40:33.871 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:40:33.871 ** ShowInfo: *** Credits: 0
+
+Debug - 11:40:34.887 ** ShowInfo: DetectedUnitInfo received: Id=CQC  [CQC] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 061° 24' 38"N, 002° 35' 16"E
+Debug - 11:40:34.889 ** ShowInfo: Sir, [BPD] F-22 BPD (F-22) is closing 16,15km to engage  Sukhoi PAK FA BYP (Sukhoi PAK FA)  [Foe].
+Debug - 11:40:36.942 ** ShowInfo: DetectedUnitInfo received: Id=CQN  [CQN] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 061° 32' 34"N, 002° 23' 20"E
+Debug - 11:40:37.457 ** ShowInfo: DetectedUnitInfo received: Id=CQC  [CQC] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 061° 39' 40"N, 002° 10' 21"E
+Debug - 11:40:37.977 ** ShowInfo: Unit [BPD] F-22 BPD has been DESTROYED.
+Debug - 11:40:38.473 ** ShowInfo: ---A F-22 was SHOT DOWN by a S-400 Triumf 'SA-21 Growler' SAM
+Debug - 11:40:38.985 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BPD
+Debug - 11:40:38.987 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CQC
+Debug - 11:40:38.988 ** ShowInfo: ***GroupInfo received.
+BPC Fighters (1 units)
+Fighter:  1
+Mission: Attack(Air)
+
+Debug - 11:40:40.1 ** ShowInfo: DetectedUnitInfo received: Id=CQN  [CQN] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 061° 39' 11"N, 002° 10' 38"E
+Debug - 11:40:42.61 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CQN
+Debug - 11:40:46.567 ** ShowInfo: *** Unit F-22 BPM to close and engage target [CJM] Sukhoi PAK FA BYP (sukhoipakfa) [Foe]  @ 062° 08' 22"N, 001° 07' 58"E
+Debug - 11:40:47.164 ** ShowInfo: Sir, [BPM] F-22 BPM (F-22) is closing 4,94km to engage  Sukhoi PAK FA BYP (Sukhoi PAK FA)  [Foe].
+Debug - 11:40:57.909 ** ShowInfo: DetectedUnitInfo received: Id=CJM  [CJM] Sukhoi PAK FA BYP (sukhoipakfa) [Foe]  @ 062° 19' 20"N, 000° 49' 22"E
+Debug - 11:41:01.224 ** ShowInfo: Designate [CSG] Helicopter [FoF Undetermined]  @ 061° 04' 03"N, 003° 11' 24"E as hostile.
+Debug - 11:41:02.32 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Helicopter [Foe]  @ 061° 04' 03"N, 003° 11' 24"E
+Debug - 11:41:02.33 ** ShowInfo: Contact Helicopter CSG  [Foe] is now designated as HOSTILE.
+Debug - 11:41:03.56 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CTQ
+Debug - 11:41:03.57 ** ShowInfo: Received BaseUnitInfo: [CTQ] AMRAAM from F-22 BPM (aim120amraam)
+Debug - 11:41:03.58 ** ShowInfo: Unit [CTQ] AMRAAM from F-22 BPM has been DESTROYED.
+Debug - 11:41:03.561 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a AIM-120 AMRAAM Missile
+Debug - 11:41:03.562 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CTQ
+Debug - 11:41:03.563 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CJM
+Debug - 11:41:03.564 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id CJO
+Debug - 11:41:03.565 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Helicopter [Foe]  @ 061° 04' 17"N, 003° 11' 50"E
+Debug - 11:41:04.572 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:15:44
+Debug - 11:41:05.92 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:41:05.92 ** ShowInfo:    UserId =Jan
+Debug - 11:41:05.93 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:41:05.94 ** ShowInfo: *** Credits: 0
+
+Debug - 11:41:05.584 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Kamov Ka-27 CFF (ka27) [Foe]  @ 061° 04' 30"N, 003° 12' 16"E
+Debug - 11:41:06.602 ** ShowInfo: Unit [BPM] F-22 BPM (F-22) has reached BINGO FUEL and must return to base immediately.
+Debug - 11:41:34.808 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:20:56
+Debug - 11:41:35.321 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:41:35.322 ** ShowInfo:    UserId =Jan
+Debug - 11:41:35.323 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:41:35.323 ** ShowInfo: *** Credits: 0
+
+Debug - 11:41:47.597 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Kamov Ka-27 CFF (ka27) [Foe]  @ 061° 14' 06"N, 003° 31' 21"E
+Debug - 11:41:51.801 ** ShowInfo: UnitOrder to unit BJB : Launch 1 aircraft.
+Debug - 11:41:52.715 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BJH
+Debug - 11:41:53.243 ** ShowInfo: Received BaseUnitInfo: [BJH] F-22 BJH (f22)
+Debug - 11:41:53.761 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Kamov Ka-27 CFF (ka27) [Foe]  @ 061° 15' 26"N, 003° 34' 00"E
+Debug - 11:41:57.448 ** ShowInfo: *** Unit F-22 BJH to close and engage target [CSG] Kamov Ka-27 CFF (ka27) [Foe]  @ 061° 16' 32"N, 003° 36' 13"E
+Debug - 11:41:58.921 ** ShowInfo: Sir, [BJH] F-22 BJH (F-22) is closing 97,99km to engage  Kamov Ka-27 CFF (Kamov Ka-27)  [Foe].
+Debug - 11:42:04.541 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:25:58
+Debug - 11:42:05.58 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 11:42:05.60 ** ShowInfo:    UserId =Jan
+Debug - 11:42:05.65 ** ShowInfo:    Campaign Name =Test Campaign
+Debug - 11:42:05.68 ** ShowInfo: *** Credits: 0
+
+Debug - 11:42:07.642 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CWM] FixedWingAircraft (2 units)
+Debug - 11:42:08.181 ** ShowInfo: DetectedUnitInfo received: Id=CWI  [CWI] FixedWingAircraft [FoF Undetermined]  @ 060° 31' 03"N, 004° 57' 41"E
+Debug - 11:42:08.182 ** ShowInfo: DetectedUnitInfo received: Id=CWK  [CWK] FixedWingAircraft [FoF Undetermined]  @ 060° 31' 03"N, 004° 57' 45"E
+Debug - 11:42:11.957 ** ShowInfo: Designate [CWK] FixedWingAircraft [FoF Undetermined]  @ 060° 27' 28"N, 004° 55' 08"E as hostile.
+Debug - 11:42:12.837 ** ShowInfo: Received new UnitClass rim66standard RIM-66 Standard MR SM-2
+Debug - 11:42:12.838 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CWS
+Debug - 11:42:13.356 ** ShowInfo: Received BaseUnitInfo: [CWS] SM-2 from Bergen Airport (rim66standard)
+Debug - 11:42:13.357 ** ShowInfo: DetectedUnitInfo received: Id=CKE  [CKE] Admiral Kuznetsov (kuznetsov) [Foe]  @ 060° 57' 36"N, 003° 00' 00"E
+Debug - 11:42:13.359 ** ShowInfo: DetectedUnitInfo received: Id=CKH  [CKH] Petr Velikiy (kirov) [Foe]  @ 060° 57' 52"N, 002° 59' 13"E
+Debug - 11:42:13.850 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Kamov Ka-27 CFF (ka27) [Foe]  @ 061° 19' 37"N, 003° 42' 25"E
+Debug - 11:42:13.851 ** ShowInfo: DetectedUnitInfo received: Id=CWI  [CWI] FixedWingAircraft [FoF Undetermined]  @ 060° 27' 13"N, 004° 52' 40"E
+Debug - 11:42:13.852 ** ShowInfo: DetectedUnitInfo received: Id=CWK  [CWK] FixedWingAircraft [Foe]  @ 060° 27' 11"N, 004° 52' 41"E
+Debug - 11:42:14.363 ** ShowInfo: Contact FixedWingAircraft CWK  [Foe] is now designated as HOSTILE.
+Debug - 11:42:14.364 ** ShowInfo: Unit [BJH] F-22 BJH has been DESTROYED.
+Debug - 11:42:14.365 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CYG
+Debug - 11:42:15.379 ** ShowInfo: Received BaseUnitInfo: [CYG] SM-2 from Bergen Airport (rim66standard)
+Debug - 11:42:15.380 ** ShowInfo: ---A F-22 was SHOT DOWN by a Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 11:42:15.893 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id BJH
+Debug - 11:42:15.894 ** ShowInfo: DetectedUnitInfo received: Id=CKE  [CKE] Admiral Kuznetsov (kuznetsov) [Foe]  @ 060° 57' 35"N, 003° 00' 00"E
+Debug - 11:42:15.896 ** ShowInfo: DetectedUnitInfo received: Id=CKH  [CKH] Petr Velikiy (kirov) [Foe]  @ 060° 57' 51"N, 002° 59' 13"E
+Debug - 11:42:16.323 ** ShowInfo: Designate [CWI] FixedWingAircraft [FoF Undetermined]  @ 060° 27' 13"N, 004° 52' 40"E as hostile.
+Debug - 11:42:16.408 ** ShowInfo: DetectedUnitInfo received: Id=CSG  [CSG] Kamov Ka-27 CFF (ka27) [Foe]  @ 061° 19' 50"N, 003° 42' 52"E
+Debug - 11:42:16.410 ** ShowInfo: DetectedUnitInfo received: Id=CWI  [CWI] Sukhoi PAK FA BZN (sukhoipakfa) [Foe]  @ 060° 27' 05"N, 004° 50' 06"E
+Debug - 11:42:16.411 ** ShowInfo: DetectedUnitInfo received: Id=CWK  [CWK] Sukhoi PAK FA BZV (sukhoipakfa) [Foe]  @ 060° 27' 04"N, 004° 50' 08"E
+Debug - 11:42:16.922 ** ShowInfo: [BJH] F-22 BJH (F-22) is being detected by ACTIVE EGSP-27 Irbis-E 3D Radar from FixedWingAircraft CWI  [Undetermined].
+Debug - 11:42:16.923 ** ShowInfo: DetectedUnitInfo received: Id=CKE  [CKE] Admiral Kuznetsov (kuznetsov) [Foe]  @ 060° 57' 35"N, 003° 00' 00"E
+Debug - 11:42:16.925 ** ShowInfo: DetectedUnitInfo received: Id=CKH  [CKH] Petr Velikiy (kirov) [Foe]  @ 060° 57' 51"N, 002° 59' 13"E
+Debug - 11:42:17.951 ** ShowInfo: Unit [CWS] SM-2 from Bergen Airport has been DESTROYED.
+Debug - 11:42:17.953 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a RIM-66 Standard MR SM-2
+Debug - 11:42:18.452 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CWS
+Debug - 11:42:18.454 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CWK
+Debug - 11:42:18.455 ** ShowInfo: ### DetectedGroupInfo received: FixedWingAircraft group [CWM] FixedWingAircraft (1 units)
+Debug - 11:42:18.455 ** ShowInfo: Unit [CYG] SM-2 from Bergen Airport has been DESTROYED.
+Debug - 11:42:18.965 ** ShowInfo: +++We shot down an enemy Sukhoi PAK FA using a RIM-66 Standard MR SM-2
+Debug - 11:42:18.967 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CYG
+Debug - 11:42:18.968 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CWI
+Debug - 11:42:18.968 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id CWM

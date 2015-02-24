@@ -1,0 +1,2 @@
+Debug - 14:42:16.131 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWmanager\bin\Debug\Data\terrain.bin> .
+Debug - 14:44:25.992 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWmanager\bin\Debug\Data\terrain.bin> .

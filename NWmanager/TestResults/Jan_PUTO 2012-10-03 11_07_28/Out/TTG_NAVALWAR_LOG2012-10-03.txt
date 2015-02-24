@@ -1,0 +1,1 @@
+Debug - 11:07:34.795 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .

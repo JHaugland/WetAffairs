@@ -1,0 +1,14 @@
+﻿MAP PROJECTION:
+
+http://www.codeproject.com/KB/GDI-plus/maps_map_net_gis.aspx
+
+
+
+http://www.gcblue2.com/phpBB3/viewtopic.php?f=7&t=350
+
+"Cdpsub – Subsonic drag coeff 
+Cdptran – Transonic drag coeff 
+Cdpsup –Supersonic drag coeff 
+Mcm – Subsonic mach number 
+Msupm – Supersonic mach number 
+Kdi – Induced drag coeff, not sure this is used "

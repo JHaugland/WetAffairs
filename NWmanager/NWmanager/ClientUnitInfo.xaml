@@ -1,0 +1,13 @@
+﻿<Window x:Class="NWmanager.ClientUnitInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Unit Info" Height="300" Width="452">
+    <Grid>
+        <StackPanel Name="stackPanel1" VerticalAlignment="Stretch">
+            <Label Name="lblUnit" Content="Unit Info:"></Label>
+            <TextBox Name="txtUnitInfo" VerticalScrollBarVisibility="Auto" VerticalAlignment="Stretch" TextWrapping="Wrap" />
+            <Label Name="lblDet" Content="Detected Unit Info:"></Label>
+            <TextBox Name="txtDetectedUnitInfo" VerticalScrollBarVisibility="Auto"  VerticalAlignment="Stretch" TextWrapping="Wrap" />
+        </StackPanel>
+    </Grid>
+</Window>

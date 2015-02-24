@@ -1,0 +1,27 @@
+Debug - 09:27:36.31 ** ************* GameServer Init Start **************
+Debug - 09:27:36.36 ** ************* GameServer Init End **************
+Debug - 09:27:46.246 ** PollNetwork: New client 2 added.
+Debug - 09:27:48.401 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 09:27:48.432 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 09:27:50.650 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 09:27:50.654 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 09:27:56.646 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 09:27:57.113 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 09:28:10.250 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:28:28.18 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:28:39.648 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:28:57.639 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:41:00.416 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:41:41.763 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:41:49.106 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:42:42.179 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:44:50.977 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:50:23.356 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:50:30.548 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:52:05.811 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:53:00.956 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:53:05.456 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:54:09.841 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:54:19.403 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 09:56:59.927 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 09:57:24.168 ** PollNetwork: Object read from receive buffer: UnitOrder

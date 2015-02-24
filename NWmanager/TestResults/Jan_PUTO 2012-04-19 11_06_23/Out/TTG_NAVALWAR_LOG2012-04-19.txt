@@ -1,0 +1,7 @@
+Debug - 11:06:28.685 ** TerrainReader->LoadMemoryMap initializing. Reading terrain file: <C:\terrain.bin> .
+Debug - 11:06:28.699 ** **************************************************************************
+Debug - 11:06:28.701 ** GameManager->CreateGame. GameName: test game   Player: GoodGuy
+Debug - 11:06:28.701 ** **************************************************************************
+Debug - 11:06:28.703 ** Game() object ALQ instantiated!
+Debug - 11:06:28.726 ** Group ALP adds unit [ALR]  (Arleigh Burke). Count=1
+Debug - 11:06:28.798 ** Group ANH adds unit [ANI]  (Arleigh Burke). Count=1

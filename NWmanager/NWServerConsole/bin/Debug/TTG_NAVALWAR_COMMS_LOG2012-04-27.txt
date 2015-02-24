@@ -1,0 +1,30 @@
+Debug - 15:07:00.283 ** ************* GameServer Init Start **************
+Debug - 15:07:00.317 ** ************* GameServer Init End **************
+Debug - 15:07:13.248 ** PollNetwork: New client 2 added.
+Debug - 15:07:15.214 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:07:15.243 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:07:17.783 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:07:17.788 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:07:17.792 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:09:08.564 ** ************* GameServer Init Start **************
+Debug - 15:09:08.587 ** ************* GameServer Init End **************
+Debug - 15:09:25.728 ** PollNetwork: New client 2 added.
+Debug - 15:09:28.272 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:09:28.293 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:19:59.956 ** ************* GameServer Init Start **************
+Debug - 15:19:59.963 ** ************* GameServer Init End **************
+Debug - 15:20:14.317 ** PollNetwork: New client 2 added.
+Debug - 15:20:16.197 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:16.218 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:26.70 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:26.75 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:26.78 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:23:12.59 ** ************* GameServer Init Start **************
+Debug - 15:23:12.66 ** ************* GameServer Init End **************
+Debug - 15:23:23.381 ** PollNetwork: New client 2 added.
+Debug - 15:23:24.680 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:23:24.701 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:23:25.711 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:23:25.715 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:23:49.933 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:23:49.997 ** PollNetwork: Object read from receive buffer: GameControlRequest

@@ -1,0 +1,13 @@
+﻿<Window x:Class="GameObjectEditor.OpenDatafile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="OpenDatafile" Height="101" Width="559">
+    <Grid Height="71" Width="538">
+        <Button Margin="12,12,0,0" Name="btnUnitClass" Click="button1_Click" HorizontalAlignment="Left" Width="83"  VerticalAlignment="Top">UnitClasses</Button>
+        <Button Margin="101,12,0,0" Name="btnWeaponClass" Click="btnWeaponClass_Click" HorizontalAlignment="Left"  VerticalAlignment="Top">WeaponClass</Button>
+        <Button Margin="258,12,0,0" Name="btnCountries" Click="btnCountries_Click" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="21.96" Width="56.557">Countries</Button>
+        <Button HorizontalAlignment="Left" Margin="184,12,0,0" Name="btnSensorClass" Click="btnSensorClass_Click" VerticalAlignment="Top" Height="21.96" Width="68.367">SensorClass</Button>
+        <Button Margin="321,12,0,0" Name="btnScenarios" Click="btnScenarios_Click"  VerticalAlignment="Top" HorizontalAlignment="Left" Height="21.96" Width="56.293">Scenarios</Button>
+        <Button HorizontalAlignment="Left" Margin="383,12,0,0" Name="btnFormations"  Click="btnFormations_Click"  VerticalAlignment="Top" Height="21.96" Width="65.393">Formations</Button>
+    </Grid>
+</Window>

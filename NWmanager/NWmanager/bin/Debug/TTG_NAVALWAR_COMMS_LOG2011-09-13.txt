@@ -1,0 +1,716 @@
+Debug - 08:13:02.114 ** ////////////////////////////////////////////////////////
+Debug - 08:13:02.115 ** ////////////////////////////////////////////////////////
+Debug - 08:13:02.115 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 08:13:02.116 ** ////////////////////////////////////////////////////////
+Debug - 08:13:02.116 ** ////////////////////////////////////////////////////////
+Debug - 08:13:02.117 ** Gameclient connecting...
+Debug - 08:13:02.139 ** Gameclient connected
+Debug - 08:13:02.140 ** Connectionstatus is : NotConnected
+Debug - 08:13:02.141 ** Attempting to change connectionstatus...
+Debug - 08:13:02.141 ** Current status: NotConnected status to change to: Connected
+Debug - 08:13:02.143 ** ShowInfo: Connection status changed: Connected
+Debug - 08:13:02.165 ** Gameclient status is now Connected
+Debug - 08:13:02.747 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 08:13:07.316 ** ShowInfo: *** Sending select scenario ***
+Debug - 08:13:07.427 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 08:13:07.428 ** ShowInfo: GameWorldTimeSec=0
+Debug - 08:13:07.429 ** ShowInfo: GameEngineTimeMs=0
+Debug - 08:13:07.433 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:13:07.434 ** ShowInfo: *** Credits: 0
+
+Debug - 08:13:07.961 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 08:13:07.962 ** ShowInfo: GameWorldTimeSec=0
+Debug - 08:13:07.963 ** ShowInfo: GameEngineTimeMs=0
+Debug - 08:13:08.456 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:13:08.457 ** ShowInfo: *** Credits: 0
+
+Debug - 08:13:10.557 ** ShowInfo: *** Sending start game ***
+Debug - 08:13:10.562 ** ShowInfo: *** Player selects user Jan
+Debug - 08:13:10.565 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 08:13:12.32 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:00:00
+Debug - 08:13:12.33 ** ShowInfo: GameWorldTimeSec=0
+Debug - 08:13:12.34 ** ShowInfo: GameEngineTimeMs=0
+Debug - 08:13:12.35 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:13:12.35 ** ShowInfo: *** Credits: 200
+
+Debug - 08:13:12.564 ** ShowInfo: Received BaseUnitInfo: [BQV] RAF Lossiemouth (ukairportlarge)
+Debug - 08:13:13.66 ** ShowInfo: Received BaseUnitInfo: [BXM] Keflavik Airport (ukairportlarge)
+Debug - 08:13:13.70 ** ShowInfo: Received BaseUnitInfo: [CAI] E3 Sentry (e3sentry)
+Debug - 08:13:13.590 ** ShowInfo: Received BaseUnitInfo: [CAN] Winston S. Churchill (arleighburke) *
+Debug - 08:13:14.138 ** ShowInfo: Received BaseUnitInfo: [CBR] Fridtjof Nansen (fridtjofnansen)
+Debug - 08:13:14.139 ** ShowInfo: Received BaseUnitInfo: [CCO] USS Virginia (virginia)
+Debug - 08:13:14.672 ** ShowInfo: Received BaseUnitInfo: [CCX] USS Texas (virginia)
+Debug - 08:13:14.695 ** ShowInfo: ***GroupInfo received.
+CAM Surface Task Force (2 units)
+Surface combattant:  2
+Mission: Patrol(Undefined)
+
+Debug - 08:13:15.199 ** ShowInfo: No user found for id=[Jan].
+Debug - 08:13:15.201 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 08:13:15.206 ** ShowInfo: From: CDF
+gl hf!
+Debug - 08:13:21.878 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id CBA
+Debug - 08:13:22.936 ** ShowInfo: Received BaseUnitInfo: [CBA] SH-60B Seahawk CBA (sh60b)
+Debug - 08:13:42.950 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:05:11
+Debug - 08:13:42.951 ** ShowInfo: GameWorldTimeSec=301,927268999997
+Debug - 08:13:42.951 ** ShowInfo: GameEngineTimeMs=31192,7840999997
+Debug - 08:13:42.952 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:13:42.953 ** ShowInfo: *** Credits: 200
+
+Debug - 08:13:47.233 ** ShowInfo: UnitOrder to unit BXM : Launch 1 aircraft.
+Debug - 08:13:48.40 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYP
+Debug - 08:13:48.550 ** ShowInfo: Received BaseUnitInfo: [BYP] F-22 BYP (f22)
+Debug - 08:14:12.948 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:10:11
+Debug - 08:14:12.949 ** ShowInfo: GameWorldTimeSec=601,944428999995
+Debug - 08:14:12.950 ** ShowInfo: GameEngineTimeMs=61194,5000999994
+Debug - 08:14:12.950 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:14:12.951 ** ShowInfo: *** Credits: 200
+
+Debug - 08:14:14.881 ** ShowInfo: *** Movement order sent to unit F-22 BYP
+Debug - 08:14:43.58 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:15:12
+Debug - 08:14:43.59 ** ShowInfo: GameWorldTimeSec=901,961588999993
+Debug - 08:14:43.60 ** ShowInfo: GameEngineTimeMs=91196,2160999992
+Debug - 08:14:43.60 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:14:43.61 ** ShowInfo: *** Credits: 200
+
+Debug - 08:15:03.188 ** ShowInfo: Designate [DEP] Helicopter [FoF Undetermined]  @ 068° 21' 25"N, 009° 12' 13"W as hostile.
+Debug - 08:15:04.8 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Helicopter [Foe]  @ 068° 21' 10"N, 009° 12' 43"W
+Debug - 08:15:04.17 ** ShowInfo: Contact Helicopter DEP  [Foe] is now designated as HOSTILE.
+Debug - 08:15:08.532 ** ShowInfo: *** Unit F-22 BYP to close and engage target [DEP] Helicopter [Foe]  @ 068° 20' 10"N, 009° 14' 40"W
+Debug - 08:15:09.641 ** ShowInfo: Sir, [BYP] F-22 BYP (F-22) is closing 601,16km to engage Helicopter DEP  [Foe].
+Debug - 08:15:12.749 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:20:12
+Debug - 08:15:12.750 ** ShowInfo: GameWorldTimeSec=1201,97874899999
+Debug - 08:15:12.751 ** ShowInfo: GameEngineTimeMs=121197,932099999
+Debug - 08:15:12.751 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:15:12.752 ** ShowInfo: *** Credits: 200
+
+Debug - 08:15:15.288 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Helicopter [Foe]  @ 068° 18' 12"N, 009° 18' 34"W
+Debug - 08:15:29.269 ** ShowInfo: UnitOrder to unit BXM : Launch 1 aircraft.
+Debug - 08:15:30.108 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BZW
+Debug - 08:15:30.610 ** ShowInfo: Received BaseUnitInfo: [BZW] F-22 BZW (f22)
+Debug - 08:15:32.658 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DFV] MediumSurface group (2 units)
+Debug - 08:15:35.215 ** ShowInfo: DetectedUnitInfo received: Id=DFT  [DFT] MediumSurface [FoF Undetermined]  @ 068° 43' 50"N, 008° 31' 35"W
+Debug - 08:15:36.55 ** ShowInfo: *** Movement order sent to unit F-22 BZW
+Debug - 08:15:38.263 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DFV] MediumSurface group (3 units)
+Debug - 08:15:38.843 ** ShowInfo: Designate [DFR] MediumSurface [FoF Undetermined]  @ 068° 43' 54"N, 008° 33' 07"W as hostile.
+Debug - 08:15:39.831 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 43' 52"N, 008° 33' 13"W
+Debug - 08:15:40.357 ** ShowInfo: Contact MediumSurface DFR  [Foe] is now designated as HOSTILE.
+Debug - 08:15:41.632 ** ShowInfo: Designate [DFZ] MediumSurface [FoF Undetermined]  @ 068° 44' 32"N, 008° 35' 42"W as hostile.
+Debug - 08:15:42.900 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] MediumSurface [Foe]  @ 068° 44' 28"N, 008° 35' 56"W
+Debug - 08:15:43.433 ** ShowInfo: Contact MediumSurface DFZ  [Foe] is now designated as HOSTILE.
+Debug - 08:15:44.466 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:25:24
+Debug - 08:15:44.472 ** ShowInfo: GameWorldTimeSec=1514,04659799999
+Debug - 08:15:44.475 ** ShowInfo: GameEngineTimeMs=152449,719599999
+Debug - 08:15:44.480 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:15:44.484 ** ShowInfo: *** Credits: 200
+
+Debug - 08:15:45.165 ** ShowInfo: Designate [DFT] MediumSurface [FoF Undetermined]  @ 068° 43' 35"N, 008° 32' 30"W as hostile.
+Debug - 08:15:46.555 ** ShowInfo: DetectedUnitInfo received: Id=DFT  [DFT] MediumSurface [Foe]  @ 068° 43' 32"N, 008° 32' 43"W
+Debug - 08:15:47.65 ** ShowInfo: Contact MediumSurface DFT  [Foe] is now designated as HOSTILE.
+Debug - 08:16:09.113 ** ShowInfo: UnitOrder to unit BXM : Launch 4 aircraft.
+Debug - 08:16:10.94 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BXV
+Debug - 08:16:10.94 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYA
+Debug - 08:16:10.592 ** ShowInfo: Received BaseUnitInfo: [BXV] Boeing P-8A Poseidon BXV (p8poseidon) *
+Debug - 08:16:10.594 ** ShowInfo: Received BaseUnitInfo: [BYA] Boeing P-8A Poseidon BYA (p8poseidon)
+Debug - 08:16:11.606 ** ShowInfo: ***GroupInfo received.
+DGV Keflavik Airport aircraft group (2 units)
+Strike:  2
+Mission: Patrol(Undefined)
+
+Debug - 08:16:15.759 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYF
+Debug - 08:16:15.760 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BYK
+Debug - 08:16:16.770 ** ShowInfo: Received BaseUnitInfo: [BYF] Boeing P-8A Poseidon BYF (p8poseidon)
+Debug - 08:16:17.273 ** ShowInfo: Received BaseUnitInfo: [BYK] Boeing P-8A Poseidon BYK (p8poseidon)
+Debug - 08:16:17.785 ** ShowInfo: ***GroupInfo received.
+DGV Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Patrol(Undefined)
+
+Debug - 08:16:19.299 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Helicopter [Foe]  @ 068° 03' 10"N, 009° 47' 42"W
+Debug - 08:16:19.300 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 42' 50"N, 008° 36' 59"W
+Debug - 08:16:19.301 ** ShowInfo: DetectedUnitInfo received: Id=DFT  [DFT] MediumSurface [Foe]  @ 068° 42' 42"N, 008° 35' 46"W
+Debug - 08:16:20.888 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:31:28
+Debug - 08:16:20.889 ** ShowInfo: GameWorldTimeSec=1857,81626099999
+Debug - 08:16:20.890 ** ShowInfo: GameEngineTimeMs=188876,803099999
+Debug - 08:16:21.399 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:16:21.400 ** ShowInfo: *** Credits: 200
+
+Debug - 08:16:28.501 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DHK
+Debug - 08:16:29.14 ** ShowInfo: Received BaseUnitInfo: [DHK] DICASS AN/SSQ-62 Sonobuoy DHK (dicass)
+Debug - 08:16:29.119 ** ShowInfo: *** Unit USS Texas to engage target [DFR] MediumSurface [Foe]  @ 068° 42' 36"N, 008° 37' 50"W
+Debug - 08:16:29.534 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:16:31.78 ** ShowInfo: Sir, [CCX] USS Texas (Virginia) is out of range to engage MediumSurface DFR  [Foe]. Must close 260,26km.
+Debug - 08:16:38.280 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DHT
+Debug - 08:16:38.793 ** ShowInfo: Received BaseUnitInfo: [DHT] DICASS AN/SSQ-62 Sonobuoy DHT (dicass)
+Debug - 08:16:38.797 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:16:40.861 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DIA
+Debug - 08:16:41.373 ** ShowInfo: Received BaseUnitInfo: [DIA] DICASS AN/SSQ-62 Sonobuoy DIA (dicass)
+Debug - 08:16:41.892 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:16:43.400 ** ShowInfo: Unit [CAI] E3 Sentry (E-3 Sentry) has no movement orders and continues on same course.
+Debug - 08:16:44.667 ** ShowInfo: *** Unit USS Virginia to engage target [DFT] MediumSurface [Foe]  @ 068° 42' 00"N, 008° 38' 18"W
+Debug - 08:16:45.992 ** ShowInfo: Received new UnitClass mark48torpedo Mark 48 ADCAP Heavyweight Torpedo
+Debug - 08:16:45.993 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DIL
+Debug - 08:16:45.994 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DIP
+Debug - 08:16:46.489 ** ShowInfo: Received BaseUnitInfo: [DIL] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 08:16:47.0 ** ShowInfo: Received BaseUnitInfo: [DIP] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 08:16:47.4 ** ShowInfo: ***GroupInfo received.
+DIK  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 08:16:52.640 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DIY
+Debug - 08:16:53.147 ** ShowInfo: Received BaseUnitInfo: [DIY] DICASS AN/SSQ-62 Sonobuoy DIY (dicass)
+Debug - 08:16:53.663 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:16:56.448 ** ShowInfo: *** Unit USS Virginia to engage target [DFR] MediumSurface [Foe]  @ 068° 41' 51"N, 008° 40' 35"W
+Debug - 08:16:57.751 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DJH
+Debug - 08:16:58.266 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DJL
+Debug - 08:16:58.267 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DJP
+Debug - 08:16:59.278 ** ShowInfo: Received BaseUnitInfo: [DJH] DICASS AN/SSQ-62 Sonobuoy DJH (dicass)
+Debug - 08:16:59.280 ** ShowInfo: Received BaseUnitInfo: [DJL] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 08:16:59.793 ** ShowInfo: Received BaseUnitInfo: [DJP] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 08:17:00.293 ** ShowInfo: ***GroupInfo received.
+DJK  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 08:17:00.294 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:09.967 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DKB
+Debug - 08:17:09.972 ** ShowInfo: Received BaseUnitInfo: [DKB] DICASS AN/SSQ-62 Sonobuoy DKB (dicass)
+Debug - 08:17:10.478 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:15.83 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DKJ
+Debug - 08:17:16.100 ** ShowInfo: Received BaseUnitInfo: [DKJ] DICASS AN/SSQ-62 Sonobuoy DKJ (dicass)
+Debug - 08:17:16.609 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:19.729 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:41:05
+Debug - 08:17:19.730 ** ShowInfo: GameWorldTimeSec=2384,57581799999
+Debug - 08:17:19.730 ** ShowInfo: GameEngineTimeMs=246493,098599999
+Debug - 08:17:19.731 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:17:19.732 ** ShowInfo: *** Credits: 200
+
+Debug - 08:17:20.760 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Helicopter [Foe]  @ 067° 49' 29"N, 010° 13' 33"W
+Debug - 08:17:20.762 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 41' 17"N, 008° 42' 41"W
+Debug - 08:17:20.763 ** ShowInfo: DetectedUnitInfo received: Id=DFT  [DFT] MediumSurface [Foe]  @ 068° 41' 08"N, 008° 41' 28"W
+Debug - 08:17:26.907 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DKY
+Debug - 08:17:27.408 ** ShowInfo: Received BaseUnitInfo: [DKY] DICASS AN/SSQ-62 Sonobuoy DKY (dicass)
+Debug - 08:17:27.966 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:28.481 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DLF
+Debug - 08:17:28.998 ** ShowInfo: Received BaseUnitInfo: [DLF] DICASS AN/SSQ-62 Sonobuoy DLF (dicass)
+Debug - 08:17:29.11 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:39.813 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DLN
+Debug - 08:17:40.355 ** ShowInfo: Received BaseUnitInfo: [DLN] DICASS AN/SSQ-62 Sonobuoy DLN (dicass)
+Debug - 08:17:40.874 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:41.882 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DLX
+Debug - 08:17:42.895 ** ShowInfo: Received BaseUnitInfo: [DLX] DICASS AN/SSQ-62 Sonobuoy DLX (dicass)
+Debug - 08:17:43.402 ** ShowInfo: DetectedUnitInfo received: Id=DLQ  [DLQ] Submarine [FoF Undetermined]  @ 061° 57' 15"N, 013° 05' 42"W
+Debug - 08:17:43.403 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:47.501 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DMF
+Debug - 08:17:48.11 ** ShowInfo: Received BaseUnitInfo: [DMF] DICASS AN/SSQ-62 Sonobuoy DMF (dicass)
+Debug - 08:17:48.514 ** ShowInfo: DetectedUnitInfo received: Id=DLQ  [DLQ] Submarine [FoF Undetermined]  @ 061° 57' 13"N, 013° 05' 47"W
+Debug - 08:17:48.515 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:17:55.217 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [DFR] MediumSurface [Foe]  @ 068° 40' 31"N, 008° 45' 26"W
+Debug - 08:17:56.719 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DMQ
+Debug - 08:17:57.234 ** ShowInfo: Received BaseUnitInfo: [DMQ] DICASS AN/SSQ-62 Sonobuoy DMQ (dicass)
+Debug - 08:17:57.757 ** ShowInfo: ***GroupInfo received.
+DGV Keflavik Airport aircraft group (4 units)
+Strike:  4
+Mission: Attack(Surface)
+
+Debug - 08:17:57.758 ** ShowInfo: Sir, [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) is closing 439,60km to engage MediumSurface DFR  [Foe].
+Debug - 08:17:57.758 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:18:07.984 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id DMZ
+Debug - 08:18:08.482 ** ShowInfo: Received BaseUnitInfo: [DMZ] DICASS AN/SSQ-62 Sonobuoy DMZ (dicass)
+Debug - 08:18:08.997 ** ShowInfo: Unit [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) has dropped a DICASS AN/SSQ-62 Sonobuoy
+Debug - 08:18:10.687 ** ShowInfo: Designate [DLQ] Submarine [FoF Undetermined]  @ 061° 57' 02"N, 013° 06' 10"W as hostile.
+Debug - 08:18:13.50 ** ShowInfo: DetectedUnitInfo received: Id=DLQ  [DLQ] Submarine [Foe]  @ 061° 57' 00"N, 013° 06' 14"W
+Debug - 08:18:13.54 ** ShowInfo: Contact Submarine DLQ  [Foe] is now designated as HOSTILE.
+Debug - 08:18:18.241 ** ShowInfo: *** Unit SH-60B Seahawk CBA to close and engage target [DLQ] Submarine [Foe]  @ 061° 56' 57"N, 013° 06' 20"W
+Debug - 08:18:19.681 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 37' 27"N, 010° 35' 47"W
+Debug - 08:18:21.210 ** ShowInfo: Sir, [CBA] SH-60B Seahawk CBA (SH-60B Seahawk) is closing 3,79km to engage Submarine DLQ  [Foe].
+Debug - 08:18:25.302 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 36' 13"N, 010° 38' 03"W
+Debug - 08:18:25.306 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 39' 47"N, 008° 48' 05"W
+Debug - 08:18:25.307 ** ShowInfo: DetectedUnitInfo received: Id=DFT  [DFT] MediumSurface [Foe]  @ 068° 39' 39"N, 008° 46' 52"W
+Debug - 08:18:28.889 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:51:52
+Debug - 08:18:28.889 ** ShowInfo: GameWorldTimeSec=2963,45606799999
+Debug - 08:18:28.890 ** ShowInfo: GameEngineTimeMs=311261,803099999
+Debug - 08:18:28.891 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:18:28.891 ** ShowInfo: *** Credits: 200
+
+Debug - 08:18:35.65 ** ShowInfo: Received new UnitClass mark54torpedo Mark 54 Lightweight Hybrid Torpedo
+Debug - 08:18:35.66 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DNU
+Debug - 08:18:35.578 ** ShowInfo: Received BaseUnitInfo: [DNU] Mark 54 from SH-60B Seahawk CBA (mark54torpedo)
+Debug - 08:18:45.859 ** ShowInfo: DetectedUnitInfo received: Id=DLQ  [DLQ] Submarine [Foe]  @ 061° 56' 40"N, 013° 06' 57"W
+Debug - 08:18:50.928 ** ShowInfo: Received new UnitClass aim120amraam AIM-120 AMRAAM Missile
+Debug - 08:18:50.929 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DOH
+Debug - 08:18:51.942 ** ShowInfo: Received BaseUnitInfo: [DOH] AMRAAM from F-22 BYP (aim120amraam)
+Debug - 08:18:52.455 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 26"N, 010° 50' 20"W
+Debug - 08:18:52.962 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DOY
+Debug - 08:18:53.972 ** ShowInfo: Received BaseUnitInfo: [DOY] AMRAAM from F-22 BYP (aim120amraam)
+Debug - 08:18:53.972 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 11"N, 010° 50' 47"W
+Debug - 08:18:54.487 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DPP
+Debug - 08:18:56.1 ** ShowInfo: Received BaseUnitInfo: [DPP] AMRAAM from F-22 BYP (aim120amraam)
+Debug - 08:18:56.1 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 15"N, 010° 49' 48"W
+Debug - 08:18:56.513 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DQG
+Debug - 08:18:58.57 ** ShowInfo: Received BaseUnitInfo: [DQG] AMRAAM from F-22 BYP (aim120amraam)
+Debug - 08:18:58.576 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27
+Debug - 08:18:58.578 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DOH
+Debug - 08:18:58.579 ** ShowInfo: DetectedUnitInfo received: Id=DEP  [DEP] Kamov Ka-27 COC (ka27) [Foe]  @ 067° 29' 20"N, 010° 48' 46"W
+Debug - 08:19:00.605 ** ShowInfo: +++Our AIM-120 AMRAAM Missile missed an enemy Kamov Ka-27
+Debug - 08:19:00.606 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DOY
+Debug - 08:19:02.676 ** ShowInfo: +++We shot down an enemy Kamov Ka-27 using a AIM-120 AMRAAM Missile
+Debug - 08:19:02.677 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DPP
+Debug - 08:19:02.678 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DEP
+Debug - 08:19:04.191 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DQG
+Debug - 08:19:17.559 ** ShowInfo: DetectedUnitInfo received: Id=DLQ  [DLQ] Submarine [Foe]  @ 061° 55' 31"N, 013° 11' 32"W
+Debug - 08:19:27.870 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DLQ
+Debug - 08:19:29.397 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DNU
+Debug - 08:19:33.74 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 15:59:53
+Debug - 08:19:33.75 ** ShowInfo: GameWorldTimeSec=3558,27979499999
+Debug - 08:19:33.76 ** ShowInfo: GameEngineTimeMs=359377,555199999
+Debug - 08:19:33.593 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:19:33.594 ** ShowInfo: *** Credits: 200
+
+Debug - 08:19:38.213 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 37' 50"N, 008° 55' 09"W
+Debug - 08:19:38.728 ** ShowInfo: DetectedUnitInfo received: Id=DFT  [DFT] MediumSurface [Foe]  @ 068° 37' 42"N, 008° 53' 56"W
+Debug - 08:19:47.571 ** ShowInfo: Unit [BZW] F-22 BZW (F-22) has no movement orders and continues on same course.
+Debug - 08:19:57.471 ** ShowInfo: *** Movement order sent to unit F-22 BZW
+Debug - 08:20:04.506 ** ShowInfo: Unit [BYP] F-22 BYP (F-22) has no movement orders and continues on same course.
+Debug - 08:20:07.670 ** ShowInfo: Unit [BZW] F-22 BZW (F-22) has no movement orders and continues on same course.
+Debug - 08:20:27.168 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:11:30
+Debug - 08:20:27.169 ** ShowInfo: GameWorldTimeSec=4143,58299499999
+Debug - 08:20:27.169 ** ShowInfo: GameEngineTimeMs=428994,537099999
+Debug - 08:20:27.682 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:20:27.686 ** ShowInfo: *** Credits: 200
+
+Debug - 08:20:33.121 ** ShowInfo: *** Unit Boeing P-8A Poseidon BXV to close and engage target [DFZ] MediumSurface [Foe]  @ 068° 41' 23"N, 008° 55' 38"W
+Debug - 08:20:39.458 ** ShowInfo: +++We DAMAGED an enemy Admiral Chabanenko, a Udaloy II class, using a Mark 48 ADCAP Heavyweight Torpedo (76% dmg total)
+Debug - 08:20:39.459 ** ShowInfo: +++We SUNK an enemy Admiral Chabanenko, a Udaloy II class, using a Mark 48 ADCAP Heavyweight Torpedo
+Debug - 08:20:39.459 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIL
+Debug - 08:20:39.460 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIP
+Debug - 08:20:39.461 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DFT
+Debug - 08:20:39.957 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DFV] MediumSurface group (2 units)
+Debug - 08:20:49.675 ** ShowInfo: +++Our Mark 48 ADCAP Heavyweight Torpedo missed Petr Velikiy (a Kirov class)
+Debug - 08:20:50.174 ** ShowInfo: +++We DAMAGED an enemy Petr Velikiy, a Kirov class, using a Mark 48 ADCAP Heavyweight Torpedo (90% dmg total)
+Debug - 08:20:50.178 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DJL
+Debug - 08:20:50.178 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DJP
+Debug - 08:20:50.179 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 41' 27"N, 008° 58' 42"W
+Debug - 08:21:01.630 ** ShowInfo: *** Unit USS Virginia to engage target [DFR] MediumSurface [Foe]  @ 068° 41' 34"N, 008° 58' 54"W
+Debug - 08:21:02.985 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DSE
+Debug - 08:21:02.986 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DSI
+Debug - 08:21:03.486 ** ShowInfo: Received BaseUnitInfo: [DSE] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 08:21:03.488 ** ShowInfo: Received BaseUnitInfo: [DSI] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 08:21:03.997 ** ShowInfo: ***GroupInfo received.
+DSD  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 08:21:11.736 ** ShowInfo: *** Unit USS Virginia to engage target [DFR] MediumSurface [Foe]  @ 068° 41' 39"N, 008° 59' 01"W
+Debug - 08:21:13.263 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DYU
+Debug - 08:21:13.264 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DYY
+Debug - 08:21:14.295 ** ShowInfo: Received BaseUnitInfo: [DYU] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 08:21:14.299 ** ShowInfo: Received BaseUnitInfo: [DYY] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 08:21:14.824 ** ShowInfo: ***GroupInfo received.
+DYT  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 08:21:14.825 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:19:00
+Debug - 08:21:14.826 ** ShowInfo: GameWorldTimeSec=4733,11557099999
+Debug - 08:21:14.826 ** ShowInfo: GameEngineTimeMs=474035,113199999
+Debug - 08:21:14.827 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:21:14.828 ** ShowInfo: *** Credits: 200
+
+Debug - 08:21:17.373 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 41' 20"N, 008° 55' 43"W
+Debug - 08:21:32.889 ** ShowInfo: Designate [DZL] Helicopter [FoF Undetermined]  @ 068° 44' 06"N, 008° 58' 17"W as hostile.
+Debug - 08:21:34.765 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Helicopter [Foe]  @ 068° 44' 24"N, 008° 57' 56"W
+Debug - 08:21:34.769 ** ShowInfo: Contact Helicopter DZL  [Foe] is now designated as HOSTILE.
+Debug - 08:21:37.670 ** ShowInfo: *** Unit F-22 BYP to close and engage target [DZL] Helicopter [Foe]  @ 068° 44' 41"N, 008° 57' 37"W
+Debug - 08:21:40.365 ** ShowInfo: Sir, [BYP] F-22 BYP (F-22) is closing 442,62km to engage Helicopter DZL  [Foe].
+Debug - 08:21:43.989 ** ShowInfo: *** Unit F-22 BZW to close and engage target [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 38' 14"N, 008° 35' 09"W
+Debug - 08:21:44.482 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 41' 51"N, 008° 59' 21"W
+Debug - 08:21:44.483 ** ShowInfo: DetectedUnitInfo received: Id=DXU  [DXU] Helicopter [FoF Undetermined]  @ 068° 53' 25"N, 008° 59' 26"W
+Debug - 08:21:44.993 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 38' 07"N, 008° 34' 22"W
+Debug - 08:21:44.997 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Helicopter [Foe]  @ 068° 45' 47"N, 008° 56' 22"W
+Debug - 08:21:46.9 ** ShowInfo: Sir, [BZW] F-22 BZW (F-22) is closing 415,58km to engage  Kamov Ka-27 COI (Kamov Ka-27)  [Foe].
+Debug - 08:21:47.573 ** ShowInfo: [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) is being detected by ACTIVE E-801 Oko Radar from  Kamov Ka-27 COI (Kamov Ka-27)  [Foe].
+Debug - 08:21:47.574 ** ShowInfo: [BYA] Boeing P-8A Poseidon BYA (Boeing P-8A Poseidon) is being detected by ACTIVE E-801 Oko Radar from  Kamov Ka-27 COI (Kamov Ka-27)  [Foe].
+Debug - 08:21:47.575 ** ShowInfo: [BYF] Boeing P-8A Poseidon BYF (Boeing P-8A Poseidon) is being detected by ACTIVE E-801 Oko Radar from  Kamov Ka-27 COI (Kamov Ka-27)  [Foe].
+Debug - 08:21:47.575 ** ShowInfo: [BYK] Boeing P-8A Poseidon BYK (Boeing P-8A Poseidon) is being detected by ACTIVE E-801 Oko Radar from  Kamov Ka-27 COI (Kamov Ka-27)  [Foe].
+Debug - 08:22:02.859 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 36' 01"N, 008° 20' 37"W
+Debug - 08:22:14.639 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:28:33
+Debug - 08:22:14.640 ** ShowInfo: GameWorldTimeSec=5306,59779999999
+Debug - 08:22:14.641 ** ShowInfo: GameEngineTimeMs=531363,392199999
+Debug - 08:22:14.641 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:22:14.642 ** ShowInfo: *** Credits: 200
+
+Debug - 08:22:18.736 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 49' 58"N, 008° 51' 33"W
+Debug - 08:22:22.792 ** ShowInfo: Received new UnitClass vympelr77 Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 08:22:26.896 ** ShowInfo: DetectedUnitInfo received: Id=DXU  [DXU] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 04' 55"N, 009° 01' 58"W
+Debug - 08:22:34.549 ** ShowInfo: Received new UnitClass agm84harpoon AGM-84 Harpoon
+Debug - 08:22:34.549 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EFY
+Debug - 08:22:34.550 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGB
+Debug - 08:22:34.551 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGE
+Debug - 08:22:34.551 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGH
+Debug - 08:22:34.554 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGM
+Debug - 08:22:34.558 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGP
+Debug - 08:22:34.561 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGS
+Debug - 08:22:35.73 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGV
+Debug - 08:22:35.73 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EGZ
+Debug - 08:22:35.74 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EHC
+Debug - 08:22:35.75 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EHF
+Debug - 08:22:35.75 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EHI
+Debug - 08:22:37.660 ** ShowInfo: Received BaseUnitInfo: [EFY] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon) *
+Debug - 08:22:38.157 ** ShowInfo: Received BaseUnitInfo: [EGB] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:38.674 ** ShowInfo: Received BaseUnitInfo: [EGE] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:38.679 ** ShowInfo: Received BaseUnitInfo: [EGH] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:39.172 ** ShowInfo: Received BaseUnitInfo: [EGM] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon) *
+Debug - 08:22:39.687 ** ShowInfo: Received BaseUnitInfo: [EGP] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:22:39.690 ** ShowInfo: Received BaseUnitInfo: [EGS] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:22:40.190 ** ShowInfo: Received BaseUnitInfo: [EGV] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:22:40.193 ** ShowInfo: Received BaseUnitInfo: [EGZ] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon) *
+Debug - 08:22:40.701 ** ShowInfo: Received BaseUnitInfo: [EHC] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:22:41.211 ** ShowInfo: Received BaseUnitInfo: [EHF] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:22:41.214 ** ShowInfo: Received BaseUnitInfo: [EHI] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:22:41.764 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 53"N, 008° 00' 27"W
+Debug - 08:22:41.867 ** ShowInfo: *** Unit Boeing P-8A Poseidon BYA to close and engage target [DFR] MediumSurface [Foe]  @ 068° 42' 07"N, 008° 59' 45"W
+Debug - 08:22:42.313 ** ShowInfo: ***GroupInfo received.
+EFX  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:22:42.318 ** ShowInfo: ***GroupInfo received.
+EGL  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:22:42.321 ** ShowInfo: ***GroupInfo received.
+EGY  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:22:42.324 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EJA
+Debug - 08:22:42.327 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EJD
+Debug - 08:22:42.330 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EJG
+Debug - 08:22:42.333 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EJJ
+Debug - 08:22:45.382 ** ShowInfo: Received BaseUnitInfo: [EJA] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon) *
+Debug - 08:22:45.386 ** ShowInfo: Received BaseUnitInfo: [EJD] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:45.880 ** ShowInfo: Received BaseUnitInfo: [EJG] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:46.395 ** ShowInfo: Received BaseUnitInfo: [EJJ] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:46.401 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 46"N, 007° 59' 41"W
+Debug - 08:22:46.896 ** ShowInfo: ***GroupInfo received.
+EIZ  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:22:46.898 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EKB
+Debug - 08:22:46.899 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EKE
+Debug - 08:22:46.899 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EKH
+Debug - 08:22:49.986 ** ShowInfo: Received BaseUnitInfo: [EKB] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon) *
+Debug - 08:22:50.486 ** ShowInfo: Received BaseUnitInfo: [EKE] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:50.492 ** ShowInfo: Received BaseUnitInfo: [EKH] Harpoon from Boeing P-8A Poseidon BXV (agm84harpoon)
+Debug - 08:22:51.13 ** ShowInfo: ---A E-3 Sentry was SHOT DOWN by a Vympel R-77 'AA-12 Adder' AA Missile
+Debug - 08:22:51.16 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CAI
+Debug - 08:22:51.18 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id EEZ
+Debug - 08:22:51.18 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id EFB
+Debug - 08:22:51.19 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 38"N, 007° 58' 54"W
+Debug - 08:22:51.549 ** ShowInfo: ***GroupInfo received.
+EKA  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 08:22:51.550 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELA
+Debug - 08:22:51.550 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELD
+Debug - 08:22:51.551 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELG
+Debug - 08:22:51.551 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELJ
+Debug - 08:22:51.553 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELN
+Debug - 08:22:51.554 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELQ
+Debug - 08:22:52.73 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELT
+Debug - 08:22:52.74 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ELW
+Debug - 08:22:55.157 ** ShowInfo: Received BaseUnitInfo: [ELA] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon) *
+Debug - 08:22:55.159 ** ShowInfo: Received BaseUnitInfo: [ELD] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:22:55.677 ** ShowInfo: Received BaseUnitInfo: [ELG] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:22:56.175 ** ShowInfo: Received BaseUnitInfo: [ELJ] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:22:56.178 ** ShowInfo: Received BaseUnitInfo: [ELN] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon) *
+Debug - 08:22:56.691 ** ShowInfo: Received BaseUnitInfo: [ELQ] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:22:56.693 ** ShowInfo: Received BaseUnitInfo: [ELT] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:22:57.190 ** ShowInfo: Received BaseUnitInfo: [ELW] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:22:57.704 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 31"N, 007° 58' 08"W
+Debug - 08:22:57.706 ** ShowInfo: ***GroupInfo received.
+EKZ  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:22:57.712 ** ShowInfo: ***GroupInfo received.
+ELM  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:22:58.219 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ENJ
+Debug - 08:22:58.220 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ENM
+Debug - 08:22:58.221 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ENP
+Debug - 08:22:58.223 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id ENT
+Debug - 08:23:01.810 ** ShowInfo: Received BaseUnitInfo: [ENJ] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon) *
+Debug - 08:23:02.312 ** ShowInfo: Received BaseUnitInfo: [ENM] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:23:02.314 ** ShowInfo: Received BaseUnitInfo: [ENP] Harpoon from Boeing P-8A Poseidon BYA (agm84harpoon)
+Debug - 08:23:02.821 ** ShowInfo: Received BaseUnitInfo: [ENT] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:23:03.332 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 24"N, 007° 57' 22"W
+Debug - 08:23:03.332 ** ShowInfo: ***GroupInfo received.
+ENI  (3 units)
+Missile:  3
+Mission: Attack(Surface)
+
+Debug - 08:23:06.879 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DHK
+Debug - 08:23:07.380 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 52' 42"N, 008° 48' 24"W
+Debug - 08:23:07.381 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EOR
+Debug - 08:23:07.381 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EOU
+Debug - 08:23:09.922 ** ShowInfo: Received BaseUnitInfo: [EOR] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon) *
+Debug - 08:23:10.421 ** ShowInfo: Received BaseUnitInfo: [EOU] Harpoon from Boeing P-8A Poseidon BYF (agm84harpoon)
+Debug - 08:23:10.424 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 09"N, 007° 55' 50"W
+Debug - 08:23:10.935 ** ShowInfo: ***GroupInfo received.
+EOQ  (2 units)
+Missile:  2
+Mission: Attack(Surface)
+
+Debug - 08:23:10.936 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EPF
+Debug - 08:23:10.942 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EPI
+Debug - 08:23:10.946 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EPL
+Debug - 08:23:10.949 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EPO
+Debug - 08:23:13.508 ** ShowInfo: Received BaseUnitInfo: [EPF] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon) *
+Debug - 08:23:13.513 ** ShowInfo: Received BaseUnitInfo: [EPI] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 08:23:14.10 ** ShowInfo: Received BaseUnitInfo: [EPL] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 08:23:14.13 ** ShowInfo: Received BaseUnitInfo: [EPO] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 08:23:14.522 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 32' 02"N, 007° 55' 04"W
+Debug - 08:23:15.26 ** ShowInfo: ***GroupInfo received.
+EPE  (4 units)
+Missile:  4
+Mission: Attack(Surface)
+
+Debug - 08:23:18.71 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EQF
+Debug - 08:23:18.72 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EQI
+Debug - 08:23:21.110 ** ShowInfo: Received BaseUnitInfo: [EQF] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon) *
+Debug - 08:23:21.620 ** ShowInfo: Received BaseUnitInfo: [EQI] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 08:23:22.131 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 31' 48"N, 007° 53' 32"W
+Debug - 08:23:22.134 ** ShowInfo: ***GroupInfo received.
+EQE  (2 units)
+Missile:  2
+Mission: Attack(Surface)
+
+Debug - 08:23:22.134 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id EQU
+Debug - 08:23:25.212 ** ShowInfo: Received BaseUnitInfo: [EQU] Harpoon from Boeing P-8A Poseidon BYK (agm84harpoon)
+Debug - 08:23:25.712 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 31' 40"N, 007° 52' 46"W
+Debug - 08:23:31.297 ** ShowInfo: Received new UnitClass s400trimuf S-400 Triumf 'SA-21 Growler' SAM
+Debug - 08:23:34.450 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] MediumSurface [Foe]  @ 068° 42' 12"N, 008° 59' 53"W
+Debug - 08:23:38.20 ** ShowInfo: DetectedUnitInfo received: Id=ERK  [ERK] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 068° 41' 03"N, 009° 08' 10"W
+Debug - 08:23:38.21 ** ShowInfo: ***GroupInfo received.
+DGV Keflavik Airport aircraft group (3 units)
+Strike:  3
+Mission: Attack(Surface)
+
+Debug - 08:23:40.578 ** ShowInfo: DetectedUnitInfo received: Id=DXU  [DXU] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 11' 21"N, 009° 03' 24"W
+Debug - 08:23:43.637 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DHT
+Debug - 08:23:49.265 ** ShowInfo: DetectedUnitInfo received: Id=ERK  [ERK] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 068° 27' 06"N, 009° 38' 57"W
+Debug - 08:23:51.854 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIA
+Debug - 08:23:52.354 ** ShowInfo: DetectedUnitInfo received: Id=ERK  [ERK] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 068° 23' 35"N, 009° 46' 32"W
+Debug - 08:23:55.909 ** ShowInfo: DetectedUnitInfo received: Id=ERK  [ERK] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 068° 20' 04"N, 009° 54' 02"W
+Debug - 08:23:58.535 ** ShowInfo: DetectedUnitInfo received: Id=ERK  [ERK] Triumf from Petr Velikiy (s400trimuf) [Foe]  @ 068° 16' 32"N, 010° 01' 28"W
+Debug - 08:24:01.613 ** ShowInfo: ***GroupInfo received.
+DGV Keflavik Airport aircraft group (2 units)
+Strike:  2
+Mission: Attack(Surface)
+
+Debug - 08:24:04.180 ** ShowInfo: ---An enemy S-400 Triumf 'SA-21 Growler' SAM missed one of our AGM-84 Harpoon
+Debug - 08:24:04.695 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id ERK
+Debug - 08:24:04.699 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 16"N, 008° 59' 59"W dmg: 90,00%
+Debug - 08:24:04.706 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DFV] Petr Velikiy group (2 units)
+Debug - 08:24:04.709 ** ShowInfo: ***GroupInfo received.
+DGV Keflavik Airport aircraft group (1 units)
+Strike:  1
+Mission: Attack(Surface)
+
+Debug - 08:24:21.188 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DIY
+Debug - 08:24:31.457 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 20"N, 009° 00' 05"W dmg: 90,00%
+Debug - 08:24:31.466 ** ShowInfo: DetectedUnitInfo received: Id=DXU  [DXU] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 16' 51"N, 009° 04' 38"W
+Debug - 08:24:31.977 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 28' 54"N, 007° 35' 18"W
+Debug - 08:24:31.979 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 56' 37"N, 008° 43' 50"W
+Debug - 08:24:34.100 ** ShowInfo: *** Unit F-22 BZW to close and engage target [DXU] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 16' 51"N, 009° 04' 38"W
+Debug - 08:24:35.38 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DJH
+Debug - 08:24:37.552 ** ShowInfo: *** Unit F-22 BYP to close and engage target [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 28' 46"N, 007° 34' 32"W
+Debug - 08:24:40.698 ** ShowInfo: DetectedUnitInfo received: Id=DXU  [DXU] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 17' 46"N, 009° 04' 50"W
+Debug - 08:24:41.197 ** ShowInfo: [BXV] Boeing P-8A Poseidon BXV (Boeing P-8A Poseidon) does not have a weapon with which to engage target MediumSurface DFZ  [Foe]. Out of ammunition
+Debug - 08:24:56.575 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:42:47
+Debug - 08:24:56.575 ** ShowInfo: GameWorldTimeSec=5894,48941399999
+Debug - 08:24:56.576 ** ShowInfo: GameEngineTimeMs=616758,276499999
+Debug - 08:24:57.92 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:24:57.95 ** ShowInfo: *** Credits: 200
+
+Debug - 08:24:59.683 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DKB
+Debug - 08:25:05.329 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 58' 19"N, 008° 41' 51"W
+Debug - 08:25:07.891 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 58' 27"N, 008° 41' 41"W
+Debug - 08:25:12.491 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DKJ
+Debug - 08:25:12.991 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 58' 44"N, 008° 41' 22"W
+Debug - 08:25:16.78 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 58' 53"N, 008° 41' 12"W
+Debug - 08:25:19.670 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 26"N, 009° 00' 15"W dmg: 90,00%
+Debug - 08:25:22.791 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 27"N, 009° 00' 16"W dmg: 90,00%
+Debug - 08:25:22.795 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] MediumSurface [Foe]  @ 068° 43' 12"N, 008° 58' 02"W
+Debug - 08:25:23.291 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 59' 10"N, 008° 40' 52"W
+Debug - 08:25:25.909 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 27"N, 009° 00' 16"W dmg: 90,00%
+Debug - 08:25:25.913 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 13"N, 008° 58' 03"W
+Debug - 08:25:26.407 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 59' 18"N, 008° 40' 42"W
+Debug - 08:25:26.408 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DFV] Petr Velikiy group (2 units)
+Debug - 08:25:26.711 ** ShowInfo: *** Unit USS Virginia to engage target [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 27"N, 009° 00' 16"W dmg: 90,00%
+Debug - 08:25:29.448 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 28"N, 009° 00' 17"W dmg: 90,00%
+Debug - 08:25:29.451 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 13"N, 008° 58' 04"W
+Debug - 08:25:30.462 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FHA
+Debug - 08:25:30.463 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FHE
+Debug - 08:25:32.495 ** ShowInfo: Received BaseUnitInfo: [FHA] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 08:25:33.4 ** ShowInfo: Received BaseUnitInfo: [FHE] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 08:25:33.8 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 04"W
+Debug - 08:25:33.504 ** ShowInfo: ***GroupInfo received.
+FGZ  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 08:25:36.94 ** ShowInfo: DetectedUnitInfo received: Id=DFR  [DFR] Petr Velikiy (kirov) [Foe]  @ 068° 42' 28"N, 009° 00' 18"W dmg: 90,00%
+Debug - 08:25:36.98 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:25:37.623 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 16:42:47
+Debug - 08:25:37.631 ** ShowInfo: GameWorldTimeSec=6034,48941399999
+Debug - 08:25:37.634 ** ShowInfo: GameEngineTimeMs=616758,276499999
+Debug - 08:25:37.637 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:25:37.640 ** ShowInfo: *** Credits: 200
+
+Debug - 08:25:41.713 ** ShowInfo: +++We SUNK an enemy Petr Velikiy, a Kirov class, using a AGM-84 Harpoon
+Debug - 08:25:42.216 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EFY
+Debug - 08:25:42.217 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGB
+Debug - 08:25:42.218 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGE
+Debug - 08:25:42.218 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGH
+Debug - 08:25:42.219 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGM
+Debug - 08:25:42.222 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGP
+Debug - 08:25:42.225 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGS
+Debug - 08:25:42.228 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGV
+Debug - 08:25:42.232 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DFR
+Debug - 08:25:42.235 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:25:42.760 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 068° 59' 52"N, 008° 40' 02"W
+Debug - 08:25:42.760 ** ShowInfo: ### DetectedGroupInfo received: MediumSurface group [DFV] Petr Velikiy group (1 units)
+Debug - 08:25:42.761 ** ShowInfo: From: CDF
+gg wp
+Debug - 08:25:42.762 ** ShowInfo: Congratulations. You have won!
+Debug - 08:25:47.859 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DSE
+Debug - 08:25:47.860 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DSI
+Debug - 08:25:47.861 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DYU
+Debug - 08:25:47.861 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DYY
+Debug - 08:25:47.862 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EGZ
+Debug - 08:25:47.863 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EHC
+Debug - 08:25:47.863 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EHF
+Debug - 08:25:47.864 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EHI
+Debug - 08:25:47.865 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FHA
+Debug - 08:25:47.865 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FHE
+Debug - 08:25:47.872 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:25:48.375 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 00' 01"N, 008° 39' 52"W
+Debug - 08:25:51.944 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DKY
+Debug - 08:25:51.945 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EJA
+Debug - 08:25:51.945 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EJD
+Debug - 08:25:51.946 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EJG
+Debug - 08:25:51.947 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EJJ
+Debug - 08:25:55.0 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DLF
+Debug - 08:25:55.1 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EKB
+Debug - 08:25:55.2 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EKE
+Debug - 08:25:55.2 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EKH
+Debug - 08:25:57.76 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:01.178 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELA
+Debug - 08:26:01.179 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELD
+Debug - 08:26:01.693 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELG
+Debug - 08:26:01.694 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELJ
+Debug - 08:26:01.695 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELN
+Debug - 08:26:01.701 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELQ
+Debug - 08:26:01.705 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELT
+Debug - 08:26:01.708 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ELW
+Debug - 08:26:01.711 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:02.242 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 00' 35"N, 008° 39' 13"W
+Debug - 08:26:05.312 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ENJ
+Debug - 08:26:05.313 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ENM
+Debug - 08:26:05.313 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ENP
+Debug - 08:26:05.319 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id ENT
+Debug - 08:26:06.857 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 00' 51"N, 008° 38' 53"W
+Debug - 08:26:07.903 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:09.951 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EOR
+Debug - 08:26:09.953 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EOU
+Debug - 08:26:12.493 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EPF
+Debug - 08:26:12.494 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EPI
+Debug - 08:26:12.495 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EPL
+Debug - 08:26:12.495 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EPO
+Debug - 08:26:12.496 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:15.566 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DLN
+Debug - 08:26:15.566 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EQF
+Debug - 08:26:15.567 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EQI
+Debug - 08:26:16.577 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DLX
+Debug - 08:26:18.613 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id EQU
+Debug - 08:26:20.196 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DMF
+Debug - 08:26:27.396 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DMQ
+Debug - 08:26:30.973 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:31.551 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 22' 17"N, 006° 54' 43"W
+Debug - 08:26:31.553 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 04' 09"N, 008° 35' 00"W
+Debug - 08:26:32.72 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:32.567 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 22' 10"N, 006° 53' 58"W
+Debug - 08:26:33.79 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 04' 17"N, 008° 34' 50"W
+Debug - 08:26:34.97 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:34.595 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 22' 02"N, 006° 53' 12"W
+Debug - 08:26:34.596 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 04' 26"N, 008° 34' 40"W
+Debug - 08:26:36.127 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DMZ
+Debug - 08:26:36.127 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:36.717 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 21' 55"N, 006° 52' 27"W
+Debug - 08:26:37.230 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 04' 34"N, 008° 34' 30"W
+Debug - 08:26:38.277 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:39.291 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:39.793 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 21' 40"N, 006° 50' 56"W
+Debug - 08:26:39.794 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 04' 51"N, 008° 34' 10"W
+Debug - 08:26:40.305 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:40.808 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 21' 32"N, 006° 50' 11"W
+Debug - 08:26:40.809 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 05' 00"N, 008° 34' 00"W
+Debug - 08:26:42.896 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:42.898 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 21' 09"N, 006° 47' 54"W
+Debug - 08:26:43.406 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 05' 25"N, 008° 33' 30"W
+Debug - 08:26:43.469 ** ShowInfo: *** Unit USS Virginia to engage target [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:43.923 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:43.925 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 21' 02"N, 006° 47' 09"W
+Debug - 08:26:44.439 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 05' 34"N, 008° 33' 20"W
+Debug - 08:26:44.959 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FNS
+Debug - 08:26:44.960 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id FNW
+Debug - 08:26:45.987 ** ShowInfo: Received BaseUnitInfo: [FNS] Mark 48 from USS Virginia (mark48torpedo) *
+Debug - 08:26:45.989 ** ShowInfo: Received BaseUnitInfo: [FNW] Mark 48 from USS Virginia (mark48torpedo)
+Debug - 08:26:46.497 ** ShowInfo: ***GroupInfo received.
+FNR  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 08:26:48.58 ** ShowInfo: DetectedUnitInfo received: Id=DFZ  [DFZ] Admiral Sergey Gorshkov (gorshkov) [Foe]  @ 068° 43' 14"N, 008° 58' 05"W
+Debug - 08:26:48.571 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 20' 39"N, 006° 44' 53"W
+Debug - 08:26:48.571 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 05' 59"N, 008° 32' 50"W
+Debug - 08:26:51.101 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 29.09.2030 15:00:00  Current Time: 29.09.2030 17:10:45
+Debug - 08:26:51.102 ** ShowInfo: GameWorldTimeSec=6487,58276499999
+Debug - 08:26:51.102 ** ShowInfo: GameEngineTimeMs=784585,875699999
+Debug - 08:26:51.103 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 08:26:51.104 ** ShowInfo: *** Credits: 200
+
+Debug - 08:26:51.615 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id DFZ
+Debug - 08:26:51.617 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id DFV
+Debug - 08:26:52.128 ** ShowInfo: DetectedUnitInfo received: Id=DXU  [DXU] Kamov Ka-27 CQM (ka27) [Foe]  @ 069° 38' 00"N, 009° 09' 29"W
+Debug - 08:26:52.130 ** ShowInfo: DetectedUnitInfo received: Id=DYM  [DYM] Kamov Ka-27 COI (ka27) [Foe]  @ 068° 20' 16"N, 006° 42' 37"W
+Debug - 08:26:52.131 ** ShowInfo: DetectedUnitInfo received: Id=DZL  [DZL] Kamov Ka-27 COO (ka27) [Foe]  @ 069° 06' 24"N, 008° 32' 20"W
+Debug - 08:26:53.674 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FNS
+Debug - 08:26:53.674 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id FNW

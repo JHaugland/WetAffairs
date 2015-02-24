@@ -1,0 +1,10 @@
+﻿<Window x:Class="NWmanager.LaunchAircraft"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="LaunchAircraft" Height="394" Width="446">
+    <Grid>
+        <Button Height="26" HorizontalAlignment="Right" Margin="0,0,12,12" Name="btnOk" VerticalAlignment="Bottom" Width="54" Click="btnOk_Click">OK</Button>
+        <ListBox Margin="12,11,12,44" Name="lstAircraft" SelectionMode="Multiple" />
+        <Button Height="26" HorizontalAlignment="Right" Margin="0,0,72,12" Name="btnCancel" VerticalAlignment="Bottom" Width="54" Click="btnCancel_Click">Cancel</Button>
+    </Grid>
+</Window>

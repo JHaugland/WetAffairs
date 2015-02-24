@@ -1,0 +1,133 @@
+Debug - 10:07:06.356 ** ************* GameServer Init Start **************
+Debug - 10:07:06.370 ** ************* GameServer Init End **************
+Debug - 10:07:19.452 ** PollNetwork: New client 2 added.
+Debug - 10:07:33.664 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:07:33.703 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:07:36.57 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:07:36.66 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:07:36.75 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 10:08:28.529 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 10:09:00.369 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 10:09:56.794 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Error - 10:09:56.902 ** Error in GameServer.PollNetwork: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.get_DataAvailable()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 247 
+StackTrace:    at System.Net.Sockets.NetworkStream.get_DataAvailable()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 247
+Error - 10:09:56.943 ** Error in GameServer.PollNetwork: System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 221 
+StackTrace:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 221
+Debug - 12:07:22.849 ** ************* GameServer Init Start **************
+Debug - 12:07:22.866 ** ************* GameServer Init End **************
+Debug - 12:08:11.507 ** PollNetwork: New client 2 added.
+Debug - 12:08:14.920 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:08:21.294 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:08:28.853 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:08:28.864 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 12:08:28.872 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:20:38.144 ** ************* GameServer Init Start **************
+Debug - 15:20:38.167 ** ************* GameServer Init End **************
+Debug - 15:20:57.817 ** PollNetwork: New client 2 added.
+Debug - 15:21:49.550 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:21:52.446 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:22:58.804 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:24:58.377 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:25:09.516 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:25:10.530 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:25:15.571 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:25:24.650 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:25:27.675 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:25:30.735 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:25:33.780 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:25:35.816 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:25:40.886 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:25:42.911 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:26:00.30 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:26:01.59 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:26:01.69 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:26:01.95 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:26:02.122 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:26:09.202 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:26:16.273 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:26:19.329 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:26:27.458 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:26:33.526 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:28:09.397 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:28:14.602 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:28:31.208 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:29:04.658 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:29:13.67 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:29:28.134 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:30:14.953 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:30:57.320 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:31:01.359 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:31:52.770 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:32:01.40 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:32:03.62 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:32:13.165 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:32:20.256 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:32:26.311 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:32:31.361 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:32:43.472 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:32:45.515 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:32:47.540 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:33:01.701 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:33:26.770 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:33:30.890 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:33:38.144 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:34:05.181 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:34:16.253 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:34:16.262 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:34:16.278 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:34:21.615 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:34:21.625 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:34:21.645 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:34:42.203 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:35:17.479 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:35:28.571 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:35:31.615 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:35:39.666 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:35:42.705 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:35:46.747 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:36:06.508 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:36:06.516 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:06.525 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:06.534 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:06.564 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:06.572 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:06.581 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:06.589 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:36:29.850 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:36:38.890 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:37:04.975 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:37:09.11 ** PollNetwork: Object read from receive buffer: UnitMovementOrder
+Debug - 15:37:11.39 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:38:28.290 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:38:35.328 ** PollNetwork: Object read from receive buffer: UnitOrder
+Debug - 15:38:38.355 ** PollNetwork: Object read from receive buffer: UnitEngagementOrder
+Debug - 15:39:08.158 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:39:08.166 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:39:08.176 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:39:08.185 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Debug - 15:39:08.193 ** PollNetwork: Object read from receive buffer: GameControlRequest
+Error - 15:39:43.583 ** GameServer->Send failed to send to client. System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 178
+Error - 15:39:43.596 ** Error in GameServer.PollNetwork: System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227 
+StackTrace:    at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.PollNetwork() in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 227
+Error - 15:39:43.602 ** GameServer->Send failed to send to client. System.InvalidOperationException: The operation is not allowed on non-connected sockets.
+   at System.Net.Sockets.TcpClient.GetStream()
+   at TTG.NavalWar.NWComms.GameServer.Send(TcpClient client, Byte[] message) in C:\Users\Jan\Documents\Visual Studio 2010\Projects\navalwar-backend\NWmanager\NWComms\GameServer.cs:line 175

@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NWComms</name>
+    </assembly>
+    <members>
+        <member name="T:TTG.NavalWar.NWComms.Entities.NWDateTime">
+            <summary>
+            Mono binary deserialization butchers the DateTime object, thus we had to roll our own.
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWComms.Entities.BattleDamageReport.TargetPlatformRoles">
+            <summary>
+            This list is only used in the backend and not sent over network.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.WeaponClassId">
+            <summary>
+            WeaponClassId of this weapon.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.XPosition">
+            <summary>
+            Position of weapon relative to center of unit, in meters. X is across the width of unit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.YPosition">
+            <summary>
+            Position of weapon relative to center of unit, in meters. Y is along the length of the unit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.HeightPosition">
+            <summary>
+            Height of weapon on unit, above sea level on ships, or bottom of unit body on aircraft.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.WeaponBearingDeg">
+            <summary>
+            Direction weapon mount points, in degrees (0-360). 0 is forward on unit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.WeaponPitchDeg">
+            <summary>
+            Pitch in degrees, giving the initial pitch and direction of the fired projectile.
+            0 is the forward direction of the baseunit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.MaxAmmunition">
+            <summary>
+            Max ammunition. If not 0, overrides WeaponClass.MaxAmmunition if lower.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoad.IsPrimaryWeapon">
+            <summary>
+            Whether this weapon is a primary weapon used for offensive operations. A unit 
+            or group will only close range to engage with primary weapons.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.EventTrigger.DescriptionEnemy">
+            <summary>
+            For triggers that are victoryconditions, a description reported to the enemy about how to meet this criteria
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.EventTrigger.IsPlayerObjective">
+            <summary>
+            If true, this event should be listed as a player objective until met.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IdentifyDetectionStrength">
+            <summary>
+            The detection strength where a target is identified.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.TimeToDeploySec">
+            <summary>
+            The number of seconds taken to deploy (set operational) this sensor.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.MaxSpeedDeployedKph">
+            <summary>
+            The maximum speed of the platform where this sensor can be deployed and used. 0 means no limit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.MaxHeightDeployedM">
+            <summary>
+            The highest altitude from which this sensor can be used. 0 means no limit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IsEsmDetector">
+            <summary>
+            ESM is Electromagnetic Support Measures. All radars and radio-based communications emit radiation, 
+            which can be detected by sensor which has this setting set to true.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.AESAfactorPercent">
+            <summary>
+            For AESA (Active Electronically Scanned Array) radar, active emissions are camouflaged and may not be detected
+            at longer range. 100 is default (not AESA). 50 would mean radar emissions are only detected at 2x the strenght
+            of normal, etc.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.EsmDetectionOverHorizonPercent">
+            <summary>
+            All ESM detectors can see radiation within the line of sight. More advanced sensors can also see 
+            over the horizon. 100% (default) means it can not see beyond horizon, 150 can detect 
+            radiation from 150% of the distance to the horizon, etc.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IsTargetingSensorOnly">
+            <summary>
+            Whether this sensor is a seeker radar/sonar for missile or torpedo. If true, 
+            detection information is *not* communicated to player as a target detection.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IsPassiveActiveSensor">
+            <summary>
+            If true, this sensor can be set to active and passive.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IsDeployableSensor">
+            <summary>
+            If true, this sensor must be actively deployed, like a dipping sonar or
+            towed sonar array. Otherwise, it will always be deployed. The setting of
+            IsOperational determines whether this sensor is deployed.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IsVariableDepthSensor">
+            <summary>
+            Applicable to sonar. If true, this sensor can be deployed to both shallow and intermediate 
+            depth. Otherwise the sonar will operate in shallow depth (surface or air), or if on a sub,
+            at the sub's depth.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.EffectiveRadiatedPower_dBW">
+            <summary>
+            Radiated power in decibel Watts, for emission detectable by other sensors. 
+            Ex: Transmitter power of 15,000 W corresponds to 10·log10(15000) = 41.8 dBW. 
+            Not currently used!
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.TransmitterPowerW">
+            <summary>
+            Transmitter power in Watts. Not currently used.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.IsBearingDetectorOnly">
+            <summary>
+            If true, this sensor will only report bearing (direction) to sensor, not its actual position.
+            Typical for passive sonars. Detection will then be reported as a bearing and a range from 
+            sensor platform to max (?) detection range.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.MaxRangeM">
+            <summary>
+            Max range in meters where this sensor can possibly detect a target.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.SonarPassiveReferenceRangeM">
+            <summary>
+            For sonars, the range at which this sensor will (barely) passively detect a QUIET target in
+            otherwise ideal circumstances.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.SonarActiveReferenceRangeM">
+            <summary>
+            For sonars, the range at which this active sensor will detect a non-stealthy target in
+            otherwise ideal circumstances.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.SonarFrequencyBand">
+            <summary>
+            For sonars: The frequency band(s) where a this sonar operates
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.MinimumTargetSurfaceSizeArcSec">
+            <summary>
+            The smallest target on the surface this sensor can see, measured in ArcSec. The smallest object 
+            (which does not itself radiate light) that can be seen by the human eye is around one
+            arc minute, ie 60 arc seconds. 60 is the default value of this setting.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.MinimumTargetAirSizeArcSec">
+            <summary>
+            The smallest target in the air this sensor can see, measured in ArcSec. The smallest object 
+            (which does not itself radiate light) that can be seen by the human eye is around one
+            arc minute, ie 60 arc seconds. 60 is the default value of this setting.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.SensorClass.SensorBearingRangeDeg">
+            <summary>
+            Range of sensor, relative to SensorBearingDeg. 360 means it can see in any
+            direction. E.g. 30 means 15 degrees to each side of sensor bearing (set in BaseSensor).
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.PlayerObjective.IsExclusiveVictoryCondition">
+            <summary>
+            If true, this means that reaching this victory condition alone is sufficient for victory. Has no meaning if
+            IsVictoryCondition is false.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioGroup.PatrolPatternLengthM">
+            <summary>
+            If non-zero, the unit will patrol from its point of origin, in a sqaure area, with each side having this length in M.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.Entities.Formation.CreateNewPositionForUnit(TTG.NavalWar.NWComms.GameConstants.UnitType)">
+            <summary>
+            If no position is available for unit, create a new position somewhat sensibly
+            </summary>
+            <param name="unitInfo"></param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:TTG.NavalWar.NWComms.OrderFactory.CreateEngagementOrder(System.String,System.String,System.String,TTG.NavalWar.NWComms.GameConstants.EngagementOrderType,TTG.NavalWar.NWComms.GameConstants.EngagementStrength,System.Boolean,System.Boolean)" -->
+        <member name="M:TTG.NavalWar.NWComms.OrderFactory.CreateUnitMovementOrder(System.String,System.Collections.Generic.List{TTG.NavalWar.NWComms.Entities.WaypointInfo},TTG.NavalWar.NWComms.GameConstants.UnitSpeedType,System.Boolean,System.Boolean)">
+            <summary>
+            Creates and returns new UnitMovementOrder
+            </summary>
+            <param name="unitId"></param>
+            <param name="wayPoints"></param>
+            <param name="unitSpeedType"></param>
+            <param name="clearExisting"></param>
+            <param name="isRecurring"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.OrderFactory.CreateUnitMovementOrder(System.String,System.Collections.Generic.List{TTG.NavalWar.NWComms.Entities.WaypointInfo},TTG.NavalWar.NWComms.GameConstants.UnitSpeedType,System.Boolean)">
+            <summary>
+            Creates and returns new UnitMovementOrder
+            </summary>
+            <param name="unitId"></param>
+            <param name="wayPoints"></param>
+            <param name="unitSpeedType"></param>
+            <param name="clearExisting"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.OrderFactory.CreateSplitGroupOrder(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Creates an order to split one or more units from an existing group, forming a new group. Order can be
+            sent to any member of the existing group. This unit will only be split from the group if it is
+            explicitly listed in the unitIds parameter list.
+            </summary>
+            <param name="unitId"></param>
+            <param name="groupId"></param>
+            <param name="unitIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.OrderFactory.CreateJoinGroupOrder(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Orders one or more units to form a new or existing group (leaving its existing group if nexessary). If
+            groupId is blank or invalid, a new group will be formed. The unit specified with newMainUnitId will always
+            join the new group, and be its main unit. In addition, all units specified in the parameter list 
+            unitIds will join new group.
+            </summary>
+            <param name="groupId"></param>
+            <param name="newMainUnitId"></param>
+            <param name="unitIds"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.OrderFactory.CreateGetAllUnitsInAreaRequest(TTG.NavalWar.NWComms.Entities.PositionInfo,System.Double)">
+            <summary>
+            Generates a request object to request from server a list of all non-carried units within 
+            a certain radius from a position. Server will respond by sending a GameStateInfo object
+            over the network.
+            </summary>
+            <param name="position">Center of area</param>
+            <param name="radiusM">Include units within this radius in meters from center</param>
+            <returns>GameControlRequest</returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.OrderFactory.CreateTriggerSignal(System.String)">
+            <summary>
+            Create signal to backend that corresponds to existing EventTrigger. Signal must be equal to Id of EventTrigger.
+            </summary>
+            <param name="signal"></param>
+            <returns></returns>
+        </member>
+        <member name="F:TTG.NavalWar.NWComms.NonCommEntities.CriticalDamage.ComponentGUIName">
+            <summary>
+            A non-serialized field used on the client side to hold name of component used in GUI.
+            The client resolves this property upon receiving battle damage report.
+            </summary>
+        </member>
+        <member name="F:TTG.NavalWar.NWComms.NonCommEntities.CriticalDamage.ComponentGUITooltip">
+            <summary>
+            Another non-serialized field. This one is used for tooltips in GUI.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.GameClient.PollNetwork">
+            <summary>
+            This method must be called repeatedly by the client code by a timer or otherwise.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoads.Name">
+            <summary>
+            Descriptive name for this loadout, for example ferry, air superiority, long range AA, 
+            strike, airfield bombing, etc.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoads.IncreasesLoadRangeByLevels">
+            <summary>
+            The number of levels by which this load increases or decreases (negative value) the maxiumum range
+            of the unit. 
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoads.IncreasesCruiseRangePercent">
+            <summary>
+            In case of carried droptanks, the percentage this load INCREASES cruise range. Use negative numbers for decrease (heavy load). 
+            NOTE: Changed from IncreasesCruiseRangeM to make creating changes easier.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoads.IncreasesRadarCrossSection">
+            <summary>
+            The rate with which this load increases the radar cross section of the unit. 0 is none,
+            1 goes from stealth to small, from small to medium, etc. 
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoads.TimeToReloadHour">
+            <summary>
+            Time in hours it takes to reload unit (normally a plane) before it is again ready
+            to be deployed.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClassWeaponLoads.TimeToChangeLoadoutHour">
+            <summary>
+            Time in hours it takes to *change* loadout on a unit (normally a plane on the ground)
+            before it is ready to be deployed with the new WeaponLoad configuration.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.HighLevelOrder.GameUiControls">
+            <summary>
+            When order is executed, this GameUiControl is sent to the (human) player.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.HighLevelOrder.OwnUnitId">
+            <summary>
+            For support/protection/escort, own unit
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.HighLevelOrder.TargetUnitId">
+            <summary>
+            For attack (etc), enemy target unit
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.HighLevelOrder.Direction">
+            <summary>
+            For unit escort, etc, the direction
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.HighLevelOrder.DistanceM">
+            <summary>
+            Radius of area or distance to target
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.GameConstants.GetPresetGeographicalPosition(TTG.NavalWar.NWComms.GameConstants.PresetGeographicalPositions)">
+            <summary>
+            This static method returns a PositionInfo based on the passed PresetGeographicalPositions enum. For simpler scenario development.
+            </summary>
+            <param name="presetPosition"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.BaseUnitInfo.LaunchPlatformId">
+            <summary>
+            For aircrafts, missiles and torpedoes, Id of launching platform
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.BaseUnitInfo.LaunchWeaponClassId">
+            <summary>
+            For missiles and torpedoes, launching weapon class id
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.BaseUnitInfo.PositionOffset">
+            <summary>
+            If part of a formation
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.BaseUnitInfo.CalculatedMaxSpeedKph">
+            <summary>
+            Calculated max speed, calculated based on damage and weather.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.IsNotWeapon">
+            <summary>
+            In some cases, e.g. for sonobuoy dispensers, a BaseWeapon object is not 
+            really a weapon that can be fired. Set this property to true for such objects.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.MaxSpeedKph">
+            <summary>
+            For weapons that spawns a Unit, the max speed for the missile/torpedo
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.ReferenceAgilityFactor">
+            <summary>
+            Referring to the AgilityFactor on target UnitClass, the highest value that this weapon
+            can hit at HitPercent probability. If AgilityFactor is equal to or lower than that of
+            the target UnitClass, HitPercent applies. If unit agility is 1 higher, hit chance is halved.
+            If unit agility is 2 higher, weapon cannot hit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.WeaponBearingRangeDeg">
+            <summary>
+            Range of weapons mount, relative to WeaponHardpoint.WeaponBearingDeg. 360 means it can fire in any
+            direction. 30 means 15 degrees to each side of weapon bearing.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.CanBeTargetted">
+            <summary>
+            Whether the fired missile can itself be targetted by missiles and/or pointdefense.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.UnitModelFileName">
+            <summary>
+            For weapons that spawn units, generated unitclasses will get this UnitModelFileName when created.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.SecondarySpawnUnitClassId">
+            <summary>
+            Only for anti-submarine rockets and other weapons where a missile carries a torpedo or similar.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.EwCounterMeasureResistancePercent">
+            <summary>
+            For a normal weapon, determines weapon's ability to avoid being soft killed. If 0, it has no effect. If > 0, the
+            HitPercent of the EW system is multiplied with this percentage. Ie if 50, EW hit chance is reduced by 50%.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.MaxEffectDurationSec">
+            <summary>
+            For non-weapons like jammers, how long, in seconds, the effect lasts.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponClass.MaxSeaState">
+            <summary>
+            Maximum sea state for being fired.
+            </summary>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.Entities.UnitClass.GetPossibleSpeedTypes">
+            <summary>
+            Returns a List of UnitSpeedType for this unit class, outlining all possible speed types
+            available.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.Entities.UnitClass.GetPossibleHeightDepth">
+            <summary>
+            Returns a list of HeightDepthPoints for this unit class, specifying all heights and depths
+            this unit can be moved to.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TTG.NavalWar.NWComms.Entities.UnitClass.GetSpeedTypeFromKph(System.Double)">
+            <summary>
+            Returns the speed type for this unit class given an actual speed in kph.
+            </summary>
+            <param name="speedKph"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.UnitClassShortName">
+            <summary>
+            Gets or sets the Short name for this UnitClass
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.AgilityFactor">
+            <summary>
+            The unit's ability to evade and avoid weapon fire. If higher that weapon's ReferenceAgilityFactor,
+            the chance of weapon hit is reduced dramatically. If difference is >= 2, weapon can't target at all. Default is 1.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.IsSonarShielded">
+            <summary>
+            Coating for submarines - reduces detection range for ACTIVE sonar
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.TimeToLiveSec">
+            <summary>
+            For units with limited lifespans, like sonobuoys. Will self-destruct after set time in seconds. Ignored
+            if 0.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.MilitaryMaxSpeedKph">
+            <summary>
+            If MilitaryMaxSpeedKph is less than MaxSpeedKph it follows that the
+            unit has afterburner.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.SensorClassIdList">
+            <summary>
+            List of SensorClassID references.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.MinSpeedKph">
+            <summary>
+            Minimum speed in kph. Relevant for airplanes (effectively stall speed), otherwise 0.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.MaxDecelerationKphSec">
+            <summary>
+            Expects a negative number
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.MaxRangeCruiseM">
+            <summary>
+            Maximum range in meters at cruise speed. This is (normally) only used for 
+            aircraft, missiles and torpedoes. When exhausted, munitions disappear and
+            aircraft crashes.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.LowestOperatingHeightM">
+            <summary>
+            Lowest operating height (ie depth) in meters. For anything but a submarine, 0.
+            Note that since this value is the height over sea level, it should be a negative number 
+            for subs.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.CanRefuelInAir">
+            <summary>
+            Relevant for aircraft, set true for those that can be refueled in-air (by tanker aircraft)
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.CarriedRunwayStyle">
+            <summary>
+            The runway style this unit has (on aircrafthangar)
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.RequiredRunwayStyle">
+            <summary>
+            For aircraft, the required runway this unit needs to land and take off
+            on another unit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitClass.StabilityBonus">
+            <summary>
+            The effective sea state for a unit is the actual sea state with StabilityBonus
+            deducted.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.PositionInfo.IsDetection">
+            <summary>
+            If true, this PositionInfo refers to a DetectedUnit, not a BaseUnit. Otherwise a (own) unit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.PositionInfo.ObjectTypeToken">
+            <summary>
+            Takes a string in the space separated format "LA MM SS LO MM SS" and returns a coordinate. Use negative
+            numbers for southern latitudes and western longitudes.
+            </summary>
+            <param name="formattedCoordinate"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioUnit.FormationPositionId">
+            <summary>
+            If FormationPositionId is included, PositionOffset 
+            is ignored. If UnitCount > 1, this will be ignored.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioUnit.PositionOffset">
+            <summary>
+            Offset relative to group Position.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.CarriedUnitInfo.MaxOperatingDistanceM">
+            <summary>
+            The maximum range the unit can fly, calculated at cruise speed
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.CarriedUnitInfo.MaxOperatingRangeM">
+            <summary>
+            The maximum operating range at cruise speed, taking into account 
+            return flight and safety buffer.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioPlayer.IsAutomaticallyEngagingHighValueTargets">
+            <summary>
+            For AI players. If true, tries to automatically find targets based on victory conditions and engage them.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioPlayer.IsAutomaticallyEngagingOpportunityTargets">
+            <summary>
+            For AI players. If true, may engage all targets of opportunity when they are detected. 
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioPlayer.IsAutomaticallySettingHighValueDefence">
+            <summary>
+            For AI players. If true, sets up AEW and ASW for high value units automatically.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.GameScenarioAlliance.Id">
+            <summary>
+            Unique string; must be set!
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.WeaponInfo.WeaponBearingDeg">
+            <summary>
+            Bearing relative to unit, which is considered to have its front at 0 deg
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitEngagementOrder.IsGroupAttack">
+            <summary>
+            If true, will select any and all units in group to engage target, otherwise
+            only the receipient unit.
+            </summary>
+        </member>
+        <member name="P:TTG.NavalWar.NWComms.Entities.UnitEngagementOrder.IsTargetAGroup">
+            <summary>
+            If true, the TargetId is interpreted as a DetectedGroup, otherwise a DetectedUnit
+            </summary>
+        </member>
+        <member name="T:TTG.NavalWar.NWComms.Entities.ClientInfoRequest">
+            <summary>
+            This is the object passed between server and client to request specific information,
+            like GameInfo, PlayerInfo, etc
+            </summary>
+            
+        </member>
+    </members>
+</doc>

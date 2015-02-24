@@ -1,0 +1,248 @@
+Debug - 13:06:05.2 ** ////////////////////////////////////////////////////////
+Debug - 13:06:05.3 ** ////////////////////////////////////////////////////////
+Debug - 13:06:05.3 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 13:06:05.4 ** ////////////////////////////////////////////////////////
+Debug - 13:06:05.4 ** ////////////////////////////////////////////////////////
+Debug - 13:06:05.5 ** Game client connecting...
+Debug - 13:06:05.56 ** Game client connected
+Debug - 13:06:05.57 ** Connection status is : NotConnected
+Debug - 13:06:05.58 ** Attempting to change connection status...
+Debug - 13:06:05.59 ** Current status: NotConnected status to change to: Connected
+Debug - 13:06:05.60 ** ShowInfo: Connection status changed: Connected
+Debug - 13:06:05.61 ** Game client status is now Connected
+Debug - 13:06:05.668 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 13:06:06.500 ** ShowInfo: *** Sending select scenario ***
+Debug - 13:06:06.701 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:06:06.702 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:06:06.703 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:06:06.705 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:06.706 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:06.730 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 13:06:06.734 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:06:06.737 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:06:06.740 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:06.743 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:07.111 ** ShowInfo: *** Sending start game ***
+Debug - 13:06:07.112 ** ShowInfo: *** Player selects user Jan
+Debug - 13:06:07.112 ** ShowInfo: *** Player selects scenario player Nato
+Debug - 13:06:11.857 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 13:06:11.858 ** ShowInfo: GameWorldTimeSec=0
+Debug - 13:06:11.859 ** ShowInfo: GameEngineTimeMs=0
+Debug - 13:06:11.859 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:11.860 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:11.891 ** ShowInfo: Received BaseUnitInfo: [BJC] Bergen Airport (ukairportlarge)
+Debug - 13:06:11.894 ** ShowInfo: Received BaseUnitInfo: [BRU] E-3 Sentry BRU (e3sentry)
+Debug - 13:06:11.896 ** ShowInfo: Received BaseUnitInfo: [BRZ] USS Virginia (virginia)
+Debug - 13:06:11.896 ** ShowInfo: Received BaseUnitInfo: [BSI] USS Texas (virginia)
+Debug - 13:06:11.898 ** ShowInfo: Received BaseUnitInfo: [BSR] Winston S. Churchill (arleighburke) *
+Debug - 13:06:11.900 ** ShowInfo: Received BaseUnitInfo: [BTZ] San Jacinto (ticonderoga)
+Debug - 13:06:12.449 ** ShowInfo: ***GroupInfo received.
+BSQ Task Force 1 (2 units)
+Surface combattant:  2
+Mission: Patrol(Undefined)
+
+Debug - 13:06:12.972 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 13:06:12.987 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [BXA] LargeSurface group (2 units)
+Debug - 13:06:12.992 ** ShowInfo: From: BVJ
+gl hf!
+Debug - 13:06:13.531 ** ShowInfo: ***GameStateInfo: GameStateInfo AircraftTakeoff for Id BTG
+Debug - 13:06:14.43 ** ShowInfo: Received BaseUnitInfo: [BTG] SH-60B Seahawk BTG (sh60b)
+Debug - 13:06:18.137 ** ShowInfo: Received new UnitClass type6576torpedo Type 65-76 Heavyweight Torpedo
+Debug - 13:06:20.697 ** ShowInfo: Designate [BWY] LargeSurface [FoF Undetermined]  @ 060° 00' 14"N, 004° 01' 38"E as hostile.
+Debug - 13:06:21.720 ** ShowInfo: DetectedUnitInfo received: Id=BWW  [BWW] LargeSurface [Foe]  @ 059° 59' 59"N, 004° 01' 26"E
+Debug - 13:06:21.723 ** ShowInfo: DetectedUnitInfo received: Id=BWY  [BWY] LargeSurface [Foe]  @ 060° 00' 13"N, 004° 01' 38"E
+Debug - 13:06:41.778 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:00
+Debug - 13:06:41.779 ** ShowInfo: GameWorldTimeSec=290,016587999997
+Debug - 13:06:41.780 ** ShowInfo: GameEngineTimeMs=30001,7159999997
+Debug - 13:06:58.824 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:06:58.825 ** ShowInfo: *** Credits: 0
+
+Debug - 13:06:59.670 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CDZ
+Debug - 13:07:00.186 ** ShowInfo: Received BaseUnitInfo: [CDZ] DICASS AN/SSQ-62 Sonobuoy CDZ (dicass)
+Debug - 13:07:00.189 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitDetectedByActiveSensor for Id BSR
+Debug - 13:07:00.190 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitDetectedByActiveSensor for Id BTZ
+Debug - 13:07:00.750 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEI
+Debug - 13:07:00.754 ** ShowInfo: Received BaseUnitInfo: [CEI] DICASS AN/SSQ-62 Sonobuoy CEI (dicass)
+Debug - 13:07:00.764 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [FoF Undetermined]  @ 060° 59' 22"N, 003° 00' 00"E
+Debug - 13:07:00.767 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 061° 00' 03"N, 003° 09' 20"E
+Debug - 13:07:00.780 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEQ
+Debug - 13:07:00.785 ** ShowInfo: Received BaseUnitInfo: [CEQ] DICASS AN/SSQ-62 Sonobuoy CEQ (dicass)
+Debug - 13:07:00.797 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [FoF Undetermined]  @ 060° 59' 20"N, 003° 00' 00"E
+Debug - 13:07:00.800 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 061° 00' 03"N, 003° 09' 54"E
+Debug - 13:07:03.901 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CEY
+Debug - 13:07:03.902 ** ShowInfo: Received BaseUnitInfo: [CEY] DICASS AN/SSQ-62 Sonobuoy CEY (dicass)
+Debug - 13:07:03.906 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [FoF Undetermined]  @ 060° 59' 14"N, 003° 00' 00"E
+Debug - 13:07:03.907 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 061° 00' 01"N, 003° 11' 59"E
+Debug - 13:07:03.912 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFG
+Debug - 13:07:03.918 ** ShowInfo: Received BaseUnitInfo: [CFG] DICASS AN/SSQ-62 Sonobuoy CFG (dicass)
+Debug - 13:07:03.931 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [FoF Undetermined]  @ 060° 59' 13"N, 003° 00' 00"E
+Debug - 13:07:03.935 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 061° 00' 00"N, 003° 12' 16"E
+Debug - 13:07:06.977 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFQ
+Debug - 13:07:06.977 ** ShowInfo: Received BaseUnitInfo: [CFQ] DICASS AN/SSQ-62 Sonobuoy CFQ (dicass)
+Debug - 13:07:06.979 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [FoF Undetermined]  @ 060° 59' 10"N, 003° 00' 00"E
+Debug - 13:07:06.980 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 061° 00' 00"N, 003° 13' 08"E
+Debug - 13:07:08.573 ** ShowInfo: Designate [CEC] Submarine [FoF Undetermined]  @ 060° 59' 09"N, 003° 00' 00"E as hostile.
+Debug - 13:07:09.4 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 59' 09"N, 003° 00' 00"E
+Debug - 13:07:11.35 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CFY
+Debug - 13:07:11.37 ** ShowInfo: Received BaseUnitInfo: [CFY] DICASS AN/SSQ-62 Sonobuoy CFY (dicass)
+Debug - 13:07:11.39 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 59' 07"N, 003° 00' 00"E
+Debug - 13:07:11.41 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 59"N, 003° 13' 59"E
+Debug - 13:07:18.583 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGJ
+Debug - 13:07:18.588 ** ShowInfo: Received BaseUnitInfo: [CGJ] DICASS AN/SSQ-62 Sonobuoy CGJ (dicass)
+Debug - 13:07:18.592 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 59' 00"N, 003° 00' 00"E
+Debug - 13:07:18.603 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 57"N, 003° 16' 11"E
+Debug - 13:07:19.641 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CGR
+Debug - 13:07:20.156 ** ShowInfo: Received BaseUnitInfo: [CGR] DICASS AN/SSQ-62 Sonobuoy CGR (dicass)
+Debug - 13:07:20.162 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 59"N, 003° 00' 00"E
+Debug - 13:07:20.174 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 57"N, 003° 16' 29"E
+Debug - 13:07:22.737 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:11:49
+Debug - 13:07:22.742 ** ShowInfo: GameWorldTimeSec=709,940033999996
+Debug - 13:07:22.745 ** ShowInfo: GameEngineTimeMs=70994,0605999996
+Debug - 13:07:22.749 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:07:22.752 ** ShowInfo: *** Credits: 0
+
+Debug - 13:07:25.821 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CHB
+Debug - 13:07:25.822 ** ShowInfo: Received BaseUnitInfo: [CHB] DICASS AN/SSQ-62 Sonobuoy CHB (dicass)
+Debug - 13:07:25.824 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 54"N, 003° 00' 00"E
+Debug - 13:07:25.825 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 55"N, 003° 18' 13"E
+Debug - 13:07:25.828 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CHG
+Debug - 13:07:25.834 ** ShowInfo: Received BaseUnitInfo: [CHG] DICASS AN/SSQ-62 Sonobuoy CHG (dicass)
+Debug - 13:07:25.837 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 53"N, 003° 00' 00"E
+Debug - 13:07:25.848 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 55"N, 003° 18' 30"E
+Debug - 13:07:28.974 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CHL
+Debug - 13:07:28.989 ** ShowInfo: Received BaseUnitInfo: [CHL] DICASS AN/SSQ-62 Sonobuoy CHL (dicass)
+Debug - 13:07:28.993 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 50"N, 003° 00' 00"E
+Debug - 13:07:29.4 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 54"N, 003° 19' 21"E
+Debug - 13:07:31.62 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CHQ
+Debug - 13:07:31.66 ** ShowInfo: Received BaseUnitInfo: [CHQ] DICASS AN/SSQ-62 Sonobuoy CHQ (dicass)
+Debug - 13:07:31.68 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 50"N, 003° 00' 00"E
+Debug - 13:07:31.69 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 54"N, 003° 19' 38"E
+Debug - 13:07:34.99 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 13:07:35.647 ** ShowInfo: ***GameStateInfo: GameStateInfo SonobuoyDropped for Id CHX
+Debug - 13:07:36.160 ** ShowInfo: Received BaseUnitInfo: [CHX] DICASS AN/SSQ-62 Sonobuoy CHX (dicass)
+Debug - 13:07:36.164 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 45"N, 003° 00' 00"E
+Debug - 13:07:36.165 ** ShowInfo: DetectedUnitInfo received: Id=CEE  [CEE] Torpedo [Foe]  @ 060° 59' 52"N, 003° 21' 04"E
+Debug - 13:07:38.27 ** ShowInfo: *** Unit SH-60B Seahawk BTG to close and engage target [CEC] Submarine [Foe]  @ 060° 58' 42"N, 003° 00' 00"E
+Debug - 13:07:38.766 ** ShowInfo: Received new UnitClass mark54torpedo Mark 54 Lightweight Hybrid Torpedo
+Debug - 13:07:38.767 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CIJ
+Debug - 13:07:39.281 ** ShowInfo: Received BaseUnitInfo: [CIJ] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 13:07:47.379 ** ShowInfo: Select own unit and detected unit to engage.
+Debug - 13:07:52.627 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:16:50
+Debug - 13:07:52.627 ** ShowInfo: GameWorldTimeSec=1010,26721199999
+Debug - 13:07:52.628 ** ShowInfo: GameEngineTimeMs=101026,778399999
+Debug - 13:07:52.632 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:07:52.633 ** ShowInfo: *** Credits: 0
+
+Debug - 13:08:01.364 ** ShowInfo: +++We DAMAGED an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo (50% dmg total)
+Debug - 13:08:01.366 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CIJ
+Debug - 13:08:01.367 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 23"N, 003° 00' 00"E
+Debug - 13:08:20.278 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 58' 06"N, 003° 00' 00"E
+Debug - 13:08:22.863 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:21:50
+Debug - 13:08:22.869 ** ShowInfo: GameWorldTimeSec=1310,28437199999
+Debug - 13:08:22.872 ** ShowInfo: GameEngineTimeMs=131028,494399999
+Debug - 13:08:22.875 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:08:22.879 ** ShowInfo: *** Credits: 0
+
+Debug - 13:08:28.248 ** ShowInfo: *** Unit SH-60B Seahawk BTG to close and engage target [CEC] Submarine [Foe]  @ 060° 57' 59"N, 003° 00' 00"E
+Debug - 13:08:29.69 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CJZ
+Debug - 13:08:29.559 ** ShowInfo: Received BaseUnitInfo: [CJZ] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 13:08:32.652 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 57' 55"N, 003° 00' 00"E
+Debug - 13:08:43.725 ** ShowInfo: *** Unit USS Texas to close and engage target [BWY] LargeSurface [Foe]  @ 059° 58' 07"N, 004° 01' 38"E
+Debug - 13:08:44.98 ** ShowInfo: Received new UnitClass mark48torpedo Mark 48 ADCAP Heavyweight Torpedo
+Debug - 13:08:44.102 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CKT
+Debug - 13:08:44.105 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CKX
+Debug - 13:08:44.109 ** ShowInfo: Received BaseUnitInfo: [CKT] Mark 48 ADCAP Heavyweight Torpedo (mark48torpedo) *
+Debug - 13:08:44.114 ** ShowInfo: Received BaseUnitInfo: [CKX] Mark 48 ADCAP Heavyweight Torpedo (mark48torpedo)
+Debug - 13:08:44.118 ** ShowInfo: ***GroupInfo received.
+CKS  (2 units)
+Torpedo:  2
+Mission: Attack(Surface)
+
+Debug - 13:08:44.122 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id CLC
+Debug - 13:08:44.127 ** ShowInfo: Received BaseUnitInfo: [CLC] Mark 48 ADCAP Heavyweight Torpedo (mark48torpedo)
+Debug - 13:08:53.363 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:26:55
+Debug - 13:08:53.364 ** ShowInfo: GameWorldTimeSec=1615,07180499999
+Debug - 13:08:53.364 ** ShowInfo: GameEngineTimeMs=161507,237699999
+Debug - 13:08:53.365 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:08:53.371 ** ShowInfo: *** Credits: 0
+
+Debug - 13:09:06.652 ** ShowInfo: *** Movement order sent to unit E-3 Sentry BRU
+Debug - 13:09:09.360 ** ShowInfo: +++Our Mark 54 Lightweight Hybrid Torpedo missed Vepr (a Shchuka-B class)
+Debug - 13:09:09.365 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CJZ
+Debug - 13:09:13.522 ** ShowInfo: DetectedUnitInfo received: Id=BWW  [BWW] LargeSurface [Foe]  @ 059° 57' 19"N, 004° 00' 00"E
+Debug - 13:09:14.37 ** ShowInfo: DetectedUnitInfo received: Id=BWY  [BWY] LargeSurface [Foe]  @ 059° 57' 35"N, 004° 00' 45"E
+Debug - 13:09:26.873 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:32:27
+Debug - 13:09:26.874 ** ShowInfo: GameWorldTimeSec=1915,08896499999
+Debug - 13:09:26.875 ** ShowInfo: GameEngineTimeMs=194782,140899998
+Debug - 13:09:26.875 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:09:26.876 ** ShowInfo: *** Credits: 0
+
+Debug - 13:09:35.631 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CEE
+Debug - 13:09:55.768 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:37:18
+Debug - 13:09:55.769 ** ShowInfo: GameWorldTimeSec=2228,84748199998
+Debug - 13:09:55.770 ** ShowInfo: GameEngineTimeMs=223884,805399998
+Debug - 13:09:55.770 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:09:55.771 ** ShowInfo: *** Credits: 0
+
+Debug - 13:09:56.338 ** ShowInfo: *** Unit SH-60B Seahawk BTG to close and engage target [CEC] Submarine [Foe]  @ 060° 56' 40"N, 003° 00' 00"E
+Debug - 13:09:56.812 ** ShowInfo: ***GameStateInfo: GameStateInfo MissileLaunch for Id DKJ
+Debug - 13:09:57.325 ** ShowInfo: Received BaseUnitInfo: [DKJ] Mark 54 Lightweight Hybrid Torpedo (mark54torpedo)
+Debug - 13:10:03.24 ** ShowInfo: +++We DAMAGED an enemy MV Sirius Star BWF, a MV Sirius Star class, using a Mark 48 ADCAP Heavyweight Torpedo (97% dmg total)
+Debug - 13:10:03.25 ** ShowInfo: +++We SUNK an enemy MV Sirius Star BWF, a MV Sirius Star class, using a Mark 48 ADCAP Heavyweight Torpedo
+Debug - 13:10:03.554 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CKT
+Debug - 13:10:03.559 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CKX
+Debug - 13:10:03.562 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id BWY
+Debug - 13:10:03.570 ** ShowInfo: ### DetectedGroupInfo received: LargeSurface group [BXA] LargeSurface group (1 units)
+Debug - 13:10:06.157 ** ShowInfo: +++We DAMAGED an enemy M/S Pamela BWB, a M/S Pamela class, using a Mark 48 ADCAP Heavyweight Torpedo (96% dmg total)
+Debug - 13:10:06.158 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id CLC
+Debug - 13:10:06.159 ** ShowInfo: DetectedUnitInfo received: Id=BWW  [BWW] LargeSurface [Foe]  @ 059° 56' 34"N, 004° 00' 00"E
+Debug - 13:10:17.979 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 56' 20"N, 003° 00' 00"E
+Debug - 13:10:25.779 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:42:20
+Debug - 13:10:25.795 ** ShowInfo: GameWorldTimeSec=2530,05471099998
+Debug - 13:10:25.800 ** ShowInfo: GameEngineTimeMs=254005,528299997
+Debug - 13:10:25.803 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:10:25.806 ** ShowInfo: *** Credits: 0
+
+Debug - 13:10:33.583 ** ShowInfo: DetectedUnitInfo received: Id=CEC  [CEC] Submarine [Foe]  @ 060° 56' 07"N, 003° 00' 00"E
+Debug - 13:10:42.272 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:45:00
+Debug - 13:10:42.273 ** ShowInfo: GameWorldTimeSec=2700,11386499998
+Debug - 13:10:42.274 ** ShowInfo: GameEngineTimeMs=270011,443699997
+Debug - 13:10:42.274 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:10:42.275 ** ShowInfo: *** Credits: 0
+
+Debug - 13:10:42.277 ** ShowInfo: +++We SUNK an enemy Vepr, a Shchuka-B class, using a Mark 54 Lightweight Hybrid Torpedo
+Debug - 13:10:42.788 ** ShowInfo: ***GameStateInfo: GameStateInfo UnitIsDestroyed for Id DKJ
+Debug - 13:10:42.789 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CEC
+Debug - 13:10:42.790 ** ShowInfo: From: BVJ
+gg wp
+Debug - 13:10:42.791 ** ShowInfo: Congratulations. You have won!
+Debug - 13:10:56.160 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:47:22
+Debug - 13:10:56.161 ** ShowInfo: GameWorldTimeSec=2832,16198999998
+Debug - 13:10:56.161 ** ShowInfo: GameEngineTimeMs=284216,256199997
+Debug - 13:10:56.162 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 13:10:56.162 ** ShowInfo: *** Credits: 0
+
+Debug - 13:10:56.167 ** ShowInfo: DetectedUnitInfo received: Id=BWW  [BWW] LargeSurface [Foe]  @ 059° 56' 11"N, 004° 00' 00"E
+Debug - 13:11:01.355 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id BWW
+Debug - 13:11:01.359 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactGroupIsLost for Id BXA
+Debug - 13:11:23.817 ** Game client disconnecting...
+Debug - 13:11:23.825 ** Attempting to change connection status...
+Debug - 13:11:23.825 ** Current status: Connected status to change to: Disconnected
+Debug - 13:11:23.825 ** ShowInfo: Connection status changed: Disconnected
+Debug - 13:11:23.826 ** Game client disconnected.

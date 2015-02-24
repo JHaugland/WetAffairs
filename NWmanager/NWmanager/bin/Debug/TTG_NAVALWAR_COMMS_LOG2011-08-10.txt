@@ -1,0 +1,163 @@
+Debug - 12:14:30.179 ** ////////////////////////////////////////////////////////
+Debug - 12:14:30.180 ** ////////////////////////////////////////////////////////
+Debug - 12:14:30.180 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 12:14:30.181 ** ////////////////////////////////////////////////////////
+Debug - 12:14:30.181 ** ////////////////////////////////////////////////////////
+Debug - 12:14:30.181 ** Gameclient connecting...
+Debug - 12:14:30.234 ** Gameclient connected
+Debug - 12:14:30.235 ** Connectionstatus is : NotConnected
+Debug - 12:14:30.238 ** Attempting to change connectionstatus...
+Debug - 12:14:30.239 ** Current status: NotConnected status to change to: Connected
+Debug - 12:14:30.240 ** ShowInfo: Connection status changed: Connected
+Debug - 12:14:30.242 ** Gameclient status is now Connected
+Debug - 12:14:30.822 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 12:14:31.408 ** ShowInfo: *** Sending select scenario ***
+Debug - 12:14:31.885 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:14:31.889 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:14:31.892 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:14:31.897 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:14:31.900 ** ShowInfo: *** Credits: 0
+
+Debug - 12:14:32.417 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:14:32.417 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:14:32.418 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:14:32.419 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:14:32.419 ** ShowInfo: *** Credits: 0
+
+Debug - 12:14:32.590 ** ShowInfo: *** Sending start game ***
+Debug - 12:14:32.591 ** ShowInfo: *** Player selects user Jan
+Debug - 12:14:32.592 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 12:14:34.973 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 12:14:34.973 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:14:34.974 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:14:34.974 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:14:34.975 ** ShowInfo: *** Credits: 0
+
+Debug - 12:14:36.23 ** ShowInfo: Received BaseUnitInfo: [BJC] Bergen Airport (ukairportlarge)
+Debug - 12:14:36.535 ** ShowInfo: Received BaseUnitInfo: [BPT] E-3 Sentry BPT (e3sentry)
+Debug - 12:14:36.536 ** ShowInfo: Received BaseUnitInfo: [BPY] F-22 BPY (f22) *
+Debug - 12:14:37.55 ** ShowInfo: Received BaseUnitInfo: [BQH] F-22 BQH (f22)
+Debug - 12:14:37.75 ** ShowInfo: ***GroupInfo received.
+BPX Fighters (2 units)
+Fighter:  2
+Mission: Patrol(Undefined)
+
+Debug - 12:14:37.77 ** ShowInfo: No user found for id=[Jan].
+Debug - 12:14:37.78 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 12:14:37.81 ** ShowInfo: From: BQR
+gl hf!
+Debug - 12:14:47.746 ** ShowInfo: *** Movement order sent to unit F-22 BPY
+Debug - 12:15:02.232 ** ShowInfo: Designate [CLU] Helicopter [FoF Undetermined]  @ 061° 05' 57"N, 000° 53' 39"E as hostile.
+Debug - 12:15:02.791 ** ShowInfo: DetectedUnitInfo received: Id=CLU  [CLU] Helicopter [Foe]  @ 061° 05' 57"N, 000° 53' 39"E
+Debug - 12:15:02.795 ** ShowInfo: Contact Helicopter CLU  [Foe] is now designated as HOSTILE.
+Debug - 12:15:05.832 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:05:06
+Debug - 12:15:05.833 ** ShowInfo: GameWorldTimeSec=296,916982999997
+Debug - 12:15:05.834 ** ShowInfo: GameEngineTimeMs=30691,7554999997
+Debug - 12:15:05.834 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:15:05.836 ** ShowInfo: *** Credits: 0
+
+Debug - 12:15:25.460 ** ShowInfo: *** Movement order sent to unit F-22 BPY
+Debug - 12:15:30.571 ** ShowInfo: Unit [BPY] F-22 BPY (F-22) has no movement orders and continues on same course.
+Debug - 12:15:32.976 ** ShowInfo: Designate [CNL] FixedWingAircraft [FoF Undetermined]  @ 061° 21' 15"N, 002° 50' 03"E as hostile.
+Debug - 12:15:33.651 ** ShowInfo: DetectedUnitInfo received: Id=CNL  [CNL] FixedWingAircraft [Foe]  @ 061° 21' 15"N, 002° 50' 03"E
+Debug - 12:15:33.652 ** ShowInfo: Contact FixedWingAircraft CNL  [Foe] is now designated as HOSTILE.
+Debug - 12:15:35.674 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:10:06
+Debug - 12:15:35.675 ** ShowInfo: GameWorldTimeSec=596,934142999995
+Debug - 12:15:35.675 ** ShowInfo: GameEngineTimeMs=60693,4714999994
+Debug - 12:15:35.676 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:15:35.677 ** ShowInfo: *** Credits: 0
+
+Debug - 12:15:47.850 ** ShowInfo: ***GameStateInfo: GameStateInfo DetectedContactIsLost for Id CNL
+Debug - 12:16:00.741 ** ShowInfo: *** Movement order sent to unit F-22 BPY
+Debug - 12:16:05.704 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:15:06
+Debug - 12:16:05.705 ** ShowInfo: GameWorldTimeSec=896,951302999992
+Debug - 12:16:05.707 ** ShowInfo: GameEngineTimeMs=90695,1874999992
+Debug - 12:16:05.712 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:16:05.716 ** ShowInfo: *** Credits: 0
+
+Debug - 12:16:12.773 ** Gameclient disconnecting...
+Debug - 12:16:12.774 ** Attempting to change connectionstatus...
+Debug - 12:16:12.774 ** Current status: Connected status to change to: Disconnected
+Debug - 12:16:12.774 ** ShowInfo: Connection status changed: Disconnected
+Debug - 12:16:12.775 ** Gameclient disconnected.
+Debug - 12:26:54.599 ** ////////////////////////////////////////////////////////
+Debug - 12:26:54.600 ** ////////////////////////////////////////////////////////
+Debug - 12:26:54.600 ** ////////////////////NEW SESSION/////////////////////////
+Debug - 12:26:54.600 ** ////////////////////////////////////////////////////////
+Debug - 12:26:54.601 ** ////////////////////////////////////////////////////////
+Debug - 12:26:54.601 ** Gameclient connecting...
+Debug - 12:26:54.607 ** Gameclient connected
+Debug - 12:26:54.608 ** Connectionstatus is : NotConnected
+Debug - 12:26:54.609 ** Attempting to change connectionstatus...
+Debug - 12:26:54.610 ** Current status: NotConnected status to change to: Connected
+Debug - 12:26:54.611 ** ShowInfo: Connection status changed: Connected
+Debug - 12:26:54.611 ** Gameclient status is now Connected
+Debug - 12:26:55.128 ** ShowInfo: MessageString: Server: You are client number 1
+Debug - 12:26:55.576 ** ShowInfo: *** Sending select scenario ***
+Debug - 12:26:55.660 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:26:55.665 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:26:55.668 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:26:55.673 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:26:55.676 ** ShowInfo: *** Credits: 0
+
+Debug - 12:26:56.202 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 1  Human player count: 1  Start time: 30.06.2030 12:00:00  Current Time: 30.06.2030 12:00:00
+Debug - 12:26:56.203 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:26:56.203 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:26:56.204 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:26:56.204 ** ShowInfo: *** Credits: 0
+
+Debug - 12:26:56.366 ** ShowInfo: *** Sending start game ***
+Debug - 12:26:56.367 ** ShowInfo: *** Player selects user Jan
+Debug - 12:26:56.368 ** ShowInfo: *** Player selects scenario player NATO
+Debug - 12:26:58.756 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:00:00
+Debug - 12:26:58.757 ** ShowInfo: GameWorldTimeSec=0
+Debug - 12:26:58.758 ** ShowInfo: GameEngineTimeMs=0
+Debug - 12:26:58.759 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:26:58.760 ** ShowInfo: *** Credits: 0
+
+Debug - 12:26:58.763 ** ShowInfo: Received BaseUnitInfo: [BJC] Bergen Airport (ukairportlarge)
+Debug - 12:26:59.274 ** ShowInfo: Received BaseUnitInfo: [BPT] E-3 Sentry BPT (e3sentry)
+Debug - 12:26:59.275 ** ShowInfo: Received BaseUnitInfo: [BPY] F-22 BPY (f22) *
+Debug - 12:26:59.790 ** ShowInfo: Received BaseUnitInfo: [BQH] F-22 BQH (f22)
+Debug - 12:26:59.801 ** ShowInfo: ***GroupInfo received.
+BPX Fighters (2 units)
+Fighter:  2
+Mission: Patrol(Undefined)
+
+Debug - 12:26:59.803 ** ShowInfo: No user found for id=[Jan].
+Debug - 12:26:59.804 ** ShowInfo: ### GameUiControl received: GameUiControl SetCameraPosition
+Debug - 12:26:59.807 ** ShowInfo: From: BQR
+gl hf!
+Debug - 12:27:08.316 ** ShowInfo: *** Movement order sent to unit F-22 BPY
+Debug - 12:27:34.964 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:06:01
+Debug - 12:27:34.965 ** ShowInfo: GameWorldTimeSec=351,710115999998
+Debug - 12:27:34.965 ** ShowInfo: GameEngineTimeMs=36171,0687999998
+Debug - 12:27:34.966 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:27:34.967 ** ShowInfo: *** Credits: 0
+
+Debug - 12:27:35.484 ** ShowInfo: *** Movement order sent to unit F-22 BPY
+Debug - 12:27:54.594 ** ShowInfo: Designate [CLU] Helicopter [FoF Undetermined]  @ 061° 14' 15"N, 000° 47' 01"E as hostile.
+Debug - 12:27:55.808 ** ShowInfo: DetectedUnitInfo received: Id=CLU  [CLU] Helicopter [Foe]  @ 061° 14' 32"N, 000° 46' 47"E
+Debug - 12:27:55.812 ** ShowInfo: Contact Helicopter CLU  [Foe] is now designated as HOSTILE.
+Debug - 12:27:56.610 ** ShowInfo: Designate [CNK] FixedWingAircraft [FoF Undetermined]  @ 060° 44' 50"N, 002° 52' 05"E as hostile.
+Debug - 12:27:57.335 ** ShowInfo: DetectedUnitInfo received: Id=CNK  [CNK] FixedWingAircraft [Foe]  @ 060° 44' 30"N, 002° 54' 36"E
+Debug - 12:27:57.336 ** ShowInfo: Contact FixedWingAircraft CNK  [Foe] is now designated as HOSTILE.
+Debug - 12:28:08.135 ** ShowInfo: *** GameInfo received.
+Game [ALO] . Player count: 2  Human player count: 1  Start time: 15.06.2030 13:00:00  Current Time: 15.06.2030 13:11:29
+Debug - 12:28:08.141 ** ShowInfo: GameWorldTimeSec=689,928889999996
+Debug - 12:28:08.144 ** ShowInfo: GameEngineTimeMs=68992,9461999995
+Debug - 12:28:08.147 ** ShowInfo: *** You are player: Player [ALP] ALP  IsComputer:False, IsCompetetive:True
+Debug - 12:28:08.150 ** ShowInfo: *** Credits: 0
+
+Debug - 12:28:15.322 ** ShowInfo: Unit [BPY] F-22 BPY (F-22) has no movement orders and continues on same course.
+Debug - 12:28:21.988 ** ShowInfo: *** Movement order sent to unit F-22 BPY
